@@ -1,0 +1,181 @@
+[
+    {
+        "name": "All Night Mask",
+        "type": "toggle",
+        "img": "images/masks/all-night.png",
+        "codes": "anm"
+    },
+    {
+        "name": "Blast Mask",
+        "type": "toggle",
+        "img": "images/masks/blast.png",
+        "codes": "blast"
+    },
+    {
+        "name": "Bremen Mask",
+        "type": "toggle",
+        "img": "images/masks/bremen.png",
+        "codes": "bremen"
+    },
+    {
+        "name": "Bunny Hood",
+        "type": "toggle",
+        "img": "images/masks/bunny.png",
+        "codes": "bunny"
+    },
+    {
+        "name": "Captains Hat",
+        "type": "toggle",
+        "img": "images/masks/captains.png",
+        "codes": "captains"
+    },
+    {
+        "name": "Circus Leader Mask",
+        "type": "toggle",
+        "img": "images/masks/circus_leader.png",
+        "codes": "circus"
+    },
+    {
+        "name": "Couples Mask",
+        "type": "toggle",
+        "img": "images/masks/couples.png",
+        "codes": "couples"
+    },
+    {
+        "name": "Deku Mask",
+        "type": "toggle",
+        "img": "images/masks/deku_mask.png",
+        "codes": "deku"
+    },
+    {
+        "name": "Don Gero Mask",
+        "type": "toggle",
+        "img": "images/masks/don_gero.png",
+        "codes": "dongero"
+    },
+    {
+        "name": "Fairy Mask",
+        "type": "toggle",
+        "img": "images/masks/fairy_mask.png",
+        "codes": "fairymask"
+    },
+    {
+        "name": "Fierce Deity Mask",
+        "type": "toggle",
+        "img": "images/masks/fierce_deity.png",
+        "codes": "fd"
+    },
+    {
+        "name": "Garo Mask",
+        "type": "toggle",
+        "img": "images/masks/garo_mask.png",
+        "codes": "garo"
+    },
+    {
+        "name": "Giants Mask",
+        "type": "toggle",
+        "img": "images/masks/giants_mask.png",
+        "codes": "giant"
+    },
+    {
+        "name": "Gibdo Mask",
+        "type": "toggle",
+        "img": "images/masks/gibdo.png",
+        "codes": "gibdo"
+    },
+    {
+        "name": "Goht's Remain",
+        "type": "toggle",
+        "img": "images/masks/goht.png",
+        "codes": "goht"
+    },
+    {
+        "name": "Goron Mask",
+        "type": "toggle",
+        "img": "images/masks/goron.png",
+        "codes": "goron"
+    },
+    {
+        "name": "Gyorg's Remain",
+        "type": "toggle",
+        "img": "images/masks/gyorg.png",
+        "codes": "gyorg"
+    },
+    {
+        "name": "Kafei Mask",
+        "type": "toggle",
+        "img": "images/masks/kafei_mask.png",
+        "codes": "kafei"
+    },
+    {
+        "name": "Kamaro Mask",
+        "type": "toggle",
+        "img": "images/masks/kamaro.png",
+        "codes": "kamaro"
+    },
+    {
+        "name": "Keaton Mask",
+        "type": "toggle",
+        "img": "images/masks/keaton.png",
+        "codes": "keaton"
+    },
+    {
+        "name": "Odolwa's Remain",
+        "type": "toggle",
+        "img": "images/masks/odolwa.png",
+        "codes": "odolwa"
+    },
+    {
+        "name": "Postman Hat",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/postman.png",
+                "codes": "postman",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/postmancheck.png",
+                "codes": "postman",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Romani Mask",
+        "type": "toggle",
+        "img": "images/masks/romani.png",
+        "codes": "romani"
+    },
+    {
+        "name": "Scents Mask",
+        "type": "toggle",
+        "img": "images/masks/scents.png",
+        "codes": "scents"
+    },
+    {
+        "name": "Stone Mask",
+        "type": "toggle",
+        "img": "images/masks/stone.png",
+        "codes": "stone"
+    },
+    {
+        "name": "Mask of Truth",
+        "type": "toggle",
+        "img": "images/masks/truth.png",
+        "codes": "truth"
+    },
+    {
+        "name": "Twinmold's Remain",
+        "type": "toggle",
+        "img": "images/masks/twinmold.png",
+        "codes": "twinmold"
+    },
+    {
+        "name": "Zora Mask",
+        "type": "toggle",
+        "img": "images/masks/zora.png",
+        "codes": "zora"
+    }
+]

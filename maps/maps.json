@@ -1,0 +1,81 @@
+
+[
+    {
+        "name": "Termina",
+        "location_size": 20,
+        "location_border_thickness": 5,
+        "img": "images/maps/world map.png"
+    },
+    {
+        "name": "Clock Town",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/clocktown.png"
+    },
+    {
+        "name": "Termina Field",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/termina field.png"
+    },
+    {
+        "name": "Milk and Ranch",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/milkroad_romaniranch.png"
+    },
+    {
+        "name": "Swamp Area",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/swamp area.png"
+    },
+    {
+        "name": "Mountain Area",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/mountain.png"
+    },
+    {
+        "name": "Great Bay Area",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/great bay area.png"
+    },
+    {
+        "name": "Pirate Fortress",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/Pirate Fortress.png"
+    },
+    {
+        "name": "Ikana Area",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/Ikana Area.png"
+    },
+    {
+        "name": "Woodfall Temple",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/woodfalltemple.png"
+    },
+    {
+        "name": "Snowhead Temple",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/snowheadtemple.png"
+    },
+    {
+        "name": "Great Bay Temple",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/great bay temple.png"
+    },
+    {
+        "name": "Stone Tower Temple",
+        "location_size": 10,
+        "location_border_thickness": 4,
+        "img": "images/maps/stone tower temple.png"
+    }
+]

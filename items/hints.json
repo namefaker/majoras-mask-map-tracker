@@ -1,0 +1,231 @@
+[
+    {
+        "name": "Banker",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/banker.png",
+        "codes": "banker"
+    },
+    {
+        "name": "Boat Archery",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/boatarchery.png",
+        "codes": "boatarchery"
+    },
+    {
+        "name": "Butler Race",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/butler.png",
+        "codes": "butler"
+    },
+    {
+        "name": "Goron Race",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/goronrace.png",
+        "codes": "goronrace"
+    },
+    {
+        "name": "Fisherman Game",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/fisherman.png",
+        "codes": "fisherman"
+    },
+    {
+        "name": "Seahorses",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/seahorses.png",
+        "codes": "seahorses"
+    },
+    {
+        "name": "Dampe Digging",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/dampe.png",
+        "codes": "dampe"
+    },
+    {
+        "name": "Swamp Spider House",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/ssh.png",
+        "codes": "ssh"
+    },
+    {
+        "name": "Ocean Spider House",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/osh.png",
+        "codes": "osh"
+    },
+    {
+        "name": "Gossip Stones",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/gossipscheck.png",
+        "codes": "gossipssong"
+    },
+    {
+        "name": "Bobr Race",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/beaver.png",
+        "codes": "beaverrace"
+    },
+    {
+        "name": "Romani Ranch Aliens & Cremia",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/romanis.png",
+        "codes": "alienscremia"
+    },
+    {
+        "name": "Kafei Check 1&2",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/kafeipeak.png",
+        "codes": "kafeipeak"
+    },
+    {
+        "name": "Postman Freedom",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/postmanpeak.png",
+        "codes": "postmanpeak"
+    },
+    {
+        "name": "Hugo The Hungry Goron",
+        "allow_disabled": false,
+        "type": "toggle",
+        "img": "images/other/hugopeak.png",
+        "codes": "hugopeak"
+    },
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Light Arrow Chest",
+                "img": "images/other/lachest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ice Arrow Chest",
+                "img": "images/other/iachest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House Chest",
+                "img": "images/other/oceanhp.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bank 3 Reward",
+                "img": "images/other/banker.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Midnight Meeting",
+                "img": "images/other/midnight_meeting.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Sound Check",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sometimes Hint 2",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Light Arrow Chest",
+                "img": "images/other/lachest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ice Arrow Chest",
+                "img": "images/other/iachest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House Chest",
+                "img": "images/other/oceanhp.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bank 3 Reward",
+                "img": "images/other/banker.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Midnight Meeting",
+                "img": "images/other/midnight_meeting.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Sound Check",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

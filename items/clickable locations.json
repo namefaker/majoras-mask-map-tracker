@@ -1,0 +1,4014 @@
+[
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas4",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas5",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas6",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas7",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas8",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas9",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas10",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas11",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas12",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas13",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas14",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas15",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas16",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Click here",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/empty_label.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Canyon",
+                "img": "images/other/canyon.png",
+                "codes": "areas17",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Castle",
+                "img": "images/other/castle.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Palace",
+                "img": "images/other/dp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "East Clock Town",
+                "img": "images/other/ECT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Coast",
+                "img": "images/other/gbc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple",
+                "img": "images/other/GBt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goron Village",
+                "img": "images/other/gv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ikana Graveyard",
+                "img": "images/other/ig.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stock Pot Inn",
+                "img": "images/other/inn.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Laundry Pool",
+                "img": "images/other/lp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Moon",
+                "img": "images/other/moon.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Milk Road",
+                "img": "images/other/mr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Village",
+                "img": "images/other/mv.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "North Clock Town",
+                "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Exterior",
+                "img": "images/other/pfe.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Interior",
+                "img": "images/other/PFI.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pirates' Fortress Sewers",
+                "img": "images/other/pfs.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pinnacle Rock",
+                "img": "images/other/PR.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Path to Snowhead",
+                "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Romani Ranch",
+                "img": "images/other/rr.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Ikana",
+                "img": "images/other/rti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Road to Swamp",
+                "img": "images/other/rts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "South Clock Town",
+                "img": "images/other/SCT.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead",
+                "img": "images/other/sh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple",
+                "img": "images/other/sht.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Secret Shrine",
+                "img": "images/other/ss.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower",
+                "img": "images/other/st.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple",
+                "img": "images/other/stt.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twin Island",
+                "img": "images/other/ti.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "West Clock Town",
+                "img": "images/other/wct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Well",
+                "img": "images/other/Well.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall",
+                "img": "images/other/wf.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple",
+                "img": "images/other/wft.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Cape",
+                "img": "images/other/zc.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Zora Hall",
+                "img": "images/other/zh.png",
+                "codes": "areas",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

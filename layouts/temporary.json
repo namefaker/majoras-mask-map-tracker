@@ -1,0 +1,247 @@
+{
+    "shared_temporary_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "tear"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ldeed"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas2"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "sdeed"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas3"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "mdeed"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas4"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "odeed"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas5"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "roomkey"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas6"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ltk"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas7"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ltm"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas8"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "golddust"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas9"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "chateau"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas10"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "beans"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas11"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

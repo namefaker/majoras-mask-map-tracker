@@ -1,0 +1,442 @@
+[               
+    {
+        "name": "Ocarina of Time",
+        "type": "toggle",
+        "img": "images/items/ocarina.png",
+        "codes": "ocarina"
+    },
+    {
+        "name": "Bombchus",
+        "type": "toggle",
+        "img": "images/items/bombchu.png",
+        "codes": "chu"
+    },
+    {
+        "name": "Great Fairy Sword",
+        "type": "toggle",
+        "img": "images/items/GFS.png",
+        "codes": "gfs"
+    },
+    {
+        "name": "Hookshot",
+        "type": "toggle",
+        "img": "images/items/HS.png",
+        "codes": "hs"
+    },
+    {
+        "name": "Bow",
+        "type": "toggle",
+        "img": "images/items/Bow.png",
+        "codes": "bow"
+    },
+    {
+        "name": "Fire Arrows",
+        "type": "toggle",
+        "img": "images/items/FA.png",
+        "codes": "fa"
+    },
+    {
+        "name": "Ice Arrows",
+        "type": "toggle",
+        "img": "images/items/IA.png",
+        "codes": "ia"
+    },
+    {
+        "name": "Light Arrows",
+        "type": "toggle",
+        "img": "images/items/LA.png",
+        "codes": "la"
+    },
+    {
+        "name": "Magic Beans",
+        "type": "toggle",
+        "img": "images/items/Beans.png",
+        "codes": "beans"
+    },
+    {
+        "name": "Bombers Notebook",
+        "type": "toggle",
+        "img": "images/items/Bombers_Notebook.png",
+        "codes": "notebook"
+    },
+    {
+        "name": "Boss Key",
+        "type": "toggle",
+        "img": "images/items/BossKey.png",
+        "codes": "bk"
+    },
+    {
+        "name": "Lens of Truth",
+        "type": "toggle",
+        "img": "images/items/LoT.png",
+        "codes": "lens"
+    },
+    {
+        "name": "Moon Tear",
+        "type": "toggle",
+        "img": "images/items/MoonTear.png",
+        "codes": "tear"
+    },
+    {
+        "name": "Picto Box",
+        "type": "toggle",
+        "img": "images/items/PB.png",
+        "codes": "pb"
+    },
+    {
+        "name": "Pendant",
+        "type": "toggle",
+        "img": "images/items/Pendent.png",
+        "codes": "pendent"
+    },
+    {
+        "name": "Powder Keg",
+        "type": "toggle",
+        "img": "images/items/PK.png",
+        "codes": "keg"
+    },
+    {
+        "name": "Double Defense",
+        "type": "toggle",
+        "img": "images/items/doubledefense.png",
+        "codes": "double"
+    },
+    {
+        "name": "Kokiri Sword",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/Sword.png",
+                "codes": "sword",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Razor Sword",
+                "img": "images/items/Razor.png",
+                "codes": "sword",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gilded Sword",
+                "img": "images/items/Gilded.png",
+                "codes": "sword",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hylia Shield",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/Shield.png",
+                "codes": "shield",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mirror Shield",
+                "img": "images/items/MirrorShield.png",
+                "codes": "mirror",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Magic",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/Magic.png",
+                "codes": "magic",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Big Magic",
+                "img": "images/items/Magic2.png",
+                "codes": "magic",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wallet",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/Wallet.png",
+                "codes": "wallet",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Big Wallet",
+                "img": "images/items/Wallet2.png",
+                "codes": "wallet2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bottles",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/bottle.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle1.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle2.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle3.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle4.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle5.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle6.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bombs",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/Bombs.png",
+                "codes": "bombs",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bombs",
+                "img": "images/items/bombs30.png",
+                "codes": "bombs",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bombs",
+                "img": "images/items/bombs40.png",
+                "codes": "bombs",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Deku Sticks",
+        "type": "consumable",
+        "img": "images/items/dekustick.png",
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "sticks"
+    },
+    {
+        "name": "Deku Nuts",
+        "type": "consumable",
+        "img": "images/items/Nuts.png",
+        "max_quantity": 20,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "nuts"
+    },
+    {
+        "name": "Moon Tear",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/tear.png",
+                "codes": "tear",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/tear.png",
+                "codes": "tearcheck",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Land Deed",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/TitleDeed.png",
+                "codes": "ldeed",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TitleDeedcheck.png",
+                "codes": "ldeed",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Swamp Deed",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/TitleDeeds.png",
+                "codes": "sdeed",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TitleDeedscheck.png",
+                "codes": "sdeed",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mountain Deed",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/TitleDeedm.png",
+                "codes": "mdeed",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TitleDeedmcheck.png",
+                "codes": "mdeed",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ocean Deed",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/TitleDeedo.png",
+                "codes": "odeed",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/TitleDeedocheck.png",
+                "codes": "odeed",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Room Key",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/roomkey.png",
+                "codes": "roomkey",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/roomkeycheck.png",
+                "codes": "roomkey",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Letter to Kafei",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/Letter.png",
+                "codes": "ltk",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/lettercheck.png",
+                "codes": "ltk",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Letter to Mama",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/LetterMama.png",
+                "codes": "ltm",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/LTMAroma.png",
+                "codes": "ltm",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/LTMfreedom.png",
+                "codes": "ltm",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/LTMfinish.png",
+                "codes": "ltm",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Chateau",
+        "type": "toggle",
+        "img": "images/items/chateau.png",
+        "codes": "chateau"
+    },
+    {
+        "name": "Gold Dust",
+        "type": "toggle",
+        "img": "images/items/bottle_golddust.png",
+        "codes": "golddust"
+    }
+]

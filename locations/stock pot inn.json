@@ -1,0 +1,120 @@
+    //Termina
+    [
+        {
+          "name": "Stock Pot Inn",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Grandma Short Story",
+              "access_rules": ["anm"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Grandma Long Story",
+              "access_rules": ["anm"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Inn Guest Room Chest",
+              "access_rules": ["roomkey"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Inn Reservation",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Inn Staff Room Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Midnight Meeting",
+              "access_rules": ["kafei, $accsess_inn"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Toilet Hand",
+              "access_rules": ["$paper"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1330,
+              "y": 750,
+              "size": 20
+            }
+          ]
+        },
+        // South Clock Town 
+        {
+          "item_count": 1,
+          "children": [
+            {
+              "sections": [
+                {
+                    "ref": "Stock Pot Inn/Grandma Short Story",
+                    "name": "Inn Grandma Short Story",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                },
+                {
+                    "ref": "Stock Pot Inn/Grandma Long Story",
+                    "name": "Inn Grandma Long Story",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                },
+                {
+                    "ref": "Stock Pot Inn/Inn Guest Room Chest",
+                    "name": "Inn Guest Room Chest",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                },
+                {
+                    "ref": "Stock Pot Inn/Inn Reservation",
+                    "name": "Inn Reservation",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                },
+                {
+                    "ref": "Stock Pot Inn/Inn Staff Room Chest",
+                    "name": "Inn Staff Room Chest",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                },
+                {
+                    "ref": "Stock Pot Inn/Midnight Meeting",
+                    "name": "Inn Midnight Meeting",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                },
+                {
+                    "ref": "Stock Pot Inn/Toilet Hand",
+                    "name": "Inn Toilet Hand",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "Clock Town",
+                  "x": 405,
+                  "y": 175,
+                  "size": 20
+                 }
+              ]
+            }
+         ]
+      }
+    ]

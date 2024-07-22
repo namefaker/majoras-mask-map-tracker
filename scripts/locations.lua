@@ -1,0 +1,6 @@
+Tracker:AddLocations("locations/south clock town.json")
+Tracker:AddLocations("locations/north clock town.json")
+Tracker:AddLocations("locations/east clock town.json")
+Tracker:AddLocations("locations/west clock town.json")
+Tracker:AddLocations("locations/stock pot inn.json")
+Tracker:AddLocations("locations/termina field.json")

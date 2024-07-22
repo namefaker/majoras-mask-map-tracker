@@ -1,0 +1,71 @@
+{
+    "shared_foolish_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas15"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas16"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas17"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "sometimes1",
+                                "items25",
+                                "",
+                                "",    
+                                "sometimes2",
+                                "items26"    
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
