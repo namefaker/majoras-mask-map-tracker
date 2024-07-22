@@ -24,6 +24,46 @@ function has(item, amount)
     end
 end
 
+function play_sot()
+    return has("ocarina") and has("sot")
+end
+
+function play_healing()
+    return has("ocarina") and has("healing")
+end
+
+function play_soaring()
+    return has("ocarina") and has("soaring")
+end
+
+function play_storms()
+    return has("ocarina") and has("storms")
+end
+
+function play_epona()
+    return has("ocarina") and has("epona")
+end
+
+function play_sonata()
+    return has("ocarina") and has("sonata")
+end
+
+function play_lullaby()
+    return has("ocarina") and has("lullaby")
+end
+
+function play_nwbn()
+    return has("ocarina") and has("nwbn")
+end
+
+function play_elegy()
+    return has("ocarina") and has("elegy")
+end
+
+function play_oath()
+    return has("ocarina") and has("oath")
+end
+
 function projectile()
     return has("bow") or has("hs") or has("zora")
             or has("deku") and has("magic")
@@ -50,11 +90,11 @@ function paper()
     or has("sdeed") or has("ltk") or has("ltm")
 end
 
-function accsess_observatory()
+function access_observatory()
     return has("deku") or has("$projectile")
 end
 
-function accsess_inn()
+function access_inn()
     return has("roomkey") or has("deku")
 end
 
@@ -71,15 +111,19 @@ function any_sword()
 end
 
 function water_bean()
-    return has("bottle") or has("storms")
+    return has("bottle") or has("$play_storms")
 end
 
 function kill_octo()
     return has("bow") or has("hs") or has("zora") or has("pb") or has("bottle")
 end
 
-function accsess_dekupalace()
+function access_dekupalace()
     return has("deku") and has("$kill_octo")
+end
+
+function access_ssh()
+    return has("$kill_octo") and has("deku") or has("zora")
 end
 
 function flying_bean()
@@ -89,14 +133,24 @@ function flying_bean()
            or has("deku") and has("$kill_octo") and has("$water_bean")
 end
 
+function clear_ssh()
+    return has("$any_sword") and has("bottle") and has("hs") and has("$access_ssh")
+         or has("$any_sword") and has("bottle") and has("zora") and has("$access_ssh")
+         or has("$any_sword") and has("bottle") and has("$explosion_goron") and has("$flying_bean") and has("$access_ssh")
+end
+
 function open_wft()
-    return has("deku") and has("sonata")
+    return has("deku") and has("$play_sonata")
 end
 
 function open_sht()
-    return has("goron") and has("lullaby")
+    return has("goron") and has("$play_lullaby")
 end
 
 function open_gbt()
-    return has("zora") and has("nwbn")
+    return has("zora") and has("$play_nwbn")
+end
+
+function day1_ranch()
+    return has("goron") and has("keg")
 end

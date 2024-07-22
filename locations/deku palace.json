@@ -1,0 +1,183 @@
+    //Termina
+    [
+        {
+          "name": "Deku Palace",
+          "access_rules": ["$access_dekupalace"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Bean Grotto",
+              "access_rules": ["bottle","hs"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Bean Man",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Butler",
+                "access_rules": ["odolwa"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Deku Palace West Garden",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Imprisoned Monkey",
+                "access_rules": ["ocarina"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Deku Palace/Bean Grotto",
+                  "name": "Bean Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Deku Palace/Bean Man",
+                "name": "Bean Man",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1720,
+                  "y": 1265,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Deku Palace/Butler",
+                  "name": "Butler",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Deku Palace/Deku Palace West Garden",
+                "name": "Deku Palace West Garden",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Deku Palace/Imprisoned Monkey",
+                "name": "Imprisoned Monkey",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1805,
+                  "y": 1250,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Deku Palace
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Deku Palace/Bean Grotto",
+                "name": "Bean Grotto",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "ref": "Deku Palace/Bean Man",
+                "name": "Bean Man",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 450,
+              "y": 810,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Deku Palace/Butler",
+                "name": "Butler",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 735,
+              "y": 840,
+              "size": 40
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Deku Palace/Deku Palace West Garden",
+                  "name": "Deku Palace West Garden",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Swamp Area",
+                "x": 690,
+                "y": 820,
+                "size": 40
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Deku Palace/Imprisoned Monkey",
+                  "name": "Imprisoned Monkey",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Swamp Area",
+                "x": 630,
+                "y": 880,
+                "size": 40
+               }
+            ]
+        }
+     ]
+  }
+]

@@ -1,0 +1,107 @@
+    //Termina
+    [
+        {
+          "name": "Milk Road",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Gorman Bros Race",
+              "access_rules": ["$play_epona"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Great Bay Map Purchase (Tingle)",
+              "item_count": 2,
+              "clear_as_group": false,
+              "access_rules": ["$projectile"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Milk Road/Gorman Bros Race",
+                  "name": "Gorman Bros Race",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1330,
+                "y": 950,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
+                  "name": "Great Bay Map Purchase (Tingle)",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1330,
+                "y": 985,
+                "size": 20
+               }
+            ]
+          }
+       ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Milk Road/Gorman Bros Race",
+                "name": "Gorman Bros Race",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 625,
+              "y": 170,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
+                "name": "Great Bay Map Purchase (Tingle)",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 570,
+              "y": 260,
+              "size": 40
+             }
+          ]
+        }
+     ]
+  }
+]

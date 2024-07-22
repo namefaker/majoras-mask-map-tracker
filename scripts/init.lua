@@ -41,6 +41,12 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/west clock town.json")
     Tracker:AddLocations("locations/stock pot inn.json")
     Tracker:AddLocations("locations/termina field.json")
+    Tracker:AddLocations("locations/milk road.json")
+    Tracker:AddLocations("locations/romani ranch.json")
+    Tracker:AddLocations("locations/road to swamp.json")
+    Tracker:AddLocations("locations/southern swamp.json")
+    Tracker:AddLocations("locations/woodfall.json")
+    Tracker:AddLocations("locations/deku palace.json")
 end
 
 -- Layout

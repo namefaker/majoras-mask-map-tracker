@@ -7,7 +7,7 @@
           "sections": [
             {
               "name": "Astronomy Telescope",
-              "access_rules": ["$accsess_observatory"],
+              "access_rules": ["$access_observatory"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed",
               "chest_opened_img": "images/other/chest_brown_open"
@@ -21,7 +21,7 @@
             },
             {
                 "name": "Buisness Scrub Purchase",
-                "access_rules": ["$accsess_observatory,$any_wallet"],
+                "access_rules": ["$access_observatory,$any_wallet"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed",
                 "chest_opened_img": "images/other/chest_brown_open"

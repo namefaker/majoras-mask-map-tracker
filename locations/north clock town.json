@@ -110,7 +110,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Keaton Quiz",
-                  "name": "NCT Keaton Quiz",
+                  "name": "Keaton Quiz",
                   "chest_unopened_img": "images/other/chest_brown_closed",
                   "chest_opened_img": "images/other/chest_brown_open"
               }
@@ -121,6 +121,12 @@
                 "x": 200,
                 "y": 100,
                 "size": 20
+              },
+              {
+                "map": "Milk and Ranch",
+                "x": 510,
+                "y": 250,
+                "size": 40
               }
             ]
           },

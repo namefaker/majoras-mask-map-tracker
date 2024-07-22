@@ -37,7 +37,7 @@
             },
             {
               "name": "Midnight Meeting",
-              "access_rules": ["kafei, $accsess_inn"],
+              "access_rules": ["kafei, $access_inn"],
               "chest_unopened_img": "images/other/chest_brown_closed",
               "chest_opened_img": "images/other/chest_brown_open"
             },

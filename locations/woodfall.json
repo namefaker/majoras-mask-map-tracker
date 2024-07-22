@@ -1,0 +1,123 @@
+    //Termina
+    [
+        {
+          "name": "Woodfall",
+          "access_rules": ["$kill_octo, deku"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Behind Woodfall Owl Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Entrance to Woodfall Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Woodfall Bridge Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Woodfall/Behind Woodfall Owl Chest",
+                  "name": "Behind Woodfall Owl Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Woodfall/Entrance to Woodfall Chest",
+                "name": "Entrance to Woodfall Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Woodfall/Woodfall Bridge Chest",
+                "name": "Woodfall Bridge Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1725,
+                  "y": 1110,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Woodfall
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Woodfall/Behind Woodfall Owl Chest",
+                "name": "Behind Woodfall Owl Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 515,
+              "y": 425,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Woodfall/Entrance to Woodfall Chest",
+                "name": "Entrance to Woodfall Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 510,
+              "y": 500,
+              "size": 40
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Woodfall/Woodfall Bridge Chest",
+                  "name": "Woodfall Bridge Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Swamp Area",
+                "x": 465,
+                "y": 465,
+                "size": 40
+               }
+            ]
+        }
+     ]
+  }
+]
