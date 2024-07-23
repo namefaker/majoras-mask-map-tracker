@@ -423,12 +423,6 @@
     },
     {
         "name": "Gold Dust",
-        "type": "toggle",
-        "img": "images/items/bottle_golddust.png",
-        "codes": "golddust"
-    }
-    {
-        "name": "Gold Dust",
         "type": "progressive_toggle",
         "initial_stage_idx": 0,
         "stages": [

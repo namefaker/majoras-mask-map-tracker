@@ -12,8 +12,16 @@
               "chest_opened_img": "images/other/chest_brown_open"
             },
             {
+              "name": "Romani Ranch Map Purchase (Tingle)",
+              "item_count": 1,
+              "clear_as_group": false,
+              "access_rules": ["$projectile"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
               "name": "Great Bay Map Purchase (Tingle)",
-              "item_count": 2,
+              "item_count": 1,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
               "chest_unopened_img": "images/other/chest_brown_closed",
@@ -46,10 +54,16 @@
           {
             "sections": [
               {
-                  "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
-                  "name": "Great Bay Map Purchase (Tingle)",
+                  "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
+                  "name": "Romani Ranch Map Purchase (Tingle)",
                   "chest_unopened_img": "images/other/chest_brown_closed",
                   "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
+                "name": "Great Bay Map Purchase (Tingle)",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
               }
             ],
             "map_locations": [
@@ -88,10 +102,16 @@
           "sections": [
             {
                 "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
-                "name": "Great Bay Map Purchase (Tingle)",
+                "name": "Romani Ranch Map Purchase (Tingle)",
                 "chest_unopened_img": "images/other/chest_brown_closed",
                 "chest_opened_img": "images/other/chest_brown_open"
-            }
+            },
+            {
+              "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
+              "name": "Great Bay Map Purchase (Tingle)",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            } 
           ],
           "map_locations": [
             {

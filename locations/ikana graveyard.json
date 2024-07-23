@@ -19,7 +19,7 @@
             },
             {
                 "name": "Dampe Digging",
-                "access_rules": ["captains,bow"],
+                "access_rules": ["captains,bow","captains,zora"],
                 "chest_unopened_img": "images/other/chest_brown_closed",
                 "chest_opened_img": "images/other/chest_brown_open"
             },

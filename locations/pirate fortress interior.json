@@ -6,7 +6,7 @@
       "sections": [
         {
           "name": "Pirate Fortress Interior Hookshot Chest",
-          "access_rules": ["bow"],
+          "access_rules": ["bow","$bubbles"],
           "chest_unopened_img": "images/other/chest_brown_closed",
           "chest_opened_img": "images/other/chest_brown_open"
         },

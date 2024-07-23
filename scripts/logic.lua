@@ -133,9 +133,7 @@ end
 
 function flying_bean()
     return has("$water_bean") and has("beans") 
-            or has("deku") and has("bottle")
-           or has("deku") and has("pb") and has("$water_bean")
-           or has("deku") and has("$kill_octo") and has("$water_bean")
+            or has("$access_beans") and has("$water_bean")
 end
 
 function clear_ssh()
@@ -164,10 +162,6 @@ function day1_ranch()
     return has("goron") and has("keg")
 end
 
-function access_mountain()
-    return has("bow") and has("$explosion_goron")
-end
-
 function spikes()
     return has("goron") and has("magic")
 end
@@ -182,6 +176,11 @@ end
 
 function shoot_la()
     return has("bow") and has("la") and has("magic")
+end
+
+function access_mountain()
+    return has("bow") and has("$explosion_goron")
+        or has("$shoot_fa")
 end
 
 function ikana_mask()

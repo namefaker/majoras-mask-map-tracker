@@ -84,7 +84,7 @@
             },
             {
                 "name": "Gossip Stones",
-                "access_rules": ["$open_wft","$open_sht","$open_gbt"],
+                "access_rules": ["deku,$play_sonata","goron,$play_lullaby","zora,$play_nwbn"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed",
                 "chest_opened_img": "images/other/chest_brown_open"

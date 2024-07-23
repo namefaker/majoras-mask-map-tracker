@@ -25,7 +25,7 @@
             },
             {
                 "name": "Great Bay Coast Ledge",
-                "access_rules": ["$use_scarecrow,hs"],
+                "access_rules": ["$use_scarecrow,hs,$flying_bean"],
                 "chest_unopened_img": "images/other/chest_brown_closed",
                 "chest_opened_img": "images/other/chest_brown_open"
             },
@@ -87,7 +87,7 @@
               },
               {
               "ref": "Great Bay Coast/Lab Fish",
-              "name": "Mountain Smithy Day 2",
+              "name": "Lab Fish",
               "chest_unopened_img": "images/other/chest_brown_closed",
               "chest_opened_img": "images/other/chest_brown_open"
               }

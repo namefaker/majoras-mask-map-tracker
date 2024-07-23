@@ -25,7 +25,7 @@
             },
             {
                 "name": "Mountain Smithy Day 2",
-                "access_rules": ["$any_wallet,$shoot_fa,golddust","$any_wallet,$get_hsw,golddust"],
+                "access_rules": ["$shoot_fa,golddust","$get_hsw,golddust"],
                 "chest_unopened_img": "images/other/chest_brown_closed",
                 "chest_opened_img": "images/other/chest_brown_open"
             },

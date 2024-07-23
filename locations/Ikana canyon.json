@@ -7,7 +7,7 @@
           "sections": [
             {
               "name": "Canyon Scrub Trade",
-              "access_rules": ["zora,deedo"],
+              "access_rules": ["zora,odeed"],
               "chest_unopened_img": "images/other/chest_brown_closed",
               "chest_opened_img": "images/other/chest_brown_open"
             },
