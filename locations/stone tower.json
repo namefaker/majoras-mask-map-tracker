@@ -1,0 +1,99 @@
+    //Termina
+    [
+        {
+          "name": "Stone Tower",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Inverted Stone Tower Left Chest",
+              "access_rules": ["$access_istt,$flying_bean"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Inverted Stone Tower Middle Chest",
+                "access_rules": ["$access_istt,$flying_bean"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Inverted Stone Tower Right Chest",
+                "access_rules": ["$access_istt,$flying_bean"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Stone Tower/Inverted Stone Tower Left Chest",
+                  "name": "Inverted Stone Tower Left Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
+                "name": "Inverted Stone Tower Middle Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Right Chest",
+                "name": "Inverted Stone Tower Right Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2010,
+                  "y": 405,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Stone Tower
+      "item_count": 1,
+      "children": [
+        {
+            "sections": [
+              {
+                  "ref": "Stone Tower/Inverted Stone Tower Left Chest",
+                  "name": "Inverted Stone Tower Left Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
+                "name": "Inverted Stone Tower Middle Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Right Chest",
+                "name": "Inverted Stone Tower Right Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 1120,
+                  "y": 130,
+                  "size": 20
+                 }
+              ]
+          }
+     ]
+  }
+]

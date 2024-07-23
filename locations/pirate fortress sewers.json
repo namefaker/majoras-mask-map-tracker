@@ -1,0 +1,115 @@
+[
+    {
+      "name": "Pirate Fortress Sewers",
+      "access_rules": ["$access_pfs"],
+      "item_count": 1,
+      "sections": [
+        {
+          "name": "Pirate Fortress Sewers Maze Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Sewers Cage",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Sewers Cage Room Deep Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Sewers Cage Room Shallow Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Maze Chest",
+              "name": "Pirate Fortress Sewers Maze Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage",
+              "name": "Pirate Fortress Sewers Log Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Deep Chest",
+              "name": "Pirate Fortress Sewers Sand Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
+              "name": "Pirate Fortress Sewers Sand Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 715,
+              "y": 665,
+              "size": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Maze Chest",
+              "name": "Pirate Fortress Sewers Maze Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage",
+              "name": "Pirate Fortress Sewers Cage",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Deep Chest",
+              "name": "Pirate Fortress Sewers Maze Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
+              "name": "Pirate Fortress Sewers Maze Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 395,
+              "y": 300,
+              "size": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,195 @@
+    //Termina
+    [
+        {
+          "name": "Twin Island",
+          "access_rules": ["$access_mountain"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Goron Race",
+              "access_rules": ["$access_spring"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Goron Racetrack Grotto",
+              "access_rules": ["$explosion,goron","$explosion,$use_scarecrow"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Hot Spring Water Grotto",
+                "access_rules": ["$shoot_fa","$get_hsw"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Twin Island Cave Chest",
+                "access_rules": ["$access_spring,zora"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Twin Island Underwater Ramp Chest",
+                "access_rules": ["$access_spring,zora"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Twin Island/Goron Race",
+                  "name": "Goron Race",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Twin Island/Goron Racetrack Grotto",
+                "name": "Goron Racetrack Grotto",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Twin Island/Twin Island Cave Chest",
+                "name": "Twin Island Cave Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1020,
+                  "y": 450,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Twin Island/Hot Spring Water Grotto",
+                  "name": "Hot Spring Water Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Twin Island/Twin Island Underwater Ramp Chest",
+                "name": "Twin Island Cave Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1095,
+                  "y": 440,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Twin Island
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Twin Island/Goron Race",
+                "name": "Goron Race",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 660,
+              "y": 535,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Twin Island/Goron Racetrack Grotto",
+                "name": "Goron Racetrack Grotto",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 675,
+              "y": 575,
+              "size": 20
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Twin Island/Hot Spring Water Grotto",
+                  "name": "Hot Spring Water Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 735,
+                "y": 540,
+                "size": 20
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Twin Island/Twin Island Cave Chest",
+                  "name": "Twin Island Cave Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 690,
+                "y": 525,
+                "size": 20
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Twin Island/Twin Island Underwater Ramp Chest",
+                  "name": "Twin Island Underwater Ramp Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 745,
+                "y": 570,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  }
+]

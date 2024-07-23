@@ -1,0 +1,356 @@
+    //Termina
+    [
+        {
+          "name": "Stone Tower Temple",
+          "access_rules": ["$access_stt"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "STT Map Chest",
+              "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "STT Armos Room Chest",
+                "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "STT Eyegore Room Chest",
+                "access_rules": ["la,zora","explosion_goron,zora"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "STT Compass Chest",
+                "access_rules": ["$shoot_la","mirror,goron,zora"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "STT Light Arrow Chest",
+                "access_rules": ["$shoot_la", "$explosion, $all_transform"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Map Chest",
+                  "name": "STT Map Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Armos Room Chest",
+                "name": "STT Armos Room Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Eyegore Room Chest",
+                "name": "STT Eyegore Room Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Compass Chest",
+                "name": "STT Compass Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Light Arrow Chest",
+                "name": "STT Light Arrow Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2060,
+                  "y": 355,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Stone Tower Temple
+      "item_count": 1,
+      "children": [
+        {
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Map Chest",
+                  "name": "STT Map Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 855,
+                  "y": 950,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Armos Room Chest",
+                  "name": "STT Armos Room Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 590,
+                  "y": 410,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Eyegore Room Chest",
+                  "name": "STT Eyegore Room Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 980,
+                  "y": 700,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Compass Chest",
+                  "name": "STT Compass Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 855,
+                  "y": 950,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Light Arrow Chest",
+                  "name": "STT Light Arrow Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1335,
+                  "y": 295,
+                  "size": 35
+                 }
+              ]
+          }
+     ]
+  },
+  {   ////istt
+    "name": "Inverted Stone Tower Temple",
+    "access_rules": ["access_istt,deku"],
+    "item_count": 1,
+    "sections": [
+      {
+        "name": "ISTT Updraft Room Chest",
+        "access_rules": [""],
+        "chest_unopened_img": "images/other/chest_brown_closed",
+        "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+          "name": "ISTT Death Armos Maze Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+          "name": "ISTT Boss Key Chest",
+          "access_rules": ["deku"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+          "name": "ISTT Giant's Mask Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+          "name": "ISTT Heart Container",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+      }
+    ]
+  },
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Updraft Room Chest",
+                "name": "ISTT Updraft Room Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Death Armos Maze Chest",
+                "name": "ISTT Death Armos Maze Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Giant's Mask Chest",
+                "name": "ISTT Giant's Mask Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Heart Container",
+                "name": "ISTT Heart Container",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+        ],
+        "map_locations": [
+            {
+              "map": "Termina",
+              "x": 2090,
+              "y": 355,
+              "size": 20
+             }
+          ]
+      }
+   ]
+  },
+  {  ////Inverted Stone Tower Temple
+  "item_count": 1,
+  "children": [
+    {
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Updraft Room Chest",
+              "name": "ISTT Updraft Room Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1025,
+              "y": 950,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Death Armos Maze Chest",
+              "name": "ISTT Death Armos Maze Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 555,
+              "y": 505,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Boss Key Chest",
+              "name": "ISTT Boss Key Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1335,
+              "y": 900,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Giant's Mask Chest",
+              "name": "ISTT Giant's Mask Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 910,
+              "y": 610,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Heart Container",
+              "name": "ISTT Heart Container",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1395,
+              "y": 295,
+              "size": 35
+             }
+          ]
+      }
+ ]
+}
+]

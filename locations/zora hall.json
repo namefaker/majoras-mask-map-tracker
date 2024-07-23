@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Zora Hall",
+    "access_rules": ["$play_epona"],
+    "item_count": 1,
+    "sections": [
+      {
+        "name": "Zora Hall Evan (>>vAAv>A<<>vv><v)",
+        "access_rules": ["zora"],
+        "chest_unopened_img": "images/other/chest_brown_closed",
+        "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+        "name": "Zora Hall Lulu's Room Ledge",
+        "access_rules": ["$all_transform,mdeed"],
+        "chest_unopened_img": "images/other/chest_brown_closed",
+        "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+        "name": "Zora Hall Ocean Scrub Trade",
+        "access_rules": ["zora,goron,mdeed"],
+        "chest_unopened_img": "images/other/chest_brown_closed",
+        "chest_opened_img": "images/other/chest_brown_open"
+      },
+      {
+        "name": "Zora Hall Stage Lights",
+        "access_rules": ["$shoot_fa"],
+        "chest_unopened_img": "images/other/chest_brown_closed",
+        "chest_opened_img": "images/other/chest_brown_open"
+      }
+    ]
+  },
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Zora Hall/Zora Hall Evan (>>vAAv>A<<>vv><v)",
+            "name": "Zora Hall Evan (>>vAAv>A<<>vv><v)",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Lulu's Room Ledge",
+            "name": "Zora Hall Lulu's Room Ledge",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Ocean Scrub Trade",
+            "name": "Zora Hall Ocean Scrub Trade",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Stage Lights",
+            "name": "Zora Hall Stage Lights",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Termina",
+            "x": 475,
+            "y": 1030,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Zora Hall/Zora Hall Evan (>>vAAv>A<<>vv><v)",
+            "name": "Zora Hall Evan (>>vAAv>A<<>vv><v)",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Lulu's Room Ledge",
+            "name": "Zora Hall Lulu's Room Ledge",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Ocean Scrub Trade",
+            "name": "Zora Hall Ocean Scrub Trade",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Stage Lights",
+            "name": "Zora Hall Stage Lights",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great Bay Area",
+            "x": 150,
+            "y": 675,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

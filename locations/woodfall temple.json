@@ -1,0 +1,207 @@
+    //Termina
+    [
+        {
+          "name": "Woodfall Temple",
+          "access_rules": ["$open_wft"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Hero's Bow Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "name": "Woodfall Compass Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Woodfall Map Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Woodfall Small Key Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Woodfall Heart Container",
+                "access_rules": ["bow"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Woodfall Boss Key Chest",
+                "access_rules": ["bow"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Hero's Bow Chest",
+                  "name": "Hero's Bow Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Compass Chest",
+                "name": "Woodfall Compass Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Map Chest",
+                "name": "Woodfall Map Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+              "ref": "Woodfall Temple/Woodfall Small Key Chest",
+              "name": "Woodfall Small Key CHest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Heart Container",
+                "name": "Woodfall Heart Container",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1755,
+                  "y": 1095,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Woodfall Temple
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Woodfall Temple/Hero's Bow Chest",
+                "name": "Hero's Bow Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Woodfall Temple",
+              "x": 535,
+              "y": 940,
+              "size": 40
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Compass Chest",
+                  "name": "Woodfall Compass Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 165,
+                "y": 640,
+                "size": 40
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Map Chest",
+                  "name": "Woodfall Map Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 890,
+                "y": 955,
+                "size": 40
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Small Key Chest",
+                  "name": "Woodfall Small Key Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 830,
+                "y": 775,
+                "size": 40
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Boss Key Chest",
+                  "name": "Woodfall Boss Key Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 1035,
+                "y": 580,
+                "size": 40
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Heart Container",
+                  "name": "Woodfall Heart Container",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 995,
+                "y": 320,
+                "size": 40
+               }
+            ]
+        }
+     ]
+  }
+]

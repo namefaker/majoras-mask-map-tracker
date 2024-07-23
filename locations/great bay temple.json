@@ -1,0 +1,207 @@
+    //Termina
+    [
+        {
+          "name": "Great Bay Temple",
+          "access_rules": ["$access_gbt"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "GBT Map Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "GBT Compass Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "GBT Small Key Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "GBT Boss Key Chest",
+                "access_rules": ["$shoot_ia"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "GBT Ice Arrow Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "GBT Heart Container",
+                "access_rules": ["$kill_gyorg"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Map Chest",
+                  "name": "GBT Map Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Compass Chest",
+                "name": "GBT Compass Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Small Key Chest",
+                "name": "GBT Small Key Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+              "ref": "Great Bay Temple/GBT Ice Arrow Chest",
+              "name": "GBT Ice Arrow",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Heart Container",
+                "name": "GBT Heart Container",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 295,
+                  "y": 900,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Great Bay Temple
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Great Bay Temple/GBT Map Chest",
+                "name": "GBT Map Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Temple",
+              "x": 950,
+              "y": 880,
+              "size": 35
+             }
+          ]
+        },
+        {
+            "sections": [
+                {
+                    "ref": "Great Bay Temple/GBT Compass Chest",
+                    "name": "GBT Compass Chest",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1185,
+                "y": 595,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Great Bay Temple/GBT Small Key Chest",
+                "name": "GBT Small Key Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Temple",
+              "x": 1225,
+              "y": 660,
+              "size": 35
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Ice Arrow Chest",
+                  "name": "GBT Ice Arrow Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 950,
+                "y": 350,
+                "size": 35
+               }        
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Boss Key Chest",
+                  "name": "GBT Boss Key Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1300,
+                "y": 645,
+                "size": 35
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Heart Container",
+                  "name": "GBT Heart Container",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 210,
+                "y": 1060,
+                "size": 35
+               }
+            ]
+        }
+     ]
+  }
+]

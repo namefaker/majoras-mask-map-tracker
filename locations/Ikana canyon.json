@@ -1,0 +1,219 @@
+    //Termina
+    [
+        {
+          "name": "Ikana Canyon",
+          "access_rules": ["$access_ikana"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Canyon Scrub Trade",
+              "access_rules": ["zora,deedo"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Ikana Canyon Ledge",
+                "access_rules": ["zora,odeed,deku"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Pamela's Father",
+                "access_rules": ["$access_ikana_upper,storms,healing"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Poe Hut",
+                "access_rules": ["$access_ikana_upper,$any_sword"], 
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Secret Shrine Grotto",
+                "access_rules": [""], 
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Canyon Scrub Trade",
+                  "name": "Canyon Scrub Trade",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Ledge",
+                "name": "Ikana Canyon Ledge",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1890,
+                  "y": 565,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Pamela's Father",
+                  "name": "Pamela's Father",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1890,
+                  "y": 440,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Poe Hut",
+                  "name": "Poe Hut",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1900,
+                  "y": 400,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Secret Shrine Grotto",
+                  "name": "Secret Shrine Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1775,
+                  "y": 450,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Ikana Canyon
+      "item_count": 1,
+      "children": [
+        {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Canyon Scrub Trade",
+                  "name": "Canyon Scrub Trade",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 890,
+                  "y": 530,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Ikana Canyon Ledge",
+                  "name": "Ikana Canyon Ledge",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 955,
+                  "y": 530,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Pamela's Father",
+                  "name": "Pamela's Father",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 925,
+                  "y": 210,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Poe Hut",
+                  "name": "Poe Hut",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 935,
+                  "y": 130,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Secret Shrine Grotto",
+                  "name": "Secret Shrine Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 705,
+                  "y": 250,
+                  "size": 20
+               }
+            ]
+        }
+     ]
+  }
+]

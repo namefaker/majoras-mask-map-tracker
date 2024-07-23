@@ -1,0 +1,213 @@
+    //Termina
+    [
+        {
+          "name": "Ikana Graveyard",
+          "access_rules": ["$play_epona"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Captain Keeta's Chest",
+              "access_rules": ["$kill_keeta"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Ikana Graveyard Grotto",
+                "access_rules": ["$explosion"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Dampe Digging",
+                "access_rules": ["captains,bow"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Day 1 Grave Bats",
+                "access_rules": ["captains, $any_sword","captains,$any_transform"], 
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Day 1 Grave Tablet",
+                "access_rules": ["$finish_graveknuckle"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Iron Knuckle Chest",
+                "access_rules": ["$use_lens,$explosion,$finish_graveknuckle"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Captain Keeta's Chest",
+                  "name": "Captain Keeta's Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Grotto",
+                "name": "Ikana Graveyard Grotto",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1450,
+                  "y": 490,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Dampe Digging",
+                  "name": "Dampe Digging",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Ikana Graveyard/Day 1 Grave Bats",
+                "name": "Day 1 Grave Bats",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Ikana Graveyard/Day 1 Grave Tablet",
+                "name": "Day 1 Grave Tablet",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Ikana Graveyard/Iron Knuckle Chest",
+                "name": "Iron Knuckle Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1520,
+                  "y": 530,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Ikana Graveyard
+      "item_count": 1,
+      "children": [
+        {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Captain Keeta's Chest",
+                  "name": "Captain Keeta's Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 95,
+                  "y": 345,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Dampe Digging",
+                  "name": "Dampe Digging",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 230,
+                  "y": 465,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Day 1 Grave Bats",
+                  "name": "Day 1 Grave Bats",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Ikana Graveyard/Day 1 Grave Tablet",
+                "name": "Day 1 Grave Tablet",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 300,
+                  "y": 455,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Ikana Graveyard Grotto",
+                  "name": "Ikana Graveyard Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 165,
+                  "y": 340,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Iron Knuckle Chest",
+                  "name": "Iron Knuckle Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 270,
+                  "y": 430,
+                  "size": 20
+               }
+            ]
+        }
+     ]
+  }
+]

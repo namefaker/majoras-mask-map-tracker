@@ -1,0 +1,181 @@
+[
+    {
+      "name": "Pirate Fortress Interior",
+      "access_rules": ["$access_pfi"],
+      "item_count": 1,
+      "sections": [
+        {
+          "name": "Pirate Fortress Interior Hookshot Chest",
+          "access_rules": ["bow"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Interior Guard Room Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Interior Lower Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Interior Tank Chest",
+          "access_rules": ["hs"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Pirate Fortress Interior Upper Chest",
+          "access_rules": ["hs"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Hookshot Chest",
+              "name": "Pirate Fortress Interior Hookshot Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Guard Room Chest",
+              "name": "Pirate Fortress Interior Guard Room Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Lower Chest",
+              "name": "Pirate Fortress Interior Lower Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Tank Chest",
+              "name": "Pirate Fortress Interior Tank Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Upper Chest",
+              "name": "Pirate Fortress Interior Upper Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 725,
+              "y": 620,
+              "size": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Hookshot Chest",
+              "name": "Pirate Fortress Interior Hookshot Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 455,
+              "y": 130,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Guard Room Chest",
+              "name": "Pirate Fortress Interior Guard Room Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 415,
+              "y": 75,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Lower Chest",
+              "name": "Pirate Fortress Interior Lower Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 490,
+              "y": 195,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Tank Chest",
+              "name": "Pirate Fortress Interior Tank Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 310,
+              "y": 165,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Upper Chest",
+              "name": "Pirate Fortress Interior Upper Chest",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 495,
+              "y": 230,
+              "size": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]

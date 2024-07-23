@@ -1,0 +1,249 @@
+    //Termina
+    [
+        {
+          "name": "Zora Cape",
+          "access_rules": ["$play_epona"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Beaver Race #1",
+              "access_rules": ["hs,zora"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Zora Cape Like-Like",
+                "access_rules": ["zora"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Zora Cape Grotto",
+                "access_rules": ["$explosion_goron"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Zora Cape Ledge With Tree Chest",
+                "access_rules": ["hs"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Zora Cape Ledge Without Tree Chest",
+                "access_rules": ["hs"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Zora Cape Underwater Chest",
+                "access_rules": ["zora"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Beaver Race #1",
+                  "name": "Beaver Race #1",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Zora Cape/Zora Cape Like-Like",
+                "name": "Zora Cape Like-Like",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 950,
+                  "y": 1090,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+                {
+                    "ref": "Zora Cape/Zora Cape Grotto",
+                    "name": "Zora Cape Grotto",
+                    "chest_unopened_img": "images/other/chest_brown_closed",
+                    "chest_opened_img": "images/other/chest_brown_open"
+                }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 700,
+                  "y": 1060,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Ledge With Tree Chest",
+                  "name": "Zora Cape Ledge With Tree Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
+                "name": "Zora Cape Ledge Without Tree Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 860,
+                  "y": 1045,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Underwater Chest",
+                  "name": "Zora Cape Underwater Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 625,
+                  "y": 1100,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Zora Cape
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Zora Cape/Beaver Race #1",
+                "name": "Beaver Race #1",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Area",
+              "x": 820,
+              "y": 775,
+              "size": 20
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Grotto",
+                  "name": "Zora Cape Grotto",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 435,
+                "y": 735,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Zora Cape/Zora Cape Ledge With Tree Chest",
+                "name": "Zora Cape Ledge With Tree Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Area",
+              "x": 725,
+              "y": 685,
+              "size": 20
+             }
+          ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
+                  "name": "Zora Cape Ledge Without Tree Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 695,
+                "y": 750,
+                "size": 20
+               }        
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Like-Like",
+                  "name": "Zora Cape Like-Like",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 775,
+                "y": 815,
+                "size": 20
+               }
+            ]
+        },
+        {
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Underwater Chest",
+                  "name": "Zora Cape Underwater Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 335,
+                "y": 810,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  }
+]

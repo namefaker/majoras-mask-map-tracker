@@ -196,38 +196,32 @@
             },
             {   
                 "name": "Bottles",
-                "img": "images/items/bottle1.png",
-                "codes": "bottle",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottles",
                 "img": "images/items/bottle2.png",
-                "codes": "bottle",
+                "codes": "bottle,",
                 "inherit_codes": false
             },
             {   
                 "name": "Bottles",
                 "img": "images/items/bottle3.png",
-                "codes": "bottle",
+                "codes": "bottle,",
                 "inherit_codes": false
             },
             {   
                 "name": "Bottles",
                 "img": "images/items/bottle4.png",
-                "codes": "bottle",
+                "codes": "bottle,",
                 "inherit_codes": false
             },
             {   
                 "name": "Bottles",
                 "img": "images/items/bottle5.png",
-                "codes": "bottle",
+                "codes": "bottle,",
                 "inherit_codes": false
             },
             {   
                 "name": "Bottles",
                 "img": "images/items/bottle6.png",
-                "codes": "bottle",
+                "codes": "bottle,",
                 "inherit_codes": false
             }
         ]

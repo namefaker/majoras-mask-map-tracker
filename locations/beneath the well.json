@@ -1,0 +1,124 @@
+    //Termina
+    [
+        {
+          "name": "Beneath the Well",
+          "access_rules": ["$access_ikana_upper"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Mirror Shield Chest",
+              "access_rules": ["la,fa","la,$get_bigpoe,gibdo,sticks",
+              "$access_beans,gibdo,sticks,$get_bigpoe","$access_beans,gibdo,fa,$get_bigpoe"],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Well Left Path Chest",
+                "access_rules": ["$access_well_front,$get_bluegoo"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Well Right Path Chest",
+                "access_rules": ["$la,gido,bottle","$access_beans,gibdo,bottle,"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Mirror Shield Chest",
+                  "name": "Mirror Shield Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Chest",
+                "name": "Well Left Path Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Beneath the Well/Well Right Path Chest",
+                "name": "Well Right Path Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1825,
+                  "y": 420,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Beneath the Well
+      "item_count": 1,
+      "children": [
+        {
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Mirror Shield Chest",
+                  "name": "Mirror Shield Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 895,
+                  "y": 675,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Well Left Path Chest",
+                  "name": "Well Left Path Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 955,
+                  "y": 575,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Well Right Path Chest",
+                  "name": "Well Right Path Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 925,
+                  "y": 585,
+                  "size": 20
+                 }
+            ]
+        }
+     ]
+  }
+]

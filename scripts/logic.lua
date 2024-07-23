@@ -118,6 +118,11 @@ function kill_octo()
     return has("bow") or has("hs") or has("zora") or has("pb") or has("bottle")
 end
 
+function access_beans()
+    return has("$kill_octo") and has("deku")
+        or has("beans") and has("deku")
+end
+
 function access_dekupalace()
     return has("deku") and has("$kill_octo")
 end
@@ -140,17 +145,156 @@ function clear_ssh()
 end
 
 function open_wft()
-    return has("deku") and has("$play_sonata")
+    return has("deku") and has("$play_sonata") and has("$kill_octo")
 end
 
-function open_sht()
-    return has("goron") and has("$play_lullaby")
+function use_keg()
+    return has("goron") and has("keg")
 end
 
-function open_gbt()
-    return has("zora") and has("$play_nwbn")
+function access_gbt()
+    return has("zora") and has("$play_nwbn") and has("$play_epona") and has("hs")
+end
+
+function use_lens()
+    return has("lens") and has("magic")
 end
 
 function day1_ranch()
     return has("goron") and has("keg")
+end
+
+function access_mountain()
+    return has("bow") and has("$explosion_goron")
+end
+
+function spikes()
+    return has("goron") and has("magic")
+end
+
+function shoot_fa()
+    return has("bow") and has("magic") and has("fa")
+end
+
+function shoot_ia()
+    return has("bow") and has("ia") and has("magic")
+end
+
+function shoot_la()
+    return has("bow") and has("la") and has("magic")
+end
+
+function ikana_mask()
+    return has("garo") or has("gibdo")
+end
+
+function access_ikana()
+    return has("hs") and has("$play_epona") and has("$ikana_mask")
+end
+
+function access_ikana_upper()
+    return has("$access_ikana") and has("$shoot_ia")
+end
+
+function get_bluegoo()
+    return has("$access_ikana") and has("$any_wallet") and has("bottle")
+        or has("scents") and has("bottle")
+end
+
+function access_well_front()
+    return has("$access_ikana_upper") and has("gibdo")
+end
+
+function get_hsw()
+    return has("$access_mountain") and has("goron") and has("$use_lens") and has("bottle")
+        or has("$access_well_front") and has("$get_bluegoo")
+end
+
+function open_sht()
+    return has("$access_mountain") and has("$spikes") and has("$play_lullaby")
+end
+
+function use_scarecrow()
+    return has("$access_observatory") and has("hs") and has("ocarina")
+end
+
+function access_spring()
+    return has("$shoot_fa") and has("$open_sht") and has("$explosion") and has("goht")
+        or has("$shoot_fa") and has("$open_sht") and has("$use_scarecrow") and has("goht")
+end
+
+function finish_gbt()
+    return has("$access_gbt") and has("$shoot_ia") and has("$shoot_fa")
+end
+
+function access_pfe()
+    return has("$play_epona") and has("zora")
+end
+
+function access_pfs()
+    return has("$access_pfe") and has("goron")
+end
+
+function access_pfi()
+    return has("$access_pfe") and has("hs")
+        or has("$access_pfs")
+end
+
+function finish_graveknuckle()
+    return has("$play_epona") and has("$any_sword") and has("captains")
+        or has("$play_epona") and has("goron") and has("captains")
+end
+
+function kill_keeta()
+    return has("sonata") and has("bow") and has("$any_sword")
+        or has("sonata") and has("bow") and has("goron")
+end
+
+function get_bigpoe()
+    return has("$play_epona") and has("captains") and has("bottle") and has("bow")
+        or has("$access_ikana_upper") and has("bombs") and has("gibdo") and has("bottle")
+end
+
+function access_castle()
+    return (has("$access_ikana_upper") and has("mirror"))
+        or (has("$access_ikana_upper") and has("la"))
+end
+
+function access_castle_upper()
+    return has("$access_castle") and has("deku") and has("lens")
+end
+
+function kill_igos()
+    return has("$access_castle") and has("la") and has("fa") and has("$any_sword")
+     or  has("$access_castle_upper") and has("$use_keg") and has("fa")
+end
+
+function access_stt()
+    return has("$access_ikana_upper") and has("elegy") and has("zora")
+        or has("$access_ikana_upper") and has("elegy") and has("goron")
+end
+
+function access_istt()
+    return has("$access_stt") and has("la")
+end
+
+function kill_odolwa()
+    return has("$open_wft") and has("bow")
+end
+
+function kill_goht()
+    return has("$open_sht") and has("$explosion") and has("fa")
+    or has("$open_sht") and has("$use_scarecrow") and has("fa")
+end
+
+function kill_gyorg()
+    return has("$access_gbt") and has("$shoot_ia") and has("fa")
+end
+
+function kill_sunblock()
+    return has("mirror") or has("$shoot_la")
+end
+
+function access_secretshrine()
+    return has("$access_ikana") and has("la")
 end

@@ -1,0 +1,99 @@
+    //Termina
+    [
+        {
+          "name": "Pinnacle Rock",
+          "access_rules": ["$play_epona,zora"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Pinnacle Rock Lower Chest",
+              "access_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Pinnacle Rock Upper Chest",
+                "access_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+                "name": "Pinnacle Rock Seahorse",
+                "access_rules": ["$access_pfi,pb"],
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "sections": [
+              {
+                  "ref": "Pinnacle Rock/Pinnacle Rock Lower Chest",
+                  "name": "Pinnacle Rock Lower Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Pinnacle Rock/Pinnacle Rock Upper Chest",
+                "name": "Pinnacle Rock Upper Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
+                "name": "Pinnacle Rock Seahorse",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 260,
+                  "y": 775,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Pinnacle Rock
+      "item_count": 1,
+      "children": [
+        {
+            "sections": [
+              {
+                  "ref": "Pinnacle Rock/Pinnacle Rock Lower Chest",
+                  "name": "Pinnacle Rock Lower Chest",
+                  "chest_unopened_img": "images/other/chest_brown_closed",
+                  "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Pinnacle Rock/Pinnacle Rock Upper Chest",
+                "name": "Pinnacle Rock Upper Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              },
+              {
+                "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
+                "name": "Pinnacle Rock Seahorse",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Great Bay Area",
+                  "x": 60,
+                  "y": 190,
+                  "size": 20
+                 }
+              ]
+          }
+     ]
+  }
+]
