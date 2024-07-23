@@ -1,9 +1,20 @@
 [
     {
         "name": "All Night Mask",
-        "type": "toggle",
-        "img": "images/masks/all-night.png",
-        "codes": "anm"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/all-night.png",
+                "codes": "anm",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/all-nightcheck.png",
+                "codes": "anm,anmcheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Blast Mask",
@@ -13,21 +24,54 @@
     },
     {
         "name": "Bremen Mask",
-        "type": "toggle",
-        "img": "images/masks/bremen.png",
-        "codes": "bremen"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/bremen.png",
+                "codes": "bremen",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/bremencheck.png",
+                "codes": "bremen,bremencheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Bunny Hood",
-        "type": "toggle",
-        "img": "images/masks/bunny.png",
-        "codes": "bunny"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/bunny.png",
+                "codes": "bunny",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/bunnycheck.png",
+                "codes": "bunny,bunnycheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Captains Hat",
-        "type": "toggle",
-        "img": "images/masks/captains.png",
-        "codes": "captains"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/captains.png",
+                "codes": "captains",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/captainscheck.png",
+                "codes": "captains,captainscheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Circus Leader Mask",
@@ -37,9 +81,20 @@
     },
     {
         "name": "Couples Mask",
-        "type": "toggle",
-        "img": "images/masks/couples.png",
-        "codes": "couples"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/couples.png",
+                "codes": "couples",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/couplescheck.png",
+                "codes": "couples,couplescheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Deku Mask",
@@ -103,21 +158,54 @@
     },
     {
         "name": "Kafei Mask",
-        "type": "toggle",
-        "img": "images/masks/kafei_mask.png",
-        "codes": "kafei"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/kafei_mask.png",
+                "codes": "kafei",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/kafei_maskcheck.png",
+                "codes": "kafei,kafeicheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Kamaro Mask",
-        "type": "toggle",
-        "img": "images/masks/kamaro.png",
-        "codes": "kamaro"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/kamaro.png",
+                "codes": "kamaro",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/kamarocheck.png",
+                "codes": "kamaro,kamarocheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Keaton Mask",
-        "type": "toggle",
-        "img": "images/masks/keaton.png",
-        "codes": "keaton"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/keaton.png",
+                "codes": "keaton",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/keatoncheck.png",
+                "codes": "keaton,keatoncheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Odolwa's Remain",
@@ -144,9 +232,20 @@
     },
     {
         "name": "Romani Mask",
-        "type": "toggle",
-        "img": "images/masks/romani.png",
-        "codes": "romani"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/romani.png",
+                "codes": "romani",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/romanicheck.png",
+                "codes": "romani,romanicheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Scents Mask",
@@ -162,9 +261,20 @@
     },
     {
         "name": "Mask of Truth",
-        "type": "toggle",
-        "img": "images/masks/truth.png",
-        "codes": "truth"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/masks/truth.png",
+                "codes": "truth",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/masks/truthcheck.png",
+                "codes": "truth,truthcheck",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Twinmold's Remain",

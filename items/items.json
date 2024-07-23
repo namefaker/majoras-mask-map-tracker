@@ -72,12 +72,6 @@
         "codes": "lens"
     },
     {
-        "name": "Moon Tear",
-        "type": "toggle",
-        "img": "images/items/MoonTear.png",
-        "codes": "tear"
-    },
-    {
         "name": "Picto Box",
         "type": "toggle",
         "img": "images/items/PB.png",
@@ -281,13 +275,13 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "images/items/tear.png",
+                "img": "images/items/MoonTear.png",
                 "codes": "tear",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/tear.png",
-                "codes": "tearcheck",
+                "img": "images/items/moontearcheck.png",
+                "codes": "tear,tearcheck",
                 "inherit_codes": false
             }
         ]
@@ -432,5 +426,22 @@
         "type": "toggle",
         "img": "images/items/bottle_golddust.png",
         "codes": "golddust"
+    }
+    {
+        "name": "Gold Dust",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/bottle_golddust.png",
+                "codes": "golddust",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/bottle_golddustcheck.png",
+                "codes": "golddust,golddustcheck",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
