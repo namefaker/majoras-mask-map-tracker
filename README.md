@@ -7,18 +7,18 @@ keep in mind, this is the first version, so probably there are some bugs :)
 
 This Works: (hopefully)
 
-Logic S5 Settings
-Hint System
-Maps for a Detailed view
+<p>Logic S5 Settings <br>
+Hint System <br>
+Maps for a Detailed view <br>
 
 
 Future plans:
 
-add a Settings Button for many features
-add more Settings
-add more Checks
-add ool Checks
-add better icons for map maybe better maps?
-
+add a Settings Button for many features <br>
+add more Settings <br>
+add more Checks <br>
+add ool Checks <br>
+add better icons for map maybe better maps? <br>
+<br>
 
 special thanks to phaaze, he helps a lot! 
