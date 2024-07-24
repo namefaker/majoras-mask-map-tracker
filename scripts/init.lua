@@ -36,6 +36,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddMaps("maps/maps.json")    
     -- Locations
     Tracker:AddLocations("locations/south clock town.json")
+    Tracker:AddLocations("locations/laundry pool.json")
     Tracker:AddLocations("locations/north clock town.json")
     Tracker:AddLocations("locations/east clock town.json")
     Tracker:AddLocations("locations/west clock town.json")

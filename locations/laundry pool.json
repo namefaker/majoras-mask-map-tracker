@@ -1,0 +1,174 @@
+    //Termina
+ [
+    {
+      "name": "Laundry Pool",
+      "access_rules": [""],
+      "item_count": 1,
+      "sections": [
+        {
+          "name": "Guru Guru",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Kafei",
+          "access_rules": ["ltk"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Curiosity Shop Man #1",
+          "access_rules": ["ltk"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        },
+        {
+          "name": "Curiosity Shop Man #2",
+          "access_rules": ["ltk"],
+          "chest_unopened_img": "images/other/chest_brown_closed",
+          "chest_opened_img": "images/other/chest_brown_open"
+        }
+      ],
+      "map_locations": [
+        {
+          "map": "Termina",
+          "x": 1290,
+          "y": 840,
+          "size": 20
+        }
+      ]
+    },
+    // Laundry Pool 
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "sections": [
+            {
+                "ref": "Laundry Pool/Guru Guru",
+                "name": "Guru Guru",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 340,
+              "y": 510,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Laundry Pool/Kafei",
+                "name": "Kafei",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Laundry Pool/Curiosity Shop Man #1",
+              "name": "Curiosity Shop Man #1",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+            "ref": "Laundry Pool/Curiosity Shop Man #2",
+            "name": "Curiosity Shop Man #2",
+            "chest_unopened_img": "images/other/chest_brown_closed",
+            "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 250,
+              "y": 500,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Laundry Pool/Scrub Trade",
+                "name": "SCT Scrub Trade",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 350,
+              "y": 370,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Laundry Pool/Final Day Chest",
+                "name": "Day 3 Chest",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 435,
+              "y": 365,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Laundry Pool/Postbox",
+                "name": "SCT Postbox",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 410,
+              "y": 400,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "sections": [
+            {
+                "ref": "Laundry Pool/Skull Kid Item",
+                "name": "Skull Kid Item",
+                "chest_unopened_img": "images/other/chest_brown_closed",
+                "chest_opened_img": "images/other/chest_brown_open"
+            },
+            {
+              "ref": "Laundry Pool/Skull Kid Song",
+              "name": "Skull Kid Song",
+              "chest_unopened_img": "images/other/chest_brown_closed",
+              "chest_opened_img": "images/other/chest_brown_open"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 340,
+              "y": 250,
+              "size": 20
+          }
+        ]
+       }
+     ]
+  }
+]
