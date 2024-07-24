@@ -19,6 +19,7 @@ add more Settings <br>
 add more Checks <br>
 add ool Checks <br>
 add better icons for map maybe better maps? <br>
+auto updating
 <br>
 
 special thanks to phaaze, he helps a lot! 
