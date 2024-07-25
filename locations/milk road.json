@@ -8,24 +8,24 @@
             {
               "name": "Gorman Bros Race",
               "access_rules": ["$play_epona"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Romani Ranch Map Purchase (Tingle)",
               "item_count": 1,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Bay Map Purchase (Tingle)",
               "item_count": 1,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -37,9 +37,7 @@
             "sections": [
               {
                   "ref": "Milk Road/Gorman Bros Race",
-                  "name": "Gorman Bros Race",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Gorman Bros Race"
               }
             ],
             "map_locations": [
@@ -55,15 +53,11 @@
             "sections": [
               {
                   "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
-                  "name": "Romani Ranch Map Purchase (Tingle)",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Romani Ranch Map Purchase (Tingle)"
               },
               {
                 "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
-                "name": "Great Bay Map Purchase (Tingle)",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Great Bay Map Purchase (Tingle)"
               }
             ],
             "map_locations": [
@@ -84,9 +78,7 @@
           "sections": [
             {
                 "ref": "Milk Road/Gorman Bros Race",
-                "name": "Gorman Bros Race",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Gorman Bros Race"
             }
           ],
           "map_locations": [
@@ -102,15 +94,11 @@
           "sections": [
             {
                 "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
-                "name": "Romani Ranch Map Purchase (Tingle)",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Romani Ranch Map Purchase (Tingle)"
             },
             {
               "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
-              "name": "Great Bay Map Purchase (Tingle)",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Great Bay Map Purchase (Tingle)"
             } 
           ],
           "map_locations": [

@@ -7,39 +7,39 @@
           "sections": [
             {
               "name": "Darmani",
-              "access_rules": ["$use_lens, $play_healing","$access_spring,$play_healing"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "access_rules": ["$use_lens,$play_healing","$access_spring,$play_healing, $use_lens"],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Hungry Goron",
               "access_rules": ["$spikes"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Smithy Day 1",
                 "access_rules": ["$any_wallet,$shoot_fa","$any_wallet,$get_hsw"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Smithy Day 2",
                 "access_rules": ["$shoot_fa,golddust","$get_hsw,golddust"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Spring Grotto",
                 "access_rules": ["$access_spring"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Waterfall Chest",
                 "access_rules": ["$access_spring"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -51,15 +51,11 @@
             "sections": [
               {
                   "ref": "Mountain Village/Mountain Smithy Day 1",
-                  "name": "Mountain Smithy Day 1",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mountain Smithy Day 1"
               },
               {
                 "ref": "Mountain Village/Mountain Smithy Day 2",
-                "name": "Mountain Smithy Day 2",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mountain Smithy Day 2"
               }
             ],
             "map_locations": [
@@ -75,15 +71,11 @@
             "sections": [
               {
                   "ref": "Mountain Village/Hungry Goron",
-                  "name": "Hungry Goron",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Hungry Goron"
               },
               {
                 "ref": "Mountain Village/Mountain Waterfall Chest",
-                "name": "Mountain Waterfall Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mountain Waterfall Chest"
               }
             ],
             "map_locations": [
@@ -99,9 +91,7 @@
             "sections": [
               {
                   "ref": "Mountain Village/Darmani",
-                  "name": "Darmani",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Darmani"
               }
             ],
             "map_locations": [
@@ -117,9 +107,7 @@
             "sections": [
               {
                   "ref": "Mountain Village/Mountain Spring Grotto",
-                  "name": "Mountain Spring Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mountain Spring Grotto"
               }
             ],
             "map_locations": [
@@ -140,15 +128,11 @@
           "sections": [
             {
                 "ref": "Mountain Village/Mountain Smithy Day 1",
-                "name": "Mountain Smithy Day 1",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mountain Smithy Day 1"
             },
             {
                 "ref": "Mountain Village/Mountain Smithy Day 2",
-                "name": "Mountain Smithy Day 2",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mountain Smithy Day 2"
             }
           ],
           "map_locations": [
@@ -164,9 +148,7 @@
           "sections": [
             {
                 "ref": "Mountain Village/Darmani",
-                "name": "Darmani",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Darmani"
             }
           ],
           "map_locations": [
@@ -182,9 +164,7 @@
             "sections": [
               {
                   "ref": "Mountain Village/Hungry Goron",
-                  "name": "Hungry Goron",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Hungry Goron"
               }
             ],
             "map_locations": [
@@ -200,9 +180,7 @@
             "sections": [
               {
                   "ref": "Mountain Village/Mountain Spring Grotto",
-                  "name": "Mountain Spring Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mountain Spring Grotto"
               }
             ],
             "map_locations": [
@@ -218,9 +196,7 @@
             "sections": [
               {
                   "ref": "Mountain Village/Mountain Waterfall Chest",
-                  "name": "Mountain Waterfall Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mountain Waterfall Chest"
               }
             ],
             "map_locations": [

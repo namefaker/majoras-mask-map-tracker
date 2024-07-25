@@ -8,56 +8,56 @@
             {
               "name": "Kotake",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Mystery Woods Grotto",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Near Swamp Spider House Grotto",
                 "access_rules": ["$kill_octo, $access_ssh"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Swamp Spider House Reward",
                 "access_rules": ["$clear_ssh"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Boat Archery",
                 "access_rules": ["odolwa,$kill_odolwa"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Koume",
                 "access_rules": ["bottle"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Pictograph Contest Winner",
                 "access_rules": ["pb"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Swamp Scrub Trade",
                 "access_rules": ["ldeed"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Swamp Tourist Center Roof",
                 "access_rules": ["ldeed,deku"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             }
           ]
         },
@@ -69,33 +69,23 @@
             "sections": [
               {
                   "ref": "Southern Swamp/Boat Archery",
-                  "name": "Boat Archery",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Boat Archery"
               },
               {
                 "ref": "Southern Swamp/Koume",
-                "name": "Koume",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Koume"
               },
               {
                 "ref": "Southern Swamp/Pictograph Contest Winner",
-                "name": "Pictograph Contest Winner",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Pictograph Contest Winner"
               },
               {
               "ref": "Southern Swamp/Swamp Scrub Trade",
-              "name": "Swamp Scrub Trade",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Swamp Scrub Trade"
               },
               {
                 "ref": "Southern Swamp/Swamp Tourist Center Roof",
-                "name": "Swamp Tourist Center Roof",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Swamp Tourist Center Roof"
               }
             ],
             "map_locations": [
@@ -111,15 +101,11 @@
             "sections": [
               {
                   "ref": "Southern Swamp/Near Swamp Spider House Grotto",
-                  "name": "Near Swamp Spider House Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Near Swamp Spider House Grotto"
               },
               {
                 "ref": "Southern Swamp/Swamp Spider House Reward",
-                "name": "Swamp Spider House Reward",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Swamp Spider House Reward"
               }
             ],
             "map_locations": [
@@ -135,15 +121,11 @@
             "sections": [
               {
                   "ref": "Southern Swamp/Kotake",
-                  "name": "Kotake",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Kotake"
               },
               {
                 "ref": "Southern Swamp/Mystery Woods Grotto",
-                "name": "Mystery Woods Grotto",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mystery Woods Grotto"
               }
             ],
             "map_locations": [
@@ -164,15 +146,11 @@
           "sections": [
             {
                 "ref": "Southern Swamp/Kotake",
-                "name": "Kotake",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Kotake"
             },
             {
                 "ref": "Southern Swamp/Mystery Woods Grotto",
-                "name": "Mystery Woods Grotto",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mystery Woods Grotto"
             }
           ],
           "map_locations": [
@@ -188,9 +166,7 @@
             "sections": [
               {
                   "ref": "Southern Swamp/Near Swamp Spider House Grotto",
-                  "name": "Near Swamp Spider House Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Near Swamp Spider House Grotto"
               }
             ],
             "map_locations": [
@@ -206,9 +182,7 @@
             "sections": [
               {
                   "ref": "Southern Swamp/Swamp Spider House Reward",
-                  "name": "Swamp Spider House Reward",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Swamp Spider House Reward"
               }
             ],
             "map_locations": [
@@ -224,33 +198,23 @@
             "sections": [
               {
                   "ref": "Southern Swamp/Boat Archery",
-                  "name": "Boat Archery",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Boat Archery"
               },
               {
                 "ref": "Southern Swamp/Koume",
-                "name": "Koume",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Koume"
               },
               {
                 "ref": "Southern Swamp/Pictograph Contest Winner",
-                "name": "Pictograph Contest Winner",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Pictograph Contest Winner"
               },
               {
                 "ref": "Southern Swamp/Swamp Scrub Trade",
-                "name": "Swamp Scrub Trade",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Swamp Scrub Trade"
               },
               {
                 "ref": "Southern Swamp/Swamp Tourist Center Roof",
-                "name": "Swamp Tourist Center Roof",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Swamp Tourist Center Roof"
               }
             ],
             "map_locations": [

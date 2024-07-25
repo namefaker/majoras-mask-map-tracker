@@ -9,46 +9,41 @@
               "name": "Mirror Shield Chest",
               "access_rules": ["la,fa","la,$get_bigpoe,gibdo,sticks",
               "$access_beans,gibdo,sticks,$get_bigpoe","$access_beans,gibdo,fa,$get_bigpoe"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Well Left Path Chest",
                 "access_rules": ["$access_well_front,$get_bluegoo"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Well Right Path Chest",
                 "access_rules": ["$la,gido,bottle","$access_beans,gibdo,bottle,"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
             //Termina
-    {
-        "item_count": 1,
-        "children": [
+    {   
+      "item_count": 1,
+      "children": [
           {
+            "name": "Beneath the Well",
             "sections": [
               {
                   "ref": "Beneath the Well/Mirror Shield Chest",
-                  "name": "Mirror Shield Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mirror Shield Chest"
               },
               {
                 "ref": "Beneath the Well/Well Left Path Chest",
-                "name": "Well Left Path Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Left Path Chest"
               },
               {
                 "ref": "Beneath the Well/Well Right Path Chest",
-                "name": "Well Right Path Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Right Path Chest"
               }
             ],
             "map_locations": [
@@ -69,9 +64,7 @@
             "sections": [
               {
                   "ref": "Beneath the Well/Mirror Shield Chest",
-                  "name": "Mirror Shield Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mirror Shield Chest"
               }
             ],
             "map_locations": [
@@ -87,9 +80,7 @@
             "sections": [
               {
                   "ref": "Beneath the Well/Well Left Path Chest",
-                  "name": "Well Left Path Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Well Left Path Chest"
               }
             ],
             "map_locations": [
@@ -105,9 +96,7 @@
             "sections": [
               {
                   "ref": "Beneath the Well/Well Right Path Chest",
-                  "name": "Well Right Path Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Well Right Path Chest"
               }
             ],
             "map_locations": [

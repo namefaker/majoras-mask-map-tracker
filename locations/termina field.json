@@ -9,85 +9,85 @@
               "name": "Astronomy Telescope",
               "access_rules": ["$access_observatory"],
               "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Bio Baba Grotto",
                 "access_rules": ["$explosion_goron, zora"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Buisness Scrub Purchase",
                 "access_rules": ["$access_observatory,$any_wallet"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Dodongo Grotto",
                 "access_rules": ["$any_sword","$explosion_goron", "bow"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Kamaro",
                 "access_rules": ["$play_healing"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Peahat Grotto",
                 "access_rules": ["bow","$any_sword","$any_transform"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Grass Chest",
                 "access_rules": [""],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Grass Grotto",
                 "access_rules": [""],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Pillar Grotto",
                 "access_rules": [""],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
              },
              {
                 "name": "Stump Chest",
                 "access_rules": ["hs","$flying_bean"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Underwater Chest",
                 "access_rules": ["zora"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Gossip Stones",
-                "access_rules": ["deku,$play_sonata","goron,$play_lullaby","zora,$play_nwbn"],
+                "access_rules": ["deku,$play_sonata,$explosion_goron","goron,$play_lullaby","zora,$play_nwbn,$explosion_goron"],
                 "visibility_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             }
         ]
           },
@@ -99,9 +99,7 @@
               "sections": [
                 {
                     "ref": "Termina Field/Astronomy Telescope",
-                    "name": "Astronomy Telescope",
-                    "chest_unopened_img": "images/other/chest_brown_closed",
-                    "chest_opened_img": "images/other/chest_brown_open"
+                    "name": "Astronomy Telescope"
                 }
               ],
               "map_locations": [
@@ -117,9 +115,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Bio Baba Grotto",
-                      "name": "Bio Baba Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Bio Baba Grotto"
                   }
                 ],
                 "map_locations": [
@@ -135,9 +131,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Buisness Scrub Purchase",
-                      "name": "Buisness Scrub Purchase",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Buisness Scrub Purchase"
                   }
                 ],
                 "map_locations": [
@@ -153,9 +147,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Dodongo Grotto",
-                      "name": "Dodongo Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Dodongo Grotto"
                   }
                 ],
                 "map_locations": [
@@ -171,9 +163,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Kamaro",
-                      "name": "Kamaro",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Kamaro"
                   }
                 ],
                 "map_locations": [
@@ -189,9 +179,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Peahat Grotto",
-                      "name": "Peahat Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Peahat Grotto"
                   }
                 ],
                 "map_locations": [
@@ -207,9 +195,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Chest",
-                      "name": "Grass Chest",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Grass Chest"
                   }
                 ],
                 "map_locations": [
@@ -225,9 +211,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Grotto",
-                      "name": "Grass Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Grass Grotto"
                   }
                 ],
                 "map_locations": [
@@ -243,9 +227,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Pillar Grotto",
-                      "name": "Pillar Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Pillar Grotto"
                   }
                 ],
                 "map_locations": [
@@ -261,9 +243,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Stump Chest",
-                      "name": "Stump Chest",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Stump Chest"
                   }
                 ],
                 "map_locations": [
@@ -279,9 +259,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Underwater Chest",
-                      "name": "Underwater Chest",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Underwater Chest"
                   }
                 ],
                 "map_locations": [
@@ -297,9 +275,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Gossip Stones",
-                      "name": "Gossip Stones",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Gossip Stones"
                   }
                 ],
                 "map_locations": [
@@ -338,9 +314,7 @@
             "sections": [
               {
                   "ref": "Termina Field/Astronomy Telescope",
-                  "name": "Astronomy Telescope",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Astronomy Telescope"
               }
             ],
             "map_locations": [
@@ -356,9 +330,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Bio Baba Grotto",
-                      "name": "Bio Baba Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Bio Baba Grotto"
                   }
                 ],
                 "map_locations": [
@@ -374,9 +346,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Buisness Scrub Purchase",
-                      "name": "Buisness Scrub Purchase",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Buisness Scrub Purchase"
                   }
                 ],
                 "map_locations": [
@@ -392,9 +362,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Dodongo Grotto",
-                      "name": "Dodongo Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Dodongo Grotto"
                   }
                 ],
                 "map_locations": [
@@ -410,9 +378,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Kamaro",
-                      "name": "Kamaro",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Kamaro"
                   }
                 ],
                 "map_locations": [
@@ -428,9 +394,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Peahat Grotto",
-                      "name": "Peahat Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Peahat Grotto"
                   }
                 ],
                 "map_locations": [
@@ -446,9 +410,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Chest",
-                      "name": "Grass Chest",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Grass Chest"
                   }
                 ],
                 "map_locations": [
@@ -464,9 +426,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Grotto",
-                      "name": "Grass Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Grass Grotto"
                   }
                 ],
                 "map_locations": [
@@ -482,9 +442,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Pillar Grotto",
-                      "name": "Pillar Grotto",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Pillar Grotto"
                   }
                 ],
                 "map_locations": [
@@ -500,9 +458,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Stump Chest",
-                      "name": "Stump Chest",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Stump Chest"
                   }
                 ],
                 "map_locations": [
@@ -518,9 +474,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Underwater Chest",
-                      "name": "Underwater Chest",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Underwater Chest"
                   }
                 ],
                 "map_locations": [
@@ -536,9 +490,7 @@
                 "sections": [
                   {
                       "ref": "Termina Field/Gossip Stones",
-                      "name": "Gossip Stones",
-                      "chest_unopened_img": "images/other/chest_brown_closed",
-                      "chest_opened_img": "images/other/chest_brown_open"
+                      "name": "Gossip Stones"
                   }
                 ],
                 "map_locations": [

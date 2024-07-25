@@ -8,20 +8,20 @@
             {
               "name": "Behind Woodfall Owl Chest",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Entrance to Woodfall Chest",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Woodfall Bridge Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             }
           ]
         },
@@ -33,21 +33,15 @@
             "sections": [
               {
                   "ref": "Woodfall/Behind Woodfall Owl Chest",
-                  "name": "Behind Woodfall Owl Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Behind Woodfall Owl Chest"
               },
               {
                 "ref": "Woodfall/Entrance to Woodfall Chest",
-                "name": "Entrance to Woodfall Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Entrance to Woodfall Chest"
               },
               {
                 "ref": "Woodfall/Woodfall Bridge Chest",
-                "name": "Woodfall Bridge Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Woodfall Bridge Chest"
               }
             ],
             "map_locations": [
@@ -68,9 +62,7 @@
           "sections": [
             {
                 "ref": "Woodfall/Behind Woodfall Owl Chest",
-                "name": "Behind Woodfall Owl Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Behind Woodfall Owl Chest"
             }
           ],
           "map_locations": [
@@ -86,9 +78,7 @@
           "sections": [
             {
                 "ref": "Woodfall/Entrance to Woodfall Chest",
-                "name": "Entrance to Woodfall Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Entrance to Woodfall Chest"
             }
           ],
           "map_locations": [
@@ -104,9 +94,7 @@
             "sections": [
               {
                   "ref": "Woodfall/Woodfall Bridge Chest",
-                  "name": "Woodfall Bridge Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Woodfall Bridge Chest"
               }
             ],
             "map_locations": [

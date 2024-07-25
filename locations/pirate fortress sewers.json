@@ -7,26 +7,26 @@
         {
           "name": "Pirate Fortress Sewers Maze Chest",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Sewers Cage",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/items/hp.png",
+          "chest_opened_img": "images/items/hp_grey.png"
         },
         {
           "name": "Pirate Fortress Sewers Cage Room Deep Chest",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Sewers Cage Room Shallow Chest",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         }
       ]
     },
@@ -37,27 +37,19 @@
           "sections": [
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Maze Chest",
-              "name": "Pirate Fortress Sewers Maze Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Maze Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage",
-              "name": "Pirate Fortress Sewers Log Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Log Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Deep Chest",
-              "name": "Pirate Fortress Sewers Sand Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Sand Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
-              "name": "Pirate Fortress Sewers Sand Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Sand Chest"
             }
           ],
           "map_locations": [
@@ -78,27 +70,19 @@
           "sections": [
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Maze Chest",
-              "name": "Pirate Fortress Sewers Maze Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Maze Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage",
-              "name": "Pirate Fortress Sewers Cage",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Cage"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Deep Chest",
-              "name": "Pirate Fortress Sewers Maze Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Maze Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
-              "name": "Pirate Fortress Sewers Maze Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Sewers Maze Chest"
             }
           ],
           "map_locations": [

@@ -8,50 +8,50 @@
             {
               "name": "Baby Goron",
               "access_rules": ["goron,ocarina"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/songs/lullaby.png",
+              "chest_opened_img": "images/songs/lullabycheck.png"
             },
             {
               "name": "Biggest Bomb Bag Purchase",
               "access_rules": ["$any_wallet,goron"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Goron Village Ledge",
-                "access_rules": ["$any_wallet,goron,deku"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "access_rules": ["$any_wallet,goron,deku,sdeed"],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Mountain Scrub Trade",
                 "access_rules": ["deku,sdeed"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lens Cave Invisible Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lens Cave Rock Chest",
                 "access_rules": ["$explosion"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lens of Truth Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Powder Keg Challenge",
                 "access_rules": ["$access_spring", "fa,goron"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -64,9 +64,7 @@
              "sections": [
               {
                   "ref": "Goron Village/Baby Goron",
-                  "name": "Baby Goron",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"                    
+                  "name": "Baby Goron"                  
               }
                 ],
                     "map_locations": [
@@ -82,21 +80,15 @@
             "sections": [
               {
                   "ref": "Goron Village/Biggest Bomb Bag Purchase",
-                  "name": "Biggest Bomb Bag Purchase",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Biggest Bomb Bag Purchase"
               },
               {
                 "ref": "Goron Village/Goron Village Ledge",
-                "name": "Goron Village Ledge",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Goron Village Ledge"
               },
               {
                 "ref": "Goron Village/Mountain Scrub Trade",
-                "name": "Mountain Scrub Trade",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mountain Scrub Trade"
               }
             ],
             "map_locations": [
@@ -112,21 +104,15 @@
             "sections": [
               {
                   "ref": "Goron Village/Lens Cave Invisible Chest",
-                  "name": "Lens Cave Invisible Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Lens Cave Invisible Chest"
               },
               {
                 "ref": "Goron Village/Lens Cave Rock Chest",
-                "name": "Lens Cave Rock Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Lens Cave Rock Chest"
               },
               {
                 "ref": "Goron Village/Lens of Truth Chest",
-                "name": "Lens of Truth Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Lens of Truth Chest"
               }
             ],
             "map_locations": [
@@ -142,9 +128,7 @@
             "sections": [
               {
                   "ref": "Goron Village/Powder Keg Challenge",
-                  "name": "Powder Keg Challenge",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Powder Keg Challenge"
               }
             ],
             "map_locations": [
@@ -165,9 +149,7 @@
           "sections": [
             {
                 "ref": "Goron Village/Baby Goron",
-                "name": "Baby Goron",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Baby Goron"
             }
           ],
           "map_locations": [
@@ -183,21 +165,15 @@
           "sections": [
             {
                 "ref": "Goron Village/Biggest Bomb Bag Purchase",
-                "name": "Biggest Bomb Bag Purchase",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Biggest Bomb Bag Purchase"
             },
             {
                 "ref": "Goron Village/Goron Village Ledge",
-                "name": "Goron Village Ledge",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Goron Village Ledge"
             },
             {
                 "ref": "Goron Village/Mountain Scrub Trade",
-                "name": "Mountain Scrub Trade",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Mountain Scrub Trade"
             }
           ],
           "map_locations": [
@@ -213,21 +189,15 @@
             "sections": [
               {
                   "ref": "Goron Village/Lens Cave Invisible Chest",
-                  "name": "Lens Cave Invisible Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Lens Cave Invisible Chest"
               },
               {
                 "ref": "Goron Village/Lens Cave Rock Chest",
-                "name": "Lens Cave Rock Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Lens Cave Rock Chest"
               },
               {
                 "ref": "Goron Village/Lens of Truth Chest",
-                "name": "Lens of Truth Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Lens of Truth Chest"
               }
             ],
             "map_locations": [
@@ -243,9 +213,7 @@
             "sections": [
               {
                   "ref": "Goron Village/Powder Keg Challenge",
-                  "name": "Powder Keg Challenge",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Powder Keg Challenge"
               }
             ],
             "map_locations": [

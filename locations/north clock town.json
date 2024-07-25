@@ -3,58 +3,57 @@
         {
           "name": "North Clock Town",
           "access_rules": [""],
-          "item_count": 1,
           "sections": [
             {
               "name": "Bombers' Hide and Seed",
               "access_rules": ["$projectile"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Map Purchase (Tingle)",
               "item_count": 2,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Keaton Quiz",
               "access_rules": ["keaton"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
             },
             {
               "name": "Tree",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/items/hp.png.",
+              "chest_opened_img": "images/items/hp_grey.png"
             },
             {
               "name": "Old Lady",
               "codes": "oldladyfinish",
               "access_rules": ["sword","goron","zora","gfs"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Fairy",
               "access_rules": ["$any_transform"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Fairy Non-Human",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Deku Playground Any Day",
               "access_rules": ["deku"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ],
           "map_locations": [
@@ -74,9 +73,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Bombers' Hide and Seed",
-                  "name": "NCT Bombers' Hide and Seed",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "NCT Bombers' Hide and Seed"
               }
             ],
             "map_locations": [
@@ -92,9 +89,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Map Purchase (Tingle)",
-                  "name": "NCT Map Purchase (Tingle)",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "NCT Map Purchase (Tingle)"
               }
             ],
             "map_locations": [
@@ -110,9 +105,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Keaton Quiz",
-                  "name": "Keaton Quiz",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Keaton Quiz"
               }
             ],
             "map_locations": [
@@ -134,9 +127,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Tree",
-                  "name": "NCT Tree",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "NCT Tree"
               }
             ],
             "map_locations": [
@@ -152,9 +143,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Old Lady",
-                  "name": "NCT Old Lady",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "NCT Old Lady"
               }
             ],
             "map_locations": [
@@ -170,9 +159,7 @@
             "sections": [
               {
                   "ref": "North Clock Town/Deku Playground Any Day",
-                  "name": "NCT Deku Playground Any Day",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "NCT Deku Playground Any Day"
               }
             ],
             "map_locations": [
@@ -188,15 +175,11 @@
             "sections": [
               {
                   "ref": "North Clock Town/Great Fairy",
-                  "name": "NCT Great Fairy",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "NCT Great Fairy"
               },
               {
                 "ref": "North Clock Town/Great Fairy Non-Human",
-                "name": "NCT Great Fairy Non-Human",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "NCT Great Fairy Non-Human"
               }
             ],
             "map_locations": [

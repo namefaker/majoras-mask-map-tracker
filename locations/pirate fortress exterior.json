@@ -7,20 +7,20 @@
         {
           "name": "Pirate Fortress Exterior Corner Chest",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Exterior Log Chest",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Exterior Sand Chest",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         }
       ]
     },
@@ -31,21 +31,15 @@
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Corner Chest",
-              "name": "Pirate Fortress Exterior Corner Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Exterior Corner Chest"
             },
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Log Chest",
-              "name": "Pirate Fortress Exterior Log Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Exterior Log Chest"
             },
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Sand Chest",
-              "name": "Pirate Fortress Exterior Sand Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Exterior Sand Chest"
             }
           ],
           "map_locations": [
@@ -66,9 +60,7 @@
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Corner Chest",
-              "name": "Pirate Fortress Exterior Corner Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Exterior Corner Chest"
             }
           ],
           "map_locations": [
@@ -84,9 +76,7 @@
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Log Chest",
-              "name": "Pirate Fortress Exterior Log Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Exterior Log Chest" 
             }
           ],
           "map_locations": [
@@ -102,9 +92,7 @@
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Sand Chest",
-              "name": "Pirate Fortress Exterior Sand Chest",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Pirate Fortress Exterior Sand Chest"
             }
           ],
           "map_locations": [

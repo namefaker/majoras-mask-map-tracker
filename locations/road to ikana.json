@@ -8,20 +8,20 @@
             {
               "name": "Invisible Soldier (Shiro)",
               "access_rules": ["$play_epona,$use_lens,bottle"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Road to Ikana Grotto",
                 "access_rules": ["goron"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Road to Ikana Pillar Chest",
                 "access_rules": ["hs"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -33,9 +33,7 @@
             "sections": [
               {
                   "ref": "Road to Ikana/Invisible Soldier (Shiro)",
-                  "name": "Invisible Soldier (Shiro)",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Invisible Soldier (Shiro)"
               }
             ],
             "map_locations": [
@@ -51,9 +49,7 @@
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Grotto",
-                  "name": "Road to Ikana Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Road to Ikana Grotto"
               }
             ],
             "map_locations": [
@@ -69,9 +65,7 @@
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Pillar Chest",
-                  "name": "Road to Ikana Pillar Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Road to Ikana Pillar Chest"
               }
             ],
             "map_locations": [
@@ -92,9 +86,7 @@
             "sections": [
               {
                   "ref": "Road to Ikana/Invisible Soldier (Shiro)",
-                  "name": "Invisible Soldier (Shiro)",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Invisible Soldier (Shiro)"
               }
             ],
             "map_locations": [
@@ -110,9 +102,7 @@
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Grotto",
-                  "name": "Road to Ikana Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Road to Ikana Grotto"
               }
             ],
             "map_locations": [
@@ -128,9 +118,7 @@
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Pillar Chest",
-                  "name": "Road to Ikana Pillar Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Road to Ikana Pillar Chest"
               }
             ],
             "map_locations": [

@@ -8,20 +8,20 @@
             {
               "name": "Inverted Stone Tower Left Chest",
               "access_rules": ["$access_istt,$flying_bean"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Inverted Stone Tower Middle Chest",
                 "access_rules": ["$access_istt,$flying_bean"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Inverted Stone Tower Right Chest",
                 "access_rules": ["$access_istt,$flying_bean"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -33,21 +33,15 @@
             "sections": [
               {
                   "ref": "Stone Tower/Inverted Stone Tower Left Chest",
-                  "name": "Inverted Stone Tower Left Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Inverted Stone Tower Left Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
-                "name": "Inverted Stone Tower Middle Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Inverted Stone Tower Middle Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Right Chest",
-                "name": "Inverted Stone Tower Right Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Inverted Stone Tower Right Chest"
               }
             ],
             "map_locations": [
@@ -68,21 +62,15 @@
             "sections": [
               {
                   "ref": "Stone Tower/Inverted Stone Tower Left Chest",
-                  "name": "Inverted Stone Tower Left Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Inverted Stone Tower Left Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
-                "name": "Inverted Stone Tower Middle Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Inverted Stone Tower Middle Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Right Chest",
-                "name": "Inverted Stone Tower Right Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Inverted Stone Tower Right Chest"
               }
             ],
             "map_locations": [

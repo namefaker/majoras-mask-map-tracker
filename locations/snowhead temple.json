@@ -8,50 +8,50 @@
             {
               "name": "Snowhead Heart Container",
               "access_rules": ["$kill_goht"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/items/hc.png",
+              "chest_opened_img": "images/items/hc_grey.png"
             },
             {
               "name": "Fire Arrow Chest",
               "access_rules": ["$explosion","$use_scarecrow"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-                "name": "Snowhead Boss Key Chest",
-                "access_rules": ["$explosion","$use_scarecrow"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Snowhead Boss Key Chest",
+              "access_rules": ["$explosion","$use_scarecrow"],
+              "chest_unopened_img": "images/other/chest_golden_closed.png",
+              "chest_opened_img": "images/other/chest_golden_open.png"
             },
             {
                 "name": "Snowhead Map Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Compass Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Bridge Room Chest",
                 "access_rules": ["fa", "hs"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Block Room Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Icicle Room Chest",
                 "access_rules": ["$explosion","$use_scarecrow"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -63,45 +63,35 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
-                  "name": "Snowhead Bridge Room Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Bridge Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Map Chest",
-                "name": "Snowhead Map Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Map Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Block Room Chest",
-                "name": "Snowhead Block Room Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Block Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Compass Chest",
-                "name": "Snowhead Compass Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Compass Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Icicle Room Chest",
-                "name": "Snowhead Icicle Room Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Icicle Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Fire Arrow Chest",
-                "name": "Fire Arrow Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Fire Arrow Chest"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Boss Key Chest",
+                "name": "Snowhead Boss Key Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Heart Container",
-                "name": "Snowhead Heart Container",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Heart Container"
               }
             ],
             "map_locations": [
@@ -122,9 +112,7 @@
           "sections": [
             {
                 "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
-                "name": "Snowhead Bridge Room Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Bridge Room Chest"
             }
           ],
           "map_locations": [
@@ -140,9 +128,7 @@
           "sections": [
             {
                 "ref": "Snowhead Temple/Snowhead Map Chest",
-                "name": "Snowhead Map Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Map Chest"
             }
           ],
           "map_locations": [
@@ -158,9 +144,7 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Block Room Chest",
-                  "name": "Snowhead Block Room Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Block Room Chest"
               }
             ],
             "map_locations": [
@@ -176,9 +160,7 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Compass Chest",
-                  "name": "Snowhead Compass Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Compass Chest"
               }
             ],
             "map_locations": [
@@ -194,9 +176,7 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Icicle Room Chest",
-                  "name": "Snowhead Icicle Room Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Icicle Room Chest"
               }
             ],
             "map_locations": [
@@ -212,9 +192,7 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Fire Arrow Chest",
-                  "name": "Fire Arrow Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Fire Arrow Chest"
               }
             ],
             "map_locations": [
@@ -230,9 +208,7 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Boss Key Chest",
-                  "name": "Snowhead Boss Key Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Boss Key Chest"
               }
             ],
             "map_locations": [
@@ -248,9 +224,7 @@
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Heart Container",
-                  "name": "Snowhead Heart Container",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Heart Container"
               }
             ],
             "map_locations": [

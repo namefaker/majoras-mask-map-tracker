@@ -8,26 +8,26 @@
         {
           "name": "Guru Guru",
           "access_rules": [""],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Kafei",
           "access_rules": ["ltk"],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Curiosity Shop Man #1",
           "access_rules": ["ltk"],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Curiosity Shop Man #2",
           "access_rules": ["ltk"],
-          "chest_unopened_img": "images/other/chest_brown_closed",
-          "chest_opened_img": "images/other/chest_brown_open"
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         }
       ],
       "map_locations": [
@@ -47,9 +47,7 @@
           "sections": [
             {
                 "ref": "Laundry Pool/Guru Guru",
-                "name": "Guru Guru",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Guru Guru"
             }
           ],
           "map_locations": [
@@ -65,21 +63,15 @@
           "sections": [
             {
                 "ref": "Laundry Pool/Kafei",
-                "name": "Kafei",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Kafei"
             },
             {
               "ref": "Laundry Pool/Curiosity Shop Man #1",
-              "name": "Curiosity Shop Man #1",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Curiosity Shop Man #1"
             },
             {
             "ref": "Laundry Pool/Curiosity Shop Man #2",
-            "name": "Curiosity Shop Man #2",
-            "chest_unopened_img": "images/other/chest_brown_closed",
-            "chest_opened_img": "images/other/chest_brown_open"
+            "name": "Curiosity Shop Man #2"
             }
           ],
           "map_locations": [
@@ -95,9 +87,7 @@
           "sections": [
             {
                 "ref": "Laundry Pool/Scrub Trade",
-                "name": "SCT Scrub Trade",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "SCT Scrub Trade"
             }
           ],
           "map_locations": [
@@ -113,9 +103,7 @@
           "sections": [
             {
                 "ref": "Laundry Pool/Final Day Chest",
-                "name": "Day 3 Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Day 3 Chest"
             }
           ],
           "map_locations": [
@@ -131,9 +119,7 @@
           "sections": [
             {
                 "ref": "Laundry Pool/Postbox",
-                "name": "SCT Postbox",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "SCT Postbox"
             }
           ],
           "map_locations": [
@@ -149,15 +135,11 @@
           "sections": [
             {
                 "ref": "Laundry Pool/Skull Kid Item",
-                "name": "Skull Kid Item",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Skull Kid Item"
             },
             {
               "ref": "Laundry Pool/Skull Kid Song",
-              "name": "Skull Kid Song",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Skull Kid Song"
             }
           ],
           "map_locations": [

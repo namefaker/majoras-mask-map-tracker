@@ -8,14 +8,14 @@
             {
               "name": "Path to Snowhead Grotto",
               "access_rules": ["$explosion,$spikes"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Path to Snowhead Pillar",
               "access_rules": ["$use_lens,$use_scarecrow,$spikes"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
             }
           ]
         },
@@ -27,9 +27,7 @@
             "sections": [
               {
                   "ref": "Path to Snowhead/Path to Snowhead Grotto",
-                  "name": "Path to Snowhead Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Path to Snowhead Grotto"
               }
             ],
             "map_locations": [
@@ -45,9 +43,7 @@
             "sections": [
               {
                   "ref": "Path to Snowhead/Path to Snowhead Pillar",
-                  "name": "Path to Snowhead Pillar",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Path to Snowhead Pillar"
               }
             ],
             "map_locations": [
@@ -68,9 +64,7 @@
           "sections": [
             {
                 "ref": "Path to Snowhead/Path to Snowhead Grotto",
-                "name": "Path to Snowhead Cave Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Path to Snowhead Cave Chest"
             }
           ],
           "map_locations": [
@@ -86,9 +80,7 @@
           "sections": [
             {
                 "ref": "Path to Snowhead/Path to Snowhead Pillar",
-                "name": "Path to Snowhead Pillar",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Path to Snowhead Pillar"
             }
           ],
           "map_locations": [

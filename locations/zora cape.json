@@ -8,38 +8,38 @@
             {
               "name": "Beaver Race #1",
               "access_rules": ["hs,zora"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Like-Like",
                 "access_rules": ["zora"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Zora Cape Grotto",
                 "access_rules": ["$explosion_goron"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Ledge With Tree Chest",
                 "access_rules": ["hs"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Ledge Without Tree Chest",
                 "access_rules": ["hs"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Underwater Chest",
                 "access_rules": ["zora"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -51,15 +51,11 @@
             "sections": [
               {
                   "ref": "Zora Cape/Beaver Race #1",
-                  "name": "Beaver Race #1",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Beaver Race #1"
               },
               {
                 "ref": "Zora Cape/Zora Cape Like-Like",
-                "name": "Zora Cape Like-Like",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Zora Cape Like-Like"
               }
             ],
             "map_locations": [
@@ -75,9 +71,7 @@
             "sections": [
                 {
                     "ref": "Zora Cape/Zora Cape Grotto",
-                    "name": "Zora Cape Grotto",
-                    "chest_unopened_img": "images/other/chest_brown_closed",
-                    "chest_opened_img": "images/other/chest_brown_open"
+                    "name": "Zora Cape Grotto"
                 }
             ],
             "map_locations": [
@@ -93,15 +87,11 @@
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Ledge With Tree Chest",
-                  "name": "Zora Cape Ledge With Tree Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Zora Cape Ledge With Tree Chest"
               },
               {
                 "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
-                "name": "Zora Cape Ledge Without Tree Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Zora Cape Ledge Without Tree Chest"
               }
             ],
             "map_locations": [
@@ -117,9 +107,7 @@
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Underwater Chest",
-                  "name": "Zora Cape Underwater Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Zora Cape Underwater Chest"
               }
             ],
             "map_locations": [
@@ -140,9 +128,7 @@
           "sections": [
             {
                 "ref": "Zora Cape/Beaver Race #1",
-                "name": "Beaver Race #1",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Beaver Race #1"
             }
           ],
           "map_locations": [
@@ -158,9 +144,7 @@
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Grotto",
-                  "name": "Zora Cape Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Zora Cape Grotto"
               }
             ],
             "map_locations": [
@@ -176,9 +160,7 @@
           "sections": [
             {
                 "ref": "Zora Cape/Zora Cape Ledge With Tree Chest",
-                "name": "Zora Cape Ledge With Tree Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Zora Cape Ledge With Tree Chest"
             }
           ],
           "map_locations": [
@@ -194,9 +176,7 @@
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
-                  "name": "Zora Cape Ledge Without Tree Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Zora Cape Ledge Without Tree Chest"
               }
             ],
             "map_locations": [
@@ -212,9 +192,7 @@
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Like-Like",
-                  "name": "Zora Cape Like-Like",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Zora Cape Like-Like"
               }
             ],
             "map_locations": [
@@ -230,9 +208,7 @@
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Underwater Chest",
-                  "name": "Zora Cape Underwater Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Zora Cape Underwater Chest"
               }
             ],
             "map_locations": [

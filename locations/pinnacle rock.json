@@ -8,20 +8,20 @@
             {
               "name": "Pinnacle Rock Lower Chest",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Pinnacle Rock Upper Chest",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Pinnacle Rock Seahorse",
-                "access_rules": ["$access_pfi,pb"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "access_rules": ["$access_pfi,pb,bottle"],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             }
           ]
         },
@@ -33,21 +33,15 @@
             "sections": [
               {
                   "ref": "Pinnacle Rock/Pinnacle Rock Lower Chest",
-                  "name": "Pinnacle Rock Lower Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Pinnacle Rock Lower Chest"
               },
               {
                 "ref": "Pinnacle Rock/Pinnacle Rock Upper Chest",
-                "name": "Pinnacle Rock Upper Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Pinnacle Rock Upper Chest"
               },
               {
                 "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
-                "name": "Pinnacle Rock Seahorse",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Pinnacle Rock Seahorse"
               }
             ],
             "map_locations": [
@@ -68,21 +62,15 @@
             "sections": [
               {
                   "ref": "Pinnacle Rock/Pinnacle Rock Lower Chest",
-                  "name": "Pinnacle Rock Lower Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Pinnacle Rock Lower Chest"
               },
               {
                 "ref": "Pinnacle Rock/Pinnacle Rock Upper Chest",
-                "name": "Pinnacle Rock Upper Chest",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Pinnacle Rock Upper Chest"
               },
               {
                 "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
-                "name": "Pinnacle Rock Seahorse",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Pinnacle Rock Seahorse"
               }
             ],
             "map_locations": [

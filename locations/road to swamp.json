@@ -8,32 +8,32 @@
             {
               "name": "Road to Swamp Grotto",
               "access_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Road to Swamp Tree",
               "access_rules": ["$projectile"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Swamp Archery #1",
                 "access_rules": ["bow"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Map Purchase",
                 "access_rules": ["$projectile"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Woodfall Map Purchase",
                 "access_rules": ["$projectile"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -45,27 +45,19 @@
             "sections": [
               {
                   "ref": "Road to Swamp/Road to Swamp Grotto",
-                  "name": "Road to Swamp Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Road to Swamp Grotto"
               },
               {
                 "ref": "Road to Swamp/Road to Swamp Tree",
-                "name": "Road to Swamp Tree",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Road to Swamp Tree"
               },
               {
                 "ref": "Road to Swamp/Snowhead Map Purchase",
-                "name": "Snowhead Map Purchase",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Snowhead Map Purchase"
               },
               {
               "ref": "Road to Swamp/Woodfall Map Purchase",
-              "name": "Woodfall Map Purchase",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Woodfall Map Purchase"
               }
             ],
             "map_locations": [
@@ -81,9 +73,7 @@
             "sections": [
               {
                   "ref": "Road to Swamp/Swamp Archery #1",
-                  "name": "Swamp Archery #1",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Swamp Archery #1"
               }
             ],
             "map_locations": [
@@ -104,9 +94,7 @@
           "sections": [
             {
                 "ref": "Road to Swamp/Road to Swamp Grotto",
-                "name": "Road to Swamp Grotto",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Road to Swamp Grotto"
             }
           ],
           "map_locations": [
@@ -122,9 +110,7 @@
           "sections": [
             {
                 "ref": "Road to Swamp/Road to Swamp Tree",
-                "name": "Road to Swamp Tree",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Road to Swamp Tree"
             }
           ],
           "map_locations": [
@@ -140,9 +126,7 @@
             "sections": [
               {
                   "ref": "Road to Swamp/Swamp Archery #1",
-                  "name": "Swamp Archery #1",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Swamp Archery #1"
               }
             ],
             "map_locations": [
@@ -158,15 +142,11 @@
             "sections": [
               {
                   "ref": "Road to Swamp/Snowhead Map Purchase",
-                  "name": "Snowhead Map Purchase",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Snowhead Map Purchase"
               },
               {
                 "ref": "Road to Swamp/Woodfall Map Purchase",
-                "name": "Woodfall Map Purchase",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Woodfall Map Purchase"
               }
             ],
             "map_locations": [

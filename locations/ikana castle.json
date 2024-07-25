@@ -8,14 +8,14 @@
             {
               "name": "Ikana Castle Pillar",
               "access_rules": ["$access_castle_upper"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Ikana King",
                 "access_rules": ["$kill_igos"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/songs/elegy.png",
+                "chest_opened_img": "images/songs/elegycheck.png"
             }
           ]
         },
@@ -27,15 +27,11 @@
             "sections": [
               {
                   "ref": "Ikana Castle/Ikana Castle Pillar",
-                  "name": "Ikana Castle Pillar",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Ikana Castle Pillar"
               },
               {
                 "ref": "Ikana Castle/Ikana King",
-                "name": "Ikana King",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Ikana King"
               }
             ],
             "map_locations": [
@@ -56,9 +52,7 @@
             "sections": [
               {
                   "ref": "Ikana Castle/Ikana Castle Pillar",
-                  "name": "Ikana Castle Pillar",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Ikana Castle Pillar"
               }
             ],
             "map_locations": [
@@ -74,9 +68,7 @@
             "sections": [
               {
                   "ref": "Ikana Castle/Ikana King",
-                  "name": "Ikana King",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Ikana King"
               }
             ],
             "map_locations": [

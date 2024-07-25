@@ -8,56 +8,56 @@
             {
               "name": "Stone Tower Map Purchase",
               "access_rules": ["bow","hs"],
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Great Bay Map Purchase",
                 "access_rules": ["bow","hs"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lab Fish",
                 "access_rules": ["bottle"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Great Bay Coast Ledge",
                 "access_rules": ["$use_scarecrow,hs,$flying_bean"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Mikau",
                 "access_rules": ["$play_healing"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Ocean Spider House Chest",
                 "access_rules": ["$explosion,captains,hs,bow"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Ocean Spider House Day 1 Reward",
                 "access_rules": ["$shoot_fa,$explosion,hs"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Great Bay Coast Grotto",
                 "access_rules": [""],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Fisherman Game",
                 "access_rules": ["$finish_gbt,gyorg"],
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
             }
           ]
         },
@@ -69,27 +69,19 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Baby Zoras",
-                  "name": "Baby Zoras",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Baby Zoras"
               },
               {
                 "ref": "Great Bay Coast/Stone Tower Map Purchase",
-                "name": "Stone Tower Map Purchase",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Stone Tower Map Purchase"
               },
               {
                 "ref": "Great Bay Coast/Great Bay Map Purchase",
-                "name": "Great Bay Map Purchase",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Great Bay Map Purchase"
               },
               {
               "ref": "Great Bay Coast/Lab Fish",
-              "name": "Lab Fish",
-              "chest_unopened_img": "images/other/chest_brown_closed",
-              "chest_opened_img": "images/other/chest_brown_open"
+              "name": "Lab Fish"
               }
             ],
             "map_locations": [
@@ -105,9 +97,7 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Coast Ledge",
-                  "name": "Great Bay Coast Ledge",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Great Bay Coast Ledge"
               }
             ],
             "map_locations": [
@@ -123,9 +113,7 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Mikau",
-                  "name": "Mikau",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mikau"
               }
             ],
             "map_locations": [
@@ -141,21 +129,15 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Ocean Spider House Chest",
-                  "name": "Ocean Spider House Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Ocean Spider House Chest"
               },
               {
                 "ref": "Great Bay Coast/Ocean Spider House Day 1 Reward",
-                "name": "Ocean Spider House Day 1 Reward",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Ocean Spider House Day 1 Reward"
               },
               {
                 "ref": "Great Bay Coast/Great Bay Coast Grotto",
-                "name": "Great Bay Coast Grotto",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Great Bay Coast Grotto"
               }
             ],
             "map_locations": [
@@ -171,9 +153,7 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Fisherman Game",
-                  "name": "Fisherman Game",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Fisherman Game"
               }
             ],
             "map_locations": [
@@ -194,15 +174,11 @@
           "sections": [
             {
                 "ref": "Great Bay Coast/Baby Zoras",
-                "name": "Baby Zoras",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Baby Zoras"
             },
             {
                 "ref": "Great Bay Coast/Lab Fish",
-                "name": "Lab Fish",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Lab Fish"
             }
           ],
           "map_locations": [
@@ -218,15 +194,11 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Map Purchase",
-                  "name": "Great Bay Map Purchase",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Great Bay Map Purchase"
               },
               {
                   "ref": "Great Bay Coast/Stone Tower Map Purchase",
-                  "name": "Stone Tower Map Purchase",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Stone Tower Map Purchase"
               }
             ],
             "map_locations": [
@@ -242,9 +214,7 @@
           "sections": [
             {
                 "ref": "Great Bay Coast/Fisherman Game",
-                "name": "Fisherman Game",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Fisherman Game"
             }
           ],
           "map_locations": [
@@ -260,9 +230,7 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Coast Grotto",
-                  "name": "Great Bay Coast Grotto",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Great Bay Coast Grotto"
               }
             ],
             "map_locations": [
@@ -278,9 +246,7 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Coast Ledge",
-                  "name": "Great Bay Coast Ledge",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Great Bay Coast Ledge"
               }
             ],
             "map_locations": [
@@ -296,9 +262,7 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Mikau",
-                  "name": "Mikau",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Mikau"
               }
             ],
             "map_locations": [
@@ -314,15 +278,11 @@
             "sections": [
               {
                   "ref": "Great Bay Coast/Ocean Spider House Chest",
-                  "name": "Ocean Spider House Chest",
-                  "chest_unopened_img": "images/other/chest_brown_closed",
-                  "chest_opened_img": "images/other/chest_brown_open"
+                  "name": "Ocean Spider House Chest"
               },
               {
                 "ref": "Great Bay Coast/Ocean Spider House Day 1 Reward",
-                "name": "Ocean Spider House Day 1 Reward",
-                "chest_unopened_img": "images/other/chest_brown_closed",
-                "chest_opened_img": "images/other/chest_brown_open"
+                "name": "Ocean Spider House Day 1 Reward"
               }
             ],
             "map_locations": [
