@@ -12,6 +12,10 @@
                 "content": [
                     {
                         "type": "layout",
+                        "key": "shared_item_grid"
+                    },
+                    {
+                        "type": "layout",
                         "key": "shared_masks_grid"
                     },
                     {

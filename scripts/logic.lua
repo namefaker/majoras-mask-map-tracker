@@ -264,7 +264,7 @@ function access_castle_upper()
 end
 
 function kill_igos()
-    return has("$access_castle") and has("la") and has("fa") and has("$any_sword")
+    return has("$access_castle") and has("fa") and has("$any_sword")
      or  has("$access_castle_upper") and has("$use_keg") and has("fa")
 end
 
