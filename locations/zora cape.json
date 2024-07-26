@@ -48,6 +48,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Beaver Race #1",
@@ -55,7 +56,7 @@
               },
               {
                 "ref": "Zora Cape/Zora Cape Like-Like",
-                "name": "Zora Cape Like-Like"
+                "name": "Like-Like"
               }
             ],
             "map_locations": [
@@ -68,10 +69,11 @@
               ]
           },
           {
+            "name": "Zora Cape",
             "sections": [
                 {
                     "ref": "Zora Cape/Zora Cape Grotto",
-                    "name": "Zora Cape Grotto"
+                    "name": "Grotto"
                 }
             ],
             "map_locations": [
@@ -84,14 +86,15 @@
               ]
           },
           {
+            "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Ledge With Tree Chest",
-                  "name": "Zora Cape Ledge With Tree Chest"
+                  "name": "Ledge With Tree Chest"
               },
               {
                 "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
-                "name": "Zora Cape Ledge Without Tree Chest"
+                "name": "Ledge Without Tree Chest"
               }
             ],
             "map_locations": [
@@ -104,10 +107,11 @@
               ]
           },
           {
+            "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Underwater Chest",
-                  "name": "Zora Cape Underwater Chest"
+                  "name": "Underwater Chest"
               }
             ],
             "map_locations": [
@@ -125,6 +129,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Zora Cape",
           "sections": [
             {
                 "ref": "Zora Cape/Beaver Race #1",
@@ -141,10 +146,11 @@
           ]
         },
         {
+          "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Grotto",
-                  "name": "Zora Cape Grotto"
+                  "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -157,10 +163,11 @@
             ]
         },
         {
+          "name": "Zora Cape",
           "sections": [
             {
                 "ref": "Zora Cape/Zora Cape Ledge With Tree Chest",
-                "name": "Zora Cape Ledge With Tree Chest"
+                "name": "Ledge With Tree Chest"
             }
           ],
           "map_locations": [
@@ -173,10 +180,11 @@
           ]
         },
         {
+          "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
-                  "name": "Zora Cape Ledge Without Tree Chest"
+                  "name": "Ledge Without Tree Chest"
               }
             ],
             "map_locations": [
@@ -189,10 +197,11 @@
             ]
         },
         {
+          "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Like-Like",
-                  "name": "Zora Cape Like-Like"
+                  "name": "Like-Like"
               }
             ],
             "map_locations": [
@@ -205,10 +214,11 @@
             ]
         },
         {
+          "name": "Zora Cape",
             "sections": [
               {
                   "ref": "Zora Cape/Zora Cape Underwater Chest",
-                  "name": "Zora Cape Underwater Chest"
+                  "name": "Underwater Chest"
               }
             ],
             "map_locations": [

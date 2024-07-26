@@ -30,6 +30,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Road to Ikana",
             "sections": [
               {
                   "ref": "Road to Ikana/Invisible Soldier (Shiro)",
@@ -46,10 +47,11 @@
               ]
           },
           {
+            "name": "Road to Ikana",
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Grotto",
-                  "name": "Road to Ikana Grotto"
+                  "name": "Ikana Grotto"
               }
             ],
             "map_locations": [
@@ -62,10 +64,11 @@
               ]
           },
           {
+            "name": "Road to Ikana",
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Pillar Chest",
-                  "name": "Road to Ikana Pillar Chest"
+                  "name": "Pillar Chest"
               }
             ],
             "map_locations": [
@@ -83,6 +86,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Road to Ikana",
             "sections": [
               {
                   "ref": "Road to Ikana/Invisible Soldier (Shiro)",
@@ -99,10 +103,11 @@
               ]
           },
           {
+            "name": "Road to Ikana",
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Grotto",
-                  "name": "Road to Ikana Grotto"
+                  "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -115,10 +120,11 @@
               ]
           },
           {
+            "name": "Road to Ikana",
             "sections": [
               {
                   "ref": "Road to Ikana/Road to Ikana Pillar Chest",
-                  "name": "Road to Ikana Pillar Chest"
+                  "name": "Pillar Chest"
               }
             ],
             "map_locations": [

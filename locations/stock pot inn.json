@@ -18,19 +18,19 @@
               "chest_opened_img": "images/items/hp_grey.png"
             },
             {
-              "name": "Inn Guest Room Chest",
+              "name": "Guest Room Chest",
               "access_rules": ["roomkey"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-              "name": "Inn Reservation",
+              "name": "Reservation",
               "access_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-              "name": "Inn Staff Room Chest",
+              "name": "Staff Room Chest",
               "access_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -62,34 +62,35 @@
           "item_count": 1,
           "children": [
             {
+              "name": "Stock Pot Inn",
               "sections": [
                 {
                     "ref": "Stock Pot Inn/Grandma Short Story",
-                    "name": "Inn Grandma Short Story"
+                    "name": "Grandma Short Story"
                 },
                 {
                     "ref": "Stock Pot Inn/Grandma Long Story",
-                    "name": "Inn Grandma Long Story"
+                    "name": "Grandma Long Story"
                 },
                 {
                     "ref": "Stock Pot Inn/Inn Guest Room Chest",
-                    "name": "Inn Guest Room Chest"
+                    "name": "Guest Room Chest"
                 },
                 {
                     "ref": "Stock Pot Inn/Inn Reservation",
-                    "name": "Inn Reservation"
+                    "name": "Reservation"
                 },
                 {
                     "ref": "Stock Pot Inn/Inn Staff Room Chest",
-                    "name": "Inn Staff Room Chest"
+                    "name": "Staff Room Chest"
                 },
                 {
                     "ref": "Stock Pot Inn/Midnight Meeting",
-                    "name": "Inn Midnight Meeting"
+                    "name": "Midnight Meeting"
                 },
                 {
                     "ref": "Stock Pot Inn/Toilet Hand",
-                    "name": "Inn Toilet Hand"
+                    "name": "Toilet Hand"
                 }
               ],
               "map_locations": [

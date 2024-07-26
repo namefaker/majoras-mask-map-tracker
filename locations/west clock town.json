@@ -74,10 +74,11 @@
         "item_count": 1,
         "children": [
           {
+            "name": "West Clock Town",
             "sections": [
               {
                   "ref": "West Clock Town/All-Night Mask Purchase",
-                  "name": "WCT All-Night Mask Purchase"
+                  "name": "All-Night Mask Purchase"
               }
             ],
             "map_locations": [
@@ -90,10 +91,11 @@
             ]
           },
           {
+            "name": "West Clock Town",
             "sections": [
               {
                   "ref": "West Clock Town/Bank Reward #1",
-                  "name": "WCT Bank Reward #1"
+                  "name": "Bank Reward #1"
               }
             ],
             "map_locations": [
@@ -106,10 +108,11 @@
             ]
           },
           {
+            "name": "West Clock Town",
             "sections": [
               {
                   "ref": "West Clock Town/Bank Reward #2",
-                  "name": "WCT Bank Reward #2"
+                  "name": "Bank Reward #2"
               }
             ],
             "map_locations": [
@@ -122,10 +125,11 @@
             ]
           },
           {
+            "name": "West Clock Town",
             "sections": [
               {
                   "ref": "West Clock Town/Bank Reward #3",
-                  "name": "WCT Bank Reward #3"
+                  "name": "Bank Reward #3"
               }
             ],
             "map_locations": [
@@ -138,14 +142,15 @@
             ]
           },
           {
+            "name": "West Clock Town",
             "sections": [
               {
                   "ref": "West Clock Town/Bomb Bag Purchase",
-                  "name": "WCT Bomb Bag Purchase"
+                  "name": "Bomb Bag Purchase"
               },
               {
                 "ref": "West Clock Town/Big Bomb Bag Purchase",
-                "name": "WCT Big Bomb Bag Purchase"
+                "name": "Big Bomb Bag Purchase"
               }
             ],
             "map_locations": [
@@ -158,10 +163,11 @@
             ]
           },
           {
+            "name": "West Clock Town",
             "sections": [
               {
                   "ref": "West Clock Town/Postman's Game",
-                  "name": "WCT Postman's Game"
+                  "name": "Postman's Game"
               }
             ],
             "map_locations": [
@@ -174,10 +180,11 @@
           ]
          },
          {
+          "name": "West Clock Town",
           "sections": [
             {
                 "ref": "West Clock Town/Rosa Sisters",
-                "name": "WCT Rosa Sisters"
+                "name": "Rosa Sisters"
             }
           ],
           "map_locations": [
@@ -190,10 +197,11 @@
         ]
        },
        {
+        "name": "West Clock Town",
         "sections": [
           {
               "ref": "West Clock Town/Swordman's School",
-              "name": "WCT Swordman's School"
+              "name": "Swordman's School"
           }
         ],
         "map_locations": [

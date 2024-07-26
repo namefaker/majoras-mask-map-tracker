@@ -7,12 +7,28 @@
         "content": [
             {
                 "type": "array",
-                "orientation": "horizontal",
+                "orientation": "vertical",
                 "margin": "0,0",
                 "content": [
                     {
                         "type": "layout",
-                        "key": "shared_item_grid"
+                        "key": "shared_masks_grid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "shared_songs_grid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "shared_woth_grid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "shared_foolish_grid"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "shared_always_grid"
                     }
                 ]
             }

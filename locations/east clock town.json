@@ -81,6 +81,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "East Clock Town",
           "sections": [
             {
                 "ref": "East Clock Town/Bombers' Hideout Chest",
@@ -97,6 +98,7 @@
           ]
         },
         {
+          "name": "East Clock Town",
           "sections": [
             {
                 "ref": "East Clock Town/Chest",
@@ -113,6 +115,7 @@
           ]
         },
         {
+          "name": "East Clock Town",
           "sections": [
             {
                 "ref": "East Clock Town/Gorman (Sound Check)",
@@ -133,6 +136,7 @@
           ]
         },
         {
+          "name": "East Clock Town",
           "sections": [
             {
                 "ref": "East Clock Town/Honey and Darling Any Day",
@@ -149,6 +153,7 @@
           ]
         },
         {
+          "name": "East Clock Town",
           "sections": [
             {
                 "ref": "East Clock Town/Madame Aroma in Office",
@@ -165,6 +170,7 @@
          ]
         },
         {
+          "name": "East Clock Town",
           "sections": [
             {
                 "ref": "East Clock Town/Mayor",
@@ -181,6 +187,7 @@
       ]
       },
       {
+        "name": "East Clock Town",
         "sections": [
           {
               "ref": "East Clock Town/Postman's Freedom Reward",
@@ -197,6 +204,7 @@
         ]
        },
        {
+        "name": "East Clock Town",
         "sections": [
           {
               "ref": "East Clock Town/Town Archery #1",
@@ -213,6 +221,7 @@
         ]
        },
        {
+        "name": "East Clock Town",
         "sections": [
           {
               "ref": "East Clock Town/Treasure Chest Game Goron",

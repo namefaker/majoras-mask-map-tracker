@@ -20,7 +20,7 @@
             },
             {
                 "name": "Well Right Path Chest",
-                "access_rules": ["$la,gido,bottle","$access_beans,gibdo,bottle,"],
+                "access_rules": ["la,gido,bottle","$access_beans,gibdo,bottle,"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }
@@ -61,6 +61,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Beneath the Well",          
             "sections": [
               {
                   "ref": "Beneath the Well/Mirror Shield Chest",
@@ -77,6 +78,7 @@
               ]
           },
           {
+            "name": "Beneath the Well", 
             "sections": [
               {
                   "ref": "Beneath the Well/Well Left Path Chest",
@@ -93,6 +95,7 @@
               ]
           },
           {
+            "name": "Beneath the Well", 
             "sections": [
               {
                   "ref": "Beneath the Well/Well Right Path Chest",

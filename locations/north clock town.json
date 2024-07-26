@@ -70,10 +70,11 @@
         "item_count": 1,
         "children": [
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Bombers' Hide and Seed",
-                  "name": "NCT Bombers' Hide and Seed"
+                  "name": "Bombers' Hide and Seed"
               }
             ],
             "map_locations": [
@@ -86,10 +87,11 @@
             ]
           },
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Map Purchase (Tingle)",
-                  "name": "NCT Map Purchase (Tingle)"
+                  "name": "Map Purchase (Tingle)"
               }
             ],
             "map_locations": [
@@ -102,6 +104,7 @@
             ]
           },
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Keaton Quiz",
@@ -124,10 +127,11 @@
             ]
           },
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Tree",
-                  "name": "NCT Tree"
+                  "name": " Tree"
               }
             ],
             "map_locations": [
@@ -140,10 +144,11 @@
             ]
           },
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Old Lady",
-                  "name": "NCT Old Lady"
+                  "name": "Old Lady"
               }
             ],
             "map_locations": [
@@ -156,10 +161,11 @@
             ]
           },
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Deku Playground Any Day",
-                  "name": "NCT Deku Playground Any Day"
+                  "name": "Deku Playground Any Day"
               }
             ],
             "map_locations": [
@@ -172,14 +178,15 @@
             ]
           },
           {
+            "name": "North Clock Town",
             "sections": [
               {
                   "ref": "North Clock Town/Great Fairy",
-                  "name": "NCT Great Fairy"
+                  "name": "Great Fairy"
               },
               {
                 "ref": "North Clock Town/Great Fairy Non-Human",
-                "name": "NCT Great Fairy Non-Human"
+                "name": "Great Fairy Non-Human"
               }
             ],
             "map_locations": [

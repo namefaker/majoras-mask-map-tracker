@@ -61,10 +61,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "South Clock Town",
           "sections": [
             {
                 "ref": "South Clock Town/Clock Tower Entrance",
-                "name": "SCT Free Standing HP"
+                "name": "Free Standing HP"
             }
           ],
           "map_locations": [
@@ -77,10 +78,11 @@
           ]
         },
         {
+          "name": "South Clock Town",
           "sections": [
             {
                 "ref": "South Clock Town/Straw Roof Chest",
-                "name": "SCT Straw Roof Chest"
+                "name": "Straw Roof Chest"
             }
           ],
           "map_locations": [
@@ -93,10 +95,11 @@
           ]
         },
         {
+          "name": "South Clock Town",
           "sections": [
             {
                 "ref": "South Clock Town/Scrub Trade",
-                "name": "SCT Scrub Trade"
+                "name": "Scrub Trade"
             }
           ],
           "map_locations": [
@@ -109,6 +112,7 @@
           ]
         },
         {
+          "name": "South Clock Town",
           "sections": [
             {
                 "ref": "South Clock Town/Final Day Chest",
@@ -125,10 +129,11 @@
           ]
         },
         {
+          "name": "South Clock Town",
           "sections": [
             {
                 "ref": "South Clock Town/Postbox",
-                "name": "SCT Postbox"
+                "name": "Postbox"
             }
           ],
           "map_locations": [
@@ -141,6 +146,7 @@
           ]
         },
         {
+          "name": "South Clock Town",
           "sections": [
             {
                 "ref": "South Clock Town/Skull Kid Item",

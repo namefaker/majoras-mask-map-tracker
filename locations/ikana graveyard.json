@@ -2,6 +2,7 @@
     [
         {
           "name": "Ikana Graveyard",
+          "clear_as_group": true,
           "access_rules": ["$play_epona"],
           "item_count": 1,
           "sections": [
@@ -48,6 +49,8 @@
         "item_count": 1,
         "children": [
           {
+            "clear_as_group": true,
+            "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Captain Keeta's Chest",
@@ -55,7 +58,7 @@
               },
               {
                 "ref": "Ikana Graveyard/Ikana Graveyard Grotto",
-                "name": "Ikana Graveyard Grotto"
+                "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -68,10 +71,12 @@
               ]
           },
           {
+            "clear_as_group": true,
+            "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Dampe Digging",
-                  "name": "Dampe Digging"
+                  "name": "Day 3 Dampe Digging"
               },
               {
                 "ref": "Ikana Graveyard/Day 1 Grave Bats",
@@ -83,7 +88,7 @@
               },
               {
                 "ref": "Ikana Graveyard/Iron Knuckle Chest",
-                "name": "Iron Knuckle Chest"
+                "name": "Day 2 Iron Knuckle Chest"
               }
             ],
             "map_locations": [
@@ -101,6 +106,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Captain Keeta's Chest",
@@ -117,10 +123,11 @@
               ]
           },
           {
+            "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Dampe Digging",
-                  "name": "Dampe Digging"
+                  "name": "Day 3 Dampe Digging"
               }
             ],
             "map_locations": [
@@ -133,6 +140,7 @@
               ]
           },
           {
+            "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Day 1 Grave Bats",
@@ -153,10 +161,11 @@
               ]
           },
           {
+            "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Ikana Graveyard Grotto",
-                  "name": "Ikana Graveyard Grotto"
+                  "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -169,10 +178,11 @@
               ]
           },
           {
+            "name": "Ikana Graveyard",
             "sections": [
               {
                   "ref": "Ikana Graveyard/Iron Knuckle Chest",
-                  "name": "Iron Knuckle Chest"
+                  "name": "Day 2 Iron Knuckle Chest"
               }
             ],
             "map_locations": [

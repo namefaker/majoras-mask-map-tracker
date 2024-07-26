@@ -66,6 +66,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Baby Zoras",
@@ -94,10 +95,11 @@
               ]
           },
           {
+            "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Coast Ledge",
-                  "name": "Great Bay Coast Ledge"
+                  "name": "Ledge"
               }
             ],
             "map_locations": [
@@ -110,6 +112,7 @@
               ]
           },
           {
+            "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Mikau",
@@ -126,6 +129,7 @@
               ]
           },
           {
+            "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Ocean Spider House Chest",
@@ -137,7 +141,7 @@
               },
               {
                 "ref": "Great Bay Coast/Great Bay Coast Grotto",
-                "name": "Great Bay Coast Grotto"
+                "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -150,6 +154,7 @@
               ]
           },
           {
+            "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Fisherman Game",
@@ -171,6 +176,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Great Bay Coast",
           "sections": [
             {
                 "ref": "Great Bay Coast/Baby Zoras",
@@ -191,6 +197,7 @@
           ]
         },
         {
+          "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Map Purchase",
@@ -211,6 +218,7 @@
             ]
         },
         {
+          "name": "Great Bay Coast",
           "sections": [
             {
                 "ref": "Great Bay Coast/Fisherman Game",
@@ -227,10 +235,11 @@
           ]
         },
         {
+          "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Coast Grotto",
-                  "name": "Great Bay Coast Grotto"
+                  "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -243,10 +252,11 @@
             ]
         },
         {
+          "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Great Bay Coast Ledge",
-                  "name": "Great Bay Coast Ledge"
+                  "name": "Ledge"
               }
             ],
             "map_locations": [
@@ -259,6 +269,7 @@
             ]
         },
         {
+          "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Mikau",
@@ -275,6 +286,7 @@
             ]
         },
         {
+          "name": "Great Bay Coast",
             "sections": [
               {
                   "ref": "Great Bay Coast/Ocean Spider House Chest",

@@ -34,22 +34,23 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Pirate Fortress Sewers",
           "sections": [
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Maze Chest",
-              "name": "Pirate Fortress Sewers Maze Chest"
+              "name": "Maze Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage",
-              "name": "Pirate Fortress Sewers Log Chest"
+              "name": "Cage"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Deep Chest",
-              "name": "Pirate Fortress Sewers Sand Chest"
+              "name": "Cage Room Deep Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
-              "name": "Pirate Fortress Sewers Sand Chest"
+              "name": "Cage Room Shallow Chest"
             }
           ],
           "map_locations": [
@@ -67,22 +68,23 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Pirate Fortress Sewers",
           "sections": [
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Maze Chest",
-              "name": "Pirate Fortress Sewers Maze Chest"
+              "name": "Maze Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage",
-              "name": "Pirate Fortress Sewers Cage"
+              "name": "Cage"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Deep Chest",
-              "name": "Pirate Fortress Sewers Maze Chest"
+              "name": "Cage Room Deep Chest"
             },
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
-              "name": "Pirate Fortress Sewers Maze Chest"
+              "name": "Cage Room Shallow Chest"
             }
           ],
           "map_locations": [

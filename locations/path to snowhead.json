@@ -24,10 +24,11 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Path to Snowhead",
             "sections": [
               {
                   "ref": "Path to Snowhead/Path to Snowhead Grotto",
-                  "name": "Path to Snowhead Grotto"
+                  "name": "Grotto"
               }
             ],
             "map_locations": [
@@ -40,10 +41,11 @@
               ]
           },
           {
+            "name": "Path to Snowhead",
             "sections": [
               {
                   "ref": "Path to Snowhead/Path to Snowhead Pillar",
-                  "name": "Path to Snowhead Pillar"
+                  "name": "Pillar"
               }
             ],
             "map_locations": [
@@ -61,10 +63,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Path to Snowhead",
           "sections": [
             {
                 "ref": "Path to Snowhead/Path to Snowhead Grotto",
-                "name": "Path to Snowhead Cave Chest"
+                "name": "Cave Chest"
             }
           ],
           "map_locations": [
@@ -77,10 +80,11 @@
           ]
         },
         {
+          "name": "Path to Snowhead",
           "sections": [
             {
                 "ref": "Path to Snowhead/Path to Snowhead Pillar",
-                "name": "Path to Snowhead Pillar"
+                "name": "Pillar"
             }
           ],
           "map_locations": [

@@ -28,18 +28,19 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Pirate Fortress Exterior",
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Corner Chest",
-              "name": "Pirate Fortress Exterior Corner Chest"
+              "name": "Corner Chest"
             },
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Log Chest",
-              "name": "Pirate Fortress Exterior Log Chest"
+              "name": "Log Chest"
             },
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Sand Chest",
-              "name": "Pirate Fortress Exterior Sand Chest"
+              "name": "Sand Chest"
             }
           ],
           "map_locations": [
@@ -57,10 +58,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Pirate Fortress Exterior",
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Corner Chest",
-              "name": "Pirate Fortress Exterior Corner Chest"
+              "name": "Corner Chest"
             }
           ],
           "map_locations": [
@@ -73,10 +75,11 @@
           ]
         },
         {
+          "name": "Pirate Fortress Exterior",
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Log Chest",
-              "name": "Pirate Fortress Exterior Log Chest" 
+              "name": "Log Chest" 
             }
           ],
           "map_locations": [
@@ -89,10 +92,11 @@
           ]
         },
         {
+          "name": "Pirate Fortress Exterior",
           "sections": [
             {
               "ref": "Pirate Fortress Exterior/Pirate Fortress Exterior Sand Chest",
-              "name": "Pirate Fortress Exterior Sand Chest"
+              "name": "Sand Chest"
             }
           ],
           "map_locations": [

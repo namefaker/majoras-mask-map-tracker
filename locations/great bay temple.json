@@ -48,30 +48,31 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Great Bay Temple",
             "sections": [
               {
                   "ref": "Great Bay Temple/GBT Map Chest",
-                  "name": "GBT Map Chest"
+                  "name": "Map Chest"
               },
               {
                 "ref": "Great Bay Temple/GBT Compass Chest",
-                "name": "GBT Compass Chest"
+                "name": "Compass Chest"
               },
               {
                 "ref": "Great Bay Temple/GBT Small Key Chest",
-                "name": "GBT Small Key Chest"
+                "name": "Small Key Chest"
               },
               {
               "ref": "Great Bay Temple/GBT Ice Arrow Chest",
-              "name": "GBT Ice Arrow"
+              "name": "Ice Arrow"
               },
               {
                 "ref": "Great Bay Temple/GBT Boss Key Chest",
-                "name": "GBT Boss Key Chest"
+                "name": "Boss Key Chest"
               },
               {
                 "ref": "Great Bay Temple/GBT Heart Container",
-                "name": "GBT Heart Container"
+                "name": "Heart Container"
               }
             ],
             "map_locations": [
@@ -89,10 +90,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Great Bay Temple",
           "sections": [
             {
                 "ref": "Great Bay Temple/GBT Map Chest",
-                "name": "GBT Map Chest"
+                "name": "Map Chest"
             }
           ],
           "map_locations": [
@@ -105,10 +107,11 @@
           ]
         },
         {
+          "name": "Great Bay Temple",
             "sections": [
                 {
                     "ref": "Great Bay Temple/GBT Compass Chest",
-                    "name": "GBT Compass Chest"
+                    "name": "Compass Chest"
                 }
             ],
             "map_locations": [
@@ -121,10 +124,11 @@
             ]
         },
         {
+          "name": "Great Bay Temple",
           "sections": [
             {
                 "ref": "Great Bay Temple/GBT Small Key Chest",
-                "name": "GBT Small Key Chest"
+                "name": "Small Key Chest"
             }
           ],
           "map_locations": [
@@ -137,10 +141,11 @@
           ]
         },
         {
+          "name": "Great Bay Temple",
             "sections": [
               {
                   "ref": "Great Bay Temple/GBT Ice Arrow Chest",
-                  "name": "GBT Ice Arrow Chest"
+                  "name": "Ice Arrow Chest"
               }
             ],
             "map_locations": [
@@ -153,10 +158,11 @@
             ]
         },
         {
+          "name": "Great Bay Temple",
             "sections": [
               {
                   "ref": "Great Bay Temple/GBT Boss Key Chest",
-                  "name": "GBT Boss Key Chest"
+                  "name": "Boss Key Chest"
               }
             ],
             "map_locations": [
@@ -169,10 +175,11 @@
             ]
         },
         {
+          "name": "Great Bay Temple",
             "sections": [
               {
                   "ref": "Great Bay Temple/GBT Heart Container",
-                  "name": "GBT Heart Container"
+                  "name": "Heart Container"
               }
             ],
             "map_locations": [

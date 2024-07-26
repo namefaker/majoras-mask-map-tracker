@@ -96,6 +96,7 @@
           "item_count": 1,
           "children": [
             {
+              "name": "Termina Field",
               "sections": [
                 {
                     "ref": "Termina Field/Astronomy Telescope",
@@ -112,6 +113,7 @@
               ]
             },
             {
+              "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Bio Baba Grotto",
@@ -128,6 +130,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Buisness Scrub Purchase",
@@ -144,6 +147,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Dodongo Grotto",
@@ -160,6 +164,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Kamaro",
@@ -176,6 +181,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Peahat Grotto",
@@ -192,6 +198,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Chest",
@@ -208,6 +215,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Grotto",
@@ -224,6 +232,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Pillar Grotto",
@@ -240,6 +249,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Stump Chest",
@@ -256,6 +266,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Underwater Chest",
@@ -272,6 +283,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Gossip Stones",
@@ -311,6 +323,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Termina Field",
             "sections": [
               {
                   "ref": "Termina Field/Astronomy Telescope",
@@ -327,6 +340,7 @@
             ]
           },
                       {
+                        "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Bio Baba Grotto",
@@ -343,6 +357,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Buisness Scrub Purchase",
@@ -359,6 +374,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Dodongo Grotto",
@@ -375,6 +391,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Kamaro",
@@ -391,6 +408,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Peahat Grotto",
@@ -407,6 +425,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Chest",
@@ -423,6 +442,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Grass Grotto",
@@ -439,6 +459,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Pillar Grotto",
@@ -455,6 +476,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Stump Chest",
@@ -471,6 +493,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Underwater Chest",
@@ -487,6 +510,7 @@
                 ]
               },
               {
+                "name": "Termina Field",
                 "sections": [
                   {
                       "ref": "Termina Field/Gossip Stones",

@@ -34,6 +34,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Milk Road",
             "sections": [
               {
                   "ref": "Milk Road/Gorman Bros Race",
@@ -50,6 +51,7 @@
             ]
           },
           {
+            "name": "Milk Road",
             "sections": [
               {
                   "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
@@ -75,6 +77,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Milk Road",
           "sections": [
             {
                 "ref": "Milk Road/Gorman Bros Race",
@@ -91,6 +94,7 @@
           ]
         },
         {
+          "name": "Milk Road",
           "sections": [
             {
                 "ref": "Milk Road/Great Bay Map Purchase (Tingle)",

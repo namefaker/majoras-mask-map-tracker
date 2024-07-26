@@ -60,26 +60,27 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
-                  "name": "Snowhead Bridge Room Chest"
+                  "name": "Bridge Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Map Chest",
-                "name": "Snowhead Map Chest"
+                "name": "Map Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Block Room Chest",
-                "name": "Snowhead Block Room Chest"
+                "name": "Block Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Compass Chest",
-                "name": "Snowhead Compass Chest"
+                "name": "Compass Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Icicle Room Chest",
-                "name": "Snowhead Icicle Room Chest"
+                "name": "Icicle Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Fire Arrow Chest",
@@ -87,11 +88,11 @@
               },
               {
                 "ref": "Snowhead Temple/Snowhead Boss Key Chest",
-                "name": "Snowhead Boss Key Chest"
+                "name": "Boss Key Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Heart Container",
-                "name": "Snowhead Heart Container"
+                "name": "Heart Container"
               }
             ],
             "map_locations": [
@@ -109,10 +110,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Snowhead Temple",
           "sections": [
             {
                 "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
-                "name": "Snowhead Bridge Room Chest"
+                "name": "Bridge Room Chest"
             }
           ],
           "map_locations": [
@@ -125,10 +127,11 @@
           ]
         },
         {
+          "name": "Snowhead Temple",
           "sections": [
             {
                 "ref": "Snowhead Temple/Snowhead Map Chest",
-                "name": "Snowhead Map Chest"
+                "name": "Map Chest"
             }
           ],
           "map_locations": [
@@ -141,10 +144,11 @@
           ]
         },
         {
+          "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Block Room Chest",
-                  "name": "Snowhead Block Room Chest"
+                  "name": "Block Room Chest"
               }
             ],
             "map_locations": [
@@ -157,10 +161,11 @@
             ]
           },
           {
+            "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Compass Chest",
-                  "name": "Snowhead Compass Chest"
+                  "name": "Compass Chest"
               }
             ],
             "map_locations": [
@@ -173,10 +178,11 @@
             ]
           },
           {
+            "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Icicle Room Chest",
-                  "name": "Snowhead Icicle Room Chest"
+                  "name": "Icicle Room Chest"
               }
             ],
             "map_locations": [
@@ -189,6 +195,7 @@
             ]
           },
           {
+            "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Fire Arrow Chest",
@@ -205,10 +212,11 @@
             ]
           },
           {
+            "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Boss Key Chest",
-                  "name": "Snowhead Boss Key Chest"
+                  "name": "Boss Key Chest"
               }
             ],
             "map_locations": [
@@ -221,10 +229,11 @@
             ]
           },
           {
+            "name": "Snowhead Temple",
             "sections": [
               {
                   "ref": "Snowhead Temple/Snowhead Heart Container",
-                  "name": "Snowhead Heart Container"
+                  "name": "Heart Container"
               }
             ],
             "map_locations": [

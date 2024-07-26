@@ -30,18 +30,19 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Stone Tower",
             "sections": [
               {
                   "ref": "Stone Tower/Inverted Stone Tower Left Chest",
-                  "name": "Inverted Stone Tower Left Chest"
+                  "name": "Left Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
-                "name": "Inverted Stone Tower Middle Chest"
+                "name": "Middle Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Right Chest",
-                "name": "Inverted Stone Tower Right Chest"
+                "name": "Right Chest"
               }
             ],
             "map_locations": [
@@ -59,18 +60,19 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Stone Tower",
             "sections": [
               {
                   "ref": "Stone Tower/Inverted Stone Tower Left Chest",
-                  "name": "Inverted Stone Tower Left Chest"
+                  "name": "Left Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
-                "name": "Inverted Stone Tower Middle Chest"
+                "name": "Middle Chest"
               },
               {
                 "ref": "Stone Tower/Inverted Stone Tower Right Chest",
-                "name": "Inverted Stone Tower Right Chest"
+                "name": "Right Chest"
               }
             ],
             "map_locations": [

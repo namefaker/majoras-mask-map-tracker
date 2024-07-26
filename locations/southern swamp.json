@@ -66,6 +66,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Southern Swamp",
             "sections": [
               {
                   "ref": "Southern Swamp/Boat Archery",
@@ -81,11 +82,11 @@
               },
               {
               "ref": "Southern Swamp/Swamp Scrub Trade",
-              "name": "Swamp Scrub Trade"
+              "name": "Scrub Trade"
               },
               {
                 "ref": "Southern Swamp/Swamp Tourist Center Roof",
-                "name": "Swamp Tourist Center Roof"
+                "name": "Tourist Center Roof"
               }
             ],
             "map_locations": [
@@ -98,14 +99,15 @@
               ]
           },
           {
+            "name": "Southern Swamp",
             "sections": [
               {
                   "ref": "Southern Swamp/Near Swamp Spider House Grotto",
-                  "name": "Near Swamp Spider House Grotto"
+                  "name": "Near Spider House Grotto"
               },
               {
                 "ref": "Southern Swamp/Swamp Spider House Reward",
-                "name": "Swamp Spider House Reward"
+                "name": "Spider House Reward"
               }
             ],
             "map_locations": [
@@ -118,6 +120,7 @@
             ]
           },
           {
+            "name": "Southern Swamp",
             "sections": [
               {
                   "ref": "Southern Swamp/Kotake",
@@ -143,6 +146,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Southern Swamp",
           "sections": [
             {
                 "ref": "Southern Swamp/Kotake",
@@ -163,10 +167,11 @@
           ]
         },
         {
+          "name": "Southern Swamp",
             "sections": [
               {
                   "ref": "Southern Swamp/Near Swamp Spider House Grotto",
-                  "name": "Near Swamp Spider House Grotto"
+                  "name": "Near Spider House Grotto"
               }
             ],
             "map_locations": [
@@ -179,10 +184,11 @@
             ]
         },
         {
+          "name": "Southern Swamp",
             "sections": [
               {
                   "ref": "Southern Swamp/Swamp Spider House Reward",
-                  "name": "Swamp Spider House Reward"
+                  "name": "Spider House Reward"
               }
             ],
             "map_locations": [
@@ -195,6 +201,7 @@
             ]
         },
         {
+          "name": "Southern Swamp",
             "sections": [
               {
                   "ref": "Southern Swamp/Boat Archery",
@@ -210,11 +217,11 @@
               },
               {
                 "ref": "Southern Swamp/Swamp Scrub Trade",
-                "name": "Swamp Scrub Trade"
+                "name": "Scrub Trade"
               },
               {
                 "ref": "Southern Swamp/Swamp Tourist Center Roof",
-                "name": "Swamp Tourist Center Roof"
+                "name": "Tourist Center Roof"
               }
             ],
             "map_locations": [

@@ -48,6 +48,7 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Romani Ranch",
             "sections": [
               {
                   "ref": "Romani Ranch/Grog (Lemons)",
@@ -64,6 +65,7 @@
             ]
           },
           {
+            "name": "Romani Ranch",
             "sections": [
               {
                   "ref": "Romani Ranch/Dog Race",
@@ -80,6 +82,7 @@
             ]
           },
           {
+            "name": "Romani Ranch",
             "sections": [
               {
                   "ref": "Romani Ranch/Doggy Racetrack Roof Chest",
@@ -96,6 +99,7 @@
             ]
           },
           {
+            "name": "Romani Ranch",
             "sections": [
               {
                   "ref": "Romani Ranch/Romani's Game",
@@ -125,6 +129,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Romani Ranch",
           "sections": [
             {
                 "ref": "Romani Ranch/Grog (Lemons)",
@@ -143,6 +148,7 @@
           ]
         },
         {
+          "name": "Romani Ranch",
           "sections": [
             {
                 "ref": "Romani Ranch/Dog Race",
@@ -161,6 +167,7 @@
           ]
         },
         {
+          "name": "Romani Ranch",
             "sections": [
               {
                   "ref": "Romani Ranch/Doggy Racetrack Roof Chest",
@@ -177,6 +184,7 @@
             ]
         },
         {
+          "name": "Romani Ranch",
             "sections": [
               {
                   "ref": "Romani Ranch/Romani's Game",

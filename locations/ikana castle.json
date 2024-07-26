@@ -24,14 +24,15 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Ikana Castle",
             "sections": [
               {
                   "ref": "Ikana Castle/Ikana Castle Pillar",
-                  "name": "Ikana Castle Pillar"
+                  "name": "Pillar"
               },
               {
                 "ref": "Ikana Castle/Ikana King",
-                "name": "Ikana King"
+                "name": "Ikana King (Igos)"
               }
             ],
             "map_locations": [
@@ -49,10 +50,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Ikana Castle",
             "sections": [
               {
                   "ref": "Ikana Castle/Ikana Castle Pillar",
-                  "name": "Ikana Castle Pillar"
+                  "name": "Pillar"
               }
             ],
             "map_locations": [
@@ -65,10 +67,11 @@
               ]
           },
           {
+            "name": "Ikana Castle",
             "sections": [
               {
                   "ref": "Ikana Castle/Ikana King",
-                  "name": "Ikana King"
+                  "name": "Ikana King (Igos)"
               }
             ],
             "map_locations": [

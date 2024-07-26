@@ -1,6 +1,5 @@
-    //Termina
- [
-    {
+[
+  {
       "name": "Laundry Pool",
       "access_rules": [""],
       "item_count": 1,
@@ -39,11 +38,11 @@
         }
       ]
     },
-    // Laundry Pool 
     {
       "item_count": 1,
       "children": [
         {
+          "name": "Laundry Pool",
           "sections": [
             {
                 "ref": "Laundry Pool/Guru Guru",
@@ -60,6 +59,7 @@
           ]
         },
         {
+          "name": "Laundry Pool",
           "sections": [
             {
                 "ref": "Laundry Pool/Kafei",
@@ -84,6 +84,7 @@
           ]
         },
         {
+          "name": "Laundry Pool",
           "sections": [
             {
                 "ref": "Laundry Pool/Scrub Trade",
@@ -100,6 +101,7 @@
           ]
         },
         {
+          "name": "Laundry Pool",
           "sections": [
             {
                 "ref": "Laundry Pool/Final Day Chest",
@@ -116,6 +118,7 @@
           ]
         },
         {
+          "name": "Laundry Pool",
           "sections": [
             {
                 "ref": "Laundry Pool/Postbox",
@@ -132,6 +135,7 @@
           ]
         },
         {
+          "name": "Laundry Pool",
           "sections": [
             {
                 "ref": "Laundry Pool/Skull Kid Item",

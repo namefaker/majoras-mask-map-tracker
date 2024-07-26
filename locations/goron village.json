@@ -61,6 +61,7 @@
         "children": [
         
            {
+          "name": "Goron Village",
              "sections": [
               {
                   "ref": "Goron Village/Baby Goron",
@@ -76,15 +77,17 @@
                         }
                 ]
           },
-          {
-            "sections": [
+           {
+          "name": "Goron Village",
+             "sections": [
+
               {
                   "ref": "Goron Village/Biggest Bomb Bag Purchase",
                   "name": "Biggest Bomb Bag Purchase"
               },
               {
                 "ref": "Goron Village/Goron Village Ledge",
-                "name": "Goron Village Ledge"
+                "name": "Ledge"
               },
               {
                 "ref": "Goron Village/Mountain Scrub Trade",
@@ -100,8 +103,10 @@
                  }
               ]
           },
-          {
-            "sections": [
+           {
+          "name": "Goron Village",
+             "sections": [
+
               {
                   "ref": "Goron Village/Lens Cave Invisible Chest",
                   "name": "Lens Cave Invisible Chest"
@@ -124,8 +129,10 @@
                  }
               ]
           },
-          {
-            "sections": [
+           {
+          "name": "Goron Village",
+             "sections": [
+
               {
                   "ref": "Goron Village/Powder Keg Challenge",
                   "name": "Powder Keg Challenge"
@@ -146,6 +153,7 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Goron Village",
           "sections": [
             {
                 "ref": "Goron Village/Baby Goron",
@@ -162,6 +170,7 @@
           ]
         },
         {
+          "name": "Goron Village",
           "sections": [
             {
                 "ref": "Goron Village/Biggest Bomb Bag Purchase",
@@ -169,7 +178,7 @@
             },
             {
                 "ref": "Goron Village/Goron Village Ledge",
-                "name": "Goron Village Ledge"
+                "name": "Ledge"
             },
             {
                 "ref": "Goron Village/Mountain Scrub Trade",
@@ -186,6 +195,7 @@
           ]
         },
         {
+          "name": "Goron Village",
             "sections": [
               {
                   "ref": "Goron Village/Lens Cave Invisible Chest",
@@ -210,6 +220,7 @@
             ]
         },
         {
+          "name": "Goron Village",
             "sections": [
               {
                   "ref": "Goron Village/Powder Keg Challenge",

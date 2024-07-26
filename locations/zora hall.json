@@ -34,22 +34,23 @@
     "item_count": 1,
     "children": [
       {
+        "name": "Zora Hall",
         "sections": [
           {
             "ref": "Zora Hall/Zora Hall Evan (>>vAAv>A<<>vv><v)",
-            "name": "Zora Hall Evan (>>vAAv>A<<>vv><v)"
+            "name": "Evan (>>vAAv>A<<>vv><v)"
           },
           {
             "ref": "Zora Hall/Zora Hall Lulu's Room Ledge",
-            "name": "Zora Hall Lulu's Room Ledge"
+            "name": "Lulu's Room Ledge"
           },
           {
             "ref": "Zora Hall/Zora Hall Ocean Scrub Trade",
-            "name": "Zora Hall Ocean Scrub Trade"
+            "name": "Ocean Scrub Trade"
           },
           {
             "ref": "Zora Hall/Zora Hall Stage Lights",
-            "name": "Zora Hall Stage Lights"
+            "name": "Stage Lights"
           }
         ],
         "map_locations": [
@@ -67,22 +68,23 @@
     "item_count": 1,
     "children": [
       {
+        "name": "Zora Hall",
         "sections": [
           {
             "ref": "Zora Hall/Zora Hall Evan (>>vAAv>A<<>vv><v)",
-            "name": "Zora Hall Evan (>>vAAv>A<<>vv><v)"
+            "name": "Evan (>>vAAv>A<<>vv><v)"
           },
           {
             "ref": "Zora Hall/Zora Hall Lulu's Room Ledge",
-            "name": "Zora Hall Lulu's Room Ledge"
+            "name": "Lulu's Room Ledge"
           },
           {
             "ref": "Zora Hall/Zora Hall Ocean Scrub Trade",
-            "name": "Zora Hall Ocean Scrub Trade"
+            "name": "Ocean Scrub Trade"
           },
           {
             "ref": "Zora Hall/Zora Hall Stage Lights",
-            "name": "Zora Hall Stage Lights"
+            "name": "Stage Lights"
           }
         ],
         "map_locations": [

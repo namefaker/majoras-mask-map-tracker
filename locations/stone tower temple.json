@@ -42,26 +42,27 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Stone Tower Temple",
             "sections": [
               {
                   "ref": "Stone Tower Temple/STT Map Chest",
-                  "name": "STT Map Chest"
+                  "name": "Map Chest"
               },
               {
                 "ref": "Stone Tower Temple/STT Armos Room Chest",
-                "name": "STT Armos Room Chest"
+                "name": "Armos Room Chest"
               },
               {
                 "ref": "Stone Tower Temple/STT Eyegore Room Chest",
-                "name": "STT Eyegore Room Chest"
+                "name": "Eyegore Room Chest"
               },
               {
                 "ref": "Stone Tower Temple/STT Compass Chest",
-                "name": "STT Compass Chest"
+                "name": "Compass Chest"
               },
               {
                 "ref": "Stone Tower Temple/STT Light Arrow Chest",
-                "name": "STT Light Arrow Chest"
+                "name": "Light Arrow Chest"
               }
             ],
             "map_locations": [
@@ -79,10 +80,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Stone Tower Temple",
             "sections": [
               {
                   "ref": "Stone Tower Temple/STT Map Chest",
-                  "name": "STT Map Chest"
+                  "name": "Map Chest"
               }
             ],
             "map_locations": [
@@ -98,7 +100,7 @@
             "sections": [
               {
                   "ref": "Stone Tower Temple/STT Armos Room Chest",
-                  "name": "STT Armos Room Chest"
+                  "name": "Armos Room Chest"
               }
             ],
             "map_locations": [
@@ -114,7 +116,7 @@
             "sections": [
               {
                   "ref": "Stone Tower Temple/STT Eyegore Room Chest",
-                  "name": "STT Eyegore Room Chest"
+                  "name": "Eyegore Room Chest"
               }
             ],
             "map_locations": [
@@ -130,7 +132,7 @@
             "sections": [
               {
                   "ref": "Stone Tower Temple/STT Compass Chest",
-                  "name": "STT Compass Chest"
+                  "name": "Compass Chest"
               }
             ],
             "map_locations": [
@@ -146,7 +148,7 @@
             "sections": [
               {
                   "ref": "Stone Tower Temple/STT Light Arrow Chest",
-                  "name": "STT Light Arrow Chest"
+                  "name": "Light Arrow Chest"
               }
             ],
             "map_locations": [
@@ -201,26 +203,27 @@
     "item_count": 1,
     "children": [
       {
+        "name": "Inverted Stone Tower Temple",
         "sections": [
             {
                 "ref": "Inverted Stone Tower Temple/ISTT Updraft Room Chest",
-                "name": "ISTT Updraft Room Chest"
+                "name": "Updraft Room Chest"
             },
             {
                 "ref": "Inverted Stone Tower Temple/ISTT Death Armos Maze Chest",
-                "name": "ISTT Death Armos Maze Chest"
+                "name": "Death Armos Maze Chest"
             },
             {
                 "ref": "Inverted Stone Tower Temple/ISTT Giant's Mask Chest",
-                "name": "ISTT Giant's Mask Chest"
+                "name": "Giant's Mask Chest"
             },
             {
               "ref": "Inverted Stone Tower Temple/ISTT Boss Key Chest",
-              "name": "ISTT Boss Key Chest"
+              "name": "Boss Key Chest"
             },
             {
                 "ref": "Inverted Stone Tower Temple/ISTT Heart Container",
-                "name": "ISTT Heart Container"
+                "name": "Heart Container"
             }
         ],
         "map_locations": [
@@ -238,10 +241,11 @@
   "item_count": 1,
   "children": [
     {
+      "name": "Inverted Stone Tower Temple",
         "sections": [
           {
               "ref": "Inverted Stone Tower Temple/ISTT Updraft Room Chest",
-              "name": "ISTT Updraft Room Chest"
+              "name": "Updraft Room Chest"
           }
         ],
         "map_locations": [
@@ -254,10 +258,11 @@
           ]
       },
       {
+        "name": "Inverted Stone Tower Temple",
         "sections": [
           {
               "ref": "Inverted Stone Tower Temple/ISTT Death Armos Maze Chest",
-              "name": "ISTT Death Armos Maze Chest"
+              "name": "Death Armos Maze Chest"
           }
         ],
         "map_locations": [
@@ -270,10 +275,11 @@
           ]
       },
       {
+        "name": "Inverted Stone Tower Temple",
         "sections": [
           {
               "ref": "Inverted Stone Tower Temple/ISTT Boss Key Chest",
-              "name": "ISTT Boss Key Chest"
+              "name": "Boss Key Chest"
           }
         ],
         "map_locations": [
@@ -286,10 +292,11 @@
           ]
       },
       {
+        "name": "Inverted Stone Tower Temple",
         "sections": [
           {
               "ref": "Inverted Stone Tower Temple/ISTT Giant's Mask Chest",
-              "name": "ISTT Giant's Mask Chest"
+              "name": "Giant's Mask Chest"
           }
         ],
         "map_locations": [
@@ -302,10 +309,11 @@
           ]
       },
       {
+        "name": "Inverted Stone Tower Temple",
         "sections": [
           {
               "ref": "Inverted Stone Tower Temple/ISTT Heart Container",
-              "name": "ISTT Heart Container"
+              "name": "Heart Container"
           }
         ],
         "map_locations": [

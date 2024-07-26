@@ -42,14 +42,15 @@
         "item_count": 1,
         "children": [
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Canyon Scrub Trade",
-                  "name": "Canyon Scrub Trade"
+                  "name": "Scrub Trade"
               },
               {
                 "ref": "Ikana Canyon/Ikana Canyon Ledge",
-                "name": "Ikana Canyon Ledge"
+                "name": "Ledge"
               }
             ],
             "map_locations": [
@@ -62,6 +63,7 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Pamela's Father",
@@ -78,6 +80,7 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Poe Hut",
@@ -94,6 +97,7 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Secret Shrine Grotto",
@@ -115,10 +119,11 @@
       "item_count": 1,
       "children": [
         {
+          "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Canyon Scrub Trade",
-                  "name": "Canyon Scrub Trade"
+                  "name": "Scrub Trade"
               }
             ],
             "map_locations": [
@@ -131,10 +136,11 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Ikana Canyon Ledge",
-                  "name": "Ikana Canyon Ledge"
+                  "name": "Ledge"
               }
             ],
             "map_locations": [
@@ -147,6 +153,7 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Pamela's Father",
@@ -163,6 +170,7 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Poe Hut",
@@ -179,6 +187,7 @@
               ]
           },
           {
+            "name": "Ikana Canyon",
             "sections": [
               {
                   "ref": "Ikana Canyon/Secret Shrine Grotto",
