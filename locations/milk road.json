@@ -8,6 +8,7 @@
             {
               "name": "Gorman Bros Race",
               "access_rules": ["$play_epona"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
@@ -16,6 +17,7 @@
               "item_count": 1,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
@@ -24,6 +26,7 @@
               "item_count": 1,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             }

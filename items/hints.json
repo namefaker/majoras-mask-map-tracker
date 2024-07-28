@@ -227,5 +227,68 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Foolish song???",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {   
+                "name": "Song is Foolish",
+                "img": "images/other/soldout.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Song is NOT Foolish",
+                "img": "images/songs/sonata.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Foolish song???",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {   
+                "name": "Song is Foolish",
+                "img": "images/other/soldout.png",
+                "codes": "foolishsong2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Song is NOT Foolish2",
+                "img": "images/songs/sonata.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Foolish song???",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {   
+                "name": "Song is Foolish",
+                "img": "images/other/soldout.png",
+                "codes": "foolishsong3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Song is NOT Foolish3",
+                "img": "images/songs/sonata.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

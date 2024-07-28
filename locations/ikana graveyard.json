@@ -9,36 +9,42 @@
             {
               "name": "Captain Keeta's Chest",
               "access_rules": ["$kill_keeta"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Ikana Graveyard Grotto",
                 "access_rules": ["$explosion"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Dampe Digging",
                 "access_rules": ["captains,bow","captains,zora"],
+                "visibility_rules": ["S5_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Day 1 Grave Bats",
                 "access_rules": ["captains, $any_sword","captains,$any_transform"], 
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Day 1 Grave Tablet",
                 "access_rules": ["$finish_graveknuckle"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/songs/storms.png",
                 "chest_opened_img": "images/songs/stormscheck.png"
             },
             {
                 "name": "Iron Knuckle Chest",
                 "access_rules": ["$use_lens,$explosion,$finish_graveknuckle"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             }

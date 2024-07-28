@@ -8,50 +8,108 @@
             {
               "name": "Snowhead Heart Container",
               "access_rules": ["$kill_goht"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hc.png",
               "chest_opened_img": "images/items/hc_grey.png"
             },
             {
               "name": "Fire Arrow Chest",
               "access_rules": ["$explosion","$use_scarecrow"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Boss Key Chest",
               "access_rules": ["$explosion","$use_scarecrow"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_golden_closed.png",
               "chest_opened_img": "images/other/chest_golden_open.png"
             },
             {
                 "name": "Snowhead Map Chest",
                 "access_rules": [""],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Compass Chest",
                 "access_rules": [""],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Bridge Room Chest",
                 "access_rules": ["fa", "hs"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Block Room Chest",
                 "access_rules": [""],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Snowhead Icicle Room Chest",
                 "access_rules": ["$explosion","$use_scarecrow"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            //fairys
+            {
+              "name": "Snowhead Basement",
+              "access_rules": [""],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Ice Puzzle",
+              "access_rules": ["$shoot_fa"],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Icicle Room Wall",
+              "access_rules": ["$explosion","$use_scarecrow"],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Main Room Wall",
+              "access_rules": ["$explosion","$use_scarecrow"],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Map Room Ledge Room Wall",
+              "access_rules": ["$use_lens"],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Pillar Freezards",
+              "access_rules": ["$shoot_fa"],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Twin Block",
+              "access_rules": [""],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -63,8 +121,8 @@
             "name": "Snowhead Temple",
             "sections": [
               {
-                  "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
-                  "name": "Bridge Room Chest"
+                "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
+                "name": "Bridge Room Chest"
               },
               {
                 "ref": "Snowhead Temple/Snowhead Map Chest",
@@ -98,7 +156,48 @@
             "map_locations": [
                 {
                   "map": "Termina",
-                  "x": 370,
+                  "x": 350,
+                  "y": 170,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                "ref": "Snowhead Temple/Snowhead Basement",
+                "name": "Basement"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Ice Puzzle",
+                "name": "Ice Puzzle"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Icicle Room Wall",
+                "name": "Icicle Room Wall"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Main Room Wall",
+                "name": "Main Room Wall"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Map Room Ledge Room Wall",
+                "name": "Map Room Ledge Room Wall"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Pillar Freezards",
+                "name": "Pillar Freezards"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Twin Block",
+                "name": "Twin Block"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 380,
                   "y": 170,
                   "size": 20
                  }
@@ -149,6 +248,10 @@
               {
                   "ref": "Snowhead Temple/Snowhead Block Room Chest",
                   "name": "Block Room Chest"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Twin Block",
+                "name": "Twin Block"
               }
             ],
             "map_locations": [
@@ -166,6 +269,10 @@
               {
                   "ref": "Snowhead Temple/Snowhead Compass Chest",
                   "name": "Compass Chest"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Ice Puzzle",
+                "name": "Ice Puzzle"
               }
             ],
             "map_locations": [
@@ -183,6 +290,10 @@
               {
                   "ref": "Snowhead Temple/Snowhead Icicle Room Chest",
                   "name": "Icicle Room Chest"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Icicle Room Wall",
+                "name": "Icicle Room Wall"
               }
             ],
             "map_locations": [
@@ -241,6 +352,74 @@
                 "map": "Snowhead Temple",
                 "x": 865,
                 "y": 590,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Basement",
+                  "name": "Basement"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 765,
+                "y": 1100,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Pillar Freezards",
+                  "name": "Pillar Freezards"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 1185,
+                "y": 900,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Map Room Ledge Room Wall",
+                  "name": "Map Room Ledge Room Wall"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 450,
+                "y": 900,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Main Room Wall",
+                  "name": "Main Room Wall"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 700,
+                "y": 650,
                 "size": 35
                }
             ]

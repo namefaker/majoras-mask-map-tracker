@@ -7,6 +7,7 @@
             {
               "name": "Bombers' Hide and Seed",
               "access_rules": ["$projectile"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
@@ -15,18 +16,21 @@
               "item_count": 2,
               "clear_as_group": false,
               "access_rules": ["$projectile"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Keaton Quiz",
               "access_rules": ["keaton"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             },
             {
               "name": "Tree",
               "access_rules": [""],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png.",
               "chest_opened_img": "images/items/hp_grey.png"
             },
@@ -34,24 +38,28 @@
               "name": "Old Lady",
               "codes": "oldladyfinish",
               "access_rules": ["sword","goron","zora","gfs"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Fairy",
               "access_rules": ["$any_transform"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Fairy Non-Human",
               "access_rules": [""],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Deku Playground Any Day",
               "access_rules": ["deku"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             }

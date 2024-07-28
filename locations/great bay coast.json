@@ -8,23 +8,27 @@
             {
               "name": "Stone Tower Map Purchase",
               "access_rules": ["bow","hs"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Great Bay Map Purchase",
                 "access_rules": ["bow","hs"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lab Fish",
                 "access_rules": ["bottle"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Great Bay Coast Ledge",
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "access_rules": ["$use_scarecrow,hs,$flying_bean"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
@@ -32,11 +36,13 @@
             {
                 "name": "Mikau",
                 "access_rules": ["$play_healing"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Ocean Spider House Chest",
+                "visibility_rules": ["S5_on"],
                 "access_rules": ["$explosion,captains,hs,bow"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
@@ -44,18 +50,21 @@
             {
                 "name": "Ocean Spider House Day 1 Reward",
                 "access_rules": ["$shoot_fa,$explosion,hs"],
+                "visibility_rules": ["S5_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Great Bay Coast Grotto",
                 "access_rules": [""],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Fisherman Game",
                 "access_rules": ["$finish_gbt,gyorg"],
+                "visibility_rules": ["S5_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             }

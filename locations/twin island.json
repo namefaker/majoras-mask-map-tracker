@@ -8,30 +8,35 @@
           {
             "name": "Goron Race",
             "access_rules": ["$access_spring"],
+            "visibility_rules": ["S5_on"],
             "chest_unopened_img": "images/other/chest_brown_closed.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "Goron Racetrack Grotto",
             "access_rules": ["$explosion,goron","$explosion,$use_scarecrow"],
+            "visibility_rules": ["S5_on", "blitz_on"],
             "chest_unopened_img": "images/other/chest_brown_closed.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
               "name": "Hot Spring Water Grotto",
               "access_rules": ["$shoot_fa","$get_hsw"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
               "name": "Twin Island Cave Chest",
               "access_rules": ["$access_spring,zora"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
               "name": "Twin Island Underwater Ramp Chest",
               "access_rules": ["$access_spring,zora"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
           }

@@ -8,30 +8,42 @@
           {
             "name": "Road to Swamp Grotto",
             "access_rules": [""],
+            "visibility_rules": ["S5_on", "blitz_on"],
             "chest_unopened_img": "images/other/chest_brown_closed.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "Road to Swamp Tree",
             "access_rules": ["$projectile"],
+            "visibility_rules": ["S5_on", "blitz_on"],
             "chest_unopened_img": "images/items/hp.png",
             "chest_opened_img": "images/items/hp_grey.png"
           },
           {
               "name": "Swamp Archery #1",
               "access_rules": ["bow"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
+            "name": "Swamp Archery #2",
+            "access_rules": ["bow"],
+            "visibility_rules": ["blitz_on"],
+            "chest_unopened_img": "images/other/chest_brown_closed.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+          {
               "name": "Snowhead Map Purchase",
               "access_rules": ["$projectile"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
               "name": "Woodfall Map Purchase",
               "access_rules": ["$projectile"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
           }
@@ -76,6 +88,10 @@
             {
                 "ref": "Road to Swamp/Swamp Archery #1",
                 "name": "Swamp Archery #1"
+            },
+            {
+              "ref": "Road to Swamp/Swamp Archery #2",
+              "name": "Swamp Archery #2"
             }
           ],
           "map_locations": [
@@ -132,6 +148,10 @@
             {
                 "ref": "Road to Swamp/Swamp Archery #1",
                 "name": "Swamp Archery #1"
+            },
+            {
+              "ref": "Road to Swamp/Swamp Archery #2",
+              "name": "Swamp Archery #2"
             }
           ],
           "map_locations": [
@@ -143,6 +163,7 @@
              }
           ]
       },
+      
       {
         "name": "Road to Swamp",
           "sections": [

@@ -8,36 +8,42 @@
             {
               "name": "Beaver Race #1",
               "access_rules": ["hs,zora"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Like-Like",
                 "access_rules": ["zora"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Zora Cape Grotto",
                 "access_rules": ["$explosion_goron"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Ledge With Tree Chest",
                 "access_rules": ["hs"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Ledge Without Tree Chest",
                 "access_rules": ["hs"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Zora Cape Underwater Chest",
                 "access_rules": ["zora"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

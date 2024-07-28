@@ -8,48 +8,56 @@
             {
               "name": "Baby Goron",
               "access_rules": ["goron,ocarina"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/songs/lullaby.png",
               "chest_opened_img": "images/songs/lullabycheck.png"
             },
             {
               "name": "Biggest Bomb Bag Purchase",
               "access_rules": ["$any_wallet,goron"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Goron Village Ledge",
                 "access_rules": ["$any_wallet,goron,deku,sdeed"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Mountain Scrub Trade",
                 "access_rules": ["deku,sdeed"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lens Cave Invisible Chest",
                 "access_rules": [""],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lens Cave Rock Chest",
                 "access_rules": ["$explosion"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Lens of Truth Chest",
                 "access_rules": [""],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Powder Keg Challenge",
-                "access_rules": ["$access_spring", "fa,goron"],
+                "access_rules": ["$access_spring", "$shoot_fa,goron"],
+                "visibility_rules": ["S5_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

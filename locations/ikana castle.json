@@ -8,12 +8,14 @@
             {
               "name": "Ikana Castle Pillar",
               "access_rules": ["$access_castle_upper"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Ikana King",
                 "access_rules": ["$kill_igos"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/songs/elegy.png",
                 "chest_opened_img": "images/songs/elegycheck.png"
             }

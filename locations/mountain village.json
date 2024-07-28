@@ -8,36 +8,42 @@
             {
               "name": "Darmani",
               "access_rules": ["$use_lens,$play_healing","$access_spring,$play_healing, $use_lens"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Hungry Goron",
               "access_rules": ["$spikes"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Smithy Day 1",
                 "access_rules": ["$any_wallet,$shoot_fa","$any_wallet,$get_hsw"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Smithy Day 2",
                 "access_rules": ["$shoot_fa,golddust","$get_hsw,golddust"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Spring Grotto",
                 "access_rules": ["$access_spring"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Mountain Waterfall Chest",
                 "access_rules": ["$access_spring"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

@@ -8,54 +8,63 @@
             {
               "name": "All-Night Mask Purchase",
               "access_rules": ["wallet2, sword", "wallet2,zora", "wallet2,gfs", "wallet2,goron"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Bank Reward #1",
               "access_rules": [""],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Bank Reward #2",
               "access_rules": ["wallet", "wallet2"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Bank Reward #3",
               "access_rules": ["wallet2"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             },
             {
               "name": "Bomb Bag Purchase",
               "access_rules": [""],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Big Bomb Bag Purchase",
               "access_rules": ["sword","gfs","goron","zora"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Postman's Game",
               "access_rules": ["bunny"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             },
             {
               "name": "Rosa Sisters",
               "access_rules": ["kamaro"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             },
             {
               "name": "Swordman's School",
               "access_rules": ["sword"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             }

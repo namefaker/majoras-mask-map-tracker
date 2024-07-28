@@ -7,30 +7,35 @@
         {
           "name": "Pirate Fortress Interior Hookshot Chest",
           "access_rules": ["bow","$bubbles"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Interior Guard Room Chest",
           "access_rules": ["hs"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Interior Lower Chest",
           "access_rules": [""],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Interior Tank Chest",
           "access_rules": ["hs"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Interior Upper Chest",
           "access_rules": ["hs"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         }

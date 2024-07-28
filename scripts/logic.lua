@@ -24,6 +24,7 @@ function has(item, amount)
     end
 end
 
+
 function play_sot()
     return has("ocarina") and has("sot")
 end

@@ -17,6 +17,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/logic_settings.lua")
 
 -- Custom Items
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
@@ -30,6 +31,7 @@ Tracker:AddItems("items/songs.json")
 Tracker:AddItems("items/hints.json")
 Tracker:AddItems("items/clickable items.json")
 Tracker:AddItems("items/clickable locations.json")
+Tracker:AddItems("items/settings.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
@@ -82,6 +84,7 @@ Tracker:AddLayouts("layouts/always.json")
 Tracker:AddLayouts("layouts/temporary.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

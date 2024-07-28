@@ -8,30 +8,35 @@
           {
             "name": "Bean Grotto",
             "access_rules": ["bottle","hs"],
+            "visibility_rules": ["S5_on", "blitz_on"],
             "chest_unopened_img": "images/other/chest_brown_closed.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "Bean Man",
             "access_rules": [""],
+            "visibility_rules": ["S5_on", "blitz_on"],
             "chest_unopened_img": "images/other/chest_brown_closed.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
               "name": "Butler",
               "access_rules": ["$kill_odolwa,odolwa"],
+              "visibility_rules": ["S5_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
               "name": "Deku Palace West Garden",
               "access_rules": [""],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
           },
           {
               "name": "Imprisoned Monkey",
               "access_rules": ["ocarina"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/songs/sonata.png",
               "chest_opened_img": "images/songs/sonatacheck.png"
           }

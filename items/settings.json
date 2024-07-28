@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Season 5 Settings on",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/season5on.png",
+                "codes": "S5_on",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Season 5 Settings off",
+                "img": "images/other/blitzon.png",
+                "codes": "blitz_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

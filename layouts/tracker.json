@@ -1,5 +1,23 @@
 ﻿
 {
+    "settings_popup": {
+        "type": "array",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Presets",
+                "header_background": "#3e4b57",
+                "content": [
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "S5_on"
+                    }
+                ]
+            }
+        ]
+    },
     "tracker_horizontal": {
         "type": "container",
         "background": "#000000",
@@ -103,8 +121,7 @@
                         }
                     }
                   ]
-
-                },
+                },      
                 {
                     "type": "tabbed",
                     "tabs": [

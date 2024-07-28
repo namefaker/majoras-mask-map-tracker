@@ -1360,14 +1360,14 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Termine Field",
-                "img": "images/other/TF.png",
+                "name": "Southern Swamp",
+                "img": "images/other/swamp.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
             {   
-                "name": "Southern Swamp",
-                "img": "images/other/swamp.png",
+                "name": "Termine Field",
+                "img": "images/other/TF.png",
                 "codes": "areas",
                 "inherit_codes": false
             },

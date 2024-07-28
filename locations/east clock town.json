@@ -9,6 +9,7 @@
         {
           "name": "Bombers' Hideout Chest",
           "access_rules": ["$explosion,$projectile", "$explosion, deku"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
@@ -16,53 +17,62 @@
           "name": "Chest",
           "access_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Gorman (Sound Check)",
           "access_rules": ["$all_transform, romani"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Honey and Darling Any Day",
           "access_rules": ["bombs", "bow", "$bubbles"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Madame Aroma in Bar",
           "access_rules": ["kafei, ltm"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Madame Aroma in Office",
           "access_rules": [""],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Mayor",
           "access_rules": ["couples"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
         },
         {
           "name": "Postman's Freedom Reward",
           "access_rules": ["ltm"],
+          "visibility_rules": ["S5_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Town Archery #1",
           "access_rules": ["bow"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Treasure Chest Game Goron",
           "access_rules": ["goron"],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
         }

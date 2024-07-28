@@ -7,6 +7,7 @@
           "sections": [
             {
               "name": "Mirror Shield Chest",
+              "visibility_rules": ["S5_on"],
               "access_rules": ["la,fa","la,$get_bigpoe,gibdo,sticks",
               "$access_beans,gibdo,sticks,$get_bigpoe","$access_beans,gibdo,fa,$get_bigpoe"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
@@ -14,12 +15,14 @@
             },
             {
                 "name": "Well Left Path Chest",
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "access_rules": ["$access_well_front,$get_bluegoo"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Well Right Path Chest",
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "access_rules": ["la,gido,bottle","$access_beans,gibdo,bottle,"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"

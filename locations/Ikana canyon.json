@@ -8,30 +8,35 @@
             {
               "name": "Canyon Scrub Trade",
               "access_rules": ["zora,odeed"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Ikana Canyon Ledge",
                 "access_rules": ["zora,odeed,deku"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Pamela's Father",
                 "access_rules": ["$access_ikana_upper,storms,healing"],
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Poe Hut",
                 "access_rules": ["$access_ikana_upper,$any_sword"], 
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Secret Shrine Grotto",
                 "access_rules": [""], 
+                "visibility_rules": ["S5_on", "blitz_on"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

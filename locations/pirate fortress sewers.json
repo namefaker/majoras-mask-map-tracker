@@ -7,24 +7,28 @@
         {
           "name": "Pirate Fortress Sewers Maze Chest",
           "access_rules": [""],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Sewers Cage",
           "access_rules": [""],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
         },
         {
           "name": "Pirate Fortress Sewers Cage Room Deep Chest",
           "access_rules": [""],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Pirate Fortress Sewers Cage Room Shallow Chest",
           "access_rules": [""],
+          "visibility_rules": ["S5_on", "blitz_on"],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         }

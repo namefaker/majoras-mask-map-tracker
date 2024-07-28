@@ -8,12 +8,14 @@
             {
               "name": "Path to Snowhead Grotto",
               "access_rules": ["$explosion,$spikes"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Path to Snowhead Pillar",
               "access_rules": ["$use_lens,$use_scarecrow,$spikes"],
+              "visibility_rules": ["S5_on", "blitz_on"],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
             }
