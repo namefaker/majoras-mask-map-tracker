@@ -1,25 +1,23 @@
-Majoras Mask Detailed Map Tracker
+<h1>Majoras Mask Detailed Map Tracker</h1>
 
 finally it's done! 
 I will try to improve this Tracker Pack as good as possible. 
-
-keep in mind, this is the first version, so probably there are some bugs :)
+If you have any suggestions, please let me know
 
 This Works: (hopefully)
 
 <p>Logic S5 Settings <br>
 Hint System <br>
 Maps for a Detailed view <br>
+Presets for Season 5 and Blitu<br>
 
 
 Future plans:
 
-add a Settings Button for many features <br>
 add more Settings <br>
 add more Checks <br>
 add ool Checks <br>
 add better icons for map maybe better maps? <br>
-auto updating
 <br>
 
 special thanks to phaaze, he helps a lot! 
