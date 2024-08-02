@@ -9,7 +9,7 @@ This Works: (hopefully)
 <p>Logic S5 Settings <br>
 Hint System <br>
 Maps for a Detailed view <br>
-Presets for Season 5 and Blitu<br>
+Presets for Season 5 and Blitz<br>
 
 
 Future plans:
