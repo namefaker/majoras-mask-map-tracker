@@ -7,85 +7,85 @@
           "sections": [
             {
               "name": "Astronomy Telescope",
-              "access_rules": ["$access_observatory"],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "access_rules": ["$access_observatory", "[]"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Bio Baba Grotto",
-                "access_rules": ["$explosion_goron, zora"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["$explosion_goron, zora", "{$explosion_goron,$projectile}"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Buisness Scrub Purchase",
-                "access_rules": ["$access_observatory,$any_wallet"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["$access_observatory,$any_wallet", "{$access_observatory}", "[],$any_wallet"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Dodongo Grotto",
                 "access_rules": ["$any_sword","$explosion_goron", "bow"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Kamaro",
                 "access_rules": ["$play_healing"],
-                "visibility_rules": ["S5_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Peahat Grotto",
                 "access_rules": ["bow","$any_sword","$any_transform"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Grass Chest",
                 "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Grass Grotto",
                 "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Pillar Grotto",
                 "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
              },
              {
                 "name": "Stump Chest",
                 "access_rules": ["hs","$flying_bean"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Underwater Chest",
                 "access_rules": ["zora"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Gossip Stones",
                 "access_rules": ["deku,$play_sonata,$explosion_goron","goron,$play_lullaby","zora,$play_nwbn,$explosion_goron"],
-                "visibility_rules": ["S5_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             }

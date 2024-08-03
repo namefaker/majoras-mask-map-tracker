@@ -1,0 +1,320 @@
+    //Termina
+    [
+        {
+          "name": "Great Bay Coast",
+          "access_rules": ["$play_epona"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Stone Tower Map Purchase",
+              "access_rules": ["bow","hs"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Great Bay Map Purchase",
+                "access_rules": ["bow","hs"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Lab Fish",
+                "access_rules": ["bottle"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Great Bay Coast Ledge",
+                "visibility_rules": [""],
+                "access_rules": ["$use_scarecrow,hs,$flying_bean", "{}"],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Mikau",
+                "access_rules": ["$play_healing"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Ocean Spider House Chest",
+                "visibility_rules": [""],
+                "access_rules": ["$explosion,captains,hs,bow"],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Ocean Spider House Day 1 Reward",
+                "access_rules": ["$shoot_fa,$explosion,hs"],
+                "visibility_rules": ["S5_on"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Great Bay Coast Grotto",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Fisherman Game",
+                "access_rules": ["$finish_gbt,gyorg"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Baby Zoras",
+                  "name": "Baby Zoras"
+              },
+              {
+                "ref": "Great Bay Coast/Stone Tower Map Purchase",
+                "name": "Stone Tower Map Purchase"
+              },
+              {
+                "ref": "Great Bay Coast/Great Bay Map Purchase",
+                "name": "Great Bay Map Purchase"
+              },
+              {
+              "ref": "Great Bay Coast/Lab Fish",
+              "name": "Lab Fish"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 550,
+                  "y": 870,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Great Bay Coast Ledge",
+                  "name": "Ledge"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 780,
+                  "y": 720,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Mikau",
+                  "name": "Mikau"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 690,
+                  "y": 890,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Ocean Spider House Chest",
+                  "name": "Ocean Spider House Chest"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House Day 1 Reward",
+                "name": "Ocean Spider House Day 1 Reward"
+              },
+              {
+                "ref": "Great Bay Coast/Great Bay Coast Grotto",
+                "name": "Grotto"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 770,
+                  "y": 880,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Fisherman Game",
+                  "name": "Fisherman Game"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 650,
+                  "y": 760,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Great Bay Coast
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Great Bay Coast",
+          "sections": [
+            {
+                "ref": "Great Bay Coast/Baby Zoras",
+                "name": "Baby Zoras"
+            },
+            {
+                "ref": "Great Bay Coast/Lab Fish",
+                "name": "Lab Fish"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Area",
+              "x": 255,
+              "y": 355,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Great Bay Map Purchase",
+                  "name": "Great Bay Map Purchase"
+              },
+              {
+                  "ref": "Great Bay Coast/Stone Tower Map Purchase",
+                  "name": "Stone Tower Map Purchase"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 285,
+                "y": 385,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Coast",
+          "sections": [
+            {
+                "ref": "Great Bay Coast/Fisherman Game",
+                "name": "Fisherman Game"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Area",
+              "x": 390,
+              "y": 155,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Great Bay Coast Grotto",
+                  "name": "Grotto"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 555,
+                "y": 415,
+                "size": 20
+               }        
+            ]
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Great Bay Coast Ledge",
+                  "name": "Ledge"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 565,
+                "y": 70,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Mikau",
+                  "name": "Mikau"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 440,
+                "y": 400,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Ocean Spider House Chest",
+                  "name": "Ocean Spider House Chest"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House Day 1 Reward",
+                "name": "Ocean Spider House Day 1 Reward"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 555,
+                "y": 365,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  }
+]

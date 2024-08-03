@@ -1,0 +1,200 @@
+    //Termina
+    [
+        {
+          "name": "Mountain Village",
+          "access_rules": ["$access_mountain"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Darmani",
+              "access_rules": ["$use_lens,$play_healing","$access_spring,$play_healing, $use_lens"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Mountain Smithy Day 1",
+                "access_rules": ["$any_wallet,$shoot_fa","$any_wallet,$get_hsw"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Mountain Smithy Day 2",
+                "access_rules": ["$shoot_fa,golddust","$get_hsw,golddust"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Mountain Spring Grotto",
+                "access_rules": ["$access_spring"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Mountain Waterfall Chest",
+                "access_rules": ["$access_spring"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Mountain Smithy Day 1",
+                  "name": "Smithy Day 1"
+              },
+              {
+                "ref": "Mountain Village/Mountain Smithy Day 2",
+                "name": "Smithy Day 2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 870,
+                  "y": 535,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Mountain Village",
+            "sections": [
+              {
+                "ref": "Mountain Village/Mountain Waterfall Chest",
+                "name": "Waterfall Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 825,
+                  "y": 550,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Darmani",
+                  "name": "Darmani"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 805,
+                  "y": 455,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Mountain Spring Grotto",
+                  "name": "Spring Grotto"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 885,
+                  "y": 470,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Mountain Village
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Mountain Village",
+          "sections": [
+            {
+                "ref": "Mountain Village/Mountain Smithy Day 1",
+                "name": "Smithy Day 1"
+            },
+            {
+                "ref": "Mountain Village/Mountain Smithy Day 2",
+                "name": "Smithy Day 2"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 535,
+              "y": 660,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Mountain Village",
+          "sections": [
+            {
+                "ref": "Mountain Village/Darmani",
+                "name": "Darmani"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 470,
+              "y": 555,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Mountain Spring Grotto",
+                  "name": "Spring Grotto"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 570,
+                "y": 605,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Mountain Waterfall Chest",
+                  "name": "Waterfall Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 470,
+                "y": 680,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  }
+]

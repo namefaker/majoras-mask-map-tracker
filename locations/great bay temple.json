@@ -8,85 +8,85 @@
             {
               "name": "GBT Map Chest",
               "access_rules": [""],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "GBT Compass Chest",
                 "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "GBT Small Key Chest",
                 "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "GBT Boss Key Chest",
                 "access_rules": ["$shoot_ia"],
-                "visibility_rules": ["S5_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_golden_closed.png",
                 "chest_opened_img": "images/other/chest_golden_open.png"
             },
             {
                 "name": "GBT Ice Arrow Chest",
-                "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["GBTsk1"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "GBT Heart Container",
                 "access_rules": ["$kill_gyorg"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hc.png",
                 "chest_opened_img": "images/items/hc_grey.png"
             },
-            //fairys
+       //fairys
             {
               "name": "GBT Bio Babas",
               "access_rules": [""],
-              "visibility_rules": ["blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Entrance Torches",
-              "access_rules": ["$shoot_fa"],
-              "visibility_rules": ["blitz_on"],
+              "access_rules": ["sticks","bow"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Green Valve",
               "access_rules": [""],
-              "visibility_rules": ["blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Seesaw Room",
-              "access_rules": [""],
-              "visibility_rules": ["blitz_on"],
+              "access_rules": ["$shoot_fa,$shoot_ia"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Waterwheel Room Lower",
-              "access_rules": ["$shoot_ia,$shoot_fa"],
-              "visibility_rules": ["blitz_on"],
+              "access_rules": ["$shoot_ia"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Waterwheel Room Upper",
-              "access_rules": ["$shoot_ia,$shoot_fa"],
-              "visibility_rules": ["blitz_on"],
+              "access_rules": ["$shoot_ia"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             }
@@ -305,8 +305,8 @@
             "map_locations": [
               {
                 "map": "Great Bay Temple",
-                "x": 1180,
-                "y": 220,
+                "x": 1090,
+                "y": 285,
                 "size": 35
                }
             ]

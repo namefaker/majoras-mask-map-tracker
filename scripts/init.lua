@@ -17,7 +17,6 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic.lua")
-ScriptHost:LoadScript("scripts/logic_settings.lua")
 
 -- Custom Items
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
@@ -84,6 +83,7 @@ Tracker:AddLayouts("layouts/always.json")
 Tracker:AddLayouts("layouts/temporary.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/dungeon items.json")
 
 
 -- AutoTracking for Poptracker

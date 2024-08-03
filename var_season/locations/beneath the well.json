@@ -1,0 +1,119 @@
+    //Termina
+    [
+        {
+          "name": "Beneath the Well",
+          "access_rules": ["$access_ikana_upper","[],$access_ikana_upper_ool"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Mirror Shield Chest",
+              "visibility_rules": [""],
+              "access_rules": ["la,fa","la,$get_bigpoe,gibdo,sticks",
+              "$access_beans,gibdo,sticks,$get_bigpoe","$access_beans,gibdo,fa,$get_bigpoe"],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Well Left Path Chest",
+                "visibility_rules": [""],
+                "access_rules": ["$access_well_front,$get_bluegoo"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Well Right Path Chest",
+                "visibility_rules": [""],
+                "access_rules": ["la,gido,bottle","$access_beans,gibdo,bottle,"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {   
+      "item_count": 1,
+      "children": [
+          {
+            "name": "Beneath the Well",
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Mirror Shield Chest",
+                  "name": "Mirror Shield Chest"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Chest",
+                "name": "Left Path Chest"
+              },
+              {
+                "ref": "Beneath the Well/Well Right Path Chest",
+                "name": "Right Path Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1825,
+                  "y": 420,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Beneath the Well
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Beneath the Well",          
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Mirror Shield Chest",
+                  "name": "Mirror Shield Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 895,
+                  "y": 675,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Beneath the Well", 
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Well Left Path Chest",
+                  "name": "Well Left Path Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 955,
+                  "y": 575,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Beneath the Well", 
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Well Right Path Chest",
+                  "name": "Well Right Path Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 925,
+                  "y": 585,
+                  "size": 20
+                 }
+            ]
+        }
+     ]
+  }
+]

@@ -7,21 +7,21 @@
         {
           "name": "Guru Guru",
           "access_rules": [""],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Kafei",
-          "access_rules": ["ltk"],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "access_rules": ["ltk", "{}"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Curiosity Shop Man #1",
-          "access_rules": ["ltk"],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "access_rules": ["ltk", "{}"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },

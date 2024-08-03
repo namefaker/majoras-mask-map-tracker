@@ -1,4 +1,4 @@
--- Configuration --------------------------------------
+/*-- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true and ENABLE_DEBUG_LOG
@@ -23,3 +23,4 @@ ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 -- loads the SNES autotracking code
 ScriptHost:LoadScript("scripts/autotracking/snes.lua")
 
+*/

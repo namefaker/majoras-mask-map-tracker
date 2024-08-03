@@ -1,0 +1,689 @@
+    //Termina
+    [
+        {
+          "name": "Stone Tower Temple",
+          "access_rules": ["$access_stt","[],$access_stt_ool"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "STT Map Chest",
+              "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "STT Armos Room Chest",
+                "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "STT Eyegore Room Chest",
+                "access_rules": ["la,zora","$explosion_goron,zora"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "STT Compass Chest",
+                "access_rules": ["$shoot_la","mirror,goron,zora"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "STT Light Arrow Chest",
+                "access_rules": ["$shoot_la", "$explosion, $all_transform"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            //fairys
+            {
+              "name": "STT Statue Eye",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "STT Basement Ledge",
+              "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Bridge Crystal",
+            "access_rules": ["la,zora,$explosion","$explosion_goron,zora"],
+            "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Sun Switch",
+            "access_rules": ["$shoot_la","mirror,goron,zora"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Sun Block",
+            "access_rules": ["$shoot_la","mirror,goron,zora"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Lava Room Ledge",
+            "access_rules": ["$shoot_la,deku", "$explosion,$all_transform"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Lava Room Firering",
+            "access_rules": ["$shoot_la,Goron", "$explosion,goron,zora"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Eyegore",
+            "access_rules": ["$shoot_la", "$explosion, $all_transform"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "STT Underwater",
+          "access_rules": ["$shoot_la", "$explosion, $all_transform"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_fairy_open.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "STT Thin Bridge",
+          "access_rules": ["$shoot_la", "$explosion, $all_transform"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_fairy_open.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Map Chest",
+                  "name": "Map Chest"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Armos Room Chest",
+                "name": "Armos Room Chest"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Eyegore Room Chest",
+                "name": "Eyegore Room Chest"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Compass Chest",
+                "name": "Compass Chest"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Light Arrow Chest",
+                "name": "Light Arrow Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2060,
+                  "y": 345,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Statue Eye",
+                  "name": "Statue Eye"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Basement Ledge",
+                "name": "Basement Ledge"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Bridge Crystal",
+                "name": "Bridge Crystal"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Sun Switch",
+                "name": "Sun Switch"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Sun Block",
+                "name": "Sun Block"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Lava Room Ledge",
+                "name": "Lava Room Ledge"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Lava Room Firering",
+                "name": "Lava Room Firering"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Eyegore",
+                "name": "Eyegore"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Underwater",
+                "name": "Underwater"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Thin Bridge",
+                "name": "Thin Bridge"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2060,
+                  "y": 375,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Stone Tower Temple
+      "item_count": 1,
+      "children": [
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Armos Room Chest",
+                  "name": "Armos Room Chest"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Map Chest",
+                "name": "Map Chest"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Basement Ledge",
+                "name": "Basement Ledge"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 590,
+                  "y": 410,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Eyegore Room Chest",
+                  "name": "Eyegore Room Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 980,
+                  "y": 700,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Compass Chest",
+                  "name": "Compass Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 855,
+                  "y": 950,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Light Arrow Chest",
+                  "name": "Light Arrow Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1335,
+                  "y": 295,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Statue Eye",
+                  "name": "Statue Eye"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 660,
+                  "y": 790,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Bridge Crystal",
+                  "name": "Bridge Crystal"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 900,
+                  "y": 490,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Sun Switch",
+                  "name": "Sun Switch"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1480,
+                  "y": 690,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Sun Block",
+                  "name": "Sun Block"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1580,
+                  "y": 750,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Lava Room Ledge",
+                  "name": "Lava Room Ledge"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1740,
+                  "y": 330,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Lava Room Firering",
+                  "name": "Lava Room Firering"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1620,
+                  "y": 410,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Eyegore",
+                  "name": "Eyegore"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 910,
+                  "y": 610,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Underwater",
+                  "name": "Underwater"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1040,
+                  "y": 1060,
+                  "size": 35
+                 }
+              ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Thin Bridge",
+                  "name": "Thin Bridge"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 1110,
+                  "y": 460,
+                  "size": 35
+                 }
+              ]
+          }
+     ]
+  },
+  {   ////istt
+    "name": "Inverted Stone Tower Temple",
+    "access_rules": ["$access_istt","[],$access_istt_ool"],
+    "item_count": 1,
+    "sections": [
+      {
+        "name": "ISTT Updraft Room Chest",
+        "access_rules": ["deku","[]"],
+        "visibility_rules": [""],
+        "chest_unopened_img": "images/other/chest_brown_closed.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+          "name": "ISTT Death Armos Maze Chest",
+          "access_rules": ["deku","[]"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+          "name": "ISTT Boss Key Chest",
+          "access_rules": ["deku","[]"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_golden_closed.png",
+          "chest_opened_img": "images/other/chest_golden_open.png"
+      },
+      {
+          "name": "ISTT Giant's Mask Chest",
+          "access_rules": ["deku","[]"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+          "name": "ISTT Heart Container",
+          "access_rules": ["deku","[]"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/items/hc.png",
+          "chest_opened_img": "images/items/hc_grey.png"
+      },
+      //fairys
+      {
+        "name": "ISTT Entrance Sun Switch",
+        "access_rules": [""],
+        "visibility_rules": [""],
+        "chest_unopened_img": "images/other/chest_fairy_open.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "ISTT Updraft Frozen Eye",
+        "access_rules": ["$shoot_fa,zora,deku"],
+        "visibility_rules": [""],
+        "chest_unopened_img": "images/other/chest_fairy_open.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "ISTT Wizzrobe",
+        "access_rules": ["deku"],
+        "visibility_rules": [""],
+        "chest_unopened_img": "images/other/chest_fairy_open.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      }
+    ]
+  },
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Updraft Room Chest",
+                "name": "Updraft Room Chest"
+            },
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Death Armos Maze Chest",
+                "name": "Death Armos Maze Chest"
+            },
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Giant's Mask Chest",
+                "name": "Giant's Mask Chest"
+            },
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Heart Container",
+                "name": "Heart Container"
+            }
+        ],
+        "map_locations": [
+            {
+              "map": "Termina",
+              "x": 2090,
+              "y": 345,
+              "size": 20
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Entrance Sun Switch",
+                "name": "Entrance Sun Switch"
+            },
+            {
+              "ref": "Inverted Stone Tower Temple/ISTT Updraft Frozen Eye",
+              "name": "Updraft Room Frozen Eye"
+            },
+            {
+              "ref": "Inverted Stone Tower Temple/ISTT Wizzrobe",
+              "name": "Wizzrobe"
+            }
+        ],
+        "map_locations": [
+            {
+              "map": "Termina",
+              "x": 2090,
+              "y": 375,
+              "size": 20
+             }
+          ]
+      }
+   ]
+  },
+  {  ////Inverted Stone Tower Temple
+  "item_count": 1,
+  "children": [
+    {
+      "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Updraft Room Chest",
+              "name": "Updraft Room Chest"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1025,
+              "y": 950,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Death Armos Maze Chest",
+              "name": "Death Armos Maze Chest"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 555,
+              "y": 505,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Giant's Mask Chest",
+              "name": "Giant's Mask Chest"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 860,
+              "y": 640,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Heart Container",
+              "name": "Heart Container"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1395,
+              "y": 295,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Entrance Sun Switch",
+              "name": "Entrance Sun Switch"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 730,
+              "y": 735,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Updraft Frozen Eye",
+              "name": "Updraft Room Frozen Eye"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1175,
+              "y": 920,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Wizzrobe",
+              "name": "Wizzrobe"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 460,
+              "y": 270,
+              "size": 35
+             }
+          ]
+      }
+ ]
+}
+]

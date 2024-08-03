@@ -2,28 +2,28 @@
     [
         {
           "name": "Beneath the Well",
-          "access_rules": ["$access_ikana_upper"],
+          "access_rules": ["$access_ikana_upper","[],$access_ikana_upper_ool"],
           "item_count": 1,
           "sections": [
             {
               "name": "Mirror Shield Chest",
-              "visibility_rules": ["S5_on"],
-              "access_rules": ["la,fa","la,$get_bigpoe,gibdo,sticks",
+              "visibility_rules": [""],
+              "access_rules": ["$shoot_la,fa","$shoot_la,$get_bigpoe,gibdo,sticks",
               "$access_beans,gibdo,sticks,$get_bigpoe","$access_beans,gibdo,fa,$get_bigpoe"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Well Left Path Chest",
-                "visibility_rules": ["S5_on", "blitz_on"],
-                "access_rules": ["$access_well_front,$get_bluegoo"],
+                "visibility_rules": [""],
+                "access_rules": ["gibdo,$get_bluegoo"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Well Right Path Chest",
-                "visibility_rules": ["S5_on", "blitz_on"],
-                "access_rules": ["la,gido,bottle","$access_beans,gibdo,bottle,"],
+                "visibility_rules": [""],
+                "access_rules": ["$shoot_la,gido,bottle","$access_beans,gibdo,bottle,"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

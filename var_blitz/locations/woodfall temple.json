@@ -1,0 +1,272 @@
+    //Termina
+    [
+        {
+          "name": "Woodfall Temple",
+          "access_rules": ["$open_wft"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Hero's Bow Chest",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Woodfall Compass Chest",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Woodfall Map Chest",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Woodfall Small Key Chest",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Woodfall Heart Container",
+                "access_rules": ["bow"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hc.png",
+                "chest_opened_img": "images/items/hc_grey.png"
+            },
+            //fairys
+            {
+              "name": "Woodfall Entrance Platform",
+              "access_rules": [""],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Woodfall Main Room Switch",
+              "access_rules": [""],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Woodfall Dark Room",
+              "access_rules": ["sticks","$shoot_fa"],
+              "visibility_rules": ["blitz_on"],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Hero's Bow Chest",
+                  "name": "Hero's Bow Chest"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Compass Chest",
+                "name": "Compass Chest"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Map Chest",
+                "name": "Map Chest"
+              },
+              {
+              "ref": "Woodfall Temple/Woodfall Small Key Chest",
+              "name": "Small Key CHest"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Heart Container",
+                "name": "Heart Container"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1850,
+                  "y": 1000,
+                  "size": 20
+                 }
+              ]
+            },
+            {
+              "name": "Woodfall Temple",
+              "sections": [
+                {
+                  "ref": "Woodfall Temple/Woodfall Entrance Platform",
+                  "name": "Entrance Platform"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Main Room Switch",
+                  "name": "Main Room Switch"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Dark Room",
+                  "name": "Dark Room"
+                }
+              ],
+              "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1880,
+                    "y": 1000,
+                    "size": 20
+                   }
+                ]
+           }
+       ]
+    },
+    {  ////Woodfall Temple
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Woodfall Temple",
+          "sections": [
+            {
+                "ref": "Woodfall Temple/Hero's Bow Chest",
+                "name": "Hero's Bow Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Woodfall Temple",
+              "x": 535,
+              "y": 940,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Compass Chest",
+                  "name": "Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 165,
+                "y": 640,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Map Chest",
+                  "name": "Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 890,
+                "y": 955,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Small Key Chest",
+                  "name": "Small Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 830,
+                "y": 775,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Heart Container",
+                  "name": "Heart Container"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 995,
+                "y": 320,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Entrance Platform",
+                  "name": "Entrance Platform"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 275,
+                "y": 930,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Dark Room",
+                  "name": "Dark Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 285,
+                "y": 340,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Main Room Switch",
+                  "name": "Main Room Switch"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 540,
+                "y": 520,
+                "size": 40
+               }
+            ]
+        }
+     ]
+  }
+]

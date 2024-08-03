@@ -7,50 +7,50 @@
           "sections": [
             {
               "name": "Hero's Bow Chest",
-              "access_rules": [""],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "access_rules": ["bow,deku","WFTsk1"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Woodfall Compass Chest",
-              "access_rules": [""],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "access_rules": ["WFTsk1"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Woodfall Map Chest",
-                "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["deku","hs"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Woodfall Small Key Chest",
-                "access_rules": [""],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["deku","hs"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Woodfall Heart Container",
                 "access_rules": ["bow"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hc.png",
                 "chest_opened_img": "images/items/hc_grey.png"
             },
             {
               "name": "Woodfall Boss Key Chest",
               "access_rules": ["bow"],
-              "visibility_rules": ["S5_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_golden_closed.png",
               "chest_opened_img": "images/other/chest_golden_open.png"
             },
-            //fairys
+       //fairys
             {
               "name": "Woodfall Entrance Platform",
-              "access_rules": [""],
+              "access_rules": ["deku"],
               "visibility_rules": ["blitz_on"],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -64,7 +64,7 @@
             },
             {
               "name": "Woodfall Dark Room",
-              "access_rules": ["sticks","$shoot_fa"],
+              "access_rules": ["sticks,WFTsk1","$shoot_fa,WFTsk1"],
               "visibility_rules": ["blitz_on"],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"

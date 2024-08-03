@@ -1,0 +1,833 @@
+[
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman (Sound Check)",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Smithy Day 2",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Poe Hut",
+                "img": "images/other/meg.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Iron Knuckle Chest (Night 2)",
+                "img": "images/other/ironknuckle.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Town Archery",
+                "img": "images/other/townarch.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bomber's Hide and Seek",
+                "img": "images/other/Bombers_notebook.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Honey & Darling Any Day",
+                "img": "images/other/honey_darling.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Playground Any Day",
+                "img": "images/other/deku_flower.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman Bros. Race",
+                "img": "images/other/gormanrace.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Leftside Well Chest",
+                "img": "images/other/bluepotiongibdo.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hookshot Chest",
+                "img": "images/other/hookshotchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Dark Room Chest",
+                "img": "images/other/blackboe.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Fire Arrow Chest",
+                "img": "images/other/firearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Ice Arrow Chest",
+                "img": "images/other/icearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Light Arrow Chest",
+                "img": "images/other/lightarrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman (Sound Check)",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Smithy Day 2",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Poe Hut",
+                "img": "images/other/meg.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Iron Knuckle Chest (Night 2)",
+                "img": "images/other/ironknuckle.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Town Archery",
+                "img": "images/other/townarch.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bomber's Hide and Seek",
+                "img": "images/other/Bombers_notebook.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Honey & Darling Any Day",
+                "img": "images/other/honey_darling.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Playground Any Day",
+                "img": "images/other/deku_flower.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman Bros. Race",
+                "img": "images/other/gormanrace.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Leftside Well Chest",
+                "img": "images/other/bluepotiongibdo.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hookshot Chest",
+                "img": "images/other/hookshotchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Dark Room Chest",
+                "img": "images/other/blackboe.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Fire Arrow Chest",
+                "img": "images/other/firearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Ice Arrow Chest",
+                "img": "images/other/icearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Light Arrow Chest",
+                "img": "images/other/lightarrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman (Sound Check)",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Smithy Day 2",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Poe Hut",
+                "img": "images/other/meg.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Iron Knuckle Chest (Night 2)",
+                "img": "images/other/ironknuckle.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Town Archery",
+                "img": "images/other/townarch.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bomber's Hide and Seek",
+                "img": "images/other/Bombers_notebook.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Honey & Darling Any Day",
+                "img": "images/other/honey_darling.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Playground Any Day",
+                "img": "images/other/deku_flower.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman Bros. Race",
+                "img": "images/other/gormanrace.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Leftside Well Chest",
+                "img": "images/other/bluepotiongibdo.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hookshot Chest",
+                "img": "images/other/hookshotchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Dark Room Chest",
+                "img": "images/other/blackboe.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Fire Arrow Chest",
+                "img": "images/other/firearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Ice Arrow Chest",
+                "img": "images/other/icearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Light Arrow Chest",
+                "img": "images/other/lightarrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes4",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman (Sound Check)",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Smithy Day 2",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Poe Hut",
+                "img": "images/other/meg.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Iron Knuckle Chest (Night 2)",
+                "img": "images/other/ironknuckle.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Town Archery",
+                "img": "images/other/townarch.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bomber's Hide and Seek",
+                "img": "images/other/Bombers_notebook.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Honey & Darling Any Day",
+                "img": "images/other/honey_darling.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Playground Any Day",
+                "img": "images/other/deku_flower.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman Bros. Race",
+                "img": "images/other/gormanrace.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Leftside Well Chest",
+                "img": "images/other/bluepotiongibdo.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hookshot Chest",
+                "img": "images/other/hookshotchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Dark Room Chest",
+                "img": "images/other/blackboe.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Fire Arrow Chest",
+                "img": "images/other/firearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Ice Arrow Chest",
+                "img": "images/other/icearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Light Arrow Chest",
+                "img": "images/other/lightarrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes5",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman (Sound Check)",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Smithy Day 2",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Poe Hut",
+                "img": "images/other/meg.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Iron Knuckle Chest (Night 2)",
+                "img": "images/other/ironknuckle.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Town Archery",
+                "img": "images/other/townarch.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bomber's Hide and Seek",
+                "img": "images/other/Bombers_notebook.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Honey & Darling Any Day",
+                "img": "images/other/honey_darling.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Playground Any Day",
+                "img": "images/other/deku_flower.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman Bros. Race",
+                "img": "images/other/gormanrace.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Leftside Well Chest",
+                "img": "images/other/bluepotiongibdo.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hookshot Chest",
+                "img": "images/other/hookshotchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Dark Room Chest",
+                "img": "images/other/blackboe.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Fire Arrow Chest",
+                "img": "images/other/firearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Ice Arrow Chest",
+                "img": "images/other/icearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Light Arrow Chest",
+                "img": "images/other/lightarrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sometimes Hint 1",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "sometimes6",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman (Sound Check)",
+                "img": "images/other/soundcheck.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Lemons (Grog)",
+                "img": "images/other/lemons.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Dog Race",
+                "img": "images/other/doggy.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Mountain Smithy Day 2",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Poe Hut",
+                "img": "images/other/meg.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Iron Knuckle Chest (Night 2)",
+                "img": "images/other/ironknuckle.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Town Archery",
+                "img": "images/other/townarch.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bomber's Hide and Seek",
+                "img": "images/other/Bombers_notebook.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Honey & Darling Any Day",
+                "img": "images/other/honey_darling.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Deku Playground Any Day",
+                "img": "images/other/deku_flower.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gorman Bros. Race",
+                "img": "images/other/gormanrace.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Leftside Well Chest",
+                "img": "images/other/bluepotiongibdo.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hookshot Chest",
+                "img": "images/other/hookshotchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Dark Room Chest",
+                "img": "images/other/blackboe.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Fire Arrow Chest",
+                "img": "images/other/firearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Ice Arrow Chest",
+                "img": "images/other/icearrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Light Arrow Chest",
+                "img": "images/other/lightarrowchest.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Foolish song???",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {   
+                "name": "Song is Foolish",
+                "img": "images/other/soldout.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Song is NOT Foolish",
+                "img": "images/songs/sonata.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Foolish song???",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {   
+                "name": "Song is Foolish",
+                "img": "images/other/soldout.png",
+                "codes": "foolishsong2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Song is NOT Foolish2",
+                "img": "images/songs/sonata.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Foolish song???",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {   
+                "name": "Song is Foolish",
+                "img": "images/other/soldout.png",
+                "codes": "foolishsong3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Song is NOT Foolish3",
+                "img": "images/songs/sonata.png",
+                "codes": "foolishsong",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

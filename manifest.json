@@ -2,14 +2,20 @@
 {
     "name": "Majoras Mask Maptracker",
     "game_name": "<The Legend of Zelda: Majoras Mask>",
-    "package_version": "0.0.6",
+    "package_version": "0.0.7",
     "package_uid": "template_pack",
     "author": "namefaker",
     "variants": {
         "standard": {
-            "display_name": "Map Tracker",
+            "display_name": "Individual Settings",
             "flags": [
             ]
+        },
+        "var_season":{
+            "display_name": "Preset: Season 5"
+        },
+        "var_blitz":{
+            "display_name": "Preset: Blitz"
         }
     },
     "versions_url": "https://raw.githubusercontent.com/namefaker/majoras-mask-map-tracker/main/versions.json"

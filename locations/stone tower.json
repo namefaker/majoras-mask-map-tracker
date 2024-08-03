@@ -2,27 +2,27 @@
     [
         {
           "name": "Stone Tower",
-          "access_rules": [""],
+          "access_rules": ["$access_istt,$flying_bean","[],$access_istt_ool,$flying_bean"],
           "item_count": 1,
           "sections": [
             {
               "name": "Inverted Stone Tower Left Chest",
-              "access_rules": ["$access_istt,$flying_bean"],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "access_rules": [],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Inverted Stone Tower Middle Chest",
-                "access_rules": ["$access_istt,$flying_bean"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": [],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Inverted Stone Tower Right Chest",
-                "access_rules": ["$access_istt,$flying_bean"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": [],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

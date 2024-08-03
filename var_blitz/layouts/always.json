@@ -1,0 +1,47 @@
+{
+    "shared_always_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "sometimes1",
+                                "items13",
+                                "",
+                                "",    
+                                "sometimes2",
+                                "items15"    
+                            ],
+                            [
+                                "sometimes3",
+                                "items16",
+                                "",
+                                "",
+                                "sometimes4",
+                                "items18"
+                            ],
+                            [
+                                "sometimes5",
+                                "items19",
+                                "",
+                                "",
+                                "sometimes6",
+                                "items21"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

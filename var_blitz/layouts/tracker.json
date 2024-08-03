@@ -1,0 +1,232 @@
+﻿
+{
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Masks",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_masks_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Songs",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_songs_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Way of the Hero",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_woth_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Foolish Areas & Sometimes Hints",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_foolish_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Sometimes Hints",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_always_grid"
+                            }
+                        }
+                    ]
+                },
+                { "type": "dock",
+                  "dock": "bottom",
+                  "v_alignment": "stretch",
+                  "content": [
+                    {
+                        "type": "group",
+                        "header": "Temporary Items",
+                        "dock": "left",
+                        "margin": "0,0,0,0,",
+                        "content": {
+                            "type": "layout",
+                            "h_alignment": "center",
+                            "v_alignment": "center",
+                            "key": "shared_temporary_grid"
+                        }
+                    }
+                  ]
+                },      
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "World Map",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Termina"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Clock Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Clock Town"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Termina Field",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Termina Field"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Milk and Ranch",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Milk and Ranch"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Swamp Area",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Swamp Area"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mountain Area",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mountain Area"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Great Bay Area",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Great Bay Area"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pirate Fortress",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Pirate Fortress"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ikana Area",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ikana Area"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Woodfall Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Woodfall Temple"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Snowhead Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Snowhead Temple"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Great Bay Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Great Bay Temple"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Stone Tower Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Stone Tower Temple"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

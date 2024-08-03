@@ -1,7 +1,3 @@
--- put logic functions here using the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
--- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
--- to see how this function gets called, check: locations/locations.json
--- example:
 function has_more_then_n_consumable(n)
     local count = Tracker:ProviderCountForCode('consumable')
     local val = (count > tonumber(n))
@@ -23,7 +19,6 @@ function has(item, amount)
         return count >= amount
     end
 end
-
 
 function play_sot()
     return has("ocarina") and has("sot")
@@ -265,8 +260,8 @@ function access_castle_upper()
 end
 
 function kill_igos()
-    return has("$access_castle") and has("fa") and has("$any_sword")
-     or  has("$access_castle_upper") and has("$use_keg") and has("fa")
+    return has("$access_castle") and has("fa") and has("$any_sword") and has("mirror")
+     or  has("$access_castle_upper") and has("$use_keg") and has("fa") and has("mirror")
 end
 
 function access_stt()
@@ -296,5 +291,45 @@ function kill_sunblock()
 end
 
 function access_secretshrine()
-    return has("$access_ikana") and has("la")
+    return has("$access_ikana") and has("$shoot_la")
+end
+
+function access_ikana_canyon_ool()
+    return has("goron") and has("$ikana_mask") and has("hs")
+end
+
+function access_ikana_upper_ool()
+    return has("$access_ikana_canyon_ool") or has("$access_ikana_upper")
+end
+
+function access_castle_ool()
+    return has("$access_ikana_upper_ool") and has("zora")
+        or has("$access_ikana_upper_ool") and has("$shoot_la")
+        or has("$access_ikana_upper_ool") and has("mirror")
+end
+
+function access_igosroom_ool()
+    return has("$access_castle_ool") and has("$shoot_la")
+        or has("$access_castle_ool") and has("$shoot_fa") and has("$use_keg") and has("mirror")
+end
+
+function kill_igos_ool()
+    return has("$access_igosroom_ool") and has("$shoot_fa") and has("$any_sword") and has("mirror")
+        or has("$access_igosroom_ool") and has("$shoot_fa") and has("$any_transform") and has("mirror")
+end
+
+function access_stt_ool()
+    return has("$access_ikana_upper_ool") and has("$play_elegy") and has("zora")
+        or has("$access_ikana_upper_ool") and has("$play_elegy") and has("goron")
+end
+
+function access_istt_ool()
+    return has("$access_stt_ool") and has("$shoot_la")
+end
+
+function access_dekupalace_ool()
+    return has("$kill_octo") and has("zora")
+        or has("$kill_octo") and has("goron")
+        or has("$kill_octo") and has("bottle")
+        or has("$kill_octo") and has("pb")
 end

@@ -8,63 +8,63 @@
             {
               "name": "Kotake",
               "access_rules": [""],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Mystery Woods Grotto",
               "access_rules": [""],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Near Swamp Spider House Grotto",
                 "access_rules": ["$kill_octo, $access_ssh"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Swamp Spider House Reward",
                 "access_rules": ["$clear_ssh"],
-                "visibility_rules": ["S5_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Boat Archery",
                 "access_rules": ["odolwa,$kill_odolwa"],
-                "visibility_rules": ["S5_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Koume",
                 "access_rules": ["bottle"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Pictograph Contest Winner",
                 "access_rules": ["pb"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Swamp Scrub Trade",
                 "access_rules": ["ldeed"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Swamp Tourist Center Roof",
-                "access_rules": ["ldeed,deku"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["ldeed,deku", "{}", "[],goron"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             }

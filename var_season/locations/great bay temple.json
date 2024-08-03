@@ -1,0 +1,384 @@
+    //Termina
+    [
+        {
+          "name": "Great Bay Temple",
+          "access_rules": ["$access_gbt"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "GBT Map Chest",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "GBT Compass Chest",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "GBT Small Key Chest",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "GBT Boss Key Chest",
+                "access_rules": ["$shoot_ia"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_golden_closed.png",
+                "chest_opened_img": "images/other/chest_golden_open.png"
+            },
+            {
+                "name": "GBT Ice Arrow Chest",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "GBT Heart Container",
+                "access_rules": ["$kill_gyorg"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hc.png",
+                "chest_opened_img": "images/items/hc_grey.png"
+            },
+      /*      //fairys
+            {
+              "name": "GBT Bio Babas",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "GBT Entrance Torches",
+              "access_rules": ["sticks","bow"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "GBT Green Valve",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "GBT Seesaw Room",
+              "access_rules": ["$shoot_fa,$shoot_ia"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "GBT Waterwheel Room Lower",
+              "access_rules": ["$shoot_ia"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "GBT Waterwheel Room Upper",
+              "access_rules": ["$shoot_ia"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            }*/
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Map Chest",
+                  "name": "Map Chest"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Compass Chest",
+                "name": "Compass Chest"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Small Key Chest",
+                "name": "Small Key Chest"
+              },
+              {
+              "ref": "Great Bay Temple/GBT Ice Arrow Chest",
+              "name": "Ice Arrow"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Boss Key Chest",
+                "name": "Boss Key Chest"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Heart Container",
+                "name": "Heart Container"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 275,
+                  "y": 900,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Bio Babas",
+                  "name": "Bio Babas"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Entrance Torches",
+                "name": "Entrance Torches"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Green Valve",
+                "name": "Green Valve"
+              },
+              {
+              "ref": "Great Bay Temple/GBT Seesaw Room",
+              "name": "Seesaw Room"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Waterwheel Room Lower",
+                "name": "Waterwheel Room Lower"
+              },
+              {
+                "ref": "Great Bay Temple/GBT Waterwheel Room Upper",
+                "name": "Waterwheel Room Upper"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 305,
+                  "y": 900,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Great Bay Temple
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Great Bay Temple",
+          "sections": [
+            {
+                "ref": "Great Bay Temple/GBT Map Chest",
+                "name": "Map Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Temple",
+              "x": 950,
+              "y": 880,
+              "size": 35
+             }
+          ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+                {
+                    "ref": "Great Bay Temple/GBT Compass Chest",
+                    "name": "Compass Chest"
+                }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1185,
+                "y": 595,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+          "sections": [
+            {
+                "ref": "Great Bay Temple/GBT Small Key Chest",
+                "name": "Small Key Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Great Bay Temple",
+              "x": 1225,
+              "y": 660,
+              "size": 35
+             }
+          ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Ice Arrow Chest",
+                  "name": "Ice Arrow Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 950,
+                "y": 200,
+                "size": 35
+               }        
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Boss Key Chest",
+                  "name": "Boss Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1300,
+                "y": 645,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Heart Container",
+                  "name": "Heart Container"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 210,
+                "y": 1060,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Entrance Torches",
+                  "name": "Entrance Torches"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 460,
+                "y": 880,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Green Valve",
+                  "name": "Green Valve"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1080,
+                "y": 270,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Bio Babas",
+                  "name": "Bio Babas"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1000,
+                "y": 980,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Seesaw Room",
+                  "name": "Seesaw Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1100,
+                "y": 930,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Waterwheel Room Upper",
+                  "name": "Waterwheel Room Upper"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1540,
+                "y": 730,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/GBT Waterwheel Room Lower",
+                  "name": "Waterwheel Room Lower"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1500,
+                "y": 930,
+                "size": 35
+               }
+            ]
+        }
+     ]
+  }
+]

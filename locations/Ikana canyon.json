@@ -2,41 +2,41 @@
     [
         {
           "name": "Ikana Canyon",
-          "access_rules": ["$access_ikana"],
+          "access_rules": ["$access_ikana","[],$access_ikana_canyon_ool"],
           "item_count": 1,
           "sections": [
             {
               "name": "Canyon Scrub Trade",
               "access_rules": ["zora,odeed"],
-              "visibility_rules": ["S5_on", "blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Ikana Canyon Ledge",
-                "access_rules": ["zora,odeed,deku"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["zora,odeed,deku", "{}"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Pamela's Father",
-                "access_rules": ["$access_ikana_upper,storms,healing"],
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["$access_ikana_upper,$play_storms,healing", "[],$access_ikana_upper_ool,$play_storms,healing"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Poe Hut",
-                "access_rules": ["$access_ikana_upper,$any_sword"], 
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "access_rules": ["$access_ikana_upper,$any_sword,bow", "[],$access_ikana_upper_ool,$any_sword,bow"], 
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
                 "name": "Secret Shrine Grotto",
                 "access_rules": [""], 
-                "visibility_rules": ["S5_on", "blitz_on"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             }

@@ -1,19 +1,76 @@
 [
     {
-        "name": "Season 5 Settings on",
+        "name": "Compass Shuffle",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/other/season5on.png",
-                "codes": "S5_on",
+                "img": "images/other/on_compass.png",
+                "codes": "on_compass",
                 "inherit_codes": false
             },
             {   
                 "name": "Season 5 Settings off",
-                "img": "images/other/blitzon.png",
-                "codes": "blitz_on",
+                "img": "images/other/off_compass.png",
+                "codes": "off_compass",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Map Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/on_map.png",
+                "codes": "on_map",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Season 5 Settings off",
+                "img": "images/other/off_map.png",
+                "codes": "off_map",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Small Key Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/on_sk.png",
+                "codes": "on_sk",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Season 5 Settings off",
+                "img": "images/other/off_sk.png",
+                "codes": "off_sk",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Big Key Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/on_bk.png",
+                "codes": "on_bk",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Season 5 Settings off",
+                "img": "images/other/off_bk.png",
+                "codes": "off_bk",
                 "inherit_codes": false
             }
         ]

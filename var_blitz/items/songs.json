@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Song of Time",
+        "type": "progressive_toggle",
+        "initial_active_state": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/songs/songoftime.png",
+                "codes": "sot",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/songoftimecheck.png",
+                "codes": "sotcheck, sot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Song of Healing",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/songs/healing.png",
+                "codes": "healing",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/healingcheck.png",
+                "codes": "healingcheck, healing",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Song of Soaring",
+        "type": "progressive_toggle",
+        "initial_active_state": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/songs/soaring.png",
+                "codes": "soaring",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/soaringcheck.png",
+                "codes": "soaringcheck, soaring",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Song of Storms",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/songs/storms.png",
+                "codes": "storms",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/stormscheck.png",
+                "codes": "stormscheck, storms",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Eponas Song",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "initial_active_state": true,
+        "stages": [
+            {
+                "img": "images/songs/epona.png",
+                "codes": "epona",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/eponacheck.png",
+                "codes": "eponacheck, epona",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sonata of Awakening",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/songs/sonata.png",
+                "codes": "sonata",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/sonatacheck.png",
+                "codes": "sonatacheck, sonata",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goron Lullaby",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/songs/lullaby.png",
+                "codes": "lullaby",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/lullabycheck.png",
+                "codes": "lullabycheck,lullaby",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "New Wave Bossa Nova",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/songs/bossa nova.png",
+                "codes": "nwbn",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/bossa novacheck.png",
+                "codes": "nwbncheck,nwbn",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Elegy of Emptyness",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/songs/elegy.png",
+                "codes": "elegy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/elegycheck.png",
+                "codes": "elegycheck,elegy",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Oath to Order",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/songs/oath.png",
+                "codes": "oath",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/songs/oathcheck.png",
+                "codes": "oathcheck,oath",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

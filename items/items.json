@@ -7,6 +7,7 @@
     },
     {
         "name": "Bombchus",
+        "visibility_rules": ["S5_on"],
         "type": "toggle",
         "img": "images/items/bombchu.png",
         "codes": "chu"
@@ -437,5 +438,214 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Woodfall Temple Small Keys",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/small_key_wf.png",
+                "codes": "WFTsk0",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Woodfall Temple Small Keys",
+                "img": "images/items/small_key_wf1.png",
+                "codes": "WFTsk1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Great Bay Temple Small Keys",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/small_key_gb.png",
+                "codes": "GBTsk0",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Small Keys",
+                "img": "images/items/small_key_gb1.png",
+                "codes": "GBTsk1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Snowhead Temple Small Keys",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/small_key_sh.png",
+                "codes": "SHTsk0",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Small Keys",
+                "img": "images/items/small_key_sh1.png",
+                "codes": "SHTsk1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Small Keys",
+                "img": "images/items/small_key_sh2.png",
+                "codes": "SHTsk2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Small Keys",
+                "img": "images/items/small_key_sh3.png",
+                "codes": "SHTsk3",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Stone Tower Temple Small Keys",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/small_key_ST.png",
+                "codes": "STTsk0",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Small Keys",
+                "img": "images/items/small_key_st1.png",
+                "codes": "STTsk1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Small Keys",
+                "img": "images/items/small_key_st2.png",
+                "codes": "STTsk2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stonw Tower Temple Small Keys",
+                "img": "images/items/small_key_st3.png",
+                "codes": "STTsk3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stonw Tower Temple Small Keys",
+                "img": "images/items/small_key_st4.png",
+                "codes": "STTsk4",
+                "inherit_codes": false
+            }
+
+        ]
+    },
+    {
+        "name": "Woodfall Temple Boss Key",
+        "type": "toggle",
+        "img": "images/items/boss_key_wf.png",
+        "codes": "WFTbk"
+    },
+    {
+        "name": "Snowhead Temple Boss Key",
+        "type": "toggle",
+        "img": "images/items/boss_key_sh.png",
+        "codes": "SHTbk"
+    },
+    {
+        "name": "Great Bay Temple Boss Key",
+        "type": "toggle",
+        "img": "images/items/boss_key_gb.png",
+        "codes": "GBTbk"
+    },
+    {
+        "name": "Stone Tower Temple Boss Key",
+        "type": "toggle",
+        "img": "images/items/boss_key_st.png",
+        "codes": "STTbk"
+    },
+    {
+        "name": "Woodfall Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_wf.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "WFTfairy"
+    },
+    {
+        "name": "Snowhead Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_sh.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "SHTfairy"
+    },
+    {
+        "name": "Great Bay Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_gb.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "GBTfairy"
+    },
+    {
+        "name": "Stone Tower Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_st.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "STTfairy"
+    },
+    {
+        "name": "Clock Town Fairy",
+        "type": "toggle",
+        "img": "images/items/fairy_ct.png",
+        "codes": "CTfairy"
+    },
+    {
+        "name": "Swamp Spider House Tokens",
+        "type": "consumable",
+        "img": "images/other/skull_ss.png",
+        "max_quantity": 30,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "ssh_token"
+    },
+    {
+        "name": "Ocean Spider House Tokens",
+        "type": "consumable",
+        "img": "images/other/skull_gb.png",
+        "max_quantity": 30,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "osh_token"
     }
 ]

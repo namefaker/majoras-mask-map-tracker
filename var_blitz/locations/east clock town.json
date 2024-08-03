@@ -1,0 +1,228 @@
+    //Termina
+[
+    {
+      "name": "East Clock Town",
+      "access_rules": [""],
+      "clear_as_group": false,
+      "item_count": 1,
+      "sections": [
+        {
+          "name": "Bombers' Hideout Chest",
+          "access_rules": ["$explosion,$projectile", "$explosion, deku", "[], $explosion"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "visibility_rules": [""],
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Gorman (Sound Check)",
+          "access_rules": ["$all_transform, romani"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Honey and Darling Any Day",
+          "access_rules": ["bombs", "bow", "$bubbles"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Madame Aroma in Bar",
+          "access_rules": ["kafei, ltm"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Madame Aroma in Office",
+          "access_rules": [""],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Mayor",
+          "access_rules": ["couples"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/items/hp.png",
+          "chest_opened_img": "images/items/hp_grey.png"
+        },
+        {
+          "name": "Town Archery #1",
+          "access_rules": ["bow"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Treasure Chest Game Goron",
+          "access_rules": ["goron"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/items/hp.png",
+          "chest_opened_img": "images/items/hp_grey.png"
+        }
+      ],
+      "map_locations": [
+        {
+          "map": "Termina",
+          "x": 1360,
+          "y": 760,
+          "size": 20
+        }
+      ]
+    },
+    // East Clock Town 
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Bombers' Hideout Chest",
+                "name": "ECT Bombers' Hideout Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 500,
+              "y": 20,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Chest",
+                "name": "ECT Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 530,
+              "y": 280,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Gorman (Sound Check)",
+                "name": "ECT Gorman (Sound Check)"
+            },
+            {
+              "ref": "East Clock Town/Madame Aroma in Bar",
+              "name": "ECT Madame Aroma in Bar"
+          }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 460,
+              "y": 150,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Honey and Darling Any Day",
+                "name": "ECT Honey and Darling Any Day"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 535,
+              "y": 175,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Madame Aroma in Office",
+                "name": "ECT Madame Aroma in Office"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 350,
+              "y": 50,
+              "size": 20
+           }
+         ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Mayor",
+                "name": "ECT Mayor"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 310,
+              "y": 70,
+              "size": 20
+          }
+      ]
+      },
+       {
+        "name": "East Clock Town",
+        "sections": [
+          {
+              "ref": "East Clock Town/Town Archery #1",
+              "name": "ECT Town Archery #1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 565,
+            "y": 215,
+            "size": 20
+          }
+        ]
+       },
+       {
+        "name": "East Clock Town",
+        "sections": [
+          {
+              "ref": "East Clock Town/Treasure Chest Game Goron",
+              "name": "ECT Treasure Chest Game Goron"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 485,
+            "y": 255,
+            "size": 20
+          }
+        ]
+       }
+     ]
+  }
+]

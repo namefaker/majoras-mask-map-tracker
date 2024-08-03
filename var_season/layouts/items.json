@@ -1,0 +1,56 @@
+
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ocarina",
+                                "bow",
+                                "fa",
+                                "ia",    
+                                "la",
+                                "sword"      
+                            ],
+                            [
+                                "bombs",
+                                "chu",
+                                "sticks",
+                                "nuts",
+                                "magic",
+                                "shield"
+                            ],
+                            [
+                                "keg",
+                                "PB",
+                                "lens",
+                                "hs",
+                                "gfs",
+                                "pendent"
+                            ],
+                            [
+                                "bottle",
+                                "wallet",
+                                "Odolwa",
+                                "goht",
+                                "gyorg",
+                                "twinmold"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

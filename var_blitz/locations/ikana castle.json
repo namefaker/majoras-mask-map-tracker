@@ -1,0 +1,90 @@
+    //Termina
+    [
+      {
+        "name": "Ikana Castle",
+        "access_rules": [""],
+        "item_count": 1,
+        "sections": [
+          {
+            "name": "Ikana Castle Pillar",
+            "access_rules": ["$access_castle_upper", "{$access_castle_ool}","[],$access_castle_ool,$shoot_fa,deku"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/items/hp.png",
+            "chest_opened_img": "images/items/hp_grey.png"
+          },
+          {
+              "name": "Ikana King",
+              "access_rules": ["$kill_igos","[],$kill_igos_ool"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/songs/elegy.png",
+              "chest_opened_img": "images/songs/elegycheck.png"
+          }
+        ]
+      },
+          //Termina
+  {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Ikana Castle",
+          "sections": [
+            {
+                "ref": "Ikana Castle/Ikana Castle Pillar",
+                "name": "Pillar"
+            },
+            {
+              "ref": "Ikana Castle/Ikana King",
+              "name": "Ikana King (Igos)"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1930,
+                "y": 515,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  },
+  {  ////Ikana Castle
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Ikana Castle",
+          "sections": [
+            {
+                "ref": "Ikana Castle/Ikana Castle Pillar",
+                "name": "Pillar"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Ikana Area",
+                "x": 1045,
+                "y": 350,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Ikana Castle",
+          "sections": [
+            {
+                "ref": "Ikana Castle/Ikana King",
+                "name": "Ikana King (Igos)"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Ikana Area",
+                "x": 1025,
+                "y": 440,
+                "size": 20
+               }
+            ]
+        }
+   ]
+}
+]

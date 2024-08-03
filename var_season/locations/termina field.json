@@ -1,0 +1,549 @@
+    //Termina
+    [
+        {
+          "name": "Termina Field",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Astronomy Telescope",
+              "access_rules": ["$access_observatory", "[]"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Bio Baba Grotto",
+                "access_rules": ["$explosion_goron, zora", "{$explosion_goron,$projectile}"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Buisness Scrub Purchase",
+                "access_rules": ["$access_observatory,$any_wallet","{$access_observatory}", "[],$any_wallet"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Dodongo Grotto",
+                "access_rules": ["$any_sword","$explosion_goron", "bow"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Kamaro",
+                "access_rules": ["$play_healing"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Peahat Grotto",
+                "access_rules": ["bow","$any_sword","$any_transform"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Grass Chest",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Grass Grotto",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Pillar Grotto",
+                "access_rules": [""],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+             },
+             {
+                "name": "Stump Chest",
+                "access_rules": ["hs","$flying_bean"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Underwater Chest",
+                "access_rules": ["zora"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Gossip Stones",
+                "access_rules": ["deku,$play_sonata,$explosion_goron","goron,$play_lullaby","zora,$play_nwbn,$explosion_goron"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            }
+        ]
+          },
+        // Termina 
+        {
+          "item_count": 1,
+          "children": [
+            {
+              "name": "Termina Field",
+              "sections": [
+                {
+                    "ref": "Termina Field/Astronomy Telescope",
+                    "name": "Astronomy Telescope"
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1510,
+                  "y": 705,
+                  "size": 20
+                 }
+              ]
+            },
+            {
+              "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Bio Baba Grotto",
+                      "name": "Bio Baba Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1130,
+                    "y": 835,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Buisness Scrub Purchase",
+                      "name": "Buisness Scrub Purchase"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1498,
+                    "y": 740,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Dodongo Grotto",
+                      "name": "Dodongo Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1120,
+                    "y": 760,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Kamaro",
+                      "name": "Kamaro"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1150,
+                    "y": 770,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Peahat Grotto",
+                      "name": "Peahat Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1370,
+                    "y": 880,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Grass Chest",
+                      "name": "Grass Chest"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1530,
+                    "y": 820,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Grass Grotto",
+                      "name": "Grass Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1490,
+                    "y": 825,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Pillar Grotto",
+                      "name": "Pillar Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1410,
+                    "y": 725,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Stump Chest",
+                      "name": "Stump Chest"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1460,
+                    "y": 835,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Underwater Chest",
+                      "name": "Underwater Chest"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1230,
+                    "y": 875,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Gossip Stones",
+                      "name": "Gossip Stones"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1410,
+                    "y": 890,
+                    "size": 20
+                   },
+                   {
+                    "map": "Termina",
+                    "x": 1230,
+                    "y": 720,
+                    "size": 20
+                   },
+                   {
+                    "map": "Termina",
+                    "x": 1185,
+                    "y": 780,
+                    "size": 20
+                   },
+                   {
+                    "map": "Termina",
+                    "x": 1480,
+                    "y": 710,
+                    "size": 20
+                   }
+                ]
+              }
+         ]
+      },
+      {     /// Termina Field
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Termina Field",
+            "sections": [
+              {
+                  "ref": "Termina Field/Astronomy Telescope",
+                  "name": "Astronomy Telescope"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina Field",
+                "x": 1720,
+                "y": 345,
+                "size": 40
+               }
+            ]
+          },
+                      {
+                        "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Bio Baba Grotto",
+                      "name": "Bio Baba Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 350,
+                    "y": 1000,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Buisness Scrub Purchase",
+                      "name": "Buisness Scrub Purchase"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1660,
+                    "y": 375,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Dodongo Grotto",
+                      "name": "Dodongo Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 340,
+                    "y": 475,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Kamaro",
+                      "name": "Kamaro"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 380,
+                    "y": 555,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Peahat Grotto",
+                      "name": "Peahat Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1200,
+                    "y": 1115,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Grass Chest",
+                      "name": "Grass Chest"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1775,
+                    "y": 725,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Grass Grotto",
+                      "name": "Grass Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1645,
+                    "y": 825,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Pillar Grotto",
+                      "name": "Pillar Grotto"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1340,
+                    "y": 345,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Stump Chest",
+                      "name": "Stump Chest"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1565,
+                    "y": 875,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Underwater Chest",
+                      "name": "Underwater Chest"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 725,
+                    "y": 1150,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Gossip Stones",
+                      "name": "Gossip Stones"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1460,
+                    "y": 1140,
+                    "size": 40
+                   },
+                   {
+                    "map": "Termina Field",
+                    "x": 502,
+                    "y": 620,
+                    "size": 40
+                   },
+                   {
+                    "map": "Termina Field",
+                    "x": 685,
+                    "y": 270,
+                    "size": 40
+                   },
+                   {
+                    "map": "Termina Field",
+                    "x": 1705,
+                    "y": 210,
+                    "size":  40
+                   }
+                ]
+              }
+       ]
+    }
+ ]

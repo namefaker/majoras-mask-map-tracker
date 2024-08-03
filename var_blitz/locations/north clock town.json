@@ -1,0 +1,186 @@
+    //Termina
+    [
+        {
+          "name": "North Clock Town",
+          "access_rules": [""],
+          "sections": [
+            {
+              "name": "Bombers' Hide and Seed",
+              "access_rules": ["$projectile"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Map Purchase (Tingle)",
+              "item_count": 2,
+              "clear_as_group": false,
+              "access_rules": ["$projectile","[], $any_sword"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Keaton Quiz",
+              "access_rules": ["keaton"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Tree",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png.",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Great Fairy",
+              "access_rules": ["$any_transform"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Great Fairy Non-Human",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Deku Playground Any Day",
+              "access_rules": ["deku"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png.",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1250,
+              "y": 750,
+              "size": 20
+            }
+          ]
+        },
+            // North Clock Town 
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "North Clock Town",
+            "sections": [
+              {
+                  "ref": "North Clock Town/Bombers' Hide and Seed",
+                  "name": "Bombers' Hide and Seed"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 140,
+                "y": 170,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "North Clock Town",
+            "sections": [
+              {
+                  "ref": "North Clock Town/Map Purchase (Tingle)",
+                  "name": "Map Purchase (Tingle)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 180,
+                "y": 145,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "North Clock Town",
+            "sections": [
+              {
+                  "ref": "North Clock Town/Keaton Quiz",
+                  "name": "Keaton Quiz"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 200,
+                "y": 100,
+                "size": 20
+              },
+              {
+                "map": "Milk and Ranch",
+                "x": 510,
+                "y": 250,
+                "size": 40
+              }
+            ]
+          },
+          {
+            "name": "North Clock Town",
+            "sections": [
+              {
+                  "ref": "North Clock Town/Tree",
+                  "name": " Tree"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 215,
+                "y": 120,
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "North Clock Town",
+            "sections": [
+              {
+                  "ref": "North Clock Town/Deku Playground Any Day",
+                  "name": "Deku Playground Any Day"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 160,
+                "y": 230,
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "North Clock Town",
+            "sections": [
+              {
+                  "ref": "North Clock Town/Great Fairy",
+                  "name": "Great Fairy"
+              },
+              {
+                "ref": "North Clock Town/Great Fairy Non-Human",
+                "name": "Great Fairy Non-Human"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 100,
+                "y": 240,
+                "size": 20
+            }
+          ]
+         }
+       ]
+    }
+  ]

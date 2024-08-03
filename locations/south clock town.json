@@ -7,49 +7,49 @@
       "sections": [
         {
           "name": "Clock Tower Entrance",
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
         },
         {
           "name": "Straw Roof Chest",
-          "access_rules": ["deku,tear", "hs"],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "access_rules": ["deku,tear", "hs","[],$any_sword"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Scrub Trade",
           "access_rules": ["tear"],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Postbox",
           "access_rules": ["postman"],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
         },
         {
           "name": "Final Day Chest",
           "access_rules": ["hs","deku,tear"],
-          "visibility_rules": ["S5_on", "blitz_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Skull Kid Item",
           "access_rules": ["$projectile"],
-          "visibility_rules": ["S5_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Skull Kid Song",
           "access_rules": ["$projectile"],
-          "visibility_rules": ["S5_on"],
+          "visibility_rules": [""],
           "chest_unopened_img": "images/songs/songoftime.png",
           "chest_opened_img": "images/songs/songoftimecheck.png"
         }

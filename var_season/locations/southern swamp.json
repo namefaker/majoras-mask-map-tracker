@@ -1,0 +1,247 @@
+    //Termina
+    [
+        {
+          "name": "Southern Swamp",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Kotake",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Mystery Woods Grotto",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Near Swamp Spider House Grotto",
+                "access_rules": ["$kill_octo, $access_ssh"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Swamp Spider House Reward",
+                "access_rules": ["$clear_ssh"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Boat Archery",
+                "access_rules": ["odolwa,$kill_odolwa"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Koume",
+                "access_rules": ["bottle"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Pictograph Contest Winner",
+                "access_rules": ["pb"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Swamp Scrub Trade",
+                "access_rules": ["ldeed"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Swamp Tourist Center Roof",
+                "access_rules": ["ldeed,deku", "{}","[],goron"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/items/hp.png",
+                "chest_opened_img": "images/items/hp_grey.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Boat Archery",
+                  "name": "Boat Archery"
+              },
+              {
+                "ref": "Southern Swamp/Koume",
+                "name": "Koume"
+              },
+              {
+                "ref": "Southern Swamp/Pictograph Contest Winner",
+                "name": "Pictograph Contest Winner"
+              },
+              {
+              "ref": "Southern Swamp/Swamp Scrub Trade",
+              "name": "Scrub Trade"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Tourist Center Roof",
+                "name": "Tourist Center Roof"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1645,
+                  "y": 1085,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Near Swamp Spider House Grotto",
+                  "name": "Near Spider House Grotto"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Reward",
+                "name": "Spider House Reward"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1665,
+                "y": 1140,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Kotake",
+                  "name": "Kotake"
+              },
+              {
+                "ref": "Southern Swamp/Mystery Woods Grotto",
+                "name": "Mystery Woods Grotto"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1725,
+                "y": 995,
+                "size": 20
+               }
+            ]
+          }
+       ]
+    },
+    {  ////Southern Swamp
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Southern Swamp",
+          "sections": [
+            {
+                "ref": "Southern Swamp/Kotake",
+                "name": "Kotake"
+            },
+            {
+                "ref": "Southern Swamp/Mystery Woods Grotto",
+                "name": "Mystery Woods Grotto"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 490,
+              "y": 120,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Near Swamp Spider House Grotto",
+                  "name": "Near Spider House Grotto"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Swamp Area",
+                "x": 360,
+                "y": 595,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Swamp Spider House Reward",
+                  "name": "Spider House Reward"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Swamp Area",
+                "x": 405,
+                "y": 550,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Boat Archery",
+                  "name": "Boat Archery"
+              },
+              {
+                "ref": "Southern Swamp/Koume",
+                "name": "Koume"
+              },
+              {
+                "ref": "Southern Swamp/Pictograph Contest Winner",
+                "name": "Pictograph Contest Winner"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Scrub Trade",
+                "name": "Scrub Trade"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Tourist Center Roof",
+                "name": "Tourist Center Roof"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Swamp Area",
+                "x": 360,
+                "y": 410,
+                "size": 40
+               }
+            ]
+        }
+     ]
+  }
+]

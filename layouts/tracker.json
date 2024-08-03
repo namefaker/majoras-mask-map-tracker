@@ -6,13 +6,18 @@
         "content": [
             {
                 "type": "group",
-                "header": "Presets",
+                "header": "Ranodmizer Settings",
                 "header_background": "#3e4b57",
                 "content": [
                     {
                         "type": "item",
                         "margin": "0, 0",
-                        "item": "S5_on"
+                        "item": "on_sk"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "on_bk"
                     }
                 ]
             }
@@ -68,6 +73,18 @@
                         },
                         {
                             "type": "group",
+                            "header": "Dungeon Items",
+                            "dock": "top",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_dungeons_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
                             "header": "Way of the Hero",
                             "dock": "top",
                             "margin": "0,0,0,0",
@@ -80,7 +97,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Foolish Areas & Sometimes Hints",
+                            "header": "Foolish Areas",
                             "dock": "top",
                             "margin": "0,0,0,0",
                             "content": {
@@ -88,18 +105,6 @@
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "shared_foolish_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Always Hints",
-                            "dock": "top",
-                            "margin": "0,0,0,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "shared_always_grid"
                             }
                         }
                     ]
