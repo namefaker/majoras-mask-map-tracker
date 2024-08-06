@@ -14,7 +14,7 @@
           },
           {
             "name": "Goron Racetrack Grotto",
-            "access_rules": ["$explosion,goron","$explosion,$use_scarecrow","[],bottle,$explosion",
+            "access_rules": ["$explosion,goron","$explosion,$use_scarecrow","[],bottle,$explosion"],
             "visibility_rules": [""],
             "chest_unopened_img": "images/other/chest_brown_closed.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
