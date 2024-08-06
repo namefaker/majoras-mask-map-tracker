@@ -28,10 +28,66 @@
             },
             {
                 "name": "Swamp Spider House Reward",
-                "access_rules": ["$clear_ssh"],
+                "access_rules": ["$clear_ssh","$active_tokenshuffle_ssh"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Swamp Spider House 18 Tokens",
+              "access_rules": ["$access_ssh"],
+              "item_count": 18,
+              "visibility_rules": ["on_skullsanity"],
+              "chest_unopened_img": "images/other/skull_ss.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Swamp Spider House 1 Sword Locked Token",
+              "access_rules": ["$access_ssh,$any_sword"],
+              "item_count": 1,
+              "visibility_rules": ["on_skullsanity"],
+              "chest_unopened_img": "images/other/skull_ss.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Swamp Spider House 3 Bottle Locked Tokens",
+              "access_rules": ["$access_ssh,bottle"],
+              "item_count": 3,
+              "visibility_rules": ["on_skullsanity"],
+              "chest_unopened_img": "images/other/skull_ss.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Swamp Spider House 5 Projecile Locked Tokens",
+              "access_rules": ["$access_ssh,$projectile"],
+              "item_count": 5,
+              "visibility_rules": ["on_skullsanity"],
+              "chest_unopened_img": "images/other/skull_ss.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Swamp Spider House 3 Zora or Hookshot or Beans Locked Tokens",
+              "access_rules": ["$access_ssh,zora","$access_ssh,$flying_bean,$explosion_goron","$access_ssh,hs"],
+              "item_count": 3,
+              "visibility_rules": ["on_skullsanity"],
+              "chest_unopened_img": "images/other/skull_ss.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Swamp Spider House 5 Soft-Soil",
+              "access_rules": ["$access_ssh,bottle"],
+              "item_count": 4,
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Swamp Spider House 1 Bomb or Goron locked Soft-Soil",
+              "access_rules": ["$access_ssh,bottle,$explosion_goron"],
+              "item_count": 1,
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Boat Archery",
@@ -117,6 +173,34 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House Reward",
                 "name": "Spider House Reward"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 18 Tokens",
+                "name": "Swamp Spider House 18 Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 5 Projecile Locked Tokens",
+                "name": "Swamp Spider House 5 Projecile Locked Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 3 Bottle Locked Tokens",
+                "name": "Swamp Spider House 3 Bottle Locked Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 3 Zora or Hookshot or Beans Locked Tokens",
+                "name": "Swamp Spider House 3 Zora or Hookshot or Beans Locked Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 1 Sword Locked Token",
+                "name": "Swamp Spider House 1 Sword Locked Token"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 5 Soft-Soil",
+                "name": "Swamp Spider House 5 Soft-Soil"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 1 Bomb or Goron locked Soft-Soil",
+                "name": "Swamp Spider House 1 Bomb or Goron Locked Soft-Soil"
               }
             ],
             "map_locations": [
@@ -198,6 +282,34 @@
               {
                   "ref": "Southern Swamp/Swamp Spider House Reward",
                   "name": "Spider House Reward"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 18 Tokens",
+                "name": "Swamp Spider House 18 Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 5 Projecile Locked Tokens",
+                "name": "Swamp Spider House 5 Projecile Locked Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 3 Bottle Locked Tokens",
+                "name": "Swamp Spider House 3 Bottle Locked Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 3 Zora or Hookshot or Beans Locked Tokens",
+                "name": "Swamp Spider House 3 Zora or Hookshot or Beans Locked Tokens"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 1 Sword Locked Token",
+                "name": "Swamp Spider House 1 Sword Locked Token"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 5 Soft-Soil",
+                "name": "Swamp Spider House 5 Soft-Soil"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 1 Bomb or Goron locked Soft-Soil",
+                "name": "Swamp Spider House 1 Bomb or Goron Locked Soft-Soil"
               }
             ],
             "map_locations": [

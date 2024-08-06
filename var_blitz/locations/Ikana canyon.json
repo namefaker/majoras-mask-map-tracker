@@ -2,7 +2,7 @@
     [
       {
         "name": "Ikana Canyon",
-        "access_rules": ["$access_ikana","[],$access_ikana_canyon_ool"],
+        "access_rules": ["$access_ikana"],
         "item_count": 1,
         "sections": [
           {

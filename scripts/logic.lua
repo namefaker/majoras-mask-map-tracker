@@ -73,7 +73,7 @@ function all_transform()
     return has("deku") and has("goron") and has("zora")
 end
 
-function explosion()
+function explosion() 
     return has("bombs") or has("blast") or has("chu")
 end
 
@@ -296,6 +296,7 @@ end
 
 function access_ikana_canyon_ool()
     return has("goron") and has("$ikana_mask") and has("hs")
+        or has("$play_epona") and has("$ikana_mask") and has("hs")
 end
 
 function access_ikana_upper_ool()
@@ -333,3 +334,45 @@ function access_dekupalace_ool()
         or has("$kill_octo") and has("bottle")
         or has("$kill_octo") and has("pb")
 end
+
+function get_bluegoo_ool()
+    return has("$access_ikana_canyon_ool") and has("$any_wallet") and has("bottle")
+        or has("scents") and has("bottle")
+end
+
+function access_inn_ool()
+    return has("zora") or has("bombs")
+end
+
+function all_osh_token(n)
+    local count = Tracker:ProviderCountForCode('osh_token')
+    local val = (count >= tonumber(30))
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end
+
+function all_ssh_token(n)
+    local count = Tracker:ProviderCountForCode('ssh_token')
+    local val = (count >= tonumber(30))
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end
+
+function active_tokenshuffle_osh()
+    return has("on_skullsanity") and has("$all_osh_token")
+end
+
+function active_tokenshuffle_ssh()
+    return has("on_skullsanity") and has("$all_ssh_token")
+end
+

@@ -2,29 +2,43 @@
     [
         {
           "name": "Stone Tower",
-          "access_rules": ["$access_istt,$flying_bean","[],$access_istt_ool,$flying_bean"],
+          "access_rules": ["$access_istt","[],$access_istt_ool"],
           "item_count": 1,
           "sections": [
             {
               "name": "Inverted Stone Tower Left Chest",
-              "access_rules": [],
+              "access_rules": ["$flying_bean"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Inverted Stone Tower Middle Chest",
-                "access_rules": [],
+                "access_rules": ["$flying_bean"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
                 "name": "Inverted Stone Tower Right Chest",
-                "access_rules": [],
+                "access_rules": ["$flying_bean"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Inverted Stone Tower Soft Soil Lower",
+              "access_rules": ["bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Inverted Stone Tower Soft Soil Upper",
+              "access_rules": ["$flying_bean"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -46,6 +60,14 @@
               {
                 "ref": "Stone Tower/Inverted Stone Tower Right Chest",
                 "name": "Right Chest"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Soft Soil Lower",
+                "name": "Soft Soil Lower"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Soft Soil Upper",
+                "name": "Soft Soil Upper"
               }
             ],
             "map_locations": [
@@ -76,6 +98,14 @@
               {
                 "ref": "Stone Tower/Inverted Stone Tower Right Chest",
                 "name": "Right Chest"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Soft Soil Lower",
+                "name": "Soft Soil Lower"
+              },
+              {
+                "ref": "Stone Tower/Inverted Stone Tower Soft Soil Upper",
+                "name": "Soft Soil Upper"
               }
             ],
             "map_locations": [

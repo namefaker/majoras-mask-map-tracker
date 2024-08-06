@@ -39,6 +39,20 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/songs/sonata.png",
               "chest_opened_img": "images/songs/sonatacheck.png"
+          },
+          {
+            "name": "Bean Grotto Soft Soil",
+            "access_rules": ["bottle"],
+            "visibility_rules": ["on_soilsanity"],
+            "chest_unopened_img": "images/other/softsoil.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "Deku Palace Outside Soft Soil",
+            "access_rules": ["bottle"],
+            "visibility_rules": ["on_soilsanity"],
+            "chest_unopened_img": "images/other/softsoil.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
           }
         ]
       },
@@ -56,6 +70,14 @@
             {
               "ref": "Deku Palace/Bean Man",
               "name": "Bean Man"
+            },
+            {
+              "ref": "Deku Palace/Bean Grotto Soft Soil",
+              "name": "Bean Grotto Soft Soil"
+            },
+            {
+              "ref": "Deku Palace/Deku Palace Outside Soft Soil",
+              "name": "Outside Soft Soil"
             }
           ],
           "map_locations": [
@@ -108,6 +130,14 @@
           {
               "ref": "Deku Palace/Bean Man",
               "name": "Bean Man"
+          },
+          {
+            "ref": "Deku Palace/Bean Grotto Soft Soil",
+            "name": "Bean Grotto Soft Soil"
+          },
+          {
+            "ref": "Deku Palace/Deku Palace Outside Soft Soil",
+            "name": "Outside Soft Soil"
           }
         ],
         "map_locations": [

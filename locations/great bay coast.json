@@ -3,7 +3,7 @@
         {
           "parent": "Great Bay Coast",
            "name":  "Great Bay Coast",
-          "access_rules": ["$play_epona"],
+          "access_rules": ["$play_epona","[],goron,bombs"],
           "item_count": 1,
           "sections": [
             {
@@ -30,7 +30,7 @@
             {
                 "name": "Great Bay Coast Ledge",
                 "visibility_rules": [""],
-                "access_rules": ["$use_scarecrow,hs,$flying_bean", "{}"],
+                "access_rules": ["$use_scarecrow,hs,$flying_bean","hs,bombs"],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
             },
@@ -50,8 +50,8 @@
             },
             {
                 "name": "Ocean Spider House Day 1 Reward",
-                "access_rules": ["$shoot_fa,$explosion,hs"],
-                "visibility_rules": ["S5_on"],
+                "access_rules": ["$shoot_fa,$explosion,hs", "$active_tokenshuffle_osh"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
@@ -68,6 +68,51 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Ocean Spider House 2 Bomb Locked Tokens",
+              "access_rules": ["$explosion"],
+              "visibility_rules": ["on_skullsanity"],
+              "item_count": 2,
+              "chest_unopened_img": "images/other/skull_gb.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Ocean Spider House 27 Hookshot Locked Tokens",
+              "access_rules": ["$explosion,hs"],
+              "visibility_rules": ["on_skullsanity"],
+              "item_count": 27,
+              "chest_unopened_img": "images/other/skull_gb.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Ocean Spider House 1 Fire Arrow Locked Token",
+              "access_rules": ["$explosion,hs,$shoot_fa"],
+              "visibility_rules": ["on_skullsanity"],
+              "item_count": 1,
+              "chest_unopened_img": "images/other/skull_gb.png",
+              "chest_opened_img": "images/other/skull_grey.png"
+            },
+            {
+              "name": "Great Bay Coast Grotto Cow #1",
+              "access_rules": ["$play_epona,hs"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Great Bay Coast Grotto Cow #2",
+              "access_rules": ["$play_epona,hs"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Great Bay Coast Soft Soil",
+              "access_rules": ["bottle,hs"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -110,6 +155,10 @@
               {
                   "ref": "Great Bay Coast/Great Bay Coast Ledge",
                   "name": "Ledge"
+              },
+              {
+                "ref": "Great Bay Coast/Great Bay Coast Soft Soil",
+                "name": "Soft Soil"
               }
             ],
             "map_locations": [
@@ -150,6 +199,18 @@
                 "name": "Ocean Spider House Day 1 Reward"
               },
               {
+                "ref": "Great Bay Coast/Ocean Spider House 2 Bomb Locked Tokens",
+                "name": "Ocean Spider House 2 Bomb Locked Tokens"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House 27 Hookshot Locked Tokens",
+                "name": "Ocean Spider House 27 Hookshot Locked Tokens"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House 1 Fire Arrow Locked Token",
+                "name": "Ocean Spider House 1 Fire Arrow Locked Token"
+              },
+              {
                 "ref": "Great Bay Coast/Great Bay Coast Grotto",
                 "name": "Grotto"
               }
@@ -176,6 +237,27 @@
                   "map": "Termina",
                   "x": 650,
                   "y": 760,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Great Bay Coast Grotto Cow #1",
+                  "name": "Grotto Cow #1"
+              },
+              {
+                "ref": "Great Bay Coast/Great Bay Coast Grotto Cow #2",
+                "name": "Grotto Cow #2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 810,
+                  "y": 770,
                   "size": 20
                  }
               ]
@@ -305,6 +387,18 @@
               {
                 "ref": "Great Bay Coast/Ocean Spider House Day 1 Reward",
                 "name": "Ocean Spider House Day 1 Reward"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House 2 Bomb Locked Tokens",
+                "name": "Ocean Spider House 2 Bomb Locked Tokens"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House 27 Hookshot Locked Tokens",
+                "name": "Ocean Spider House 27 Hookshot Locked Tokens"
+              },
+              {
+                "ref": "Great Bay Coast/Ocean Spider House 1 Fire Arrow Locked Token",
+                "name": "Ocean Spider House 1 Fire Arrow Locked Token"
               }
             ],
             "map_locations": [
@@ -315,7 +409,45 @@
                 "size": 20
                }
             ]
-        }
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+            {
+              "ref": "Great Bay Coast/Great Bay Coast Grotto Cow #1",
+              "name": "Grotto Cow #1"
+            },
+            {
+              "ref": "Great Bay Coast/Great Bay Coast Grotto Cow #2",
+              "name": "Grotto Cow #2"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 590,
+                "y": 165,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Coast",
+            "sections": [
+              {
+                  "ref": "Great Bay Coast/Great Bay Coast Soft Soil",
+                  "name": "Soft Soil"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 585,
+                "y": 100,
+                "size": 20
+               }
+            ]
+        },
      ]
   }
 ]

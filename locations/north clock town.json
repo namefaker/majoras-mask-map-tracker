@@ -44,14 +44,14 @@
             },
             {
               "name": "Great Fairy",
-              "access_rules": ["$any_transform"],
+              "access_rules": ["$any_transform,CTfairy"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Fairy Non-Human",
-              "access_rules": [""],
+              "access_rules": ["CTfairy"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -62,6 +62,13 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Deku Playground All 3 Days",
+              "access_rules": ["deku"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png.",
+              "chest_opened_img": "images/items/hp_grey.png"
             }
           ],
           "map_locations": [
@@ -174,6 +181,10 @@
               {
                   "ref": "North Clock Town/Deku Playground Any Day",
                   "name": "Deku Playground Any Day"
+              },
+              {
+                "ref": "North Clock Town/Deku Playground All 3 Days",
+                "name": "Deku Playground All 3 Days"
               }
             ],
             "map_locations": [

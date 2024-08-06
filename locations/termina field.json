@@ -88,7 +88,50 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Termina Grotto Cow #1",
+              "access_rules": ["$explosion,$play_epona"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Termina Grotto Cow #2",
+              "access_rules": ["$explosion,$play_epona"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Termina Field Observatory Soft Soil",
+              "access_rules": ["$access_observatory,bottle","[],bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Termina Field Pillar Soft Soil",
+              "access_rules": ["bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Termina Field South Wall Soft Soil",
+              "access_rules": ["bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Termina Field Stump Soft Soil",
+              "access_rules": ["bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
+
         ]
           },
         // Termina 
@@ -237,6 +280,10 @@
                   {
                       "ref": "Termina Field/Pillar Grotto",
                       "name": "Pillar Grotto"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Pillar Soft Soil",
+                    "name": "Pillar Soft Soil"
                   }
                 ],
                 "map_locations": [
@@ -254,13 +301,25 @@
                   {
                       "ref": "Termina Field/Stump Chest",
                       "name": "Stump Chest"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Grotto Cow #1",
+                    "name": "Grotto Cow #1"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Grotto Cow #2",
+                    "name": "Grotto Cow #2"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Stump Soft Soil",
+                    "name": "Stump Soft Soil"
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "Termina",
-                    "x": 1460,
-                    "y": 835,
+                    "x": 1450,
+                    "y": 845,
                     "size": 20
                    }
                 ]
@@ -313,6 +372,40 @@
                     "map": "Termina",
                     "x": 1480,
                     "y": 710,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Observatory Soft Soil",
+                      "name": "Observatory Soft Soil"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1530,
+                    "y": 735,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field South Wall Soft Soil",
+                      "name": "South Wall Soft Soil"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1400,
+                    "y": 785,
                     "size": 20
                    }
                 ]
@@ -541,6 +634,95 @@
                     "x": 1705,
                     "y": 210,
                     "size":  40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Grotto Cow #1",
+                      "name": "Termina Grotto Cow #1"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Grotto Cow #2",
+                    "name": "Termina Grotto Cow #2"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1520,
+                    "y": 960,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Observatory Soft Soil",
+                      "name": "Observatory Soft Soil"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1810,
+                    "y": 345,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Pillar Soft Soil",
+                      "name": "Pillar Soft Soil"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1310,
+                    "y": 245,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field South Wall Soft Soil",
+                      "name": "South Wall Soft Soil"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1310,
+                    "y": 660,
+                    "size": 40
+                  }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Stump Soft Soil",
+                      "name": "Stump Soft Soil"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1610,
+                    "y": 910,
+                    "size": 40
                    }
                 ]
               }

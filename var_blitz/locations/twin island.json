@@ -14,7 +14,7 @@
           },
           {
               "name": "Hot Spring Water Grotto",
-              "access_rules": ["$shoot_fa","$get_hsw"],
+              "access_rules": ["$shoot_fa,$explosion","$get_hsw,$explosion"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"

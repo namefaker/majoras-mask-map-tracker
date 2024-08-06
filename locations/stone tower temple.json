@@ -39,8 +39,7 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
-            }
-   /*         //fairys
+            },
             {
               "name": "STT Statue Eye",
               "access_rules": [""],
@@ -110,7 +109,7 @@
           "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_fairy_open.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
-        }*/
+        }
           ]
         },
             //Termina
@@ -474,11 +473,11 @@
       },
       {
           "name": "ISTT Heart Container",
-          "access_rules": ["deku","[]"],
+          "access_rules": ["deku,STTbk","[],STTbk"],
           "visibility_rules": [""],
           "chest_unopened_img": "images/items/hc.png",
           "chest_opened_img": "images/items/hc_grey.png"
-      },/*
+      }, 
       //fairys
       {
         "name": "ISTT Entrance Sun Switch",
@@ -500,7 +499,7 @@
         "visibility_rules": [""],
         "chest_unopened_img": "images/other/chest_fairy_open.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
-      }*/
+      }
     ]
   },
   {

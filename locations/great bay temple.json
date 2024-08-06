@@ -28,7 +28,7 @@
             },
             {
                 "name": "GBT Boss Key Chest",
-                "access_rules": ["$shoot_ia"],
+                "access_rules": ["$shoot_ia,GBTbk"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_golden_closed.png",
                 "chest_opened_img": "images/other/chest_golden_open.png"

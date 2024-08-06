@@ -16,7 +16,7 @@
             {
                 "name": "Well Left Path Chest",
                 "visibility_rules": [""],
-                "access_rules": ["$access_well_front,$get_bluegoo"],
+                "access_rules": ["$access_well_front,$get_bluegoo", "[],$get_bluegoo_ool"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },

@@ -2,7 +2,7 @@
     [
       {
         "name": "Ikana Canyon",
-        "access_rules": ["$access_ikana","[],$access_ikana_canyon_ool"],
+        "access_rules": ["$access_ikana"],
         "item_count": 1,
         "sections": [
           {
@@ -35,7 +35,7 @@
           },
           {
               "name": "Secret Shrine Grotto",
-              "access_rules": [""], 
+              "access_rules": [], 
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"

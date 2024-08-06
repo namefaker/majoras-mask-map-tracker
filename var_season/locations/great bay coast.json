@@ -49,8 +49,8 @@
             },
             {
                 "name": "Ocean Spider House Day 1 Reward",
-                "access_rules": ["$shoot_fa,$explosion,hs"],
-                "visibility_rules": ["S5_on"],
+                "access_rules": ["$shoot_fa,$explosion,hs", "$all_osh_token"],
+                "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },

@@ -46,6 +46,48 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Cow #1",
+              "access_rules": ["$use_keg,$play_epona"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Cow #2",
+              "access_rules": ["$use_keg,$play_epona"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Cow #3",
+              "access_rules": ["$use_keg,$play_epona"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Doggy Racetrack Soft Soil",
+              "access_rules": ["bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Day 1 Soil",
+              "access_rules": ["$use_keg,bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Day 2 or 3 Soil",
+              "access_rules": ["bottle"],
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -93,6 +135,10 @@
               {
                   "ref": "Romani Ranch/Doggy Racetrack Roof Chest",
                   "name": "Doggy Racetrack Roof Chest"
+              },
+              {
+                "ref": "Romani Ranch/Doggy Racetrack Soft Soil",
+                "name": "Doggy Racetrack Soft Soil"
               }
             ],
             "map_locations": [
@@ -128,7 +174,53 @@
                 "size": 20
                }
             ]
-          }
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Ranch Cow #1",
+                  "name": "Ranch Cow #1"
+              },
+              {
+                  "ref": "Romani Ranch/Ranch Cow #2",
+                  "name": "Ranch Cow #2"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Cow #3",
+                "name": "Ranch Cow #2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1150,
+                "y": 1110,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Ranch Day 1 Soil",
+                  "name": "Ranch Day 1 Soil"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Day 2 or 3 Soil",
+                "name": "Ranch Day 2 or 3 Soil"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1150,
+                "y": 1145,
+                "size": 20
+               }
+            ]
+          },
        ]
     },
     {  ////ranch
@@ -178,6 +270,10 @@
               {
                   "ref": "Romani Ranch/Doggy Racetrack Roof Chest",
                   "name": "Doggy Racetrack Roof Chest"
+              },
+              {
+                "ref": "Romani Ranch/Doggy Racetrack Soft Soil",
+                "name": "Doggy Racetrack Soft Soil"
               }
             ],
             "map_locations": [
@@ -210,6 +306,52 @@
                 "map": "Milk and Ranch",
                 "x": 270,
                 "y": 800,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Romani Ranch",
+            "sections": [
+            {
+                "ref": "Romani Ranch/Ranch Cow #1",
+                "name": "Ranch Cow #1"
+            },
+            {
+                "ref": "Romani Ranch/Ranch Cow #2",
+                "name": "Ranch Cow #2"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Cow #3",
+              "name": "Ranch Cow #2"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Milk and Ranch",
+                "x": 170,
+                "y": 730,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Romani Ranch",
+            "sections": [
+              {
+                "ref": "Romani Ranch/Ranch Day 1 Soil",
+                "name": "Ranch Day 1 Soil"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Day 2 or 3 Soil",
+              "name": "Ranch Day 2 or 3 Soil"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Milk and Ranch",
+                "x": 155,
+                "y": 815,
                 "size": 40
                }
             ]

@@ -244,6 +244,7 @@
                }
             ]
         },
+        //stray fairy chests
         {
           "name": "Woodfall Temple",
             "sections": [

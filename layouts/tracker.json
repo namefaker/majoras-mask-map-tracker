@@ -12,12 +12,27 @@
                     {
                         "type": "item",
                         "margin": "0, 0",
-                        "item": "on_sk"
+                        "item": "off_sk"
                     },
                     {
                         "type": "item",
                         "margin": "0, 0",
-                        "item": "on_bk"
+                        "item": "off_bk"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "off_skullsanity"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "off_cowsanity"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "off_soilsanity"
                     }
                 ]
             }

@@ -2,7 +2,7 @@
     [
         {
           "name": "Beneath the Well",
-          "access_rules": ["$access_ikana_upper","[],$access_ikana_upper_ool"],
+          "access_rules": ["$access_ikana_upper"],
           "item_count": 1,
           "sections": [
             {
@@ -16,7 +16,7 @@
             {
                 "name": "Well Left Path Chest",
                 "visibility_rules": [""],
-                "access_rules": ["gibdo,$get_bluegoo"],
+                "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
@@ -26,6 +26,13 @@
                 "access_rules": ["$shoot_la,gido,bottle","$access_beans,gibdo,bottle,"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Cow Beneath the Well",
+              "access_rules": ["gibdo,$get_hsw","[],$get_bluegoo_ool,gibdo"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -47,6 +54,10 @@
               {
                 "ref": "Beneath the Well/Well Right Path Chest",
                 "name": "Right Path Chest"
+              },
+              {
+                "ref": "Beneath the Well/Cow Beneath the Well",
+                "name": "Cow"
               }
             ],
             "map_locations": [
@@ -113,7 +124,24 @@
                   "size": 20
                  }
             ]
-        }
-     ]
-  }
+          },
+          {
+            "name": "Beneath the Well", 
+            "sections": [
+              {
+                "ref": "Beneath the Well/Cow Beneath the Well",
+                "name": "Cow"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 695,
+                  "y": 610,
+                  "size": 20
+                }
+       ]
+      }
+    ]
+   }
 ]

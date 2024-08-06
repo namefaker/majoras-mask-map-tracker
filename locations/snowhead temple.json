@@ -7,7 +7,7 @@
           "sections": [
             {
               "name": "Snowhead Heart Container",
-              "access_rules": ["$kill_goht"],
+              "access_rules": ["$kill_goht,SHTbk"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hc.png",
               "chest_opened_img": "images/items/hc_grey.png"
@@ -42,7 +42,7 @@
             },
             {
                 "name": "Snowhead Bridge Room Chest",
-                "access_rules": ["fa", "hs"],
+                "access_rules": ["$shoot_fa", "hs","$shoot_la"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"

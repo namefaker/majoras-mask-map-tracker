@@ -11,7 +11,7 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Season 5 Settings off",
+                "name": "Compass Shuffle",
                 "img": "images/other/off_compass.png",
                 "codes": "off_compass",
                 "inherit_codes": false
@@ -30,7 +30,7 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Season 5 Settings off",
+                "name": "Map Shuffle",
                 "img": "images/other/off_map.png",
                 "codes": "off_map",
                 "inherit_codes": false
@@ -44,14 +44,14 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/other/on_sk.png",
-                "codes": "on_sk",
+                "img": "images/other/off_sk.png",
+                "codes": "off_sk",
                 "inherit_codes": false
             },
             {   
-                "name": "Season 5 Settings off",
-                "img": "images/other/off_sk.png",
-                "codes": "off_sk",
+                "name": "Small Key Shuffle",
+                "img": "images/other/on_sk.png",
+                "codes": "on_sk",
                 "inherit_codes": false
             }
         ]
@@ -63,14 +63,71 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/other/on_bk.png",
-                "codes": "on_bk",
+                "img": "images/other/off_bk.png",
+                "codes": "off_bk",
                 "inherit_codes": false
             },
             {   
-                "name": "Season 5 Settings off",
-                "img": "images/other/off_bk.png",
-                "codes": "off_bk",
+                "name": "Big Key Shuffle",
+                "img": "images/other/on_bk.png",
+                "codes": "on_bk",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Skull Token Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_skullsanity.png",
+                "codes": "off_skullsanity",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Skull Token Shuffle",
+                "img": "images/other/on_skullsanity.png",
+                "codes": "on_skullsanity",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cowsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_cowsanity.png",
+                "codes": "off_cowsanity",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Skull Token Shuffle",
+                "img": "images/other/on_cowsanity.png",
+                "codes": "on_cowsanity",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Soft-Soilsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_softsoil.png",
+                "codes": "off_soilsanity",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Skull Token Shuffle",
+                "img": "images/other/on_softsoil.png",
+                "codes": "on_soilsanity",
                 "inherit_codes": false
             }
         ]
