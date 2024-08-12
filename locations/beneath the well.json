@@ -33,6 +33,15 @@
               "visibility_rules": ["on_cowsanity"],
               "chest_unopened_img": "images/other/cows.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Well Left Path Pot 1-5",
+              "visibility_rules": ["on_potsanity"],
+              "item_count": 5,
+              "clear_as_group": true,
+              "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
           ]
         },
@@ -58,6 +67,10 @@
               {
                 "ref": "Beneath the Well/Cow Beneath the Well",
                 "name": "Cow"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Pot 1-5",
+                "name": "Left Path Pot 1-5"
               }
             ],
             "map_locations": [
@@ -97,6 +110,10 @@
               {
                   "ref": "Beneath the Well/Well Left Path Chest",
                   "name": "Well Left Path Chest"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Pot 1-5",
+                "name": "Left Path Pot 1-5"
               }
             ],
             "map_locations": [

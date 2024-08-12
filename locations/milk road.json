@@ -29,6 +29,15 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Gorman Bros Milk Purchase",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_shopsanity"],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -42,6 +51,10 @@
               {
                   "ref": "Milk Road/Gorman Bros Race",
                   "name": "Gorman Bros Race"
+              },
+              {
+                "ref": "Milk Road/Gorman Bros Milk Purchase",
+                "name": "Gorman Bros Milk Purchase"
               }
             ],
             "map_locations": [
@@ -85,6 +98,10 @@
             {
                 "ref": "Milk Road/Gorman Bros Race",
                 "name": "Gorman Bros Race"
+            },
+            {
+              "ref": "Milk Road/Gorman Bros Milk Purchase",
+              "name": "Gorman Bros Milk Purchase"
             }
           ],
           "map_locations": [

@@ -1,7 +1,7 @@
 [
   {
     "name": "Zora Hall",
-    "access_rules": ["$play_epona"],
+    "access_rules": ["$play_epona","[],goron,bombs"],
     "item_count": 1,
     "sections": [
       {
@@ -31,6 +31,23 @@
         "visibility_rules": [""],
         "chest_unopened_img": "images/other/chest_brown_closed.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "Zora Shop 3 Purchases",
+        "item_count": 3,
+        "clear_as_group": true,
+        "access_rules": [""],
+        "visibility_rules": ["on_shopsanity"],
+        "chest_unopened_img": "images/other/chest_brown_closed.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "Zora Hall Ocean Scrub Purchases",
+        "clear_as_group": true,
+        "access_rules": ["zora"],
+        "visibility_rules": ["on_shopsanity"],
+        "chest_unopened_img": "images/other/chest_brown_closed.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
       }
     ]
   },
@@ -53,8 +70,16 @@
             "name": "Ocean Scrub Trade"
           },
           {
+            "ref": "Zora Hall/Zora Hall Ocean Scrub Purchase",
+            "name": "Ocean Scrub Purchase"
+          },
+          {
             "ref": "Zora Hall/Zora Hall Stage Lights",
             "name": "Stage Lights"
+          },
+          {
+            "ref": "Zora Hall/Zora Shop 3 Purchases",
+            "name": "Zora Shop 3 Purchases"
           }
         ],
         "map_locations": [
@@ -87,8 +112,16 @@
             "name": "Ocean Scrub Trade"
           },
           {
+            "ref": "Zora Hall/Zora Hall Ocean Scrub Purchase",
+            "name": "Ocean Scrub Purchase"
+          },
+          {
             "ref": "Zora Hall/Zora Hall Stage Lights",
             "name": "Stage Lights"
+          },
+          {
+            "ref": "Zora Hall/Zora Shop 3 Purchases",
+            "name": "Zora Shop 3 Purchases"
           }
         ],
         "map_locations": [

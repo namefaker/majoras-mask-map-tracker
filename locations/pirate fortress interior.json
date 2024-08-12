@@ -38,6 +38,42 @@
           "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Hookshot Room Pot 1-2",
+          "access_rules": [""],
+          "item_count": 2,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "Pirates' Fortress Barrel Maze Egg Pot 1-2",
+          "access_rules": ["hs"],
+          "item_count": 2,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "Pirates' Fortress Guarded Egg Pot",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "Pirates' Fortress Lone Guard Egg Pot",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
         }
       ]
     },
@@ -66,6 +102,22 @@
             {
               "ref": "Pirate Fortress Interior/Pirate Fortress Interior Upper Chest",
               "name": "Upper Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Hookshot Room Pot 1-2",
+              "name": "Hookshot Room Pot 1-2"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirates' Fortress Barrel Maze Egg Pot 1-2",
+              "name": "Pirates' Fortress Barrel Maze Egg Pot 1-2"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirates' Fortress Guarded Egg Pot",
+              "name": "Pirates' Fortress Guarded Egg Pot"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirates' Fortress Lone Guard Egg Pot",
+              "name": "Pirates' Fortress Lone Guard Egg Pot"
             }
           ],
           "map_locations": [
@@ -88,12 +140,33 @@
             {
               "ref": "Pirate Fortress Interior/Pirate Fortress Interior Hookshot Chest",
               "name": "Hookshot Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Hookshot Room Pot 1-2",
+              "name": "Hookshot Room Pot 1-2"
             }
           ],
           "map_locations": [
             {
               "map": "Pirate Fortress",
               "x": 455,
+              "y": 130,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirates' Fortress Barrel Maze Egg Pot 1-2",
+              "name": "Barrel Maze Egg Pot 1-2"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 415,
               "y": 130,
               "size": 20
             }
@@ -122,6 +195,10 @@
             {
               "ref": "Pirate Fortress Interior/Pirate Fortress Interior Lower Chest",
               "name": "Lower Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirates' Fortress Guarded Egg Pot",
+              "name": "Pirates' Fortress Guarded Egg Pot"
             }
           ],
           "map_locations": [
@@ -139,6 +216,10 @@
             {
               "ref": "Pirate Fortress Interior/Pirate Fortress Interior Tank Chest",
               "name": "Tank Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirates' Fortress Lone Guard Egg Pot",
+              "name": "Pirates' Fortress Lone Guard Egg Pot"
             }
           ],
           "map_locations": [

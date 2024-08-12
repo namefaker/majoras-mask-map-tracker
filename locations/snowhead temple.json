@@ -110,6 +110,24 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Main Room Pot",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Bridge Room Pot 1-2",
+              "access_rules": [""],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
           ]
         },
@@ -202,6 +220,27 @@
                   "size": 20
                  }
               ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                "ref": "Snowhead Temple/Main Room Pot",
+                "name": "Main Room Pot"
+              },
+              {
+                "ref": "Snowhead Temple/Bridge Room Pot 1-2",
+                "name": "Bridge Room Pot 1-2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 410,
+                  "y": 170,
+                  "size": 20
+                 }
+              ]
           }
        ]
     },
@@ -214,6 +253,10 @@
             {
                 "ref": "Snowhead Temple/Snowhead Bridge Room Chest",
                 "name": "Bridge Room Chest"
+            },
+            {
+              "ref": "Snowhead Temple/Bridge Room Pot 1-2",
+              "name": "Bridge Room Pot 1-2"
             }
           ],
           "map_locations": [
@@ -413,7 +456,11 @@
               {
                   "ref": "Snowhead Temple/Snowhead Main Room Wall",
                   "name": "Main Room Wall"
-              }
+              },
+              {
+                "ref": "Snowhead Temple/Main Room Pot",
+                "name": "Main Room Pot"
+              },
             ],
             "map_locations": [
               {

@@ -130,6 +130,15 @@
               "visibility_rules": ["on_soilsanity"],
               "chest_unopened_img": "images/other/softsoil.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Termina Field Pillar Pot",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
 
         ]
@@ -284,6 +293,10 @@
                   {
                     "ref": "Termina Field/Termina Field Pillar Soft Soil",
                     "name": "Pillar Soft Soil"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Pillar Pot",
+                    "name": "Pillar Pot"
                   }
                 ],
                 "map_locations": [
@@ -722,6 +735,23 @@
                     "map": "Termina Field",
                     "x": 1610,
                     "y": 910,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Pillar Pot",
+                      "name": "Pillar Pot"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1460,
+                    "y": 75,
                     "size": 40
                    }
                 ]

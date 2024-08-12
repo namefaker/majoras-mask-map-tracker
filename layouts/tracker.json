@@ -7,7 +7,7 @@
             {
                 "type": "group",
                 "header": "Ranodmizer Settings",
-                "header_background": "#3e4b57",
+                "header_background": "#000000",
                 "content": [
                     {
                         "type": "item",
@@ -33,6 +33,16 @@
                         "type": "item",
                         "margin": "0, 0",
                         "item": "off_soilsanity"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "off_shopsanity"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "off_potsanity"
                     }
                 ]
             }

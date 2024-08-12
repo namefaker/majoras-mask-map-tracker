@@ -31,6 +31,33 @@
           "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Pirate Fortress Sewers Cage Pot",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "Pirate Fortress Sewers Exit Pot 1-2",
+          "access_rules": [""],
+          "item_count": 2,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "Pirate Fortress Sewers Gate Pot",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
         }
       ]
     },
@@ -55,6 +82,18 @@
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
               "name": "Cage Room Shallow Chest"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Pot",
+              "name": "Cage Pot"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Gate Pot",
+              "name": "Gate Pot"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Exit Pot 1-2",
+              "name": "Exit Pot 1-2"
             }
           ],
           "map_locations": [
@@ -89,6 +128,18 @@
             {
               "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Room Shallow Chest",
               "name": "Cage Room Shallow Chest"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Cage Pot",
+              "name": "Cage Pot"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Gate Pot",
+              "name": "Gate Pot"
+            },
+            {
+              "ref": "Pirate Fortress Sewers/Pirate Fortress Sewers Exit Pot 1-2",
+              "name": "Exit Pot 1-2"
             }
           ],
           "map_locations": [

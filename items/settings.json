@@ -106,7 +106,7 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Skull Token Shuffle",
+                "name": "Cowsanity",
                 "img": "images/other/on_cowsanity.png",
                 "codes": "on_cowsanity",
                 "inherit_codes": false
@@ -125,9 +125,47 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Skull Token Shuffle",
+                "name": "Soft-Soilsanity",
                 "img": "images/other/on_softsoil.png",
                 "codes": "on_soilsanity",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shopsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_shopsanity.png",
+                "codes": "off_shopsanity",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Shopsanity",
+                "img": "images/other/on_shopsanity.png",
+                "codes": "on_shopsanity",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Potsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_potsanity.png",
+                "codes": "off_potsanity",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Potsanity",
+                "img": "images/other/on_potsanity.png",
+                "codes": "on_potsanity",
                 "inherit_codes": false
             }
         ]

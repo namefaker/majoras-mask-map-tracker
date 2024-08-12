@@ -39,6 +39,15 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
+          },
+          {
+            "name": "Goron Racetrack Pot 1-30",
+            "access_rules": ["$use_keg","$access_spring,goron","$shoot_fa,goron"],
+            "item_count": 30,
+            "clear_as_group": true,
+            "visibility_rules": ["on_potsanity"],
+            "chest_unopened_img": "images/other/pot.png",
+            "chest_opened_img": "images/other/pot_broken.png"
           }
         ]
       },
@@ -52,6 +61,10 @@
             {
                 "ref": "Twin Island/Goron Race",
                 "name": "Goron Race"
+            },
+            {
+              "ref": "Twin Island/Goron Racetrack Pot 1-30",
+              "name": "Goron Racetrack Pot 1-30"
             },
             {
               "ref": "Twin Island/Goron Racetrack Grotto",
@@ -103,6 +116,10 @@
           {
               "ref": "Twin Island/Goron Race",
               "name": "Goron Race"
+          },
+          {
+            "ref": "Twin Island/Goron Racetrack Pot 1-30",
+            "name": "Goron Racetrack Pot 1-30"
           }
         ],
         "map_locations": [

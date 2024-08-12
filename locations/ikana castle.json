@@ -18,6 +18,51 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/songs/elegy.png",
                 "chest_opened_img": "images/songs/elegycheck.png"
+            },
+            {
+              "name": "Ikana Castle Fire Ceiling Room Pot",
+              "access_rules": ["$access_castle,$shoot_fa","[],$access_castle_ool,$shoot_fa"],
+              "visibility_rules": ["on_potsanity"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Ikana Castle Courtyard Pot",
+              "access_rules": ["$access_castle","[],$access_castle_ool"],
+              "visibility_rules": ["on_potsanity"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Ikana Castle Hole Room Pot 1-4",
+              "access_rules": ["$access_castle,$shoot_fa","[],$access_castle_ool,$shoot_fa"],
+              "visibility_rules": ["on_potsanity"],
+              "item_count": 4,
+              "clear_as_group": true,
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Ikana Castle Left Staircase Pot",
+              "access_rules": ["$access_castle,$shoot_fa,$use_lens","[],$access_castle_ool,$shoot_fa"],
+              "visibility_rules": ["on_potsanity"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Ikana King Entry Pots + Thron Pots 1-6",
+              "access_rules": ["$access_igosroom","[],$access_igosroom_ool"],
+              "visibility_rules": ["on_potsanity"],
+              "item_count": 6,
+              "clear_as_group": true,
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
           ]
         },
@@ -35,6 +80,26 @@
               {
                 "ref": "Ikana Castle/Ikana King",
                 "name": "Ikana King (Igos)"
+              },
+              {
+                "ref": "Ikana Castle/Ikana Castle Fire Ceiling Room Pot",
+                "name": "Fire Ceiling Room Pot"
+              },
+              {
+                "ref": "Ikana Castle/Ikana Castle Courtyard Pot",
+                "name": "Courtyard Pot"
+              },
+              {
+                "ref": "Ikana Castle/Ikana Castle Hole Room Pot 1-4",
+                "name": "Hole Room Pot 1-4"
+              },
+              {
+                "ref": "Ikana Castle/Ikana Castle Left Staircase Pot",
+                "name": "Left Staircase Pot"
+              },
+              {
+                "ref": "Ikana Castle/Ikana King Entry Pots + Thron Pots 1-6",
+                "name": "Ikana King Entry Pots + Thron Pots 1-6"
               }
             ],
             "map_locations": [
@@ -74,6 +139,10 @@
               {
                   "ref": "Ikana Castle/Ikana King",
                   "name": "Ikana King (Igos)"
+              },
+              {
+                "ref": "Ikana Castle/Ikana King Entry Pots + Thron Pots 1-6",
+                "name": "Ikana King Entry Pots + Thron Pots 1-6"
               }
             ],
             "map_locations": [
@@ -81,6 +150,48 @@
                   "map": "Ikana Area",
                   "x": 1025,
                   "y": 440,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Ikana Castle",
+            "sections": [
+              {
+                "ref": "Ikana Castle/Ikana Castle Fire Ceiling Room Pot",
+                "name": "Fire Ceiling Room Pot"
+              },
+              {
+                "ref": "Ikana Castle/Ikana Castle Hole Room Pot 1-4",
+                "name": "Hole Room Pot 1-4"
+              },
+              {
+                "ref": "Ikana Castle/Ikana Castle Left Staircase Pot",
+                "name": "Left Staircase Pot"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 1000,
+                  "y": 350,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Ikana Castle",
+            "sections": [
+              {
+                "ref": "Ikana Castle/Ikana Castle Courtyard Pot",
+                "name": "Courtyard Pot"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 960,
+                  "y": 410,
                   "size": 20
                  }
               ]

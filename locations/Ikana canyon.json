@@ -13,6 +13,14 @@
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
+              "name": "Canyon Ocean Scrub Purchases",
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_shopsanity"],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
                 "name": "Ikana Canyon Ledge",
                 "access_rules": ["zora,odeed,deku", "{}"],
                 "visibility_rules": [""],
@@ -52,6 +60,10 @@
               {
                   "ref": "Ikana Canyon/Canyon Scrub Trade",
                   "name": "Scrub Trade"
+              },
+              {
+                "ref": "Ikana Canyon/Canyon Ocean Scrub Purchases",
+                "name": "Scrub Purchase"
               },
               {
                 "ref": "Ikana Canyon/Ikana Canyon Ledge",
@@ -129,6 +141,10 @@
               {
                   "ref": "Ikana Canyon/Canyon Scrub Trade",
                   "name": "Scrub Trade"
+              },
+              {
+                "ref": "Ikana Canyon/Canyon Ocean Scrub Purchases",
+                "name": "Scrub Purchase"
               }
             ],
             "map_locations": [

@@ -3,7 +3,7 @@
         {
           "name": "Ikana Graveyard",
           "clear_as_group": true,
-          "access_rules": ["$play_epona"],
+          "access_rules": ["$play_epona","[],goron,bombs"],
           "item_count": 1,
           "sections": [
             {
@@ -47,6 +47,33 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Dampe's Basement Pot 1-8",
+              "access_rules": ["captains"],
+              "item_count": 8,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Night 1 Grave Pot 1-2",
+              "access_rules": ["captains"],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Night 2 Grave Pot 1-2",
+              "access_rules": ["captains"],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
           ]
         },
@@ -85,16 +112,28 @@
                   "name": "Day 3 Dampe Digging"
               },
               {
+                "ref": "Ikana Graveyard/Dampe's Basement Pot 1-8",
+                "name": "Dampe's Basement Pot 1-8"
+              },
+              {
                 "ref": "Ikana Graveyard/Day 1 Grave Bats",
-                "name": "Day 1 Grave Bats"
+                "name": "Night 1 Grave Bats"
               },
               {
                 "ref": "Ikana Graveyard/Day 1 Grave Tablet",
-                "name": "Day 1 Grave Tablet"
+                "name": "Night 1 Grave Tablet"
+              },
+              {
+                "ref": "Ikana Graveyard/Night 1 Grave Pot 1-2",
+                "name": "Night 1 Grave Pot 1-2"
               },
               {
                 "ref": "Ikana Graveyard/Iron Knuckle Chest",
                 "name": "Day 2 Iron Knuckle Chest"
+              },
+              {
+                "ref": "Ikana Graveyard/Night 2 Grave Pot 1-2",
+                "name": "Night 2 Grave Pot 1-2"
               }
             ],
             "map_locations": [
@@ -134,6 +173,10 @@
               {
                   "ref": "Ikana Graveyard/Dampe Digging",
                   "name": "Day 3 Dampe Digging"
+              },
+              {
+                "ref": "Ikana Graveyard/Dampe's Basement Pot 1-8",
+                "name": "Dampe's Basement Pot 1-8"
               }
             ],
             "map_locations": [
@@ -155,6 +198,10 @@
               {
                 "ref": "Ikana Graveyard/Day 1 Grave Tablet",
                 "name": "Day 1 Grave Tablet"
+              },
+              {
+                "ref": "Ikana Graveyard/Night 1 Grave Pot 1-2",
+                "name": "Night 1 Grave Pot 1-2"
               }
             ],
             "map_locations": [
@@ -189,6 +236,10 @@
               {
                   "ref": "Ikana Graveyard/Iron Knuckle Chest",
                   "name": "Day 2 Iron Knuckle Chest"
+              },
+              {
+                "ref": "Ikana Graveyard/Night 2 Grave Pot 1-2",
+                "name": "Night 2 Grave Pot 1-2"
               }
             ],
             "map_locations": [

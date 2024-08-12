@@ -51,23 +51,42 @@
             {
               "name": "Woodfall Entrance Platform",
               "access_rules": ["deku"],
-              "visibility_rules": ["blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Woodfall Main Room Switch",
               "access_rules": [""],
-              "visibility_rules": ["blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Woodfall Dark Room",
               "access_rules": ["sticks,WFTsk1","$shoot_fa,WFTsk1"],
-              "visibility_rules": ["blitz_on"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            //other stuff
+            {
+              "name": "Woodfall Temple Entrance Pot",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Woodfall Temple Gekko Room Pot 1-4",
+              "access_rules": ["deku,bow"],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
           ]
         },
@@ -136,6 +155,27 @@
                     "size": 20
                    }
                 ]
+           },
+           { 
+            "name": "Woodfall Temple",
+            "sections": [
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Entrance Pot",
+                "name": "Entrance Pot"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Gekko Room Pot 1-4",
+                "name": "Gekko Room Pot 1-4"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1910,
+                  "y": 1000,
+                  "size": 20
+                 }
+              ]
            }
        ]
     },
@@ -216,6 +256,10 @@
               {
                   "ref": "Woodfall Temple/Woodfall Boss Key Chest",
                   "name": "Boss Key Chest"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Gekko Room Pot 1-4",
+                "name": "Gekko Room Pot 1-4"
               }
             ],
             "map_locations": [
@@ -292,6 +336,24 @@
                 "map": "Woodfall Temple",
                 "x": 540,
                 "y": 520,
+                "size": 40
+               }
+            ]
+        },
+        //other stuff
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Temple Entrance Pot",
+                  "name": "Entrance Pot"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 180,
+                "y": 920,
                 "size": 40
                }
             ]

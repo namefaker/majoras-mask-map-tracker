@@ -196,8 +196,8 @@
             "map_locations": [
                 {
                   "map": "Termina",
-                  "x": 2060,
-                  "y": 375,
+                  "x": 2090,
+                  "y": 345,
                   "size": 20
                  }
               ]
@@ -499,6 +499,16 @@
         "visibility_rules": [""],
         "chest_unopened_img": "images/other/chest_fairy_open.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      //other stuff
+      {
+        "name": "ISTT Wizzrobe Pot",
+        "access_rules": ["deku"],
+        "visibility_rules": ["on_potsanity"],
+        "item_count": 1,
+        "clear_as_group": true,
+        "chest_unopened_img": "images/other/pot.png",
+        "chest_opened_img": "images/other/pot_broken.png"
       }
     ]
   },
@@ -532,8 +542,8 @@
         "map_locations": [
             {
               "map": "Termina",
-              "x": 2090,
-              "y": 345,
+              "x": 2060,
+              "y": 375,
               "size": 20
              }
           ]
@@ -558,6 +568,23 @@
             {
               "map": "Termina",
               "x": 2090,
+              "y": 375,
+              "size": 20
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+            {
+                "ref": "Inverted Stone Tower Temple/ISTT Wizzrobe Pot",
+                "name": "Wizzrobe Pot"
+            }
+        ],
+        "map_locations": [
+            {
+              "map": "Termina",
+              "x": 2120,
               "y": 375,
               "size": 20
              }
@@ -693,6 +720,10 @@
           {
               "ref": "Inverted Stone Tower Temple/ISTT Wizzrobe",
               "name": "Wizzrobe"
+          },
+          {
+            "ref": "Inverted Stone Tower Temple/ISTT Wizzrobe Pot",
+            "name": "Wizzrobe Pot"
           }
         ],
         "map_locations": [

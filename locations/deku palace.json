@@ -53,6 +53,24 @@
             "visibility_rules": ["on_soilsanity"],
             "chest_unopened_img": "images/other/softsoil.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "Deku Palace Pot 1-2",
+            "access_rules": ["$access_dekupalace"],
+            "item_count": 2,
+            "clear_as_group": true,
+            "visibility_rules": ["on_potsanity"],
+            "chest_unopened_img": "images/other/pot.png",
+            "chest_opened_img": "images/other/pot_broken.png"
+          },
+          {
+            "name": "Butler Race Dual Pot",
+            "access_rules": ["$access_dekupalace"],
+            "item_count": 1,
+            "clear_as_group": true,
+            "visibility_rules": ["on_potsanity"],
+            "chest_unopened_img": "images/other/pot.png",
+            "chest_opened_img": "images/other/pot_broken.png"
           }
         ]
       },
@@ -78,6 +96,10 @@
             {
               "ref": "Deku Palace/Deku Palace Outside Soft Soil",
               "name": "Outside Soft Soil"
+            },
+            {
+              "ref": "Deku Palace/Deku Palace Pot 1-2",
+              "name": "Pot 1-2"
             }
           ],
           "map_locations": [
@@ -96,6 +118,10 @@
             {
                 "ref": "Deku Palace/Butler",
                 "name": "Butler"
+            },
+            {
+              "ref": "Deku Palace/Butler Race Dual Pot",
+              "name": "Butler Race Dual Pot"
             },
             {
               "ref": "Deku Palace/Deku Palace West Garden",
@@ -138,6 +164,10 @@
           {
             "ref": "Deku Palace/Deku Palace Outside Soft Soil",
             "name": "Outside Soft Soil"
+          },
+          {
+            "ref": "Deku Palace/Deku Palace Pot 1-2",
+            "name": "Pot 1-2"
           }
         ],
         "map_locations": [
@@ -155,6 +185,10 @@
           {
               "ref": "Deku Palace/Butler",
               "name": "Butler"
+          },
+          {
+            "ref": "Deku Palace/Butler Race Dual Pot",
+            "name": "Butler Race Dual Pot"
           }
         ],
         "map_locations": [

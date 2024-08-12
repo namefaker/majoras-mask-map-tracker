@@ -36,7 +36,6 @@
             },
             {
               "name": "Old Lady",
-              "codes": "oldladyfinish",
               "access_rules": ["sword","goron","zora","gfs"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
@@ -81,7 +80,7 @@
           ]
         },
             // North Clock Town 
-    {
+        {
         "item_count": 1,
         "children": [
           {

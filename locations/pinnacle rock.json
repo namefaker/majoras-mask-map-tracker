@@ -2,7 +2,7 @@
     [
       {
         "name": "Pinnacle Rock",
-        "access_rules": ["$play_epona,zora"],
+        "access_rules": ["$play_epona,zora","[],goron,bombs,zora"],
         "item_count": 1,
         "sections": [
           {
@@ -25,6 +25,15 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
+          },
+          {
+            "name": "Pinnacle Rock Pot 1-4",
+            "access_rules": [""],
+            "item_count": 4,
+            "clear_as_group": true,
+            "visibility_rules": ["on_potsanity"],
+            "chest_unopened_img": "images/other/pot.png",
+            "chest_opened_img": "images/other/pot_broken.png"
           }
         ]
       },
@@ -46,6 +55,10 @@
             {
               "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
               "name": "Seahorse"
+            },
+            {
+              "ref": "Pinnacle Rock/Pinnacle Rock Pot 1-4",
+              "name": "Pot 1-4"
             }
           ],
           "map_locations": [
@@ -76,6 +89,10 @@
             {
               "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
               "name": "Seahorse"
+            },
+            {
+              "ref": "Pinnacle Rock/Pinnacle Rock Pot 1-4",
+              "name": "Pot 1-4"
             }
           ],
           "map_locations": [

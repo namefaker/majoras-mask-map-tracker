@@ -2,7 +2,7 @@
     [
         {
           "name": "Zora Cape",
-          "access_rules": ["$play_epona"],
+          "access_rules": ["$play_epona","[],goron,bombs"],
           "item_count": 1,
           "sections": [
             {
@@ -46,6 +46,24 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Zora Cape Waterfall Pot",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Zora Cape Owl Pot 1-4",
+              "access_rules": ["zora"],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_potsanity"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
             }
           ]
         },
@@ -101,6 +119,10 @@
               {
                 "ref": "Zora Cape/Zora Cape Ledge Without Tree Chest",
                 "name": "Ledge Without Tree Chest"
+              },
+              {
+                "ref": "Zora Cape/Zora Cape Waterfall Pot",
+                "name": "Waterfall Pot"
               }
             ],
             "map_locations": [
@@ -125,6 +147,23 @@
                   "map": "Termina",
                   "x": 625,
                   "y": 1100,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Zora Cape",
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Owl Pot 1-4",
+                  "name": "Owl Pot"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 450,
+                  "y": 1030,
                   "size": 20
                  }
               ]
@@ -232,6 +271,40 @@
                 "map": "Great Bay Area",
                 "x": 335,
                 "y": 810,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Zora Cape",
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Owl Pot 1-4",
+                  "name": "Owl Pot"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 125,
+                "y": 695,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Zora Cape",
+            "sections": [
+              {
+                  "ref": "Zora Cape/Zora Cape Waterfall Pot",
+                  "name": "Waterfall Pot"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 755,
+                "y": 755,
                 "size": 20
                }
             ]

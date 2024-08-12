@@ -259,6 +259,11 @@ function access_castle_upper()
     return has("$access_castle") and has("deku") and has("lens")
 end
 
+function access_igosroom()
+    return has("$access_castle") and has("$shoot_la")
+        or has("$access_castle") and has("$use_keg") and has("$use_lens") and has("$shoot_fa")
+ end
+
 function kill_igos()
     return has("$access_castle") and has("fa") and has("$any_sword") and has("mirror")
      or  has("$access_castle_upper") and has("$use_keg") and has("fa") and has("mirror")
