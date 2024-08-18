@@ -47,48 +47,112 @@
                 "chest_unopened_img": "images/items/hc.png",
                 "chest_opened_img": "images/items/hc_grey.png"
             },
-       //fairys
+       //chestfairys
             {
               "name": "GBT Bio Babas",
               "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_gbt.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Entrance Torches",
               "access_rules": ["sticks","bow"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_gbt.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Green Valve",
               "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_gbt.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Seesaw Room",
               "access_rules": ["$shoot_fa,$shoot_ia"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_gbt.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Waterwheel Room Lower",
               "access_rules": ["$shoot_ia"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_gbt.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "GBT Waterwheel Room Upper",
               "access_rules": ["$shoot_ia"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_gbt.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            //strayfairys
+            {
+              "name": "Great Bay Water Control Room Underwater Bubble",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Skulltula",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Whirlpool Barrel",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Whirlpool Jar",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Dexihands Jar",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Ledge Jar",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Underwater Barrel",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Pre-Boss Room Bubble",
+              "access_rules": ["$shoot_ia"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Pre-Boss Room Underwater Bubble",
+              "access_rules": ["$shoot_ia"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
             },
             //other
             {
@@ -147,29 +211,66 @@
             "name": "Great Bay Temple",
             "sections": [
               {
+                "ref": "Great Bay Temple/GBT Entrance Torches",
+                "name": "Entrance Torches"
+              },    
+              {
+                "ref": "Great Bay Temple/Great Bay Water Control Room Underwater Bubble",
+                "name": "Water Control Room Underwater Bubble"
+              },        
+              {
+                "ref": "Great Bay Temple/Great Bay Skulltula",
+                "name": "Skulltula"
+              }, 
+              {
+                "ref": "Great Bay Temple/Great Bay Whirlpool Barrel",
+                "name": "Whirlpool Barrel"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Whirlpool Jar",
+                "name": "Whirlpool Jar"
+              },      
+              {
+                "ref": "Great Bay Temple/Great Bay Ledge Jar",
+                "name": "Ledge Jar"
+              },                                                   
+              {
                   "ref": "Great Bay Temple/GBT Bio Babas",
                   "name": "Bio Babas"
               },
               {
-                "ref": "Great Bay Temple/GBT Entrance Torches",
-                "name": "Entrance Torches"
+                "ref": "Great Bay Temple/Great Bay Dexihands Jar",
+                "name": "Dexihands Jar"
               },
               {
                 "ref": "Great Bay Temple/GBT Green Valve",
                 "name": "Green Valve"
               },
               {
+                "ref": "Great Bay Temple/GBT Waterwheel Room Upper",
+                "name": "Waterwheel Room Upper"
+              },   
+              {
+                "ref": "Great Bay Temple/GBT Waterwheel Room Lower",
+                "name": "Waterwheel Room Lower"
+              },  
+              {
+                "ref": "Great Bay Temple/Great Bay Underwater Barrel",
+                "name": "Underwater Barrel"
+              },                                     
+              {
               "ref": "Great Bay Temple/GBT Seesaw Room",
               "name": "Seesaw Room"
               },
               {
-                "ref": "Great Bay Temple/GBT Waterwheel Room Lower",
-                "name": "Waterwheel Room Lower"
+                "ref": "Great Bay Temple/Great Bay Pre-Boss Room Bubble",
+                "name": "Pre-Boss Room Bubble"
               },
               {
-                "ref": "Great Bay Temple/GBT Waterwheel Room Upper",
-                "name": "Waterwheel Room Upper"
+                "ref": "Great Bay Temple/Great Bay Pre-Boss Room Underwater Bubble",
+                "name": "Pre-Boss Room Underwater Bubble"
               }
+
             ],
             "map_locations": [
                 {
@@ -423,6 +524,146 @@
                }
             ]
         },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Water Control Room Underwater Bubble",
+                  "name": "Water Control Room Underwater Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 560,
+                "y": 780,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Skulltula",
+                  "name": "Skulltula"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 480,
+                "y": 720,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Whirlpool Barrel",
+                  "name": "Whirlpool Barrel"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 800,
+                "y": 460,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Whirlpool Jar",
+                  "name": "Whirlpool Jar"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 890,
+                "y": 720,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Dexihands Jar",
+                  "name": "Dexihands Jar"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1270,
+                "y": 730,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Ledge Jar",
+                  "name": "Ledge Jar"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 930,
+                "y": 830,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Pre-Boss Room Underwater Bubble",
+                  "name": "Great Bay Pre-Boss Room Underwater Bubble"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Pre-Boss Room Bubble",
+                "name": "Great Bay Pre-Boss Room Bubble"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 590,
+                "y": 930,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Underwater Barrel",
+                  "name": "Underwater Barrel"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1180,
+                "y": 930,
+                "size": 35
+               }
+            ]
+        }
      ]
   }
 ]

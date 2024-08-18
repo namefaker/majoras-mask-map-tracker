@@ -40,74 +40,82 @@
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
-            {
-              "name": "STT Statue Eye",
-              "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
-            {
-              "name": "STT Basement Ledge",
-              "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
+            //fairys
+          {
+            "name": "STT Statue Eye",
+            "access_rules": [""],
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "STT Basement Ledge",
+            "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "STT Bridge Crystal",
             "access_rules": ["la,zora,$explosion","$explosion_goron,zora"],
-            "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "STT Sun Switch",
             "access_rules": ["$shoot_la","mirror,goron,zora"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "STT Sun Block",
             "access_rules": ["$shoot_la","mirror,goron,zora"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "STT Lava Room Ledge",
             "access_rules": ["$shoot_la,deku", "$explosion,$all_transform"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "STT Lava Room Firering",
             "access_rules": ["$shoot_la,Goron", "$explosion,goron,zora"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
           },
           {
             "name": "STT Eyegore",
             "access_rules": ["$shoot_la", "$explosion, $all_transform"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
+            "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "STT Underwater",
           "access_rules": ["$shoot_la", "$explosion, $all_transform"],
-          "visibility_rules": [""],
-          "chest_unopened_img": "images/other/chest_fairy_open.png",
-          "chest_opened_img": "images/other/chest_brown_open.png"
+          "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "STT Thin Bridge",
           "access_rules": ["$shoot_la", "$explosion, $all_transform"],
-          "visibility_rules": [""],
-          "chest_unopened_img": "images/other/chest_fairy_open.png",
+          "visibility_rules": ["on_chestfairys","on_strayfairys"],
+            "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "STT Death Armos",
+          "access_rules": ["$shoot_la,$explosion, $all_transform"],
+          "visibility_rules": ["on_chestfairys","on_strayfairys"],
+          "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
         }
           ]
@@ -153,17 +161,17 @@
             "name": "Stone Tower Temple",
             "sections": [
               {
-                  "ref": "Stone Tower Temple/STT Statue Eye",
-                  "name": "Statue Eye"
-              },
-              {
-                "ref": "Stone Tower Temple/STT Basement Ledge",
-                "name": "Basement Ledge"
-              },
+                "ref": "Stone Tower Temple/STT Underwater",
+                "name": "Underwater"
+              },   
               {
                 "ref": "Stone Tower Temple/STT Bridge Crystal",
                 "name": "Bridge Crystal"
-              },
+              },  
+              {
+                "ref": "Stone Tower Temple/STT Basement Ledge",
+                "name": "Basement Ledge"
+              },   
               {
                 "ref": "Stone Tower Temple/STT Sun Switch",
                 "name": "Sun Switch"
@@ -171,7 +179,7 @@
               {
                 "ref": "Stone Tower Temple/STT Sun Block",
                 "name": "Sun Block"
-              },
+              },  
               {
                 "ref": "Stone Tower Temple/STT Lava Room Ledge",
                 "name": "Lava Room Ledge"
@@ -179,18 +187,22 @@
               {
                 "ref": "Stone Tower Temple/STT Lava Room Firering",
                 "name": "Lava Room Firering"
-              },
-              {
-                "ref": "Stone Tower Temple/STT Eyegore",
-                "name": "Eyegore"
-              },
-              {
-                "ref": "Stone Tower Temple/STT Underwater",
-                "name": "Underwater"
-              },
+              },   
               {
                 "ref": "Stone Tower Temple/STT Thin Bridge",
                 "name": "Thin Bridge"
+              },  
+              {
+                "ref": "Stone Tower Temple/STT Eyegore",
+                "name": "Eyegore"
+              },                                                                                  
+              {
+                  "ref": "Stone Tower Temple/STT Statue Eye",
+                  "name": "Statue Eye"
+              },
+              {
+                "ref": "Stone Tower Temple/STT Death Armos",
+                "name": "Death Armos"
               }
             ],
             "map_locations": [
@@ -435,6 +447,23 @@
                   "size": 35
                  }
               ]
+          },
+          {
+            "name": "Stone Tower Temple",
+            "sections": [
+              {
+                  "ref": "Stone Tower Temple/STT Death Armos",
+                  "name": "Death Armos"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Stone Tower Temple",
+                  "x": 570,
+                  "y": 690,
+                  "size": 35
+                 }
+              ]
           }
      ]
   },
@@ -482,22 +511,29 @@
       {
         "name": "ISTT Entrance Sun Switch",
         "access_rules": [""],
-        "visibility_rules": [""],
-        "chest_unopened_img": "images/other/chest_fairy_open.png",
+        "visibility_rules": ["on_chestfairys","on_strayfairys"],
+        "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
       },
       {
         "name": "ISTT Updraft Frozen Eye",
         "access_rules": ["$shoot_fa,zora,deku"],
-        "visibility_rules": [""],
-        "chest_unopened_img": "images/other/chest_fairy_open.png",
+        "visibility_rules": ["on_chestfairys","on_strayfairys"],
+        "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
       },
       {
         "name": "ISTT Wizzrobe",
         "access_rules": ["deku"],
-        "visibility_rules": [""],
-        "chest_unopened_img": "images/other/chest_fairy_open.png",
+        "visibility_rules": ["on_chestfairys","on_strayfairys"],
+        "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "ISTT Updraft Fire Ring",
+        "access_rules": ["zora,deku"],
+        "visibility_rules": ["on_chestfairys","on_strayfairys"],
+        "chest_unopened_img": "images/other/chest_fairy_open_stt.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
       },
       //other stuff
@@ -560,9 +596,14 @@
               "name": "Updraft Room Frozen Eye"
             },
             {
+              "ref": "Inverted Stone Tower Temple/ISTT Updraft Fire Ring",
+              "name": "Updraft Fire Ring"
+            },         
+            {
               "ref": "Inverted Stone Tower Temple/ISTT Wizzrobe",
               "name": "Wizzrobe"
             }
+
         ],
         "map_locations": [
             {
@@ -731,6 +772,23 @@
               "map": "Stone Tower Temple",
               "x": 460,
               "y": 270,
+              "size": 35
+             }
+          ]
+      },
+      {
+        "name": "Inverted Stone Tower Temple",
+        "sections": [
+          {
+              "ref": "Inverted Stone Tower Temple/ISTT Updraft Fire Ring",
+              "name": "Updraft Fire Ring"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Stone Tower Temple",
+              "x": 1040,
+              "y": 1110,
               "size": 35
              }
           ]

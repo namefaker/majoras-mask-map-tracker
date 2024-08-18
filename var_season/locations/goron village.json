@@ -21,7 +21,7 @@
             },
             {
                 "name": "Goron Village Ledge",
-                "access_rules": ["$any_wallet,goron,deku,sdeed", "{}"],
+                "access_rules": ["goron,deku,sdeed", "{}"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"

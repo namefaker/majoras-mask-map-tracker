@@ -47,6 +47,13 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ikana Great Fairy",
+              "access_rules": ["$fairys_st,$access_ikana_upper","[],$access_ikana_upper_ool,$fairys_st"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -92,6 +99,23 @@
                   "map": "Termina",
                   "x": 1890,
                   "y": 440,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Ikana Great Fairy",
+                  "name": "Ikana Great Fairy"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1900,
+                  "y": 470,
                   "size": 20
                  }
               ]
@@ -186,6 +210,23 @@
                   "map": "Ikana Area",
                   "x": 925,
                   "y": 210,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Ikana Great Fairy",
+                  "name": "Great Fairy"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 995,
+                  "y": 240,
                   "size": 20
                  }
               ]

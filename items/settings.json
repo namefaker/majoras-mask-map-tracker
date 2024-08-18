@@ -169,5 +169,30 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Stray Fairys",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_strayfairys.png",
+                "codes": "off_strayfairys",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Only Chest Stray Fairy Shuffle",
+                "img": "images/other/on_chestfairys.png",
+                "codes": "on_chestfairys",
+                "inherit_codes": false
+            },
+            {   
+                "name": "All Stray Fairy Shuffle",
+                "img": "images/other/on_strayfairys.png",
+                "codes": "on_strayfairys",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

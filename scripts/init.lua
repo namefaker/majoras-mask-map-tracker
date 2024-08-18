@@ -52,7 +52,8 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/mountain village.json")
     Tracker:AddLocations("locations/twin island.json")
     Tracker:AddLocations("locations/goron village.json")
-    Tracker:AddLocations("locations/path to snowhead.json")
+    Tracker:AddLocations("locations/pathtosnowhead.json")
+    Tracker:AddLocations("locations/snowhead.json")
     Tracker:AddLocations("locations/great bay coast.json")
     Tracker:AddLocations("locations/zora cape.json")
     Tracker:AddLocations("locations/zora hall.json")
@@ -71,6 +72,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/snowhead temple.json")
     Tracker:AddLocations("locations/great bay temple.json")
     Tracker:AddLocations("locations/stone tower temple.json")
+    Tracker:AddLocations("locations/moon.json")
 end
 
 -- Layout

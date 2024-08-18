@@ -42,7 +42,7 @@
             },
             {
                 "name": "GBT Heart Container",
-                "access_rules": ["$kill_gyorg"],
+                "access_rules": ["$kill_gyorg","[],$shoot_ia,zora"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hc.png",
                 "chest_opened_img": "images/items/hc_grey.png"

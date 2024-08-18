@@ -43,7 +43,7 @@
             },
             {
                 "name": "Iron Knuckle Chest",
-                "access_rules": ["$use_lens,$explosion,$finish_graveknuckle", "[],$explosion,$finish_graveknuckle"],
+                "access_rules": ["$explosion,$finish_graveknuckle"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"

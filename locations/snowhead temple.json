@@ -61,56 +61,114 @@
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
-
+//chest fairys
             {
               "name": "Snowhead Basement",
               "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Ice Puzzle",
               "access_rules": ["$shoot_fa"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Icicle Room Wall",
               "access_rules": ["$explosion","$use_scarecrow"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Main Room Wall",
               "access_rules": ["$explosion","$use_scarecrow"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Map Room Ledge Room Wall",
               "access_rules": ["$use_lens"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Pillar Freezards",
               "access_rules": ["$shoot_fa"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Snowhead Twin Block",
               "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
+              "chest_unopened_img": "images/other/chest_fairy_open_sht.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
+            //stray fairys
+            {
+              "name": "Snowhead Dinolfos 1",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Dinolfos 2",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Bridge Room Ledge Bubble",
+              "access_rules": ["$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Bridge Room Pillar Bubble",
+              "access_rules": ["$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Snow Room Bubble",
+              "access_rules": ["$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Ceiling",
+              "access_rules": ["$use_lens,$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Map Room Fairy",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Snowhead Crate",
+              "access_rules": ["bombs,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_sh.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            //other
             {
               "name": "Main Room Pot",
               "access_rules": [""],
@@ -174,7 +232,7 @@
             "map_locations": [
                 {
                   "map": "Termina",
-                  "x": 350,
+                  "x": 170,
                   "y": 170,
                   "size": 20
                  }
@@ -184,38 +242,70 @@
             "name": "Snowhead Temple",
             "sections": [
               {
+                "ref": "Snowhead Temple/Snowhead Bridge Room Pillar Bubble",
+                "name": "Bridge Room Pillar Bubble"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Bridge Room Ledge Bubble",
+                "name": "Bridge Room Ledge Bubble"
+              },     
+              {
+                "ref": "Snowhead Temple/Snowhead Map Room Fairy",
+                "name": "Map Room Fairy"
+              },     
+              {
+                "ref": "Snowhead Temple/Snowhead Map Room Ledge Room Wall",
+                "name": "Map Room Ledge Room Wall"
+              },                                                   
+              {
                 "ref": "Snowhead Temple/Snowhead Basement",
                 "name": "Basement"
               },
+              {
+                "ref": "Snowhead Temple/Snowhead Pillar Freezards",
+                "name": "Pillar Freezards"
+              },     
+              {
+                "ref": "Snowhead Temple/Snowhead Twin Block",
+                "name": "Twin Block"
+              },                     
               {
                 "ref": "Snowhead Temple/Snowhead Ice Puzzle",
                 "name": "Ice Puzzle"
               },
               {
+                "ref": "Snowhead Temple/Snowhead Crate",
+                "name": "Crate"
+              },              
+              {
                 "ref": "Snowhead Temple/Snowhead Icicle Room Wall",
                 "name": "Icicle Room Wall"
               },
               {
+                "ref": "Snowhead Temple/Snowhead Ceiling",
+                "name": "Ceiling"
+              },     
+              {
+                "ref": "Snowhead Temple/Snowhead Snow Room Bubble",
+                "name": "Snow Room Bubble"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Dinolfos 1",
+                "name": "Dinolfos 1"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Dinolfos 2",
+                "name": "Dinolfos 2"
+              },
+              {
                 "ref": "Snowhead Temple/Snowhead Main Room Wall",
                 "name": "Main Room Wall"
-              },
-              {
-                "ref": "Snowhead Temple/Snowhead Map Room Ledge Room Wall",
-                "name": "Map Room Ledge Room Wall"
-              },
-              {
-                "ref": "Snowhead Temple/Snowhead Pillar Freezards",
-                "name": "Pillar Freezards"
-              },
-              {
-                "ref": "Snowhead Temple/Snowhead Twin Block",
-                "name": "Twin Block"
               }
             ],
             "map_locations": [
                 {
                   "map": "Termina",
-                  "x": 380,
+                  "x": 200,
                   "y": 170,
                   "size": 20
                  }
@@ -236,7 +326,7 @@
             "map_locations": [
                 {
                   "map": "Termina",
-                  "x": 410,
+                  "x": 230,
                   "y": 170,
                   "size": 20
                  }
@@ -262,8 +352,8 @@
           "map_locations": [
             {
               "map": "Snowhead Temple",
-              "x": 260,
-              "y": 1050,
+              "x": 250,
+              "y": 1020,
               "size": 35
              }
           ]
@@ -316,6 +406,10 @@
               {
                 "ref": "Snowhead Temple/Snowhead Ice Puzzle",
                 "name": "Ice Puzzle"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Crate",
+                "name": "Crate"
               }
             ],
             "map_locations": [
@@ -460,13 +554,106 @@
               {
                 "ref": "Snowhead Temple/Main Room Pot",
                 "name": "Main Room Pot"
-              },
+              }
             ],
             "map_locations": [
               {
                 "map": "Snowhead Temple",
                 "x": 700,
                 "y": 650,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Dinolfos 1",
+                  "name": "Dinolfos 1"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Dinolfos 2",
+                "name": "Dinolfos 2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 1080,
+                "y": 560,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Bridge Room Pillar Bubble",
+                  "name": "Bridge Room Pillar Bubble"
+              },
+              {
+                "ref": "Snowhead Temple/Snowhead Bridge Room Ledge Bubble",
+                "name": "Bridge Room Ledge Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 240,
+                "y": 1070,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Snow Room Bubble",
+                  "name": "Snow Room Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 910,
+                "y": 380,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Ceiling",
+                  "name": "Ceiling"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 410,
+                "y": 520,
+                "size": 35
+               }
+            ]
+          },
+          {
+            "name": "Snowhead Temple",
+            "sections": [
+              {
+                  "ref": "Snowhead Temple/Snowhead Map Room Fairy",
+                  "name": "Map Room Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Snowhead Temple",
+                "x": 470,
+                "y": 960,
                 "size": 35
                }
             ]

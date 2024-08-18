@@ -1,0 +1,62 @@
+    //Termina
+    [
+        {
+          "name": "Snowhead",
+          "access_rules": ["$access_mountain"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Snowhead Great Fairy",
+              "access_rules": ["$play_lullaby,$fairys_sh"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Snowhead/Snowhead Great Fairy",
+                  "name": "Great Fairy"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 330,
+                  "y": 175,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Path to Snowhead
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Snowhead",
+          "sections": [
+            {
+                "ref": "Snowhead/Snowhead Great Fairy",
+                "name": "Great Fairy"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 40,
+              "y": 195,
+              "size": 20
+             }
+          ]
+        }
+     ]
+  }
+]

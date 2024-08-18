@@ -36,14 +36,14 @@
             },
             {
               "name": "Great Fairy",
-              "access_rules": ["$any_transform"],
+              "access_rules": [""],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Great Fairy Non-Human",
-              "access_rules": [""],
+              "access_rules": ["$any_transform"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png.",
               "chest_opened_img": "images/other/chest_brown_open.png"

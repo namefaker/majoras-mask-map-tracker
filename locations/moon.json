@@ -1,0 +1,195 @@
+    //Termina
+    [
+        {
+          "name": "Moon",
+          "access_rules": ["$play_oath,odolwa,goht,gyorg,twinmold"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Majora Fight",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Link Trial Reward",
+                "access_rules": ["$mask_count_10","[],$mask_count_4"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Link Trial Garo Master Chest",
+                "access_rules": ["$mask_count_10","[],$mask_count_4"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Link Trial Iron Knuckle Chest",
+                "access_rules": ["$mask_count_10","[],$mask_count_4"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Deku Trial Reward",
+                "access_rules": ["$mask_count_10","[],$mask_count_1"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Goron Trial Reward",
+                "access_rules": ["$mask_count_10","[],$mask_count_2"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Zora Trial Reward",
+                "access_rules": ["$mask_count_10","[],$mask_count_3"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Ferice Deity Mask (All 20 Masks)",
+                "access_rules": ["$mask_count_20"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Link Trial Pot 1-4",
+                "access_rules": ["$mask_count_10","[],$mask_count_4"],
+                "item_count": 4,
+                "clear_as_group": true,
+                "visibility_rules": ["on_potsanity"],
+                "chest_unopened_img": "images/other/pot.png",
+                "chest_opened_img": "images/other/pot_broken.png"
+              }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "The Moon",
+            "sections": [
+              {
+                  "ref": "Moon/Majora Fight",
+                  "name": "Majora Fight"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2135,
+                  "y": 1405,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "The Moon",
+            "sections": [
+              {
+                  "ref": "Moon/Link Trial Reward",
+                  "name": "Link Trial Reward"
+              },
+              {
+                "ref": "Moon/Link Trial Garo Master Chest",
+                "name": "Link Trial Garo Master Chest"
+              },
+              {
+                "ref": "Moon/Link Trial Iron Knuckle Chest",
+                "name": "Link Trial Iron Knuckle Chest"
+              },
+              {
+                "ref": "Moon/Link Trial Pot 1-4",
+                "name": "Link Trial Pot 1-4"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2085,
+                  "y": 1375,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "The Moon",
+            "sections": [
+              {
+                  "ref": "Moon/Deku Trial Reward",
+                  "name": "Deku Trial Reward"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2185,
+                  "y": 1375,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "The Moon",
+            "sections": [
+              {
+                  "ref": "Moon/Goron Trial Reward",
+                  "name": "Goron Trial Reward"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2185,
+                  "y": 1445,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "The Moon",
+            "sections": [
+              {
+                  "ref": "Moon/Zora Trial Reward",
+                  "name": "Zora Trial Reward"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2085,
+                  "y": 1445,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "The Moon",
+            "sections": [
+              {
+                  "ref": "Moon/Ferice Deity Mask (All 20 Masks)",
+                  "name": "Ferice Deity Mask (All 20 Masks)"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 2135,
+                  "y": 1440,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    }
+]

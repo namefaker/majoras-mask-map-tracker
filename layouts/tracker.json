@@ -43,6 +43,11 @@
                         "type": "item",
                         "margin": "0, 0",
                         "item": "off_potsanity"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 0",
+                        "item": "off_strayfairys"
                     }
                 ]
             }

@@ -48,6 +48,13 @@
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
+              "name": "Ocean Great Fairy",
+              "access_rules": ["$fairys_gb,hs"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
               "name": "Zora Cape Waterfall Pot",
               "access_rules": [""],
               "item_count": 1,
@@ -140,7 +147,11 @@
               {
                   "ref": "Zora Cape/Zora Cape Underwater Chest",
                   "name": "Underwater Chest"
-              }
+              },
+              {
+                "ref": "Zora Cape/Ocean Great Fairy",
+                "name": "Great Fairy"
+            }
             ],
             "map_locations": [
                 {
@@ -271,6 +282,23 @@
                 "map": "Great Bay Area",
                 "x": 335,
                 "y": 810,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Zora Cape",
+            "sections": [
+              {
+                  "ref": "Zora Cape/Ocean Great Fairy",
+                  "name": "Great Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 365,
+                "y": 800,
                 "size": 20
                }
             ]

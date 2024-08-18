@@ -27,6 +27,13 @@
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
+              "name": "Woodfall Great Fairy",
+              "access_rules": ["$fairys_wf"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
               "name": "Pot 1-3",
               "access_rules": [""],
               "item_count": 1,
@@ -59,6 +66,10 @@
               {
                 "ref": "Woodfall/Pot 1-3",
                 "name": "Pot 1-3 (Owl)"
+              },
+              {
+                "ref": "Woodfall/Woodfall Great Fairy",
+                "name": "Great Fairy"
               }  
             ],
             "map_locations": [
@@ -93,6 +104,10 @@
             {
               "ref": "Woodfall/Woodfall Bridge Chest",
               "name": "Bridge Chest"
+            },
+            {
+              "ref": "Woodfall/Woodfall Great Fairy",
+              "name": "Great Fairy"
             }  
           ],
           "map_locations": [

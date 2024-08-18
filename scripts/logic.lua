@@ -20,6 +20,10 @@ function has(item, amount)
     end
 end
 
+function is_active(item)
+    return Tracker:FindObjectForCode(item).Active
+end
+
 function play_sot()
     return has("ocarina") and has("sot")
 end
@@ -61,11 +65,13 @@ function play_oath()
 end
 
 function projectile()
-    return has("bow") or has("hs") or has("zora")
-            or has("deku") and has("magic")
+    return has("bow")
+    or has("hs")
+    or has("zora")
+    or has("deku") and has("magic")
 end
 
-function any_transform() 
+function any_transform()
     return has("deku") or has("goron") or has("zora")
 end
 
@@ -73,7 +79,7 @@ function all_transform()
     return has("deku") and has("goron") and has("zora")
 end
 
-function explosion() 
+function explosion()
     return has("bombs") or has("blast") or has("chu")
 end
 
@@ -128,7 +134,7 @@ function access_ssh()
 end
 
 function flying_bean()
-    return has("$water_bean") and has("beans") 
+    return has("$water_bean") and has("beans")
             or has("$access_beans") and has("$water_bean")
 end
 
@@ -265,7 +271,7 @@ function access_igosroom()
  end
 
 function kill_igos()
-    return has("$access_castle") and has("fa") and has("$any_sword") and has("mirror")
+    return has("$access_castle") and has("$shoot_fa") and has("$any_sword") and has("mirror") and has("$shoot_la")
      or  has("$access_castle_upper") and has("$use_keg") and has("fa") and has("mirror")
 end
 
@@ -288,7 +294,7 @@ function kill_goht()
 end
 
 function kill_gyorg()
-    return has("$access_gbt") and has("$shoot_ia") and has("fa")
+    return has("$access_gbt") and has("$shoot_ia") and has("$shoot_fa")
 end
 
 function kill_sunblock()
@@ -381,3 +387,123 @@ function active_tokenshuffle_ssh()
     return has("on_skullsanity") and has("$all_ssh_token")
 end
 
+function mask_count()
+    local mask = 0
+    if Tracker:FindObjectForCode("postman").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("anm").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("blast").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("stone").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("fairymask").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("keaton").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("bremen").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("bunny").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("dongero").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("scents").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("romani").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("circus").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("kafei").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("couples").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("truth").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("kamaro").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("gibdo").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("garo").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("captains").Active then mask = mask + 1 end
+    if Tracker:FindObjectForCode("giant").Active then mask = mask + 1 end
+    return mask
+end
+
+function mask_count_1()
+    if mask_count() >= 1 then
+        return true
+    else
+        return false
+    end
+end
+
+function mask_count_2()
+    if mask_count() >= 2 then
+        return true
+    else
+        return false
+    end
+end
+
+function mask_count_3()
+    if mask_count() >= 3 then
+        return true
+    else
+        return false
+    end
+end
+
+function mask_count_4()
+    if mask_count() >= 4 then
+        return true
+    else
+        return false
+    end
+end
+
+function mask_count_10()
+    if mask_count() >= 10 then
+        return true
+    else
+        return false
+    end
+end
+
+function mask_count_20()
+    if mask_count() == 20 then
+        return true
+    else
+        return false
+    end
+end
+
+function fairys_wf()
+    local count = Tracker:ProviderCountForCode('WFTfairy')
+    local val = (count >= 15)
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called fairys_wf: count: %s, val: %s", count, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end
+
+function fairys_sh()
+    local count = Tracker:ProviderCountForCode('SHTfairy')
+    local val = (count >= 15)
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called fairys_sh: count: %s, val: %s", count, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end
+
+function fairys_gb()
+    local count = Tracker:ProviderCountForCode('GBTfairy')
+    local val = (count >= 15)
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called fairys_gb: count: %s, val: %s", count, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end
+
+function fairys_st()
+    local count = Tracker:ProviderCountForCode('STTfairy')
+    local val = (count >= 15)
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called fairys_st: count: %s, val: %s", count, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end

@@ -51,23 +51,107 @@
             {
               "name": "Woodfall Entrance Platform",
               "access_rules": ["deku"],
-              "visibility_rules": [""],
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Woodfall Main Room Switch",
               "access_rules": [""],
-              "visibility_rules": [""],
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Woodfall Dark Room",
               "access_rules": ["sticks,WFTsk1","$shoot_fa,WFTsk1"],
-              "visibility_rules": [""],
+              "visibility_rules": ["on_chestfairys","on_strayfairys"],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Woodfall Entrance Fairy",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Jar Fairy",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Deku Baba",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Platform Room Hive",
+              "access_rules": ["bow","$bubbles","$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Poison Water Bubble",
+              "access_rules": ["$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Bridge Room Hive",
+              "access_rules": ["bow","$bubbles","$projectile,fairymask"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Skulltula",
+              "access_rules": [""],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Main Room Bubble",
+              "access_rules": ["bow,deku","WFTsk1,deku"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Pre-Boss Lower Right Bubble",
+              "access_rules": ["bow,deku","WFTsk1,deku"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Pre-Boss Pillar Bubble",
+              "access_rules": ["bow,deku","WFTsk1,deku"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Pre-Boss Upper Left Bubble",
+              "access_rules": ["bow,deku","WFTsk1,deku"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Pre-Boss Upper Right Bubble",
+              "access_rules": ["bow,deku","WFTsk1,deku"],
+              "visibility_rules": ["on_strayfairys"],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
             },
             //other stuff
             {
@@ -135,8 +219,40 @@
               "name": "Woodfall Temple",
               "sections": [
                 {
+                  "ref": "Woodfall Temple/Woodfall Entrance Fairy",
+                  "name": "Entrance Fairy"
+                },
+                {
                   "ref": "Woodfall Temple/Woodfall Entrance Platform",
                   "name": "Entrance Platform"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Jar Fairy",
+                  "name": "Jar Fairy"
+                },  
+                {
+                  "ref": "Woodfall Temple/Woodfall Deku Baba",
+                  "name": "Deku Baba"
+                },                              
+                {
+                  "ref": "Woodfall Temple/Woodfall Platform Room Hive",
+                  "name": "Platform Room Hive"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Poison Water Bubble",
+                  "name": "Poison Water Bubble"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Bridge Room Hive",
+                  "name": "Bridge Room Hive"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Skulltula",
+                  "name": "Skulltula"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Main Room Bubble",
+                  "name": "Main Room Bubble"
                 },
                 {
                   "ref": "Woodfall Temple/Woodfall Main Room Switch",
@@ -145,6 +261,22 @@
                 {
                   "ref": "Woodfall Temple/Woodfall Dark Room",
                   "name": "Dark Room"
+                },                
+                {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Lower Right Bubble",
+                  "name": "Pre-Boss Lower Right Bubble"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Pillar Bubble",
+                  "name": "Pre-Boss Pillar Bubble"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Upper Left Bubble",
+                  "name": "Pre-Boss Upper Left Bubble"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Upper Right Bubble",
+                  "name": "Pre-Boss Upper Right Bubble"
                 }
               ],
               "map_locations": [
@@ -195,7 +327,7 @@
               "map": "Woodfall Temple",
               "x": 535,
               "y": 940,
-              "size": 40
+              "size": 25
              }
           ]
         },
@@ -212,7 +344,7 @@
                 "map": "Woodfall Temple",
                 "x": 165,
                 "y": 640,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -229,7 +361,7 @@
                 "map": "Woodfall Temple",
                 "x": 890,
                 "y": 955,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -246,7 +378,7 @@
                 "map": "Woodfall Temple",
                 "x": 830,
                 "y": 775,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -267,7 +399,7 @@
                 "map": "Woodfall Temple",
                 "x": 1035,
                 "y": 580,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -284,7 +416,7 @@
                 "map": "Woodfall Temple",
                 "x": 995,
                 "y": 320,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -302,7 +434,7 @@
                 "map": "Woodfall Temple",
                 "x": 275,
                 "y": 930,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -319,7 +451,7 @@
                 "map": "Woodfall Temple",
                 "x": 285,
                 "y": 340,
-                "size": 40
+                "size": 25
                }
             ]
         },
@@ -336,7 +468,186 @@
                 "map": "Woodfall Temple",
                 "x": 540,
                 "y": 520,
-                "size": 40
+                "size": 25
+               }
+            ]
+        },
+        //stray fairys
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Entrance Fairy",
+                  "name": "Entrance Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 205,
+                "y": 870,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Jar Fairy",
+                  "name": "Jar Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 525,
+                "y": 750,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Deku Baba",
+                  "name": "Deku Baba"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 410,
+                "y": 640,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Bridge Room Hive",
+                  "name": "Bridge Room Hive"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Poison Water Bubble",
+                "name": "Poison Water Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 335,
+                "y": 565,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Platform Room Hive",
+                  "name": "Platform Room Hive"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 805,
+                "y": 695,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Skulltula",
+                  "name": "Bridge Room Skulltula"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 335,
+                "y": 495,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Main Room Bubble",
+                  "name": "Main Room Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 605,
+                "y": 575,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Upper Left Bubble",
+                  "name": "Pre-Boss Upper Left Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 725,
+                "y": 375,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Pillar Bubble",
+                  "name": "Pre-Boss Pillar Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 760,
+                "y": 465,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Pre-Boss Lower Right Bubble",
+                  "name": "Pre-Boss Lower Right Bubble"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Pre-Boss Upper Right Bubble",
+                "name": "Pre-Boss Upper Right Bubble"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 790,
+                "y": 605,
+                "size": 25
                }
             ]
         },
@@ -354,7 +665,7 @@
                 "map": "Woodfall Temple",
                 "x": 180,
                 "y": 920,
-                "size": 40
+                "size": 25
                }
             ]
         }
