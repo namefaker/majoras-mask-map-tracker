@@ -106,6 +106,33 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Ranch Barn Hay Item Blue Rupee 1-2",
+              "access_rules": [""],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ranch Fence Item Blue Rupee 1-2",
+              "access_rules": [""],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ranch Fence Item Green Rupee 1-4",
+              "access_rules": [""],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
             }
           ]
         },
@@ -206,15 +233,19 @@
             "sections": [
               {
                   "ref": "Romani Ranch/Ranch Cow #1",
-                  "name": "Ranch Cow #1"
+                  "name": "Cow #1"
               },
               {
                   "ref": "Romani Ranch/Ranch Cow #2",
-                  "name": "Ranch Cow #2"
+                  "name": "Cow #2"
               },
               {
                 "ref": "Romani Ranch/Ranch Cow #3",
-                "name": "Ranch Cow #2"
+                "name": "Cow #3"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Barn Hay Item Blue Rupee 1-2",
+                "name": "Barn Hay Item Blue Rupee 1-2"
               }
             ],
             "map_locations": [
@@ -243,6 +274,27 @@
                 "map": "Termina",
                 "x": 1150,
                 "y": 1145,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Ranch Fence Item Blue Rupee 1-2",
+                  "name": "Fence Item Blue Rupee 1-2"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Fence Item Green Rupee 1-4",
+                "name": "Fence Item Green Rupee 1-4"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1270,
+                "y": 1060,
                 "size": 20
                }
             ]
@@ -341,15 +393,19 @@
             "sections": [
             {
                 "ref": "Romani Ranch/Ranch Cow #1",
-                "name": "Ranch Cow #1"
+                "name": "Cow #1"
             },
             {
                 "ref": "Romani Ranch/Ranch Cow #2",
-                "name": "Ranch Cow #2"
+                "name": "Cow #2"
             },
             {
               "ref": "Romani Ranch/Ranch Cow #3",
-              "name": "Ranch Cow #2"
+              "name": "Cow #3"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Barn Hay Item Blue Rupee 1-2",
+              "name": "Barn Hay Item Blue Rupee 1-2"
             }
             ],
             "map_locations": [
@@ -396,6 +452,108 @@
               "x": 320,
               "y": 1000,
               "size": 40
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Fence Item Blue Rupee 1-2",
+              "name": "Fence Item Blue Rupee 2"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 427,
+              "y": 520,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Fence Item Blue Rupee 1-2",
+              "name": "Fence Item Blue Rupee 1"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 450,
+              "y": 526,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Fence Item Green Rupee 1-4",
+              "name": "Fence Item Green Rupee 1"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 378,
+              "y": 525,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Fence Item Green Rupee 1-4",
+              "name": "Fence Item Green Rupee 2"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 407,
+              "y": 528,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Fence Item Green Rupee 1-4",
+              "name": "Fence Item Green Rupee 3"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 471,
+              "y": 541,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Fence Item Green Rupee 1-4",
+              "name": "Fence Item Green Rupee 4"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 503,
+              "y": 543,
+              "size": 15
              }
           ]
         }

@@ -76,6 +76,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
+Tracker:AddLayouts("layouts/settings_popup.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/masks.json")
 Tracker:AddLayouts("layouts/songs.json")
@@ -86,6 +87,7 @@ Tracker:AddLayouts("layouts/temporary.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/dungeon items.json")
+Tracker:AddLayouts("layouts/settings_popup.json")
 
 
 -- AutoTracking for Poptracker

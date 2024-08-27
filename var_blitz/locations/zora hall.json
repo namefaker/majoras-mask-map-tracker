@@ -20,7 +20,7 @@
       },
       {
         "name": "Zora Hall Ocean Scrub Trade",
-        "access_rules": ["zora,goron,mdeed","[],goron,mdeed"],
+        "access_rules": ["zora,goron,mdeed"],
         "visibility_rules": [""],
         "chest_unopened_img": "images/other/chest_brown_closed.png",
         "chest_opened_img": "images/other/chest_brown_open.png"

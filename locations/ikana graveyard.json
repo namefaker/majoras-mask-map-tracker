@@ -74,6 +74,24 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Ikana Graveyard Rupee Cluster Green Rupee 1-6",
+              "access_rules": ["captains"],
+              "item_count": 6,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Rupee Cluster Red Rupee 1",
+              "access_rules": ["captains"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
             }
           ]
         },
@@ -134,6 +152,14 @@
               {
                 "ref": "Ikana Graveyard/Night 2 Grave Pot 1-2",
                 "name": "Night 2 Grave Pot 1-2"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Rupee Cluster Green Rupee 1-6",
+                "name": "Night 2 Rupee Cluster Green Rupee 1-6"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Rupee Cluster Red Rupee 1",
+                "name": "Night 2 Rupee Cluster Red Rupee 1"
               }
             ],
             "map_locations": [
@@ -240,6 +266,14 @@
               {
                 "ref": "Ikana Graveyard/Night 2 Grave Pot 1-2",
                 "name": "Night 2 Grave Pot 1-2"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Rupee Cluster Green Rupee 1-6",
+                "name": "Night 2 Rupee Cluster Green Rupee 1-6"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Rupee Cluster Red Rupee 1",
+                "name": "Night 2 Rupee Cluster Red Rupee 1"
               }
             ],
             "map_locations": [

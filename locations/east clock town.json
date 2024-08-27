@@ -35,6 +35,13 @@
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
+          "name": "Honey and Darling All 3 Days",
+          "access_rules": ["bombs,bow","bombs,deku"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
           "name": "Madame Aroma in Bar",
           "access_rules": ["kafei, ltm"],
           "visibility_rules": [""],
@@ -70,11 +77,39 @@
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
+          "name": "Town Archery #2",
+          "access_rules": ["bow"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Treasure Chest Game Link",
+          "access_rules": [""],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Treasure Chest Game Deku",
+          "access_rules": ["deku"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
           "name": "Treasure Chest Game Goron",
           "access_rules": ["goron"],
           "visibility_rules": [""],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
+        },
+        {
+          "name": "Treasure Chest Game Zora",
+          "access_rules": ["zora"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
           "name": "Milk Bar 2 Purchases",
@@ -103,16 +138,90 @@
           "chest_unopened_img": "images/other/pot.png",
           "chest_opened_img": "images/other/pot_broken.png"
         }
-      ],
-      "map_locations": [
-        {
-          "map": "Termina",
-          "x": 1360,
-          "y": 760,
-          "size": 20
-        }
       ]
     },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "East Clock Town",
+          "sections": [
+          {
+            "ref": "East Clock Town/Bombers' Hideout Chest",
+            "name": "Bombers' Hideout Chest"
+          },
+          {
+            "ref": "East Clock Town/Chest",
+            "name": "Chest"
+          },
+          {
+            "ref": "East Clock Town/Gorman (Sound Check)",
+            "name": "Gorman (Sound Check)"
+          },
+          {
+            "ref": "East Clock Town/Madame Aroma in Bar",
+            "name": "Madame Aroma in Bar"
+          },
+          {
+            "ref": "East Clock Town/Milk Bar 2 Purchases",
+            "name": "Milk Bar 2 Purchases"
+          },
+          {
+            "ref": "East Clock Town/Honey and Darling Any Day",
+            "name": "Honey and Darling Any Day"
+          },
+          {
+            "ref": "East Clock Town/Honey and Darling All 3 Days",
+            "name": "Honey and Darling All 3 Days"
+          },
+          {
+            "ref": "East Clock Town/Madame Aroma in Office",
+            "name": "Madame Aroma in Office"
+          },
+          {
+            "ref": "East Clock Town/Mayor",
+            "name": "Mayor"
+          },
+          {
+            "ref": "East Clock Town/Postman's Freedom Reward",
+            "name": "Postman's Freedom Reward"
+          },
+          {
+            "ref": "East Clock Town/Town Archery #1",
+            "name": "Town Archery #1"
+          },
+          {
+            "ref": "East Clock Town/Town Archery #2",
+            "name": "Town Archery #2"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Link",
+            "name": "Treasure Chest Game Link"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Deku",
+            "name": "Treasure Chest Game Deku"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Goron",
+            "name": "Treasure Chest Game Goron"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Zora",
+            "name": "Treasure Chest Game Zora"
+          }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1360,
+              "y": 760,
+              "size": 20
+            }
+          ]
+        }
+     ]
+  },
     // East Clock Town 
     {
       "item_count": 1,
@@ -182,6 +291,10 @@
             {
                 "ref": "East Clock Town/Honey and Darling Any Day",
                 "name": "ECT Honey and Darling Any Day"
+            },
+            {
+              "ref": "East Clock Town/Honey and Darling All 3 Days",
+              "name": "Honey and Darling All 3 Days"
             }
           ],
           "map_locations": [
@@ -250,6 +363,10 @@
           {
               "ref": "East Clock Town/Town Archery #1",
               "name": "ECT Town Archery #1"
+          },
+          {
+            "ref": "East Clock Town/Town Archery #2",
+            "name": "Town Archery #2"
           }
         ],
         "map_locations": [
@@ -265,8 +382,20 @@
         "name": "East Clock Town",
         "sections": [
           {
-              "ref": "East Clock Town/Treasure Chest Game Goron",
-              "name": "ECT Treasure Chest Game Goron"
+            "ref": "East Clock Town/Treasure Chest Game Link",
+            "name": "Treasure Chest Game Link"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Deku",
+            "name": "Treasure Chest Game Deku"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Goron",
+            "name": "Treasure Chest Game Goron"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Zora",
+            "name": "Treasure Chest Game Zora"
           }
         ],
         "map_locations": [

@@ -57,7 +57,7 @@
         ]
     },
     {
-        "name": "Big Key Shuffle",
+        "name": "Boss Key Shuffle",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -191,6 +191,99 @@
                 "name": "All Stray Fairy Shuffle",
                 "img": "images/other/on_strayfairys.png",
                 "codes": "on_strayfairys",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Freestanding Green Rupee Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_greenrupee_shuffle.png",
+                "codes": "off_gr_shuffle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Green Rupee Shuffle Overworld",
+                "img": "images/other/on_green_overworld_shuffle.png",
+                "codes": "on_gr_overworld",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Green Rupee Shuffle Dungeon",
+                "img": "images/other/on_green_dungeon_shuffle.png",
+                "codes": "on_gr_dungeon",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Green Rupee Shuffle All",
+                "img": "images/other/on_greenrupee_shuffle.png",
+                "codes": "on_gr_all",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Freestanding Blue Rupee Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_bluerupee_shuffle.png",
+                "codes": "off_br_shuffle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Blue Rupee Shuffle Overworld",
+                "img": "images/other/on_blue_overworld_shuffle.png",
+                "codes": "on_br_overworld",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Blue Rupee Shuffle Dungeon",
+                "img": "images/other/on_blue_dungeon_shuffle.png",
+                "codes": "on_br_dungeon",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Blue Rupee Shuffle All",
+                "img": "images/other/on_bluerupee_shuffle.png",
+                "codes": "on_br_all",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Freestanding Red Rupee Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_redrupee_shuffle.png",
+                "codes": "off_rr_shuffle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Red Rupee Shuffle Overworld",
+                "img": "images/other/on_red_overworld_shuffle.png",
+                "codes": "on_rr_overworld",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Red Rupee Shuffle Dungeon",
+                "img": "images/other/on_red_dungeon_shuffle.png",
+                "codes": "on_rr_dungeon",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Red Rupee Shuffle All",
+                "img": "images/other/on_redrupee_shuffle.png",
+                "codes": "on_rr_all",
                 "inherit_codes": false
             }
         ]

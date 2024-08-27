@@ -171,6 +171,33 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Woodfall Temple Pre-Boss Platform Item Blue Rupees 1-4",
+              "access_rules": ["deku"],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_br_dungeon","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Woodfall Temple Pre-Boss Left Pillar Item",
+              "access_rules": ["deku","hs","zora"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_rr_dungeon","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Woodfall Temple Pre-Boss Right Pillar Item",
+              "access_rules": ["deku","hs","zora"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_rr_dungeon","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
             }
           ]
         },
@@ -298,6 +325,18 @@
               {
                 "ref": "Woodfall Temple/Woodfall Temple Gekko Room Pot 1-4",
                 "name": "Gekko Room Pot 1-4"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Pre-Boss Platform Item Blue Rupees 1-4",
+                "name": "Pre-Boss Platform Item Blue Rupees 1-4"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Pre-Boss Left Pillar Item",
+                "name": "Pre-Boss Left Pillar Item"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Pre-Boss Right Pillar Item",
+                "name": "Pre-Boss Right Pillar Item"
               }
             ],
             "map_locations": [
@@ -665,6 +704,57 @@
                 "map": "Woodfall Temple",
                 "x": 180,
                 "y": 920,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Temple Pre-Boss Platform Item Blue Rupees 1-4",
+                  "name": "Pre-Boss Platform Item Blue Rupees 1-4"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 810,
+                "y": 525,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Temple Pre-Boss Left Pillar Item",
+                  "name": "Pre-Boss Left Pillar Item"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 807,
+                "y": 370,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Temple Pre-Boss Right Pillar Item",
+                  "name": "Pre-Boss Right Pillar Item"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 920,
+                "y": 440,
                 "size": 25
                }
             ]

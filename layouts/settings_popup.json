@@ -1,0 +1,22 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "content": [
+            {
+                "type": "array",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "item_size": "100,100",
+                        "rows": [
+                            ["off_sk", "off_bk","off_strayfairys","off_skullsanity"],
+                            ["off_cowsanity", "off_soilsanity","off_shopsanity","off_potsanity"],
+                            ["off_gr_shuffle","off_br_shuffle","off_rr_shuffle"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -133,14 +133,250 @@
             },
             {
               "name": "Termina Field Pillar Pot",
-              "access_rules": [""],
+              "access_rules": ["$flying_bean","$projectile"],
               "item_count": 1,
               "clear_as_group": true,
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Above Cow Grotto Invisible Blue Rupee 1",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["deku","$spikes"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Guay Green Rupees 1-19 (Play Dungeon Song)",
+              "item_count": 19,
+              "clear_as_group": true,
+              "access_rules": ["$play_sonata","$play_lullaby","$play_nwbn"],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Guay Red Rupee 1 (Play Dungeon Song)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$play_sonata","$play_lullaby","$play_nwbn"],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Guay Green Rupees 1-16 (Play Dungeon Song and Use Goron or Epona)",
+              "item_count": 16,
+              "clear_as_group": true,
+              "access_rules": ["$play_sonata,goron","$play_lullaby,goron","$play_nwbn,goron",
+                              "$play_sonata,$play_epona","$play_lullaby,$play_epona","$play_nwbn,$play_epona"],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Guay Blue Rupees 1-3 (Play Dungeon Song and Use Goron or Epona)",
+              "item_count": 3,
+              "clear_as_group": true,
+              "access_rules": ["$play_sonata,goron","$play_lullaby,goron","$play_nwbn,goron",
+                              "$play_sonata,$play_epona","$play_lullaby,$play_epona","$play_nwbn,$play_epona"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Guay Red Rupee 1 (Play Dungeon Song and Use Goron or Epona)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$play_sonata,goron","$play_lullaby,goron","$play_nwbn,goron",
+                              "$play_sonata,$play_epona","$play_lullaby,$play_epona","$play_nwbn,$play_epona"],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 2 Green Rupee",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 3 Green Rupee",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 4 Green Rupee",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 5 Green Rupee",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 6 Green Rupee",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 7 Blue Rupee (Water Fountain)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 8 Blue Rupee (Water Fountain)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 10 Blue Rupee (Goron Ramp)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$spikes"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Invisible Item 11 Blue Rupee (Goron Ramp)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$spikes"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Northern Ramp Invisible Item Blue Rupee",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$spikes","zora"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Pillar Item Red Rupees 1-2",
+              "item_count": 2,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall 0 8 12 16 (2 Green Rupees)",
+              "item_count": 2,
+              "clear_as_group": true,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall 0 8 12 16 (1 Red Rupee)",
+              "item_count": 1,
+              "clear_as_group": false,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall 2 10 14 18 22 (3 Blue Rupees)",
+              "item_count": 3,
+              "clear_as_group": true,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall 4 20 (2 Blue Rupees)",
+              "item_count": 2,
+              "clear_as_group": true,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_br_overworld","on_br_all"],
+              "chest_unopened_img": "images/other/blue_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall 4 20 (1 Red Rupee)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall Dawn (6AM 3 Red Rupees)",
+              "item_count": 3,
+              "clear_as_group": true,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Song Wall Odd Hours (3 Green Rupees)",
+              "item_count": 3,
+              "clear_as_group": true,
+              "access_rules": ["ocarina"],
+              "visibility_rules": ["on_gr_overworld","on_gr_all"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Telescope Guay",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$access_observatory","[]"],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Termina Field Tree Item",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_rr_overworld","on_rr_all"],
+              "chest_unopened_img": "images/other/red_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
             }
-
         ]
           },
         // Termina 
@@ -187,6 +423,10 @@
                   {
                       "ref": "Termina Field/Buisness Scrub Purchase",
                       "name": "Buisness Scrub Purchase"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Tree Item",
+                    "name": "Tree Item"
                   }
                 ],
                 "map_locations": [
@@ -238,6 +478,14 @@
                   {
                       "ref": "Termina Field/Peahat Grotto",
                       "name": "Peahat Grotto"
+                  },
+                  {
+                    "ref": "Termina Field/Invisible Item 2 Green Rupee",
+                    "name": "Invisible Item 2 Green Rupee"
+                  },
+                  {
+                    "ref": "Termina Field/Invisible Item 3 Green Rupee",
+                    "name": "Invisible Item 3 Green Rupee"
                   }
                 ],
                 "map_locations": [
@@ -272,6 +520,14 @@
                   {
                       "ref": "Termina Field/Grass Grotto",
                       "name": "Grass Grotto"
+                  },
+                  {
+                    "ref": "Termina Field/Invisible Item 5 Green Rupee",
+                    "name": "Invisible Item 5 Green Rupee"
+                  },
+                  {
+                    "ref": "Termina Field/Invisible Item 6 Green Rupee",
+                    "name": "Invisible Item 6 Green Rupee"
                   }
                 ],
                 "map_locations": [
@@ -297,6 +553,10 @@
                   {
                     "ref": "Termina Field/Termina Field Pillar Pot",
                     "name": "Pillar Pot"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Pillar Item Red Rupees 1-2",
+                    "name": "Termina Field Pillar Item Red Rupees 1-2"
                   }
                 ],
                 "map_locations": [
@@ -326,6 +586,10 @@
                   {
                     "ref": "Termina Field/Termina Field Stump Soft Soil",
                     "name": "Stump Soft Soil"
+                  },
+                  {
+                    "ref": "Termina Field/Above Cow Grotto Invisible Blue Rupee 1",
+                    "name": "Above Cow Grotto Invisible Blue Rupee 1"
                   }
                 ],
                 "map_locations": [
@@ -343,7 +607,11 @@
                   {
                       "ref": "Termina Field/Underwater Chest",
                       "name": "Underwater Chest"
-                  }
+                  },
+                  {
+                    "ref": "Termina Field/Invisible Item 11 Blue Rupee (Goron Ramp)",
+                    "name": "Invisible Item 11 Blue Rupee (Goron Ramp)"
+                }
                 ],
                 "map_locations": [
                   {
@@ -422,9 +690,147 @@
                     "size": 20
                    }
                 ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Guay Green Rupees 1-19 (Play Dungeon Song)",
+                      "name": "Guay Green Rupees 1-19 (Play Dungeon Song)"
+                  },
+                  {
+                    "ref": "Termina Field/Guay Red Rupee 1 (Play Dungeon Song)",
+                    "name": "Guay Red Rupee 1 (Play Dungeon Song)"
+                  },
+                  {
+                    "ref": "Termina Field/Guay Blue Rupees 1-3 (Play Dungeon Song and Use Goron or Epona)",
+                    "name": "Guay Blue Rupees 1-3 (Play Dungeon Song and Use Goron or Epona)"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1330,
+                    "y": 855,
+                    "size": 15
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 4 Green Rupee",
+                      "name": "Invisible Item 4 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1440,
+                    "y": 885,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 4 Green Rupee",
+                      "name": "Invisible Item 4 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1440,
+                    "y": 885,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Northern Ramp Invisible Item Blue Rupee",
+                      "name": "Northern Ramp Invisible Item Blue Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1185,
+                    "y": 715,
+                    "size": 15
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Song Wall 0 8 12 16 (2 Green Rupees)",
+                      "name": "Song Wall 0 / 8 / 12 / 16 (2 Green Rupees)"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Song Wall 0 8 12 16 (1 Red Rupee)",
+                    "name": "Song Wall 0 / 8 / 12 / 16 (1 Red Rupee)"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Song Wall 2 10 14 18 22 (3 Blue Rupees)",
+                    "name": "Song Wall 2 / 10 / 14 / 18 / 22 (3 Blue Rupees)"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Song Wall 4 20 (2 Blue Rupees)",
+                    "name": "Song Wall 4 / 20 (2 Blue Rupees)"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Song Wall 4 20 (1 Red Rupee)",
+                    "name": "Song Wall 4 / 20 (1 Red Rupee)"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Song Wall Dawn (6AM  3 Red Rupees)",
+                    "name": "Song Wall Dawn (6AM / 3 Red Rupees)"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Song Wall Odd Hours (3 Green Rupees)",
+                    "name": "Song Wall Odd Hours (3 Green Rupees)"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1175,
+                    "y": 740,
+                    "size": 15
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Termina Field Telescope Guay",
+                      "name": "Telescope Guay"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1440,
+                    "y": 780,
+                    "size": 15
+                   }
+                ]
               }
          ]
       },
+
+
+
+
       {     /// Termina Field
         "item_count": 1,
         "children": [
@@ -660,6 +1066,10 @@
                   {
                     "ref": "Termina Field/Termina Grotto Cow #2",
                     "name": "Termina Grotto Cow #2"
+                  },
+                  {
+                    "ref": "Termina Field/Above Cow Grotto Invisible Blue Rupee 1",
+                    "name": "Above Cow Grotto Invisible Blue Rupee 1"
                   }
                 ],
                 "map_locations": [
@@ -752,7 +1162,294 @@
                     "map": "Termina Field",
                     "x": 1460,
                     "y": 75,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Guay Green Rupees 1-19 (Play Dungeon Song)",
+                    "name": "Guay Green Rupees 1-19 (Play Dungeon Song)"
+                },
+                {
+                  "ref": "Termina Field/Guay Red Rupee 1 (Play Dungeon Song)",
+                  "name": "Guay Red Rupee 1 (Play Dungeon Song)"
+                },
+                {
+                  "ref": "Termina Field/Guay Blue Rupees 1-3 (Play Dungeon Song and Use Goron or Epona)",
+                  "name": "Guay Blue Rupees 1-3 (Play Dungeon Song and Use Goron or Epona)"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1050,
+                    "y": 955,
                     "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 2 Green Rupee",
+                      "name": "Invisible Item 2 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1235,
+                    "y": 1058,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 3 Green Rupee",
+                      "name": "Invisible Item 3 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1280,
+                    "y": 1090,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 4 Green Rupee",
+                      "name": "Invisible Item 4 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1510,
+                    "y": 1080,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 5 Green Rupee",
+                      "name": "Invisible Item 5 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1800,
+                    "y": 880,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 6 Green Rupee",
+                      "name": "Invisible Item 6 Green Rupee"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1740,
+                    "y": 785,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 7 Blue Rupee (Water Fountain)",
+                      "name": "Invisible Item 7 Blue Rupee (Water Fountain)"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 636,
+                    "y": 868,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 8 Blue Rupee (Water Fountain)",
+                      "name": "Invisible Item 8 Blue Rupee (Water Fountain)"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 527,
+                    "y": 790,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 10 Blue Rupee (Goron Ramp)",
+                      "name": "Invisible Item 10 Blue Rupee (Goron Ramp)"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 602,
+                    "y": 820,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Invisible Item 11 Blue Rupee (Goron Ramp)",
+                      "name": "Invisible Item 11 Blue Rupee (Goron Ramp)"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 768,
+                    "y": 1107,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Northern Ramp Invisible Item Blue Rupee",
+                    "name": "Northern Ramp Invisible Item Blue Rupee"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 545,
+                    "y": 245,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field Pillar Item Red Rupees 1-2",
+                    "name": "Pillar Item Red Rupees 1-2"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1410,
+                    "y": 128,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field Song Wall 0 8 12 16 (2 Green Rupees)",
+                    "name": "Song Wall 0 / 8 / 12 / 16 (2 Green Rupees)"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Song Wall 0 8 12 16 (1 Red Rupee)",
+                  "name": "Song Wall 0 / 8 / 12 / 16 (1 Red Rupee)"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Song Wall 2 10 14 18 22 (3 Blue Rupees)",
+                  "name": "Song Wall 2 / 10 / 14 / 18 / 22 (3 Blue Rupees)"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Song Wall 4 20 (2 Blue Rupees)",
+                  "name": "Song Wall 4 / 20 (2 Blue Rupees)"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Song Wall 4 20 (1 Red Rupee)",
+                  "name": "Song Wall 4 / 20 (1 Red Rupee)"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Song Wall Dawn (6AM 3 Red Rupees)",
+                  "name": "Song Wall Dawn (6AM / 3 Red Rupees)"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Song Wall Odd Hours (3 Green Rupees)",
+                  "name": "Song Wall Odd Hours (3 Green Rupees)"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 520,
+                    "y": 350,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field Telescope Guay",
+                    "name": "Termina Field Telescope Guay"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1470,
+                    "y": 575,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field Tree Item",
+                    "name": "Tree Item"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1770,
+                    "y": 400,
+                    "size": 20
                    }
                 ]
               }

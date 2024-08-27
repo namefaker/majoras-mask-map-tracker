@@ -13,14 +13,14 @@
       },
       {
         "name": "Zora Hall Lulu's Room Ledge",
-        "access_rules": ["$all_transform,mdeed", "[],zora","[],goron"],
+        "access_rules": ["$all_transform,mdeed"],
         "visibility_rules": [""],
         "chest_unopened_img": "images/items/hp.png",
         "chest_opened_img": "images/items/hp_grey.png"
       },
       {
         "name": "Zora Hall Ocean Scrub Trade",
-        "access_rules": ["zora,goron,mdeed","[],goron,mdeed"],
+        "access_rules": ["zora,goron,mdeed"],
         "visibility_rules": [""],
         "chest_unopened_img": "images/other/chest_brown_closed.png",
         "chest_opened_img": "images/other/chest_brown_open.png"

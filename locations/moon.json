@@ -13,7 +13,7 @@
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-                "name": "Link Trial Reward",
+                "name": "Link Trial Bonus",
                 "access_rules": ["$mask_count_10","[],$mask_count_4"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
@@ -34,22 +34,22 @@
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-                "name": "Deku Trial Reward",
-                "access_rules": ["$mask_count_10","[],$mask_count_1"],
+                "name": "Deku Trial Bonus",
+                "access_rules": ["$mask_count_10,deku","[],$mask_count_1,deku"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-                "name": "Goron Trial Reward",
-                "access_rules": ["$mask_count_10","[],$mask_count_2"],
+                "name": "Goron Trial Bonus",
+                "access_rules": ["$mask_count_10,goron","[],$mask_count_2,goron"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-                "name": "Zora Trial Reward",
-                "access_rules": ["$mask_count_10","[],$mask_count_3"],
+                "name": "Zora Trial Bonus",
+                "access_rules": ["$mask_count_10,zora","[],$mask_count_3,zora"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
@@ -97,8 +97,8 @@
             "name": "The Moon",
             "sections": [
               {
-                  "ref": "Moon/Link Trial Reward",
-                  "name": "Link Trial Reward"
+                  "ref": "Moon/Link Trial Bonus",
+                  "name": "Link Trial Bonus"
               },
               {
                 "ref": "Moon/Link Trial Garo Master Chest",
@@ -126,8 +126,8 @@
             "name": "The Moon",
             "sections": [
               {
-                  "ref": "Moon/Deku Trial Reward",
-                  "name": "Deku Trial Reward"
+                  "ref": "Moon/Deku Trial Bonus",
+                  "name": "Deku Trial Bonus"
               }
             ],
             "map_locations": [
@@ -143,8 +143,8 @@
             "name": "The Moon",
             "sections": [
               {
-                  "ref": "Moon/Goron Trial Reward",
-                  "name": "Goron Trial Reward"
+                  "ref": "Moon/Goron Trial Bonus",
+                  "name": "Goron Trial Bonus"
               }
             ],
             "map_locations": [
@@ -160,8 +160,8 @@
             "name": "The Moon",
             "sections": [
               {
-                  "ref": "Moon/Zora Trial Reward",
-                  "name": "Zora Trial Reward"
+                  "ref": "Moon/Zora Trial Bonus",
+                  "name": "Zora Trial Bonus"
               }
             ],
             "map_locations": [
