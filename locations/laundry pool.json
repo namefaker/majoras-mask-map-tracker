@@ -40,6 +40,15 @@
           "visibility_rules": ["on_rr_overworld","on_rr_all"],
           "chest_unopened_img": "images/other/red_rupee.png.",
           "chest_opened_img": "images/other/rupee_check.png"
+        },
+        {
+          "name": "Laundry Pool Crate",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_crate"],
+          "chest_unopened_img": "images/other/crate.png",
+          "chest_opened_img": "images/other/crate_broken.png"
         }
       ],
       "map_locations": [
@@ -60,7 +69,11 @@
             {
                 "ref": "Laundry Pool/Guru Guru",
                 "name": "Guru Guru"
-            }
+            },
+            {
+              "ref": "Laundry Pool/Laundry Pool Crate",
+              "name": "Laundry Pool Crate"
+          }
           ],
           "map_locations": [
             {

@@ -208,6 +208,42 @@
               "visibility_rules": ["on_rr_dungeon","on_rr_all"],
               "chest_unopened_img": "images/other/red_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Great Bay Temple Entrance Room Barrel",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_barrel"],
+              "chest_unopened_img": "images/other/barrel.png",
+              "chest_opened_img": "images/other/barrel_broken.png"
+            },
+            {
+              "name": "Great Bay Temple Green Pump Barrel 1-2",
+              "access_rules": ["hs"],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_barrel"],
+              "chest_unopened_img": "images/other/barrel.png",
+              "chest_opened_img": "images/other/barrel_broken.png"
+            },
+            {
+              "name": "Great Bay Temple Red Valve Barrel 1-2",
+              "access_rules": ["$shoot_ia"],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_barrel"],
+              "chest_unopened_img": "images/other/barrel.png",
+              "chest_opened_img": "images/other/barrel_broken.png"
+            },
+            {
+              "name": "Great Bay Temple Red Valve Crate",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_crate"],
+              "chest_unopened_img": "images/other/crate.png",
+              "chest_opened_img": "images/other/crate_broken.png"
             }
           ]
         },
@@ -352,6 +388,22 @@
               {
                 "ref": "Great Bay Temple/Great Bay Temple Dexihand Item Red Rupee 1-2",
                 "name": "Dexihand Item Red Rupee 1-2"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Entrance Room Barrel",
+                "name": "Entrance Room Barrel"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Green Pump Barrel 1-2",
+                "name": "Green Pump Barrel 1-2"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Red Valve Barrel 1-2",
+                "name": "Red Valve Barrel 1-2"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Red Valve Crate",
+                "name": "Red Valve Crate"
               }
             ],
             "map_locations": [
@@ -775,6 +827,61 @@
                 "map": "Great Bay Temple",
                 "x": 1180,
                 "y": 200,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Temple Entrance Room Barrel",
+                  "name": "Entrance Room Barrel" 
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 475,
+                "y": 970,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Green Pump Barrel 1-2",
+                "name": "Green Pump Barrel 1-2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1040,
+                "y": 290,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Red Valve Barrel 1-2",
+                "name": "Red Valve Barrel 1-2"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Red Valve Crate",
+                "name": "Red Valve Crate"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 850,
+                "y": 945,
                 "size": 35
                }
             ]

@@ -92,6 +92,78 @@
               "visibility_rules": ["on_rr_overworld","on_rr_all"],
               "chest_unopened_img": "images/other/red_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Lantern Hitspots 1-3 #1",
+              "access_rules": ["$hitspot_trigger"],
+              "item_count": 3,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hitspots"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Lantern Hitspots 1-3 #2",
+              "access_rules": ["$hitspot_trigger"],
+              "item_count": 3,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hitspots"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Lantern Hitspots 1-3 #3",
+              "access_rules": ["$hitspot_trigger"],
+              "item_count": 3,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hitspots"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Lantern Hitspots 1-3 #4",
+              "access_rules": ["$hitspot_trigger"],
+              "item_count": 3,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hitspots"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Grass",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Grass 2",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Grass 3",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Ikana Graveyard Rock 1-5",
+              "access_rules": ["$play_sonata,bombs","$play_sonata,chu"],
+              "item_count": 5,
+              "clear_as_group": true,
+              "visibility_rules": ["on_stone"],
+              "chest_unopened_img": "images/other/rock.png",
+              "chest_opened_img": "images/other/rock_check.png"
             }
           ]
         },
@@ -110,6 +182,14 @@
               {
                 "ref": "Ikana Graveyard/Ikana Graveyard Grotto",
                 "name": "Grotto"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #4",
+                "name": "Ikana Graveyard Lantern Hitspot 1-3 #4"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Rock 1-5",
+                "name": "Ikana Graveyard Rock 1-5"
               }
             ],
             "map_locations": [
@@ -160,12 +240,50 @@
               {
                 "ref": "Ikana Graveyard/Ikana Graveyard Rupee Cluster Red Rupee 1",
                 "name": "Night 2 Rupee Cluster Red Rupee 1"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #1",
+                "name": "Ikana Graveyard Lantern Hitspot 1-3 #1"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #2",
+                "name": "Ikana Graveyard Lantern Hitspot 1-3 #2"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #3",
+                "name": "Ikana Graveyard Lantern Hitspot 1-3 #3"
               }
             ],
             "map_locations": [
                 {
                   "map": "Termina",
-                  "x": 1520,
+                  "x": 1510,
+                  "y": 530,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "clear_as_group": true,
+            "name": "Ikana Graveyard",
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Ikana Graveyard Grass",
+                  "name": "Graveyard Grass"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Grass 2",
+                "name": "Graveyard Grass 2"
+              },
+              {
+              "ref": "Ikana Graveyard/Ikana Graveyard Grass 3",
+              "name": "Graveyard Grass 3"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1540,
                   "y": 530,
                   "size": 20
                  }
@@ -203,7 +321,11 @@
               {
                 "ref": "Ikana Graveyard/Dampe's Basement Pot 1-8",
                 "name": "Dampe's Basement Pot 1-8"
-              }
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Grass",
+                "name": "Graveyard Grass"
+            }
             ],
             "map_locations": [
                 {
@@ -228,6 +350,10 @@
               {
                 "ref": "Ikana Graveyard/Night 1 Grave Pot 1-2",
                 "name": "Night 1 Grave Pot 1-2"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Grass 2",
+                "name": "Graveyard Grass 2"
               }
             ],
             "map_locations": [
@@ -274,6 +400,10 @@
               {
                 "ref": "Ikana Graveyard/Ikana Graveyard Rupee Cluster Red Rupee 1",
                 "name": "Night 2 Rupee Cluster Red Rupee 1"
+              },
+              {
+                "ref": "Ikana Graveyard/Ikana Graveyard Grass 3",
+                "name": "Graveyard Grass 3"
               }
             ],
             "map_locations": [
@@ -284,7 +414,92 @@
                   "size": 20
                }
             ]
-        }
+          },
+          {
+          "name": "Ikana Graveyard",
+          "sections": [
+            {
+                "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #1",
+                "name": "Lantern Hitspot 1-3 #1"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Ikana Area",
+                "x": 325,
+                "y": 480,
+                "size": 12
+             }
+          ]
+          },
+          {
+            "name": "Ikana Graveyard",
+            "sections": [
+              {
+                  "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #2",
+                  "name": "Lantern Hitspot 1-3 #2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 209,
+                  "y": 484,
+                  "size": 12
+              }
+            ]
+        },
+        {
+          "name": "Ikana Graveyard",
+          "sections": [
+            {
+                "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #3",
+                "name": "Lantern Hitspot 1-3 #3"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Ikana Area",
+                "x": 278,
+                "y": 406,
+                "size": 12
+            }
+          ]
+      },
+      {
+        "name": "Ikana Graveyard",
+        "sections": [
+          {
+              "ref": "Ikana Graveyard/Ikana Graveyard Lantern Hitspots 1-3 #4",
+              "name": "Lantern Hitspot 1-3 #4"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Ikana Area",
+              "x": 105,
+              "y": 366,
+              "size": 12
+          }
+        ]
+      },
+      {
+        "name": "Ikana Graveyard",
+        "sections": [
+          {
+            "ref": "Ikana Graveyard/Ikana Graveyard Rock 1-5",
+            "name": "Ikana Graveyard Rock 1-5"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Ikana Area",
+              "x": 60,
+              "y": 310,
+              "size": 12
+          }
+        ]
+      }
      ]
   }
 ]

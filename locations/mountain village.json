@@ -73,6 +73,42 @@
               "visibility_rules": ["on_rr_overworld","on_rr_all"],
               "chest_unopened_img": "images/other/red_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Butterfly Fairy 1",
+              "access_rules": ["$access_spring,sticks"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_butterfly"],
+              "chest_unopened_img": "images/other/butterfly.png",
+              "chest_opened_img": "images/other/butterfly_clear.png"
+            },
+            {
+              "name": "Mountain Village Spring Butterfly Fairy 2",
+              "access_rules": ["$access_spring,sticks"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_butterfly"],
+              "chest_unopened_img": "images/other/butterfly.png",
+              "chest_opened_img": "images/other/butterfly_clear.png"
+            },
+            {
+              "name": "Mountain Village Spring Keaton Grass",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$access_spring"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Keaton Grass 2-9",
+              "item_count": 8,
+              "clear_as_group": true,
+              "access_rules": ["sword,magic,$access_spring"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
             }
           ]
         },
@@ -102,6 +138,22 @@
               {
                 "ref": "Mountain Village/Mountain Village Spring Stair Item",
                 "name": "Spring Stair Item"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Butterfly Fairy 1",
+                "name": "Spring Butterfly Fairy 1"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Butterfly Fairy 2",
+                "name": "Spring Butterfly Fairy 2"
+              },        
+              {
+                "ref": "Mountain Village/Mountain Village Spring Keaton Grass",
+                "name": "Mountain Village Spring Keaton Grass"
+              },      
+              {
+                "ref": "Mountain Village/Mountain Village Spring Keaton Grass 2-9",
+                "name": "Mountain Village Spring Keaton Grass 2-9"
               }
             ],
             "map_locations": [
@@ -271,6 +323,61 @@
                 "x": 470,
                 "y": 680,
                 "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Mountain Village",
+            "sections": [
+              {
+                "ref": "Mountain Village/Mountain Village Spring Butterfly Fairy 1",
+                "name": "Spring Butterfly Fairy 1"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 525,
+                "y": 685,
+                "size": 13
+               }
+            ]
+        },
+        {
+          "name": "Mountain Village",
+            "sections": [
+              {
+                "ref": "Mountain Village/Mountain Village Spring Butterfly Fairy 2",
+                "name": "Spring Butterfly Fairy 2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 525,
+                "y": 635,
+                "size": 13
+               }
+            ]
+        },
+        {
+          "name": "Mountain Village",
+            "sections": [
+              {
+                "ref": "Mountain Village/Mountain Village Spring Keaton Grass",
+                "name": "Mountain Village Spring Keaton Grass"
+              },      
+              {
+                "ref": "Mountain Village/Mountain Village Spring Keaton Grass 2-9",
+                "name": "Mountain Village Spring Keaton Grass 2-9"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 570,
+                "y": 645,
+                "size": 13
                }
             ]
         }

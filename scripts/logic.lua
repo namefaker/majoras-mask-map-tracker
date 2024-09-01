@@ -104,6 +104,14 @@ function bubbles()
     return has("deku") and has("magic")
 end
 
+function hitspot_trigger()
+    return has ("bow")
+        or has ("hs")
+        or has("zora")
+        or has("$bubbles")
+        or has("chu")
+end
+
 function any_wallet()
     return has("wallet") or has("wallet2")
 end
@@ -281,7 +289,7 @@ function access_stt()
 end
 
 function access_istt()
-    return has("$access_stt") and has("la")
+    return has("$access_stt") and has("$shoot_la")
 end
 
 function kill_odolwa()

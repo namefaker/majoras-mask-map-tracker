@@ -163,6 +163,24 @@
           "visibility_rules": ["on_br_dungeon","on_br_all"],
           "chest_unopened_img": "images/other/blue_rupee.png",
           "chest_opened_img": "images/other/rupee_check.png"
+        },
+        {
+          "name": "Stone Tower Temple Mirror Room Crate 1",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_crate"],
+          "chest_unopened_img": "images/other/crate.png",
+          "chest_opened_img": "images/other/crate_broken.png"
+        },
+        {
+          "name": "Stone Tower Temple Mirror Room Crate 2",
+          "access_rules": ["$shoot_la","mirror,goron,zora,$play_elegy"],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_crate"],
+          "chest_unopened_img": "images/other/crate.png",
+          "chest_opened_img": "images/other/crate_broken.png"
         }
     ]
         },
@@ -285,6 +303,14 @@
           {
             "ref": "Stone Tower Temple/Stone Tower Temple Thin Bridge Item Blue Rupee 1-8",
             "name": "Thin Bridge Item Blue Rupee 1-8"
+          },
+          {
+            "ref": "Stone Tower Temple/Stone Tower Temple Mirror Room Crate 1",
+            "name": "Mirror Room Crate 1"
+          },
+          {
+            "ref": "Stone Tower Temple/Stone Tower Temple Mirror Room Crate 2",
+            "name": "Mirror Room Crate 2"
           }
         ],
         "map_locations": [
@@ -583,7 +609,41 @@
               "size": 35
             }
           ]
+        },
+        {
+          "name": "Stone Tower Temple",
+          "sections": [
+            {
+              "ref": "Stone Tower Temple/Stone Tower Temple Mirror Room Crate 1",
+              "name": "Mirror Room Crate 1"
+            }
+          ],
+          "map_locations": [
+          {
+            "map": "Stone Tower Temple",
+            "x": 1600,
+            "y": 615,
+            "size": 35
+          }
+        ]
+      },
+      {
+        "name": "Stone Tower Temple",
+        "sections": [
+          {
+            "ref": "Stone Tower Temple/Stone Tower Temple Mirror Room Crate 2",
+            "name": "Mirror Room Crate 2"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Stone Tower Temple",
+          "x": 1490,
+          "y": 520,
+          "size": 35
         }
+      ]
+      }
      ]
   },
 

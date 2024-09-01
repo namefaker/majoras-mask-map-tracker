@@ -122,6 +122,24 @@
               "visibility_rules": ["on_br_overworld","on_br_all"],
               "chest_unopened_img": "images/other/blue_rupee.png.",
               "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "North Clock Town Keaton Grass",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "North Clock Town Keaton Grass 2-9",
+              "item_count": 8,
+              "clear_as_group": true,
+              "access_rules": ["sword,magic"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
             }
           ],
           "map_locations": [
@@ -177,6 +195,14 @@
               {
                   "ref": "North Clock Town/Keaton Quiz",
                   "name": "Keaton Quiz"
+              },
+              {
+                "ref": "North Clock Town/North Clock Town Keaton Grass",
+                "name": "Keaton Grass"
+              },
+              {
+                "ref": "North Clock Town/North Clock Town Keaton Grass 2-9",
+                "name": "Keaton Grass 2-9"
               }
             ],
             "map_locations": [
@@ -185,12 +211,6 @@
                 "x": 200,
                 "y": 100,
                 "size": 20
-              },
-              {
-                "map": "Milk and Ranch",
-                "x": 510,
-                "y": 250,
-                "size": 40
               }
             ]
           },

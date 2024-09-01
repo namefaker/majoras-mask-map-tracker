@@ -54,6 +54,24 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Grass 1-4",
+              "item_count": 4,
+              "clear_as_group": true,
+              "access_rules": ["$access_ikana_upper","[],$access_ikana_upper_ool"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Ikana Canyon Cleared Grass 1-4",
+              "item_count": 4,
+              "clear_as_group": true,
+              "access_rules": ["$access_istt,deku,fd","$access_istt,deku,giant"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
             }
           ]
         },
@@ -150,6 +168,27 @@
                   "map": "Termina",
                   "x": 1775,
                   "y": 450,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Grass 1-4",
+                  "name": "Grass 1-4"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Cleared Grass 1-4",
+                "name": "Ikana Canyon Cleared Grass 1-4"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1825,
+                  "y": 470,
                   "size": 20
                  }
               ]
@@ -264,7 +303,28 @@
                   "size": 20
                }
             ]
-        }
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+            {
+                "ref": "Ikana Canyon/Grass 1-4",
+                "name": "Grass 1-4"
+            },
+            {
+              "ref": "Ikana Canyon/Ikana Canyon Cleared Grass 1-4",
+              "name": "Ikana Canyon Cleared Grass 1-4"
+            }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 810,
+                  "y": 290,
+                  "size": 20
+               }
+            ]
+          }
      ]
   }
 ]

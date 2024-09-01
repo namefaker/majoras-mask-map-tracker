@@ -133,6 +133,33 @@
               "visibility_rules": ["on_gr_overworld","on_gr_all"],
               "chest_unopened_img": "images/other/green_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Cucco Shack Diamond Hole Hitspot 1-6",
+              "access_rules": [""],
+              "item_count": 6,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hitspots"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Cucco Shack Crate",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_crate"],
+              "chest_unopened_img": "images/other/crate.png",
+              "chest_opened_img": "images/other/crate_broken.png"
+            },
+            {
+              "name": "Ranch Crate",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_crate"],
+              "chest_unopened_img": "images/other/crate.png",
+              "chest_opened_img": "images/other/crate_broken.png"
             }
           ]
         },
@@ -150,6 +177,14 @@
               {
                 "ref": "Romani Ranch/Cucco Shack Potted Plant",
                 "name": "Cucco Shack Potted Plant"
+              },
+              {
+                "ref": "Romani Ranch/Cucco Shack Diamond Hole Hitspot 1-6",
+                "name": "Cucco Shack Diamond Hole Hitspot 1-6"
+              },
+              {
+                "ref": "Romani Ranch/Cucco Shack Crate",
+                "name": "Cucco Shack Crate"
               }
             ],
             "map_locations": [
@@ -217,6 +252,10 @@
               {
                 "ref": "Romani Ranch/Cremia",
                 "name": "Cremia"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Crate",
+                "name": "Crate"
               }
             ],
             "map_locations": [
@@ -326,7 +365,7 @@
           "sections": [
             {
                 "ref": "Romani Ranch/Dog Race",
-                "name": "Dog Race",
+                "name": "Dog Race"
             }
           ],
           "map_locations": [
@@ -444,6 +483,10 @@
             {
               "ref": "Romani Ranch/Cucco Shack Potted Plant",
               "name": "Cucco Shack Potted Plant"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Crate",
+              "name": "Crate"
             }
           ],
           "map_locations": [
@@ -554,6 +597,23 @@
               "x": 503,
               "y": 543,
               "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Cucco Shack Diamond Hole Hitspot 1-6",
+              "name": "Cucco Shack Diamond Hole Hitspot 1-6"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 250,
+              "y": 1105,
+              "size": 20
              }
           ]
         }

@@ -287,5 +287,119 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Hitspots Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_hitspots.png",
+                "codes": "off_hitspots",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hitspots Shuffle",
+                "img": "images/other/on_hitspots.png",
+                "codes": "on_hitspots",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Butterfly Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_butterfly.png",
+                "codes": "off_butterfly",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Butterfly Shuffle",
+                "img": "images/other/on_butterfly.png",
+                "codes": "on_butterfly",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gras Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_gras.png",
+                "codes": "off_gras",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gras Shuffle",
+                "img": "images/other/on_gras.png",
+                "codes": "on_gras",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Stone Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_stones.png",
+                "codes": "off_stone",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Shuffle",
+                "img": "images/other/on_stones.png",
+                "codes": "on_stone",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Crate Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_crates.png",
+                "codes": "off_crate",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Crate Shuffle",
+                "img": "images/other/on_crates.png",
+                "codes": "on_crate",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Barrel Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_Barrels.png",
+                "codes": "off_barrel",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Barrel Shuffle",
+                "img": "images/other/on_Barrels.png",
+                "codes": "on_barrel",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

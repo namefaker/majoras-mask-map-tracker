@@ -221,6 +221,42 @@
               "visibility_rules": ["on_rr_overworld","on_rr_all"],
               "chest_unopened_img": "images/other/red_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Swamp Spider House Blue Gem Hitspot 1-12",
+              "access_rules": ["$hitspot_trigger","sword","sticks","bombs"],
+              "item_count": 12,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hitspots"],
+              "chest_unopened_img": "images/other/green_rupee.png",
+              "chest_opened_img": "images/other/rupee_check.png"
+            },
+            {
+              "name": "Southern Swamp Owl Grass 1-2",
+              "item_count": 2,
+              "clear_as_group": true,
+              "access_rules": [""],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Cleared Swamp Owl Grass 1-2",
+              "item_count": 2,
+              "clear_as_group": true,
+              "access_rules": ["odolwa,$kill_odolwa"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Swamp Skulltula Tree Room Grass 1-2",
+              "item_count": 2,
+              "clear_as_group": true,
+              "access_rules": ["$access_ssh"],
+              "visibility_rules": ["on_gras"],
+              "chest_unopened_img": "images/other/gras.png.",
+              "chest_opened_img": "images/other/gras_check.png"
             }
           ]
         },
@@ -319,6 +355,14 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House Invisible Item Red Rupee 1",
                 "name": "Swamp Spider House Invisible Item Red Rupee 1"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Blue Gem Hitspot 1-12",
+                "name": "Swamp Spider House Blue Gem Hitspot 1-12"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Skulltula Tree Room Grass 1-2",
+                "name": "Swamp Skulltula Tree Room Grass 1-2"
               }
             ],
             "map_locations": [
@@ -387,6 +431,27 @@
                 "size": 15
                }
             ]
+          },
+          {
+            "name": "Southern Swamp",
+            "sections": [
+              {
+                  "ref": "Southern Swamp/Southern Swamp Owl Grass 1-2",
+                  "name": "Owl Grass 1-2"
+              },
+              {
+                "ref": "Southern Swamp/Cleared Swamp Owl Grass 1-2",
+                "name": "Cleared Swamp Owl Grass 1-2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1615,
+                  "y": 1085,
+                  "size": 20
+                 }
+              ]
           }
        ]
     },
@@ -481,6 +546,14 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House Invisible Item Red Rupee 1",
                 "name": "Swamp Spider House Invisible Item Red Rupee 1"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Blue Gem Hitspot 1-12",
+                "name": "Swamp Spider House Blue Gem Hitspot 1-12"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Skulltula Tree Room Grass 1-2",
+                "name": "Swamp Skulltula Tree Room Grass 1-2"
               }
             ],
             "map_locations": [
@@ -588,6 +661,27 @@
               "map": "Swamp Area",
               "x": 716,
               "y": 532,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Southern Swamp",
+          "sections": [
+            {
+              "ref": "Southern Swamp/Southern Swamp Owl Grass 1-2",
+              "name": "Owl Grass 1-2"
+          },
+          {
+            "ref": "Southern Swamp/Cleared Swamp Owl Grass 1-2",
+            "name": "Cleared Swamp Owl Grass 1-2"
+          }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 255,
+              "y": 415,
               "size": 15
              }
           ]

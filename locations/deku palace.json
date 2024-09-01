@@ -170,6 +170,15 @@
             "visibility_rules": ["on_gr_overworld","on_gr_all"],
             "chest_unopened_img": "images/other/green_rupee.png",
             "chest_opened_img": "images/other/rupee_check.png"
+          },
+          {
+            "name": "Bean Man Butterfly Fairy",
+            "access_rules": ["sticks"],
+            "item_count": 1,
+            "clear_as_group": true,
+            "visibility_rules": ["on_butterfly"],
+            "chest_unopened_img": "images/other/butterfly.png",
+            "chest_opened_img": "images/other/butterfly_clear.png"
           }
         ]
       },
@@ -187,6 +196,10 @@
             {
               "ref": "Deku Palace/Bean Man",
               "name": "Bean Man"
+            },
+            {
+              "ref": "Deku Palace/Bean Man Butterfly Fairy",
+              "name": "Bean Man Butterfly Fairy"
             },
             {
               "ref": "Deku Palace/Bean Grotto Soft Soil",
@@ -340,6 +353,10 @@
           {
               "ref": "Deku Palace/Bean Man",
               "name": "Bean Man"
+          },
+          {
+            "ref": "Deku Palace/Bean Man Butterfly Fairy",
+            "name": "Bean Man Butterfly Fairy"
           },
           {
             "ref": "Deku Palace/Bean Grotto Soft Soil",
