@@ -1,0 +1,103 @@
+    //Termina
+    [
+        {
+          "name": "Path to Snowhead",
+          "access_rules": ["$access_mountain"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Path to Snowhead Grotto",
+              "access_rules": ["$explosion,$spikes", "[],$explosion,goron"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Path to Snowhead Pillar",
+              "access_rules": ["$use_lens,$use_scarecrow,$spikes", "{goron}", "[],$spikes,$use_scarecrow"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Path to Snowhead/Path to Snowhead Grotto",
+                  "name": "Grotto"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 665,
+                  "y": 365,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Path to Snowhead/Path to Snowhead Pillar",
+                  "name": "Pillar"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 750,
+                  "y": 390,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Path to Snowhead
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Path to Snowhead",
+          "sections": [
+            {
+                "ref": "Path to Snowhead/Path to Snowhead Grotto",
+                "name": "Cave Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 345,
+              "y": 445,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Path to Snowhead",
+          "sections": [
+            {
+                "ref": "Path to Snowhead/Path to Snowhead Pillar",
+                "name": "Pillar"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 420,
+              "y": 475,
+              "size": 20
+             }
+          ]
+        }
+     ]
+  }
+]

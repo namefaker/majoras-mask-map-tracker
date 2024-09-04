@@ -1,0 +1,172 @@
+[
+    {
+      "name": "Pirate Fortress Interior",
+      "access_rules": ["$access_pfi"],
+      "item_count": 1,
+      "sections": [
+        {
+          "name": "Pirate Fortress Interior Hookshot Chest",
+          "access_rules": ["bow","$bubbles"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Pirate Fortress Interior Guard Room Chest",
+          "access_rules": ["hs", "[]"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Pirate Fortress Interior Lower Chest",
+          "access_rules": [""],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Pirate Fortress Interior Tank Chest",
+          "access_rules": ["hs"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Pirate Fortress Interior Upper Chest",
+          "access_rules": ["hs"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Hookshot Chest",
+              "name": "Hookshot Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Guard Room Chest",
+              "name": "Guard Room Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Lower Chest",
+              "name": "Lower Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Tank Chest",
+              "name": "Tank Chest"
+            },
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Upper Chest",
+              "name": "Upper Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 725,
+              "y": 620,
+              "size": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Hookshot Chest",
+              "name": "Hookshot Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 455,
+              "y": 130,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Guard Room Chest",
+              "name": "Guard Room Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 415,
+              "y": 75,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Lower Chest",
+              "name": "Lower Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 490,
+              "y": 195,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Tank Chest",
+              "name": "Tank Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 310,
+              "y": 165,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Pirate Fortress Interior",
+          "sections": [
+            {
+              "ref": "Pirate Fortress Interior/Pirate Fortress Interior Upper Chest",
+              "name": "Upper Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Pirate Fortress",
+              "x": 495,
+              "y": 230,
+              "size": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]

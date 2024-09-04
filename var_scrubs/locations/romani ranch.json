@@ -1,0 +1,219 @@
+    //Termina
+    [
+        {
+          "name": "Romani Ranch",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Grog (Lemons)",
+              "access_rules": ["bremen"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Dog Race",
+              "access_rules": ["truth", "[]"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+                "name": "Doggy Racetrack Roof Chest",
+                "access_rules": ["hs","$flying_bean","zora", "[]"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Romani's Game",
+                "access_rules": ["$day1_ranch"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/songs/epona.png",
+                "chest_opened_img": "images/songs/eponacheck.png"
+            },
+            {
+                "name": "Aliens Defense",
+                "access_rules": ["$day1_ranch, bow"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Cremia",
+                "access_rules": ["$day1_ranch, bow"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Grog (Lemons)",
+                  "name": "Grog (Lemons)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1190,
+                "y": 1220,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Dog Race",
+                  "name": "Dog Race"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1300,
+                "y": 1205,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Doggy Racetrack Roof Chest",
+                  "name": "Doggy Racetrack Roof Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1330,
+                "y": 1220,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Romani's Game",
+                  "name": "Romani's Game"
+              },
+              {
+                "ref": "Romani Ranch/Aliens Defense",
+                "name": "Aliens Defense"
+              },
+              {
+                "ref": "Romani Ranch/Cremia",
+                "name": "Cremia"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1180,
+                "y": 1130,
+                "size": 20
+               }
+            ]
+          }
+       ]
+    },
+    {  ////ranch
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+                "ref": "Romani Ranch/Grog (Lemons)",
+                "name": "Grog (Lemons)",
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 280,
+              "y": 1050,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+                "ref": "Romani Ranch/Dog Race",
+                "name": "Dog Race",
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 520,
+              "y": 1010,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Doggy Racetrack Roof Chest",
+                  "name": "Doggy Racetrack Roof Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Milk and Ranch",
+                "x": 600,
+                "y": 1080,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Romani's Game",
+                  "name": "Romani's Game"
+              },
+              {
+                "ref": "Romani Ranch/Aliens Defense",
+                "name": "Aliens Defense"
+              },
+              {
+                "ref": "Romani Ranch/Cremia",
+                "name": "Cremia"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Milk and Ranch",
+                "x": 270,
+                "y": 800,
+                "size": 40
+               }
+            ]
+        }
+     ]
+  }
+]

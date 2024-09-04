@@ -193,32 +193,26 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Light Arrow Chest",
-                "img": "images/other/lachest.png",
+                "name": "Madame Aroma in Bar",
+                "img": "images/other/aromainbar.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
             {   
-                "name": "Ice Arrow Chest",
-                "img": "images/other/iachest.png",
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
             {   
-                "name": "Ocean Spider House Chest",
-                "img": "images/other/oceanhp.png",
+                "name": "Invisibile Soldier (Shiro)",
+                "img": "images/other/shiro.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
             {   
-                "name": "Lemons (Grog)",
+                "name": "Grog (Lemons)",
                 "img": "images/other/lemons.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bank 3 Reward",
-                "img": "images/other/banker.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
@@ -235,15 +229,21 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Sound Check",
-                "img": "images/other/soundcheck.png",
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bank 2 Reward (500)",
+                "img": "images/other/banker.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             }
         ]
     },
     {
-        "name": "Sometimes Hint 2",
+        "name": "Sometimes Hint 3",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
@@ -251,36 +251,30 @@
         "stages": [
             {
                 "img": "images/other/gossip-stone.png",
-                "codes": "sometimes2",
+                "codes": "sometimes3",
                 "inherit_codes": false
             },
             {   
-                "name": "Light Arrow Chest",
-                "img": "images/other/lachest.png",
+                "name": "Madame Aroma in Bar",
+                "img": "images/other/aromainbar.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
             {   
-                "name": "Ice Arrow Chest",
-                "img": "images/other/iachest.png",
+                "name": "Swamp Archery",
+                "img": "images/other/boatarchery.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
             {   
-                "name": "Ocean Spider House Chest",
-                "img": "images/other/oceanhp.png",
+                "name": "Invisibile Soldier (Shiro)",
+                "img": "images/other/shiro.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
             {   
-                "name": "Lemons (Grog)",
+                "name": "Grog (Lemons)",
                 "img": "images/other/lemons.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bank 3 Reward",
-                "img": "images/other/banker.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             },
@@ -297,8 +291,14 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Sound Check",
-                "img": "images/other/soundcheck.png",
+                "name": "Pamela's Father",
+                "img": "images/other/pamela.png",
+                "codes": "sometimes1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bank 2 Reward (500)",
+                "img": "images/other/banker.png",
                 "codes": "sometimes1",
                 "inherit_codes": false
             }

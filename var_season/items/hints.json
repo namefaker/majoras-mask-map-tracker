@@ -131,68 +131,6 @@
                 "inherit_codes": false
             },
             {   
-                "name": "Madame Aroma in Bar",
-                "img": "images/other/aromainbar.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Swamp Archery",
-                "img": "images/other/boatarchery.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Invisibile Soldier (Shiro)",
-                "img": "images/other/shiro.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Grog (Lemons)",
-                "img": "images/other/lemons.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Midnight Meeting",
-                "img": "images/other/midnight_meeting.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Dog Race",
-                "img": "images/other/doggy.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Pamela's Father",
-                "img": "images/other/pamela.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bank 2 Reward (500)",
-                "img": "images/other/banker.png",
-                "codes": "sometimes1",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Sometimes Hint 2",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/other/gossip-stone.png",
-                "codes": "sometimes2",
-                "inherit_codes": false
-            },
-            {   
                 "name": "Light Arrow Chest",
                 "img": "images/other/lachest.png",
                 "codes": "sometimes1",

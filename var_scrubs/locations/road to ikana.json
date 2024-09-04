@@ -1,0 +1,144 @@
+    //Termina
+    [
+        {
+          "name": "Road to Ikana",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Invisible Soldier (Shiro)",
+              "access_rules": ["$play_epona,$use_lens,bottle"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Road to Ikana Grotto",
+                "access_rules": ["goron"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Road to Ikana Pillar Chest",
+                "access_rules": ["hs"],
+                "visibility_rules": [""],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Invisible Soldier (Shiro)",
+                  "name": "Invisible Soldier (Shiro)"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1640,
+                  "y": 600,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Road to Ikana Grotto",
+                  "name": "Ikana Grotto"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1560,
+                  "y": 655,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Road to Ikana Pillar Chest",
+                  "name": "Pillar Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1515,
+                  "y": 655,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Road to Ikana
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Invisible Soldier (Shiro)",
+                  "name": "Invisible Soldier (Shiro)"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 475,
+                  "y": 620,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Road to Ikana Grotto",
+                  "name": "Grotto"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 365,
+                  "y": 700,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Road to Ikana Pillar Chest",
+                  "name": "Pillar Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 255,
+                  "y": 770,
+                  "size": 20
+                 }
+              ]
+          }
+     ]
+  }
+]

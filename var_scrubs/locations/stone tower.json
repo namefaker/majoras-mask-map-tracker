@@ -1,0 +1,92 @@
+    //Termina
+    [
+      {
+        "name": "Stone Tower",
+        "access_rules": ["$access_istt,$flying_bean","[],$access_istt_ool,$flying_bean"],
+        "item_count": 1,
+        "sections": [
+          {
+            "name": "Inverted Stone Tower Left Chest",
+            "access_rules": [],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_brown_closed.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+              "name": "Inverted Stone Tower Middle Chest",
+              "access_rules": [],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+              "name": "Inverted Stone Tower Right Chest",
+              "access_rules": [],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+          }
+        ]
+      },
+          //Termina
+  {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Stone Tower",
+          "sections": [
+            {
+                "ref": "Stone Tower/Inverted Stone Tower Left Chest",
+                "name": "Left Chest"
+            },
+            {
+              "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
+              "name": "Middle Chest"
+            },
+            {
+              "ref": "Stone Tower/Inverted Stone Tower Right Chest",
+              "name": "Right Chest"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Termina",
+                "x": 2010,
+                "y": 405,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  },
+  {  ////Stone Tower
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Stone Tower",
+          "sections": [
+            {
+                "ref": "Stone Tower/Inverted Stone Tower Left Chest",
+                "name": "Left Chest"
+            },
+            {
+              "ref": "Stone Tower/Inverted Stone Tower Middle Chest",
+              "name": "Middle Chest"
+            },
+            {
+              "ref": "Stone Tower/Inverted Stone Tower Right Chest",
+              "name": "Right Chest"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Ikana Area",
+                "x": 1120,
+                "y": 130,
+                "size": 20
+               }
+            ]
+        }
+   ]
+}
+]

@@ -1,0 +1,228 @@
+/// Termina
+ [
+       {
+          "name": "West Clock Town",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            /*
+            {
+              "name": "All-Night Mask Purchase",
+              "access_rules": ["wallet2, sword", "wallet2,zora", "wallet2,gfs", "wallet2,goron", "{}"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },*/
+            {
+              "name": "Bank Reward #1",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Bank Reward #2",
+              "access_rules": ["wallet", "wallet2", "[]"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },/*
+            {
+              "name": "Bank Reward #3",
+              "access_rules": ["wallet2", "[]"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },*/
+            {
+              "name": "Bomb Bag Purchase",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Big Bomb Bag Purchase",
+              "access_rules": ["sword","gfs","goron","zora"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Postman's Game",
+              "access_rules": ["bunny", "[]"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Rosa Sisters",
+              "access_rules": ["kamaro"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Swordman's School",
+              "access_rules": ["sword"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1250,
+              "y": 795,
+              "size": 20
+            }
+          ]
+        },
+            
+      {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "West Clock Town",
+            "sections": [
+              {
+                  "ref": "West Clock Town/All-Night Mask Purchase",
+                  "name": "All-Night Mask Purchase"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 315,
+                "y": 440,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "West Clock Town",
+            "sections": [
+              {
+                  "ref": "West Clock Town/Bank Reward #1",
+                  "name": "Bank Reward #1"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 235,
+                "y": 395,
+                "size": 15
+               }
+            ]
+          },
+          {
+            "name": "West Clock Town",
+            "sections": [
+              {
+                  "ref": "West Clock Town/Bank Reward #2",
+                  "name": "Bank Reward #2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 255,
+                "y": 395,
+                "size": 15
+              }
+            ]
+          },
+          {
+            "name": "West Clock Town",
+            "sections": [
+              {
+                  "ref": "West Clock Town/Bank Reward #3",
+                  "name": "Bank Reward #3"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 275,
+                "y": 395,
+                "size": 15
+              }
+            ]
+          },
+          {
+            "name": "West Clock Town",
+            "sections": [
+              {
+                  "ref": "West Clock Town/Bomb Bag Purchase",
+                  "name": "Bomb Bag Purchase"
+              },
+              {
+                "ref": "West Clock Town/Big Bomb Bag Purchase",
+                "name": "Big Bomb Bag Purchase"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 210,
+                "y": 430,
+                "size": 20
+              }
+            ]
+          },
+          {
+            "name": "West Clock Town",
+            "sections": [
+              {
+                  "ref": "West Clock Town/Postman's Game",
+                  "name": "Postman's Game"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Clock Town",
+                "x": 165,
+                "y": 330,
+                "size": 20
+            }
+          ]
+         },
+         {
+          "name": "West Clock Town",
+          "sections": [
+            {
+                "ref": "West Clock Town/Rosa Sisters",
+                "name": "Rosa Sisters"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 210,
+              "y": 360,
+              "size": 20
+          }
+        ]
+       },
+       {
+        "name": "West Clock Town",
+        "sections": [
+          {
+              "ref": "West Clock Town/Swordman's School",
+              "name": "Swordman's School"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 140,
+            "y": 355,
+            "size": 20
+          }
+        ]
+      }
+    ]  
+  }
+]

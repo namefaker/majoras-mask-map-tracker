@@ -1,0 +1,114 @@
+    //Termina
+    [
+        {
+          "name": "Stock Pot Inn",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Grandma Short Story",
+              "access_rules": ["anm"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Grandma Long Story",
+              "access_rules": ["anm"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Guest Room Chest",
+              "access_rules": ["roomkey"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Reservation",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Staff Room Chest",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Midnight Meeting",
+              "access_rules": ["kafei, $access_inn","[],$access_inn_ool,kafei"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Toilet Hand",
+              "access_rules": ["$paper"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1330,
+              "y": 750,
+              "size": 20
+            }
+          ]
+        },
+        // South Clock Town 
+        {
+          "item_count": 1,
+          "children": [
+            {
+              "name": "Stock Pot Inn",
+              "sections": [
+                {
+                    "ref": "Stock Pot Inn/Grandma Short Story",
+                    "name": "Grandma Short Story"
+                },
+                {
+                    "ref": "Stock Pot Inn/Grandma Long Story",
+                    "name": "Grandma Long Story"
+                },
+                {
+                    "ref": "Stock Pot Inn/Guest Room Chest",
+                    "name": "Guest Room Chest"
+                },
+                {
+                    "ref": "Stock Pot Inn/Reservation",
+                    "name": "Reservation"
+                },
+                {
+                    "ref": "Stock Pot Inn/Staff Room Chest",
+                    "name": "Staff Room Chest"
+                },
+                {
+                    "ref": "Stock Pot Inn/Midnight Meeting",
+                    "name": "Midnight Meeting"
+                },
+                {
+                    "ref": "Stock Pot Inn/Toilet Hand",
+                    "name": "Toilet Hand"
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "Clock Town",
+                  "x": 405,
+                  "y": 175,
+                  "size": 20
+                 }
+              ]
+            }
+         ]
+      }
+    ]

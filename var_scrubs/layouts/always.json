@@ -1,0 +1,39 @@
+{
+    "shared_always_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "ms_chest",
+                                "items13",
+                                "gossipssong",
+                                "items14",    
+                                "osh",
+                                "items15"    
+                            ],
+                            [
+                                "gorman",
+                                "items16",
+                                "",
+                                "alienscremia",
+                                "items17",
+                                "items18"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

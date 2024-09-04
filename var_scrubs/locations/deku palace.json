@@ -1,0 +1,176 @@
+    //Termina
+    [
+      {
+        "name": "Deku Palace",
+        "access_rules": ["$access_dekupalace","[],$access_dekupalace_ool"],
+        "item_count": 1,
+        "sections": [
+          {
+            "name": "Bean Grotto",
+            "access_rules": ["bottle","hs"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_brown_closed.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "Bean Man",
+            "access_rules": [""],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_brown_closed.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          /*
+          {
+              "name": "Butler",
+              "access_rules": ["$kill_odolwa,odolwa"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          */
+          {
+              "name": "Deku Palace West Garden",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+          },
+          {
+              "name": "Imprisoned Monkey",
+              "access_rules": ["ocarina"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/songs/sonata.png",
+              "chest_opened_img": "images/songs/sonatacheck.png"
+          }
+        ]
+      },
+          //Termina
+  {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Deku Palace",
+          "sections": [
+            {
+                "ref": "Deku Palace/Bean Grotto",
+                "name": "Bean Grotto"
+            },
+            {
+              "ref": "Deku Palace/Bean Man",
+              "name": "Bean Man"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1720,
+                "y": 1265,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Deku Palace",
+          "sections": [
+            {
+                "ref": "Deku Palace/Butler",
+                "name": "Butler"
+            },
+            {
+              "ref": "Deku Palace/Deku Palace West Garden",
+              "name": "West Garden"
+            },
+            {
+              "ref": "Deku Palace/Imprisoned Monkey",
+              "name": "Imprisoned Monkey"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1805,
+                "y": 1250,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  },
+  {  ////Deku Palace
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Deku Palace",
+        "sections": [
+          {
+              "ref": "Deku Palace/Bean Grotto",
+              "name": "Bean Grotto"
+          },
+          {
+              "ref": "Deku Palace/Bean Man",
+              "name": "Bean Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Swamp Area",
+            "x": 450,
+            "y": 810,
+            "size": 40
+           }
+        ]
+      },
+      {
+        "name": "Deku Palace",
+        "sections": [
+          {
+              "ref": "Deku Palace/Butler",
+              "name": "Butler"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Swamp Area",
+            "x": 735,
+            "y": 840,
+            "size": 40
+           }
+        ]
+      },
+      {
+        "name": "Deku Palace",
+          "sections": [
+            {
+                "ref": "Deku Palace/Deku Palace West Garden",
+                "name": "West Garden"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 690,
+              "y": 820,
+              "size": 40
+             }
+          ]
+      },
+      {
+        "name": "Deku Palace",
+          "sections": [
+            {
+                "ref": "Deku Palace/Imprisoned Monkey",
+                "name": "Imprisoned Monkey"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 630,
+              "y": 880,
+              "size": 40
+             }
+          ]
+      }
+   ]
+}
+]

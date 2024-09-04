@@ -1,0 +1,94 @@
+    //Termina
+    [
+      {
+        "name": "Pinnacle Rock",
+        "access_rules": ["$play_epona,zora"],
+        "item_count": 1,
+        "sections": [
+          {
+            "name": "Pinnacle Rock Lower Chest",
+            "access_rules": [""],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/other/chest_brown_closed.png",
+            "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+              "name": "Pinnacle Rock Upper Chest",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+          }
+          /*
+          {
+              "name": "Pinnacle Rock Seahorse",
+              "access_rules": ["pb,bottle"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/items/hp.png",
+              "chest_opened_img": "images/items/hp_grey.png"
+          }
+              */
+        ]
+      },
+          //Termina
+  {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Pinnacle Rock",
+          "sections": [
+            {
+                "ref": "Pinnacle Rock/Pinnacle Rock Lower Chest",
+                "name": "Lower Chest"
+            },
+            {
+              "ref": "Pinnacle Rock/Pinnacle Rock Upper Chest",
+              "name": "Upper Chest"
+            },
+            {
+              "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
+              "name": "Seahorse"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Termina",
+                "x": 260,
+                "y": 775,
+                "size": 20
+               }
+            ]
+        }
+     ]
+  },
+  {  ////Pinnacle Rock
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Pinnacle Rock",
+          "sections": [
+            {
+                "ref": "Pinnacle Rock/Pinnacle Rock Lower Chest",
+                "name": "Lower Chest"
+            },
+            {
+              "ref": "Pinnacle Rock/Pinnacle Rock Upper Chest",
+              "name": "Upper Chest"
+            },
+            {
+              "ref": "Pinnacle Rock/Pinnacle Rock Seahorse",
+              "name": "Seahorse"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 60,
+                "y": 190,
+                "size": 20
+               }
+            ]
+        }
+   ]
+}
+]

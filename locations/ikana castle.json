@@ -70,7 +70,7 @@
               "clear_as_group": true,
               "access_rules": ["$access_castle","[],$access_castle_ool"],
               "visibility_rules": ["on_gras"],
-              "chest_unopened_img": "images/other/gras.png.",
+              "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
             },
             {
@@ -79,7 +79,7 @@
               "clear_as_group": true,
               "access_rules": ["$access_castle","[],$access_castle_ool"],
               "visibility_rules": ["on_gras"],
-              "chest_unopened_img": "images/other/gras.png.",
+              "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
             },
             {
@@ -88,7 +88,7 @@
               "clear_as_group": true,
               "access_rules": ["$access_castle","[],$access_castle_ool"],
               "visibility_rules": ["on_gras"],
-              "chest_unopened_img": "images/other/gras.png.",
+              "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
             },
             {
@@ -97,7 +97,7 @@
               "clear_as_group": true,
               "access_rules": ["$access_castle","[],$access_castle_ool"],
               "visibility_rules": ["on_gras"],
-              "chest_unopened_img": "images/other/gras.png.",
+              "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
             }
           ]

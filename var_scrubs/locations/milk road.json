@@ -1,0 +1,122 @@
+    //Termina
+    [
+        {
+          "name": "Milk Road",
+          "access_rules": [""],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Gorman Bros Race",
+              "access_rules": ["$play_epona"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Romani Ranch Map Purchase (Tingle)",
+              "item_count": 1,
+              "clear_as_group": false,
+              "access_rules": ["$projectile"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Great Bay Map Purchase (Tingle)",
+              "item_count": 1,
+              "clear_as_group": false,
+              "access_rules": ["$projectile"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {
+        "item_count": 1,
+        "children": [
+          {
+            "name": "Milk Road",
+            "sections": [
+              {
+                  "ref": "Milk Road/Gorman Bros Race",
+                  "name": "Gorman Bros Race"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1330,
+                "y": 950,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Milk Road",
+            "sections": [
+              {
+                  "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
+                  "name": "Romani Ranch Map Purchase (Tingle)"
+              },
+              {
+                "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
+                "name": "Great Bay Map Purchase (Tingle)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1330,
+                "y": 985,
+                "size": 20
+               }
+            ]
+          }
+       ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Milk Road",
+          "sections": [
+            {
+                "ref": "Milk Road/Gorman Bros Race",
+                "name": "Gorman Bros Race"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 625,
+              "y": 170,
+              "size": 40
+             }
+          ]
+        },
+        {
+          "name": "Milk Road",
+          "sections": [
+            {
+                "ref": "Milk Road/Great Bay Map Purchase (Tingle)",
+                "name": "Romani Ranch Map Purchase (Tingle)"
+            },
+            {
+              "ref": "Milk Road/Romani Ranch Map Purchase (Tingle)",
+              "name": "Great Bay Map Purchase (Tingle)"
+            } 
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 570,
+              "y": 260,
+              "size": 40
+             }
+          ]
+        }
+     ]
+  }
+]

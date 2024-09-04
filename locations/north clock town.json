@@ -75,7 +75,7 @@
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_gr_overworld","on_gr_all"],
-              "chest_unopened_img": "images/other/green_rupee.png.",
+              "chest_unopened_img": "images/other/green_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
             {
@@ -84,7 +84,7 @@
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_gr_overworld","on_gr_all"],
-              "chest_unopened_img": "images/other/green_rupee.png.",
+              "chest_unopened_img": "images/other/green_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
             {
@@ -93,7 +93,7 @@
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_gr_overworld","on_gr_all"],
-              "chest_unopened_img": "images/other/green_rupee.png.",
+              "chest_unopened_img": "images/other/green_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
             {
@@ -102,7 +102,7 @@
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_br_overworld","on_br_all"],
-              "chest_unopened_img": "images/other/blue_rupee.png.",
+              "chest_unopened_img": "images/other/blue_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
             {
@@ -111,7 +111,7 @@
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_br_overworld","on_br_all"],
-              "chest_unopened_img": "images/other/blue_rupee.png.",
+              "chest_unopened_img": "images/other/blue_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
             {
@@ -120,7 +120,7 @@
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_br_overworld","on_br_all"],
-              "chest_unopened_img": "images/other/blue_rupee.png.",
+              "chest_unopened_img": "images/other/blue_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
             {
@@ -129,7 +129,7 @@
               "clear_as_group": true,
               "access_rules": [""],
               "visibility_rules": ["on_gras"],
-              "chest_unopened_img": "images/other/gras.png.",
+              "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
             },
             {
@@ -138,7 +138,7 @@
               "clear_as_group": true,
               "access_rules": ["sword,magic"],
               "visibility_rules": ["on_gras"],
-              "chest_unopened_img": "images/other/gras.png.",
+              "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
             }
           ],
