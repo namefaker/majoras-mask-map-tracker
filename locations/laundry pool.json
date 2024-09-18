@@ -12,11 +12,54 @@
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
+          "name": "Notebook Meeting: Guru-Guru",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["notebook"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Guru-Guru",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": [""],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Clock Town Stray Fairy",
+          "access_rules": [""],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
           "name": "Kafei",
           "access_rules": ["ltk", "{}"],
           "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Notebook Meeting: Kafei",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["notebook"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Kafei",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["ltk"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
         },
         {
           "name": "Curiosity Shop Man #1",
@@ -26,11 +69,29 @@
           "chest_opened_img": "images/other/chest_brown_open.png"
         },
         {
+          "name": "Notebook: Curiosity Shop Man #1",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["ltk"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
           "name": "Curiosity Shop Man #2",
           "access_rules": ["ltk"],
           "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Notebook: Curiosity Shop Man #2",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["ltk"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
         },
         {
           "name": "Red Rupees in Water 1-3 (Night 2)",
@@ -49,6 +110,13 @@
           "visibility_rules": ["on_crate"],
           "chest_unopened_img": "images/other/crate.png",
           "chest_opened_img": "images/other/crate_broken.png"
+        },
+        {
+          "name": "Clock Town Frog",
+          "access_rules": ["dongero"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         }
       ],
       "map_locations": [
@@ -71,9 +139,17 @@
                 "name": "Guru Guru"
             },
             {
+              "ref": "Laundry Pool/Notebook Meeting: Guru-Guru",
+              "name": "Notebook Meeting: Guru-Guru"
+            },
+            {
+              "ref": "Laundry Pool/Notebook: Guru-Guru",
+              "name": "Notebook: Guru-Guru"
+            },
+            {
               "ref": "Laundry Pool/Laundry Pool Crate",
               "name": "Laundry Pool Crate"
-          }
+            }
           ],
           "map_locations": [
             {
@@ -88,16 +164,49 @@
           "name": "Laundry Pool",
           "sections": [
             {
+                "ref": "Laundry Pool/Clock Town Stray Fairy",
+                "name": "Stray Fairy"
+            },
+            {
+              "ref": "Laundry Pool/Clock Town Frog",
+              "name": "Frog"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 310,
+              "y": 510,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Laundry Pool",
+          "sections": [
+            {
                 "ref": "Laundry Pool/Kafei",
                 "name": "Kafei"
             },
+            {
+              "ref": "Laundry Pool/Notebook Meeting: Kafei",
+              "name": "Notebook Meeting: Kafei"
+          },
             {
               "ref": "Laundry Pool/Curiosity Shop Man #1",
               "name": "Curiosity Shop Man #1"
             },
             {
+              "ref": "Laundry Pool/Notebook: Curiosity Shop Man #1",
+              "name": "Notebook: Curiosity Shop Man #1"
+            },
+            {
             "ref": "Laundry Pool/Curiosity Shop Man #2",
             "name": "Curiosity Shop Man #2"
+            },
+            {
+              "ref": "Laundry Pool/Notebook: Curiosity Shop Man #2",
+              "name": "Notebook: Curiosity Shop Man #2"
             }
           ],
           "map_locations": [

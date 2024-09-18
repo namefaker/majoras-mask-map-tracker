@@ -18,6 +18,78 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Path to Snowhead Large Snowball #1",
+              "access_rules": ["$spikes"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Large Snowball #2",
+              "access_rules": ["$spikes"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Large Snowball #3",
+              "access_rules": ["$spikes"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Large Snowball #4",
+              "access_rules": ["$spikes"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Spring Large Snowball #1",
+              "access_rules": ["$access_spring"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Spring Large Snowball #2",
+              "access_rules": ["$access_spring"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Spring Large Snowball #3",
+              "access_rules": ["$access_spring"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Snowhead Spring Large Snowball #4",
+              "access_rules": ["$access_spring"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
             }
           ]
         },
@@ -56,6 +128,90 @@
                   "x": 750,
                   "y": 390,
                   "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Path to Snowhead/Path to Snowhead Large Snowball #1",
+                  "name": "Path to Snowhead Large Snowball #1"
+              },
+              {
+                "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #1",
+                "name": "Path to Snowhead Spring Large Snowball #1"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 750,
+                  "y": 440,
+                  "size": 13
+                 }
+              ]
+          },
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Path to Snowhead/Path to Snowhead Large Snowball #2",
+                  "name": "Path to Snowhead Large Snowball #2"
+              },
+              {
+                "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #2",
+                "name": "Path to Snowhead Spring Large Snowball #2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 670,
+                  "y": 340,
+                  "size": 13
+                 }
+              ]
+          },
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Path to Snowhead/Path to Snowhead Large Snowball #3",
+                  "name": "Path to Snowhead Large Snowball #3"
+              },
+              {
+                "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #3",
+                "name": "Path to Snowhead Spring Large Snowball #3"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 650,
+                  "y": 340,
+                  "size": 13
+                 }
+              ]
+          },
+          {
+            "name": "Path to Snowhead",
+            "sections": [
+              {
+                  "ref": "Path to Snowhead/Path to Snowhead Large Snowball #4",
+                  "name": "Path to Snowhead Large Snowball #4"
+              },
+              {
+                "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #4",
+                "name": "Path to Snowhead Spring Large Snowball #4"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 620,
+                  "y": 330,
+                  "size": 13
                  }
               ]
           }
@@ -97,6 +253,90 @@
               "size": 20
              }
           ]
+        },
+        {
+          "name": "Path to Snowhead",
+          "sections": [
+            {
+                "ref": "Path to Snowhead/Path to Snowhead Large Snowball #1",
+                "name": "Path to Snowhead Large Snowball #1"
+            },
+            {
+              "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #1",
+              "name": "Path to Snowhead Spring Large Snowball #1"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 420,
+                "y": 540,
+                "size": 13
+               }
+            ]
+        },
+        {
+          "name": "Path to Snowhead",
+          "sections": [
+            {
+                "ref": "Path to Snowhead/Path to Snowhead Large Snowball #2",
+                "name": "Path to Snowhead Large Snowball #2"
+            },
+            {
+              "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #2",
+              "name": "Path to Snowhead Spring Large Snowball #2"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 345,
+                "y": 470,
+                "size": 13
+               }
+            ]
+        },
+        {
+          "name": "Path to Snowhead",
+          "sections": [
+            {
+                "ref": "Path to Snowhead/Path to Snowhead Large Snowball #3",
+                "name": "Path to Snowhead Large Snowball #3"
+            },
+            {
+              "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #3",
+              "name": "Path to Snowhead Spring Large Snowball #3"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 322,
+                "y": 443,
+                "size": 13
+               }
+            ]
+        },
+        {
+          "name": "Path to Snowhead",
+          "sections": [
+            {
+                "ref": "Path to Snowhead/Path to Snowhead Large Snowball #4",
+                "name": "Path to Snowhead Large Snowball #4"
+            },
+            {
+              "ref": "Path to Snowhead/Path to Snowhead Spring Large Snowball #4",
+              "name": "Path to Snowhead Spring Large Snowball #4"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 320,
+                "y": 420,
+                "size": 13
+               }
+            ]
         }
      ]
   }

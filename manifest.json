@@ -2,7 +2,7 @@
 {
     "name": "Majoras Mask Maptracker",
     "game_name": "<The Legend of Zelda: Majoras Mask>",
-    "package_version": "0.0.14",
+    "package_version": "1.0.0",
     "package_uid": "template_pack",
     "author": "namefaker",
     "variants": {

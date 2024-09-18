@@ -71,6 +71,24 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Zora Cape Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Zora Cape Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
             }
           ]
         },
@@ -130,7 +148,16 @@
               {
                 "ref": "Zora Cape/Zora Cape Waterfall Pot",
                 "name": "Waterfall Pot"
+              },
+              {
+                "ref": "Zora Cape/Zora Cape Gossip Hint",
+                "name": "Gossip Hint"
+              },
+              {
+                "ref": "Zora Cape/Zora Cape Gossip Fairy",
+                "name": "Gossip Fairy"
               }
+              
             ],
             "map_locations": [
                 {
@@ -333,6 +360,27 @@
                 "map": "Great Bay Area",
                 "x": 755,
                 "y": 755,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Zora Cape",
+            "sections": [
+              {
+                "ref": "Zora Cape/Zora Cape Gossip Hint",
+                "name": "Gossip Hint"
+              },
+              {
+                "ref": "Zora Cape/Zora Cape Gossip Fairy",
+                "name": "Gossip Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Area",
+                "x": 660,
+                "y": 690,
                 "size": 20
                }
             ]

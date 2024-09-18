@@ -7,7 +7,7 @@
           "sections": [
             {
               "name": "Ikana Castle Pillar",
-              "access_rules": ["$access_castle_upper", "{$access_castle_ool}","[],$access_castle_ool,$shoot_fa,deku"],
+              "access_rules": ["$access_castle_upper,deku", "{$access_castle_ool}","{$access_casstle}","[],$access_castle_ool,$shoot_fa,deku"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"

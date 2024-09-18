@@ -65,6 +65,42 @@
               "visibility_rules": ["on_gras"],
               "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Milk Road Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Milk Road Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Notebook Meeting: The Gorman Brothers",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Gorman Bros Race",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$play_epona"],
+              "visibility_rules": ["on_notebook,$play_epona"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
             }
           ]
         },
@@ -76,8 +112,16 @@
             "name": "Milk Road",
             "sections": [
               {
+                "ref": "Milk Road/Notebook Meeting: The Gorman Brothers",
+                "name": "Notebook Meeting: The Gorman Brothers"
+              },
+              {
                   "ref": "Milk Road/Gorman Bros Race",
                   "name": "Gorman Bros Race"
+              },
+              {
+                "ref": "Milk Road/Notebook: Gorman Bros Race",
+                "name": "Notebook: Gorman Bros Race"
               },
               {
                 "ref": "Milk Road/Gorman Bros Milk Purchase",
@@ -128,6 +172,14 @@
               {
                 "ref": "Milk Road/Milk Road Keaton Grass 2-9",
                 "name": "Keaton Grass 2-9"
+              },
+              {
+                "ref": "Milk Road/Milk Road Gossip Hint",
+                "name": "Gossip Hint"
+              },
+              {
+                "ref": "Milk Road/Milk Road Gossip Fairy",
+                "name": "Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -149,8 +201,16 @@
           "name": "Milk Road",
           "sections": [
             {
+              "ref": "Milk Road/Notebook Meeting: The Gorman Brothers",
+              "name": "Notebook Meeting: The Gorman Brothers"
+            },
+            {
                 "ref": "Milk Road/Gorman Bros Race",
                 "name": "Gorman Bros Race"
+            },
+            {
+              "ref": "Milk Road/Notebook: Gorman Bros Race",
+              "name": "Notebook: Gorman Bros Race"
             },
             {
               "ref": "Milk Road/Gorman Bros Milk Purchase",
@@ -197,7 +257,15 @@
             {
               "ref": "Milk Road/Milk Road Keaton Grass 2-9",
               "name": "Milk Road Keaton Grass 2-9"
-          }
+            },
+            {
+              "ref": "Milk Road/Milk Road Gossip Hint",
+              "name": "Gossip Hint"
+            },
+            {
+              "ref": "Milk Road/Milk Road Gossip Fairy",
+              "name": "Gossip Fairy"
+            }
           ],
           "map_locations": [
             {

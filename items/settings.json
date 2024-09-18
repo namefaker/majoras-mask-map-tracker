@@ -401,5 +401,138 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Hive Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_hive.png",
+                "codes": "off_hive",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Hive Shuffle",
+                "img": "images/other/on_hive.png",
+                "codes": "on_hive",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gossip Stone Hints",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_gossiphints.png",
+                "codes": "off_hints",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gossip Stone Hints",
+                "img": "images/other/on_gossiphints.png",
+                "codes": "on_hints",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gossip Stone Fairys Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_gossipfairys.png",
+                "codes": "off_gossipfairys",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gossip Stone Fairys Shuffle",
+                "img": "images/other/on_gossipfairys.png",
+                "codes": "on_gossipfairys",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Snowball Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_snowball.png",
+                "codes": "off_snowball",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowball Shuffle",
+                "img": "images/other/on_snowball.png",
+                "codes": "on_snowball",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Freestanding Heart Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_hearts.png",
+                "codes": "off_heart",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Freestanding Heart Shuffle",
+                "img": "images/other/on_hearts.png",
+                "codes": "on_heart",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Notebook Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_notebook.png",
+                "codes": "off_notebook",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Notebook Ribbon Shuffle",
+                "img": "images/other/on_notebook.png",
+                "codes": "on_notebook",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bottle Scoop Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_scoop.png",
+                "codes": "off_scoop",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottle Scoop Shuffle",
+                "img": "images/other/on_scoop.png",
+                "codes": "on_scoop",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

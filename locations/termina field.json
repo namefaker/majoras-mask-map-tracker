@@ -28,7 +28,7 @@
             },
             {
                 "name": "Dodongo Grotto",
-                "access_rules": ["$any_sword","$explosion_goron", "bow"],
+                "access_rules": ["$any_sword","$explosion_goron", "bow","sticks"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
@@ -42,7 +42,7 @@
             },
             {
                 "name": "Peahat Grotto",
-                "access_rules": ["bow","$any_sword","$any_transform"],
+                "access_rules": ["bow","$any_sword","zora","goron","sticks"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
@@ -139,6 +139,13 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Takkuri",
+              "access_rules": ["$any_sword","$any_transform","sticks","$projectile","$explosion"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Above Cow Grotto Invisible Blue Rupee 1",
@@ -448,6 +455,159 @@
               "visibility_rules": ["on_stone"],
               "chest_unopened_img": "images/other/rock.png",
               "chest_opened_img": "images/other/rock_check.png"
+            },
+            {
+              "name": "Bio Baba Grotto Hive",
+              "access_rules": ["$projectile,$explosion_goron"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hive"],
+              "chest_unopened_img": "images/other/hive.png",
+              "chest_opened_img": "images/other/hive_check.png"
+            },
+            {
+              "name": "Gossip Grotto Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Gossip Grotto Hints 1-4",
+              "access_rules": [""],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field East Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field East Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field Milk Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field Milk Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field North Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field North Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field Observatory Gossip Hint",
+              "access_rules": ["$access_observatory","[]"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field Observatory Gossip Fairy",
+              "access_rules": ["$access_observatory,$gossip_fairy","[],$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field South Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field South Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field West Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Termina Field West Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Notebook Meeting: Kamaro",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Kamaro",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$play_healing"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
             }
         ]
           },
@@ -461,6 +621,14 @@
                 {
                     "ref": "Termina Field/Astronomy Telescope",
                     "name": "Astronomy Telescope"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Observatory Gossip Hint",
+                  "name": "Observatory Gossip Hint"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Observatory Gossip Fairy",
+                  "name": "Observatory Gossip Fairy"
                 }
               ],
               "map_locations": [
@@ -478,6 +646,10 @@
                   {
                       "ref": "Termina Field/Bio Baba Grotto",
                       "name": "Bio Baba Grotto"
+                  },
+                  {
+                    "ref": "Termina Field/Bio Baba Grotto Hive",
+                    "name": "Bio Baba Grotto Hive"
                   }
                 ],
                 "map_locations": [
@@ -533,6 +705,14 @@
                   {
                       "ref": "Termina Field/Kamaro",
                       "name": "Kamaro"
+                  },
+                  {
+                    "ref": "Termina Field/Notebook Meeting: Kamaro",
+                    "name": "Notebook Meeting: Kamaro"
+                  },
+                  {
+                    "ref": "Termina Field/Notebook: Kamaro",
+                    "name": "Notebook: Kamaro"
                   }
                 ],
                 "map_locations": [
@@ -577,8 +757,33 @@
                 "name": "Termina Field",
                 "sections": [
                   {
+                      "ref": "Termina Field/Takkuri",
+                      "name": "Takkuri"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1380,
+                    "y": 905,
+                    "size": 15
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
                       "ref": "Termina Field/Grass Chest",
                       "name": "Grass Chest"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field South Gossip Hint",
+                    "name": "South Gossip Hint"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field South Gossip Fairy",
+                    "name": "South Gossip Fairy"
                   }
                 ],
                 "map_locations": [
@@ -708,6 +913,14 @@
                   {
                       "ref": "Termina Field/Gossip Stones",
                       "name": "Gossip Stones"
+                  },
+                  {
+                    "ref": "Termina Field/Gossip Grotto Hints 1-4",
+                    "name": "Gossip Grotto Hints 1-4"
+                  },
+                  {
+                    "ref": "Termina Field/Gossip Grotto Fairy",
+                    "name": "Gossip Grotto Fairy"
                   }
                 ],
                 "map_locations": [
@@ -836,6 +1049,14 @@
                   {
                       "ref": "Termina Field/Northern Ramp Invisible Item Blue Rupee",
                       "name": "Northern Ramp Invisible Item Blue Rupee"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field North Gossip Hint",
+                    "name": "North Gossip Hint"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field North Gossip Fairy",
+                    "name": "North Gossip Fairy"
                   }
                 ],
                 "map_locations": [
@@ -1020,16 +1241,80 @@
               }
             ],
             "map_locations": [
-              {
-                "map": "Termina",
-                "x": 1160,
-                "y": 800,
-                "size": 15
-              }
+            {
+            "map": "Termina",
+            "x": 1160,
+            "y": 800,
+            "size": 15
+            }
           ]
-        }
-         ]
+        },
+        {
+          "name": "Termina Field",
+          "sections": [
+            {
+                "ref": "Termina Field/Termina Field East Gossip Hint",
+                "name": "East Gossip Hint"
+            },
+            {
+              "ref": "Termina Field/Termina Field East Gossip Fairy",
+              "name": "East Gossip Fairy"
+            }
+          ],
+          "map_locations": [
+          {
+          "map": "Termina",
+          "x": 1350,
+          "y": 675,
+          "size": 15
+          }
+        ]
       },
+      {
+        "name": "Termina Field",
+        "sections": [
+          {
+              "ref": "Termina Field/Termina Field Milk Gossip Hint",
+              "name": "Milk Gossip Hint"
+          },
+          {
+            "ref": "Termina Field/Termina Field Milk Gossip Fairy",
+            "name": "Milk Gossip Fairy"
+          }
+        ],
+        "map_locations": [
+        {
+        "map": "Termina",
+        "x": 1340,
+        "y": 885,
+        "size": 15
+        }
+      ]
+    },
+    {
+      "name": "Termina Field",
+      "sections": [
+        {
+            "ref": "Termina Field/Termina Field West Gossip Hint",
+            "name": "West Gossip Hint"
+        },
+        {
+          "ref": "Termina Field/Termina Field West Gossip Fairy",
+          "name": "West Gossip Fairy"
+        }
+      ],
+      "map_locations": [
+      {
+      "map": "Termina",
+      "x": 1170,
+      "y": 760,
+      "size": 12
+      }
+    ]
+  }
+      ]
+    },
+      
 
 
 
@@ -1060,6 +1345,10 @@
                   {
                       "ref": "Termina Field/Bio Baba Grotto",
                       "name": "Bio Baba Grotto"
+                  },
+                  {
+                    "ref": "Termina Field/Bio Baba Grotto Hive",
+                    "name": "Bio Baba Grotto Hive"
                   }
                 ],
                 "map_locations": [
@@ -1111,6 +1400,14 @@
                   {
                       "ref": "Termina Field/Kamaro",
                       "name": "Kamaro"
+                  },
+                  {
+                    "ref": "Termina Field/Notebook Meeting: Kamaro",
+                    "name": "Notebook Meeting: Kamaro"
+                  },
+                  {
+                    "ref": "Termina Field/Notebook: Kamaro",
+                    "name": "Notebook: Kamaro"
                   }
                 ],
                 "map_locations": [
@@ -1139,6 +1436,23 @@
                     "map": "Termina Field",
                     "x": 1200,
                     "y": 1115,
+                    "size": 40
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                      "ref": "Termina Field/Takkuri",
+                      "name": "Takkuri"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1220,
+                    "y": 1200,
                     "size": 40
                    }
                 ]
@@ -1762,6 +2076,132 @@
                     "map": "Termina Field",
                     "x": 445,
                     "y": 660,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                    "ref": "Termina Field/Termina Field East Gossip Hint",
+                    "name": "East Gossip Hint"
+                },
+                {
+                  "ref": "Termina Field/Termina Field East Gossip Fairy",
+                  "name": "East Gossip Fairy"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1154,
+                    "y": 40,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field Milk Gossip Hint",
+                    "name": "Milk Gossip Hint"
+                },
+                {
+                  "ref": "Termina Field/Termina Field Milk Gossip Fairy",
+                  "name": "Milk Gossip Fairy"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1135,
+                    "y": 1150,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field North Gossip Hint",
+                    "name": "North Gossip Hint"
+                },
+                {
+                  "ref": "Termina Field/Termina Field North Gossip Fairy",
+                  "name": "North Gossip Fairy"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 535,
+                    "y": 220,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                    "ref": "Termina Field/Termina Field Observatory Gossip Hint",
+                    "name": "Observatory Gossip Hint"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field Observatory Gossip Fairy",
+                    "name": "Observatory Gossip Fairy"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1775,
+                    "y": 230,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                  {
+                    "ref": "Termina Field/Termina Field South Gossip Hint",
+                    "name": "South Gossip Hint"
+                  },
+                  {
+                    "ref": "Termina Field/Termina Field South Gossip Fairy",
+                    "name": "South Gossip Fairy"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 1725,
+                    "y": 860,
+                    "size": 20
+                   }
+                ]
+              },
+              {
+                "name": "Termina Field",
+                "sections": [
+                {
+                    "ref": "Termina Field/Termina Field West Gossip Hint",
+                    "name": "West Gossip Hint"
+                },
+                {
+                  "ref": "Termina Field/Termina Field West Gossip Fairy",
+                  "name": "West Gossip Fairy"
+                }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Termina Field",
+                    "x": 485,
+                    "y": 430,
                     "size": 20
                    }
                 ]

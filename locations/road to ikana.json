@@ -34,6 +34,42 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Road to Ikana Gossip Hint",
+              "access_rules": ["$play_epona","[],goron,bombs"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Road to Ikana Gossip Fairy",
+              "access_rules": ["$play_epona,$gossip_fairy","[],goron,bombs,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Notebook Meeting: Shiro",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook,$play_epona,$use_lens","[],notebook,$use_lens,goron,bombs"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Invisible Soldier",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$play_epona,$use_lens,bottle","[],notebook,$use_lens,goron,bombs,bottle"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
             }
           ]
         },
@@ -45,13 +81,21 @@
             "name": "Road to Ikana",
             "sections": [
               {
+                "ref": "Road to Ikana/Notebook Meeting: Shiro",
+                "name": "Notebook Meeting: Shiro"
+              },
+              {
                   "ref": "Road to Ikana/Invisible Soldier (Shiro)",
                   "name": "Invisible Soldier (Shiro)"
               },
               {
+                "ref": "Road to Ikana/Notebook: Invisible Soldier",
+                "name": "Notebook: Invisible Soldier"
+              },
+              {
                 "ref": "Road to Ikana/Road to Ikana Pot",
                 "name": "Scarecrow Pot"
-            }
+              }
             ],
             "map_locations": [
                 {
@@ -95,6 +139,27 @@
                   "size": 20
                  }
               ]
+          },
+          {
+            "name": "Road to Ikana",
+            "sections": [
+              {
+                  "ref": "Road to Ikana/Road to Ikana Gossip Hint",
+                  "name": "Gossip Hint"
+              },
+              {
+                "ref": "Road to Ikana/Road to Ikana Gossip Fairy",
+                "name": "Gossip Fairy"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1600,
+                  "y": 590,
+                  "size": 20
+                 }
+              ]
           }
        ]
     },
@@ -105,8 +170,16 @@
           "name": "Road to Ikana",
             "sections": [
               {
+                "ref": "Road to Ikana/Notebook Meeting: Shiro",
+                "name": "Notebook Meeting: Shiro"
+              },
+              {
                   "ref": "Road to Ikana/Invisible Soldier (Shiro)",
                   "name": "Invisible Soldier (Shiro)"
+              },
+              {
+                "ref": "Road to Ikana/Notebook: Invisible Soldier",
+                "name": "Notebook: Invisible Soldier"
               }
             ],
             "map_locations": [
@@ -169,6 +242,27 @@
                    }
                 ]
             },
+            {
+              "name": "Road to Ikana",
+                "sections": [
+                  {
+                    "ref": "Road to Ikana/Road to Ikana Gossip Hint",
+                    "name": "Gossip Hint"
+                },
+                {
+                  "ref": "Road to Ikana/Road to Ikana Gossip Fairy",
+                  "name": "Gossip Fairy"
+                }
+                ],
+                "map_locations": [
+                    {
+                      "map": "Ikana Area",
+                      "x": 380,
+                      "y": 600,
+                      "size": 20
+                     }
+                  ]
+              }
      ]
   }
 ]

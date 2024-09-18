@@ -244,6 +244,13 @@
               "visibility_rules": ["on_crate"],
               "chest_unopened_img": "images/other/crate.png",
               "chest_opened_img": "images/other/crate_broken.png"
+            },
+            {
+              "name": "Great Bay Temple Frog",
+              "access_rules": ["$shoot_ia,dongero"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -404,6 +411,10 @@
               {
                 "ref": "Great Bay Temple/Great Bay Temple Red Valve Crate",
                 "name": "Red Valve Crate"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Frog",
+                "name": "Frog"
               }
             ],
             "map_locations": [
@@ -494,6 +505,10 @@
               {
                   "ref": "Great Bay Temple/GBT Boss Key Chest",
                   "name": "Boss Key Chest"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Frog",
+                "name": "Frog"
               }
             ],
             "map_locations": [

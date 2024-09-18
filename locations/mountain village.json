@@ -109,6 +109,164 @@
               "visibility_rules": ["on_gras"],
               "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Path to Mountain Village Gossip Hint",
+              "access_rules": ["bow"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Path to Mountain Village Gossip Fairy",
+              "access_rules": ["bow,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Frog Gossip Hint",
+              "access_rules": ["$access_spring"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Frog Gossip Fairy",
+              "access_rules": ["$access_spring,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Path Gossip Hint",
+              "access_rules": ["$access_spring"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Path Gossip Fairy",
+              "access_rules": ["$access_spring,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Path to Mountain Village Small Snowball",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Path to Mountain Village Spring Snowball 1-3",
+              "access_rules": ["$access_spring"],
+              "item_count": 3,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Goron Graveyard Snowball 1-2",
+              "access_rules": ["$access_spring","$use_lens"],
+              "item_count": 2,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Spring Snowball 1-4",
+              "access_rules": ["$access_spring"],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Day 1 Snowball",
+              "access_rules": ["$explosion_goron","$shoot_fa"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Day 2 Snowball",
+              "access_rules": ["$explosion_goron","$shoot_fa"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Day 2 Snowball 2",
+              "access_rules": ["$explosion_goron","$shoot_fa"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Day 3 Snowball",
+              "access_rules": ["$explosion_goron","$shoot_fa"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Small Snowball 1-4",
+              "access_rules": [""],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Small Snowball 1-2",
+              "access_rules": [""],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Mountain Village Frog",
+              "access_rules": ["$access_spring,dongero"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Mountain Village Frog Choir",
+              "access_rules": ["$access_spring,$all_frogs"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -175,6 +333,42 @@
               {
                 "ref": "Mountain Village/Mountain Waterfall Chest",
                 "name": "Waterfall Chest"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Frog Gossip Hint",
+                "name": "Spring Frog Gossip Hint"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Frog Gossip Fairy",
+                "name": "Spring Frog Gossip Fairy"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Day 1 Snowball",
+                "name": "Day 1 Snowball"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Day 2 Snowball",
+                "name": "Day 2 Snowball"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Day 2 Snowball 2",
+                "name": "Day 2 Snowball 2"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Small Snowball 1-4",
+                "name": "Small Snowball 1-4 (Owl)"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Snowball 1-4",
+                "name": "Spring Snowball 1-4 (Owl)"
+              },
+              {
+                "ref": "Mountain Village/Mountain Frog",
+                "name": "Frog"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Frog Choir",
+                "name": "Mountain Village Frog Choir"
               }
             ],
             "map_locations": [
@@ -192,6 +386,10 @@
               {
                   "ref": "Mountain Village/Darmani",
                   "name": "Darmani"
+              },
+              {
+                "ref": "Mountain Village/Goron Graveyard Snowball 1-2",
+                "name": "Goron Graveyard Snowball 1-2"
               }
             ],
             "map_locations": [
@@ -209,6 +407,14 @@
               {
                   "ref": "Mountain Village/Mountain Spring Grotto",
                   "name": "Spring Grotto"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Path Gossip Hint",
+                "name": "Spring Path Gossip Hint"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Path Gossip Fairy",
+                "name": "Spring Path Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -216,6 +422,56 @@
                   "map": "Termina",
                   "x": 885,
                   "y": 470,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Path to Mountain Village Gossip Hint",
+                  "name": "Path to Mountain Village Gossip Hint"
+              },
+              {
+                "ref": "Mountain Village/Path to Mountain Village Gossip Fairy",
+                "name": "Path to Mountain Village Gossip Fairy"
+              },
+              {
+                "ref": "Mountain Village/Path to Mountain Village Small Snowball",
+                "name": "Path to Mountain Village Small Snowball"
+              },
+              {
+                "ref": "Mountain Village/Path to Mountain Village Spring Snowball 1-3",
+                "name": "Path to Mountain Village Spring Snowball 1-3"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1060,
+                  "y": 630,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Mountain Village",
+            "sections": [
+              {
+                  "ref": "Mountain Village/Mountain Village Day 3 Snowball",
+                  "name": "Mountain Village Day 3 Snowball"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Small Snowball 1-2",
+                "name": "Small Snowball 1-2"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 940,
+                  "y": 500,
                   "size": 20
                  }
               ]
@@ -264,6 +520,10 @@
             {
                 "ref": "Mountain Village/Darmani",
                 "name": "Darmani"
+            },
+            {
+              "ref": "Mountain Village/Goron Graveyard Snowball 1-2",
+              "name": "Goron Graveyard Snowball 1-2"
             }
           ],
           "map_locations": [
@@ -281,6 +541,10 @@
               {
                   "ref": "Mountain Village/Hungry Goron",
                   "name": "Hungry Goron"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Day 2 Snowball 2",
+                "name": "Day 2 Snowball 2"
               }
             ],
             "map_locations": [
@@ -298,6 +562,22 @@
               {
                   "ref": "Mountain Village/Mountain Spring Grotto",
                   "name": "Spring Grotto"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Spring Path Gossip Hint",
+                "name": "Spring Path Gossip Hint"
+              },
+              {
+                "ref": "Mountain Village/Path to Mountain Village Small Snowball",
+                "name": "Path to Mountain Village Small Snowball"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Day 3 Snowball",
+                "name": "Mountain Village Day 3 Snowball"
+              },
+              {
+                "ref": "Mountain Village/Mountain Village Small Snowball 1-2",
+                "name": "Small Snowball 1-2"
               }
             ],
             "map_locations": [
@@ -378,6 +658,80 @@
                 "x": 570,
                 "y": 645,
                 "size": 13
+               }
+            ]
+        },
+        {
+          "name": "Mountain Village",
+          "sections": [
+            {
+                "ref": "Mountain Village/Path to Mountain Village Gossip Hint",
+                "name": "Path to Mountain Village Gossip Hint"
+            },
+            {
+              "ref": "Mountain Village/Path to Mountain Village Gossip Fairy",
+              "name": "Path to Mountain Village Gossip Fairy"
+            },
+            {
+              "ref": "Mountain Village/Path to Mountain Village Small Snowball",
+              "name": "Path to Mountain Village Small Snowball"
+            },
+            {
+              "ref": "Mountain Village/Path to Mountain Village Spring Snowball 1-3",
+              "name": "Path to Mountain Village Spring Snowball 1-3"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 690,
+                "y": 740,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Mountain Village",
+          "sections": [
+            {
+              "ref": "Mountain Village/Mountain Village Spring Frog Gossip Hint",
+              "name": "Spring Frog Gossip Hint"
+            },
+            {
+              "ref": "Mountain Village/Mountain Village Spring Frog Gossip Fairy",
+              "name": "Spring Frog Gossip Fairy"
+            },
+            {
+              "ref": "Mountain Village/Mountain Frog",
+              "name": "Frog"
+            },
+            {
+              "ref": "Mountain Village/Mountain Village Frog Choir",
+              "name": "Mountain Village Frog Choir"
+            },
+            {
+              "ref": "Mountain Village/Mountain Village Day 1 Snowball",
+              "name": "Day 1 Snowball"
+            },
+            {
+              "ref": "Mountain Village/Mountain Village Day 2 Snowball",
+              "name": "Day 2 Snowball"
+            },
+            {
+              "ref": "Mountain Village/Mountain Village Small Snowball 1-4",
+              "name": "Small Snowball 1-4 (Owl)"
+            },
+            {
+              "ref": "Mountain Village/Mountain Village Spring Snowball 1-4",
+              "name": "Spring Snowball 1-4 (Owl)"
+            }
+          ],
+          "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 485,
+                "y": 650,
+                "size": 15
                }
             ]
         }

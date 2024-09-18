@@ -82,7 +82,7 @@
         "name": "Pendant",
         "type": "toggle",
         "img": "images/items/Pendent.png",
-        "codes": "pendent"
+        "codes": "pendant"
     },
     {
         "name": "Powder Keg",
@@ -174,49 +174,6 @@
                 "name": "Big Wallet",
                 "img": "images/items/Wallet2.png",
                 "codes": "wallet2",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Bottles",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/bottle.png",
-                "codes": "bottle",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottles",
-                "img": "images/items/bottle2.png",
-                "codes": "bottle,",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottles",
-                "img": "images/items/bottle3.png",
-                "codes": "bottle,",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottles",
-                "img": "images/items/bottle4.png",
-                "codes": "bottle,",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottles",
-                "img": "images/items/bottle5.png",
-                "codes": "bottle,",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottles",
-                "img": "images/items/bottle6.png",
-                "codes": "bottle,",
                 "inherit_codes": false
             }
         ]
@@ -647,5 +604,785 @@
         "overlay_background": "#000000",
         "overlay_font_size": 10,
         "codes": "osh_token"
+    },
+    {
+        "name": "Bottles",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/bottle.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle2.png",
+                "codes": "bottle,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle3.png",
+                "codes": "bottle,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle4.png",
+                "codes": "bottle,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle5.png",
+                "codes": "bottle,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Bottles",
+                "img": "images/items/bottle6.png",
+                "codes": "bottle,",
+                "inherit_codes": false
+            }
+        ]
     }
+
+
+
+
+    /*
+    {
+        "name": "Empty Bottle",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/bottle.png",
+                "codes": "bottle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Green Potion",
+                "img": "images/items/bottle_green.png",
+                "codes": "bottle,green_potion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Red Potion",
+                "img": "images/items/bottle_red.png",
+                "codes": "bottle,red_potion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Blue Potion",
+                "img": "images/items/bottle_blue.png",
+                "codes": "bottle,blue_potion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bugs",
+                "img": "images/items/bottle_bugs.png",
+                "codes": "bottle,bug",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fish",
+                "img": "images/items/bottle_fish.png",
+                "codes": "bottle,fish",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mushroom",
+                "img": "images/items/bottle_shroom.png",
+                "codes": "bottle,shroom",
+                "inherit_codes": false
+            },
+            {
+                "name": "Fairy",
+                "img": "images/items/bottle_fairy.png",
+                "codes": "bottle,bottle_fairy",
+                "inherit_codes": false
+            },
+            {
+                "name": "Small Poe",
+                "img": "images/items/bottle_poe.png",
+                "codes": "bottle,poe",
+                "inherit_codes": false
+            },
+            {
+                "name": "Big Poe",
+                "img": "images/items/bottle_bigpoe.png",
+                "codes": "bottle,bigpoe",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gold Dust",
+                "img": "images/items/bottle_golddust.png",
+                "codes": "bottle,golddust",
+                "inherit_codes": false
+            },
+            {
+                "name": "Half Milk",
+                "img": "images/items/bottle_halfmilk.png",
+                "codes": "bottle,halfmilk",
+                "inherit_codes": false
+            },
+            {
+                "name": "Milk",
+                "img": "images/items/bottle_milk.png",
+                "codes": "bottle,milk",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chateau Milk",
+                "img": "images/items/bottle_chateau.png",
+                "codes": "bottle,chateau",
+                "inherit_codes": false
+            },
+            {
+                "name": "Water",
+                "img": "images/items/bottle_spring.png",
+                "codes": "bottle,water",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hot Spring Water",
+                "img": "images/items/bottle_hotspring.png",
+                "codes": "bottle,halfmilk",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zora Egg",
+                "img": "images/items/bottle_egg.png",
+                "codes": "bottle,egg",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seahorse",
+                "img": "images/items/bottle_horse.png",
+                "codes": "bottle,seahorse",
+                "inherit_codes": false
+            },
+            {
+                "name": "Deku Princess",
+                "img": "images/items/bottle_princess.png",
+                "codes": "bottle,princess",
+                "inherit_codes": false 
+            }   
+        ]
+            },
+            {
+                "name": "Empty Bottle",
+                "type": "progressive",
+                "allow_disabled": true,
+                "loop": true,
+                "initial_stage_idx": 0,
+                "stages": [
+                    {
+                        "img": "images/items/bottle.png",
+                        "codes": "bottle2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Green Potion",
+                        "img": "images/items/bottle_green.png",
+                        "codes": "bottle2,green_potion2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Red Potion",
+                        "img": "images/items/bottle_red.png",
+                        "codes": "bottle2,red_potion2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Blue Potion",
+                        "img": "images/items/bottle_blue.png",
+                        "codes": "bottle2,blue_potion2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Bugs",
+                        "img": "images/items/bottle_bugs.png",
+                        "codes": "bottle2,bug2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Fish",
+                        "img": "images/items/bottle_fish.png",
+                        "codes": "bottle2,fish2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Mushroom",
+                        "img": "images/items/bottle_shroom.png",
+                        "codes": "bottle2,shroom2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Fairy",
+                        "img": "images/items/bottle_fairy.png",
+                        "codes": "bottle2,bottle_fairy2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Small Poe",
+                        "img": "images/items/bottle_poe.png",
+                        "codes": "bottle2,poe2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Big Poe",
+                        "img": "images/items/bottle_bigpoe.png",
+                        "codes": "bottle2,bigpoe2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Gold Dust",
+                        "img": "images/items/bottle_golddust.png",
+                        "codes": "bottle2,golddust2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Half Milk",
+                        "img": "images/items/bottle_halfmilk.png",
+                        "codes": "bottle2,halfmilk2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Milk",
+                        "img": "images/items/bottle_milk.png",
+                        "codes": "bottle2,milk2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Chateau Milk",
+                        "img": "images/items/bottle_chateau.png",
+                        "codes": "bottle2,chateau2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Water",
+                        "img": "images/items/bottle_spring.png",
+                        "codes": "bottle2,water2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Hot Spring Water",
+                        "img": "images/items/bottle_hotspring.png",
+                        "codes": "bottle2,halfmilk2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Zora Egg",
+                        "img": "images/items/bottle_egg.png",
+                        "codes": "bottle2,egg2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Seahorse",
+                        "img": "images/items/bottle_horse.png",
+                        "codes": "bottle2,seahorse2",
+                        "inherit_codes": false
+                    },
+                    {
+                        "name": "Deku Princess",
+                        "img": "images/items/bottle_princess.png",
+                        "codes": "bottle2,princess2",
+                        "inherit_codes": false
+                    }
+              ]
+           },
+           {
+            "name": "Empty Bottle",
+            "type": "progressive",
+            "allow_disabled": true,
+            "loop": true,
+            "initial_stage_idx": 0,
+            "stages": [
+                {
+                    "img": "images/items/bottle.png",
+                    "codes": "bottle3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Green Potion",
+                    "img": "images/items/bottle_green.png",
+                    "codes": "bottle3,green_potion3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Red Potion",
+                    "img": "images/items/bottle_red.png",
+                    "codes": "bottle3,red_potion3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Blue Potion",
+                    "img": "images/items/bottle_blue.png",
+                    "codes": "bottle3,blue_potion3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Bugs",
+                    "img": "images/items/bottle_bugs.png",
+                    "codes": "bottle3,bug3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Fish",
+                    "img": "images/items/bottle_fish.png",
+                    "codes": "bottle3,fish3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Mushroom",
+                    "img": "images/items/bottle_shroom.png",
+                    "codes": "bottle3,shroom3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Fairy",
+                    "img": "images/items/bottle_fairy.png",
+                    "codes": "bottle3,bottle_fairy3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Small Poe",
+                    "img": "images/items/bottle_poe.png",
+                    "codes": "bottle3,poe3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Big Poe",
+                    "img": "images/items/bottle_bigpoe.png",
+                    "codes": "bottle3,bigpoe3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Gold Dust",
+                    "img": "images/items/bottle_golddust.png",
+                    "codes": "bottle3,golddust3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Half Milk",
+                    "img": "images/items/bottle_halfmilk.png",
+                    "codes": "bottle3,halfmilk3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Milk",
+                    "img": "images/items/bottle_milk.png",
+                    "codes": "bottle3,milk3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Chateau Milk",
+                    "img": "images/items/bottle_chateau.png",
+                    "codes": "bottle3,chateau3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Water",
+                    "img": "images/items/bottle_spring.png",
+                    "codes": "bottle3,water3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Hot Spring Water",
+                    "img": "images/items/bottle_hotspring.png",
+                    "codes": "bottle3,halfmilk3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Zora Egg",
+                    "img": "images/items/bottle_egg.png",
+                    "codes": "bottle3,egg3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Seahorse",
+                    "img": "images/items/bottle_horse.png",
+                    "codes": "bottle3,seahorse3",
+                    "inherit_codes": false
+                },
+                {
+                    "name": "Deku Princess",
+                    "img": "images/items/bottle_princess.png",
+                    "codes": "bottle3,princess3",
+                    "inherit_codes": false
+                }
+    ]
+},
+{
+    "name": "Empty Bottle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+        {
+            "img": "images/items/bottle.png",
+            "codes": "bottle4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Green Potion",
+            "img": "images/items/bottle_green.png",
+            "codes": "bottle4,green_potion4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Red Potion",
+            "img": "images/items/bottle_red.png",
+            "codes": "bottle4,red_potion4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Blue Potion",
+            "img": "images/items/bottle_blue.png",
+            "codes": "bottle4,blue_potion4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Bugs",
+            "img": "images/items/bottle_bugs.png",
+            "codes": "bottle4,bug4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Fish",
+            "img": "images/items/bottle_fish.png",
+            "codes": "bottle4,fish4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Mushroom",
+            "img": "images/items/bottle_shroom.png",
+            "codes": "bottle4,shroom4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Fairy",
+            "img": "images/items/bottle_fairy.png",
+            "codes": "bottle4,bottle_fairy4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Small Poe",
+            "img": "images/items/bottle_poe.png",
+            "codes": "bottle4,poe4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Big Poe",
+            "img": "images/items/bottle_bigpoe.png",
+            "codes": "bottle4,bigpoe4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Gold Dust",
+            "img": "images/items/bottle_golddust.png",
+            "codes": "bottle4,golddust4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Half Milk",
+            "img": "images/items/bottle_halfmilk.png",
+            "codes": "bottle4,halfmilk4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Milk",
+            "img": "images/items/bottle_milk.png",
+            "codes": "bottle4,milk4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Chateau Milk",
+            "img": "images/items/bottle_chateau.png",
+            "codes": "bottle4,chateau4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Water",
+            "img": "images/items/bottle_spring.png",
+            "codes": "bottle4,water4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Hot Spring Water",
+            "img": "images/items/bottle_hotspring.png",
+            "codes": "bottle4,halfmilk4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Zora Egg",
+            "img": "images/items/bottle_egg.png",
+            "codes": "bottle4,egg4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Seahorse",
+            "img": "images/items/bottle_horse.png",
+            "codes": "bottle4,seahorse4",
+            "inherit_codes": false
+        },
+        {
+            "name": "Deku Princess",
+            "img": "images/items/bottle_princess.png",
+            "codes": "bottle4,princess4",
+            "inherit_codes": false
+        }
+]
+},
+{
+    "name": "Empty Bottle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+        {
+            "img": "images/items/bottle.png",
+            "codes": "bottle5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Green Potion",
+            "img": "images/items/bottle_green.png",
+            "codes": "bottle5,green_potion5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Red Potion",
+            "img": "images/items/bottle_red.png",
+            "codes": "bottle5,red_potion5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Blue Potion",
+            "img": "images/items/bottle_blue.png",
+            "codes": "bottle5,blue_potion5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Bugs",
+            "img": "images/items/bottle_bugs.png",
+            "codes": "bottle5,bug5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Fish",
+            "img": "images/items/bottle_fish.png",
+            "codes": "bottle5,fish5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Mushroom",
+            "img": "images/items/bottle_shroom.png",
+            "codes": "bottle5,shroom5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Fairy",
+            "img": "images/items/bottle_fairy.png",
+            "codes": "bottle5,bottle_fairy5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Small Poe",
+            "img": "images/items/bottle_poe.png",
+            "codes": "bottle5,poe5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Big Poe",
+            "img": "images/items/bottle_bigpoe.png",
+            "codes": "bottle5,bigpoe5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Gold Dust",
+            "img": "images/items/bottle_golddust.png",
+            "codes": "bottle5,golddust5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Half Milk",
+            "img": "images/items/bottle_halfmilk.png",
+            "codes": "bottle5,halfmilk5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Milk",
+            "img": "images/items/bottle_milk.png",
+            "codes": "bottle5,milk5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Chateau Milk",
+            "img": "images/items/bottle_chateau.png",
+            "codes": "bottle5,chateau5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Water",
+            "img": "images/items/bottle_spring.png",
+            "codes": "bottle5,water5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Hot Spring Water",
+            "img": "images/items/bottle_hotspring.png",
+            "codes": "bottle5,halfmilk5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Zora Egg",
+            "img": "images/items/bottle_egg.png",
+            "codes": "bottle5,egg5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Seahorse",
+            "img": "images/items/bottle_horse.png",
+            "codes": "bottle5,seahorse5",
+            "inherit_codes": false
+        },
+        {
+            "name": "Deku Princess",
+            "img": "images/items/bottle_princess.png",
+            "codes": "bottle5,princess5",
+            "inherit_codes": false
+        }
+]
+},
+{
+    "name": "Empty Bottle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+        {
+            "img": "images/items/bottle.png",
+            "codes": "bottle6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Green Potion",
+            "img": "images/items/bottle_green.png",
+            "codes": "bottle6,green_potion6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Red Potion",
+            "img": "images/items/bottle_red.png",
+            "codes": "bottle6,red_potion6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Blue Potion",
+            "img": "images/items/bottle_blue.png",
+            "codes": "bottle6,blue_potion6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Bugs",
+            "img": "images/items/bottle_bugs.png",
+            "codes": "bottle6,bug6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Fish",
+            "img": "images/items/bottle_fish.png",
+            "codes": "bottle6,fish6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Mushroom",
+            "img": "images/items/bottle_shroom.png",
+            "codes": "bottle6,shroom6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Fairy",
+            "img": "images/items/bottle_fairy.png",
+            "codes": "bottle6,bottle_fairy6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Small Poe",
+            "img": "images/items/bottle_poe.png",
+            "codes": "bottle6,poe6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Big Poe",
+            "img": "images/items/bottle_bigpoe.png",
+            "codes": "bottle6,bigpoe6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Gold Dust",
+            "img": "images/items/bottle_golddust.png",
+            "codes": "bottle6,golddust6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Half Milk",
+            "img": "images/items/bottle_halfmilk.png",
+            "codes": "bottle6,halfmilk6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Milk",
+            "img": "images/items/bottle_milk.png",
+            "codes": "bottle6,milk6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Chateau Milk",
+            "img": "images/items/bottle_chateau.png",
+            "codes": "bottle6,chateau6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Water",
+            "img": "images/items/bottle_spring.png",
+            "codes": "bottle6,water6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Hot Spring Water",
+            "img": "images/items/bottle_hotspring.png",
+            "codes": "bottle6,halfmilk6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Zora Egg",
+            "img": "images/items/bottle_egg.png",
+            "codes": "bottle6,egg6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Seahorse",
+            "img": "images/items/bottle_horse.png",
+            "codes": "bottle6,seahorse6",
+            "inherit_codes": false
+        },
+        {
+            "name": "Deku Princess",
+            "img": "images/items/bottle_princess.png",
+            "codes": "bottle6,princess6",
+            "inherit_codes": false
+        }
+]
+}*/
 ]

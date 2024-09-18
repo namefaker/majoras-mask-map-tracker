@@ -12,10 +12,28 @@
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
+              "name": "Notebook Meeting: Bombers",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Bombers Hide and Seek",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$projectile"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
               "name": "Map Purchase (Tingle)",
               "item_count": 2,
               "clear_as_group": false,
-              "access_rules": ["$projectile","[], $any_sword"],
+              "access_rules": ["$projectile","[], $any_sword","[],sticks"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -36,10 +54,19 @@
             },
             {
               "name": "Old Lady",
-              "access_rules": ["sword","goron","zora","gfs"],
+              "access_rules": ["$any_sword","goron","zora"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Notebook: Old Lady",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$any_sword","notebook,goron","notebook,zora"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
             },
             {
               "name": "Great Fairy",
@@ -161,6 +188,14 @@
               {
                   "ref": "North Clock Town/Bombers' Hide and Seed",
                   "name": "Bombers' Hide and Seed"
+              },
+              {
+                "ref": "North Clock Town/Notebook Meeting: Bombers",
+                "name": "Notebook Meeting: Bombers"
+              },
+              {
+                "ref": "North Clock Town/Notebook: Bombers Hide and Seek",
+                "name": "Notebook: Bombers Hide and Seek"
               }
             ],
             "map_locations": [
@@ -237,6 +272,10 @@
               {
                   "ref": "North Clock Town/Old Lady",
                   "name": "Old Lady"
+              },
+              {
+                "ref": "North Clock Town/Notebook: Old Lady",
+                "name": "Notebook: Old Lady"
               }
             ],
             "map_locations": [

@@ -160,6 +160,159 @@
               "visibility_rules": ["on_crate"],
               "chest_unopened_img": "images/other/crate.png",
               "chest_opened_img": "images/other/crate_broken.png"
+            },
+            {
+              "name": "Cucco Shack Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Cucco Shack Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Doggy Racetrack Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Doggy Racetrack Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ranch Barn Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ranch Barn Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ranch Entrance Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ranch Entrance Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ranch Tree Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ranch Tree Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Notebook Meeting: Grog",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Grog",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["bremen"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook Meeting: Romani",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook Meeting: Cremia",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["notebook"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Romani's Game",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["keg,goron"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Aliens Defense",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["keg,goron,bow"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
+            },
+            {
+              "name": "Notebook: Cremia",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["keg,goron,bow"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
             }
           ]
         },
@@ -175,6 +328,14 @@
                   "name": "Grog (Lemons)"
               },
               {
+                "ref": "Romani Ranch/Notebook Meeting: Grog",
+                "name": "Notebook Meeting: Grog"
+              },
+              {
+                "ref": "Romani Ranch/Notebook: Grog",
+                "name": "NNotebook: Grog"
+              },
+              {
                 "ref": "Romani Ranch/Cucco Shack Potted Plant",
                 "name": "Cucco Shack Potted Plant"
               },
@@ -185,6 +346,14 @@
               {
                 "ref": "Romani Ranch/Cucco Shack Crate",
                 "name": "Cucco Shack Crate"
+              },
+              {
+                "ref": "Romani Ranch/Cucco Shack Gossip Hint",
+                "name": "Cucco Shack Gossip Hint"
+              },
+              {
+                "ref": "Romani Ranch/Cucco Shack Gossip Fairy",
+                "name": "Cucco Shack Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -227,6 +396,14 @@
               {
                 "ref": "Romani Ranch/Doggy Racetrack Pot 1-4",
                 "name": "Doggy Racetrack Pot 1-4"
+              },
+              {
+                "ref": "Romani Ranch/Doggy Racetrack Gossip Hint",
+                "name": "Doggy Racetrack Gossip Hint"
+              },
+              {
+                "ref": "Romani Ranch/Doggy Racetrack Gossip Fairy",
+                "name": "Doggy Racetrack Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -242,16 +419,36 @@
             "name": "Romani Ranch",
             "sections": [
               {
+                "ref": "Romani Ranch/Notebook Meeting: Romani",
+                "name": "Notebook Meeting: Romani"
+              },
+              {
+                "ref": "Romani Ranch/Notebook Meeting: Cremia",
+                "name": "Notebook Meeting: Cremia"
+              },
+              {
                   "ref": "Romani Ranch/Romani's Game",
                   "name": "Romani's Game"
+              },
+              {
+                "ref": "Romani Ranch/Notebook: Romani's Game",
+                "name": "Notebook: Romani's Game"
               },
               {
                 "ref": "Romani Ranch/Aliens Defense",
                 "name": "Aliens Defense"
               },
               {
+                "ref": "Romani Ranch/Notebook: Aliens Defense",
+                "name": "Notebook: Aliens Defense"
+              },
+              {
                 "ref": "Romani Ranch/Cremia",
                 "name": "Cremia"
+              },
+              {
+                "ref": "Romani Ranch/Notebook: Cremia",
+                "name": "Notebook: Cremia"
               },
               {
                 "ref": "Romani Ranch/Ranch Crate",
@@ -285,6 +482,14 @@
               {
                 "ref": "Romani Ranch/Ranch Barn Hay Item Blue Rupee 1-2",
                 "name": "Barn Hay Item Blue Rupee 1-2"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Barn Gossip Hint",
+                "name": "Barn Gossip Hint"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Barn Gossip Fairy",
+                "name": "Barn Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -327,6 +532,14 @@
               {
                 "ref": "Romani Ranch/Ranch Fence Item Green Rupee 1-4",
                 "name": "Fence Item Green Rupee 1-4"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Entrance Gossip Hint",
+                "name": "Entrance Gossip Hint"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Entrance Gossip Fairy",
+                "name": "Entrance Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -334,6 +547,27 @@
                 "map": "Termina",
                 "x": 1270,
                 "y": 1060,
+                "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Ranch Tree Gossip Hint",
+                  "name": "Tree Gossip Hint"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Tree Gossip Fairy",
+                "name": "Tree Gossip Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1300,
+                "y": 1150,
                 "size": 20
                }
             ]
@@ -349,6 +583,14 @@
             {
                 "ref": "Romani Ranch/Grog (Lemons)",
                 "name": "Grog (Lemons)"
+            },
+            {
+              "ref": "Romani Ranch/Notebook Meeting: Grog",
+              "name": "Notebook Meeting: Grog"
+            },
+            {
+              "ref": "Romani Ranch/Notebook: Grog",
+              "name": "NNotebook: Grog"
             }
           ],
           "map_locations": [
@@ -406,16 +648,40 @@
           "name": "Romani Ranch",
             "sections": [
               {
+                "ref": "Romani Ranch/Notebook Meeting: Romani",
+                "name": "Notebook Meeting: Romani"
+              },
+              {
+                "ref": "Romani Ranch/Notebook Meeting: Cremia",
+                "name": "Notebook Meeting: Cremia"
+              },
+              {
                   "ref": "Romani Ranch/Romani's Game",
                   "name": "Romani's Game"
+              },
+              {
+                "ref": "Romani Ranch/Notebook: Romani's Game",
+                "name": "Notebook: Romani's Game"
               },
               {
                 "ref": "Romani Ranch/Aliens Defense",
                 "name": "Aliens Defense"
               },
               {
+                "ref": "Romani Ranch/Notebook: Aliens Defense",
+                "name": "Notebook: Aliens Defense"
+              },
+              {
                 "ref": "Romani Ranch/Cremia",
                 "name": "Cremia"
+              },
+              {
+                "ref": "Romani Ranch/Notebook: Cremia",
+                "name": "Notebook: Cremia"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Crate",
+                "name": "Crate"
               }
             ],
             "map_locations": [
@@ -445,6 +711,14 @@
             {
               "ref": "Romani Ranch/Ranch Barn Hay Item Blue Rupee 1-2",
               "name": "Barn Hay Item Blue Rupee 1-2"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Barn Gossip Hint",
+              "name": "Barn Gossip Hint"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Barn Gossip Fairy",
+              "name": "Barn Gossip Fairy"
             }
             ],
             "map_locations": [
@@ -613,6 +887,90 @@
               "map": "Milk and Ranch",
               "x": 250,
               "y": 1105,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Cucco Shack Gossip Hint",
+              "name": "Cucco Shack Gossip Hint"
+            },
+            {
+              "ref": "Romani Ranch/Cucco Shack Gossip Fairy",
+              "name": "Cucco Shack Gossip Fairy"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 255,
+              "y": 990,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Doggy Racetrack Gossip Hint",
+              "name": "Doggy Racetrack Gossip Hint"
+            },
+            {
+              "ref": "Romani Ranch/Doggy Racetrack Gossip Fairy",
+              "name": "Doggy Racetrack Gossip Fairy"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 660,
+              "y": 1070,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+            {
+              "ref": "Romani Ranch/Ranch Entrance Gossip Hint",
+              "name": "Entrance Gossip Hint"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Entrance Gossip Fairy",
+              "name": "Entrance Gossip Fairy"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 485,
+              "y": 520,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Romani Ranch",
+          "sections": [
+          {
+              "ref": "Romani Ranch/Ranch Tree Gossip Hint",
+              "name": "Tree Gossip Hint"
+          },
+          {
+            "ref": "Romani Ranch/Ranch Tree Gossip Fairy",
+            "name": "Tree Gossip Fairy"
+          }
+          ],
+          "map_locations": [
+            {
+              "map": "Milk and Ranch",
+              "x": 540,
+              "y": 815,
               "size": 20
              }
           ]

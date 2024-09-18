@@ -24,7 +24,7 @@
             },
             {
                 "name": "Ikana Canyon Ledge",
-                "access_rules": ["zora,odeed,deku", "{}"],
+                "access_rules": ["zora,odeed,deku", "{hs}"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
@@ -74,6 +74,69 @@
               "visibility_rules": ["on_gras"],
               "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Ikana Canyon Dock Gossip Hint",
+              "access_rules": ["$access_ikana"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ikana Canyon Dock Gossip Fairy",
+              "access_rules": ["$access_ikana,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ikana Canyon Ravine Gossip Hint",
+              "access_rules": ["$access_ikana,zora,odeed"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ikana Canyon Ravine Gossip Fairy",
+              "access_rules": ["$access_ikana,$gossip_fairy,zora,odeed"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ikana Canyon Spirit House Gossip Hint",
+              "access_rules": ["$access_ikana_upper","[],$access_ikana_upper_ool"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Ikana Canyon Spirit House Gossip Fairy",
+              "access_rules": ["$access_ikana_upper,$gossip_fairy","[],$access_ikana_upper_ool,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Notebook: Escaping from Sakon's Hideout",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["$access_ikana,$access_inn,ltk,pendant"],
+              "visibility_rules": ["on_notebook"],
+              "chest_unopened_img": "images/other/notebook.png",
+              "chest_opened_img": "images/other/notebook_check.png"
             }
           ]
         },
@@ -95,6 +158,14 @@
               {
                 "ref": "Ikana Canyon/Ikana Canyon Ledge",
                 "name": "Ledge"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Ravine Gossip Hint",
+                "name": "Ravine Gossip Hint"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Ravine Gossip Fairy",
+                "name": "Ravine Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -146,6 +217,14 @@
               {
                   "ref": "Ikana Canyon/Poe Hut",
                   "name": "Poe Hut"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Spirit House Gossip Hint",
+                "name": "Spirit House Gossip Hint"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Spirit House Gossip Fairy",
+                "name": "Spirit House Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -194,6 +273,44 @@
                   "size": 20
                  }
               ]
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Ikana Canyon Dock Gossip Hint",
+                  "name": "Dock Gossip Hint"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Dock Gossip Fairy",
+                "name": "Dock Gossip Fairy"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1800,
+                  "y": 505,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+              {
+                  "ref": "Ikana Canyon/Notebook: Escaping from Sakon's Hideout",
+                  "name": "Notebook: Escaping from Sakon's Hideout"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1855,
+                  "y": 555,
+                  "size": 15
+                 }
+              ]
           }
        ]
     },
@@ -227,6 +344,14 @@
               {
                   "ref": "Ikana Canyon/Ikana Canyon Ledge",
                   "name": "Ledge"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Ravine Gossip Hint",
+                "name": "Ravine Gossip Hint"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Ravine Gossip Fairy",
+                "name": "Ravine Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -326,7 +451,66 @@
                   "size": 20
                }
             ]
-          }
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+            {
+                "ref": "Ikana Canyon/Ikana Canyon Dock Gossip Hint",
+                "name": "Dock Gossip Hint"
+            },
+            {
+              "ref": "Ikana Canyon/Ikana Canyon Dock Gossip Fairy",
+              "name": "Dock Gossip Fairy"
+            }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 760,
+                  "y": 400,
+                  "size": 20
+               }
+            ]
+          },
+          {
+            "name": "Ikana Canyon",
+            "sections": [
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Spirit House Gossip Hint",
+                "name": "Spirit House Gossip Hint"
+              },
+              {
+                "ref": "Ikana Canyon/Ikana Canyon Spirit House Gossip Fairy",
+                "name": "Spirit House Gossip Fairy"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 955,
+                  "y": 112,
+                  "size": 15
+               }
+            ]
+          },
+          {
+            "name": "Ikana Canyon",
+              "sections": [
+                {
+                  "ref": "Ikana Canyon/Notebook: Escaping from Sakon's Hideout",
+                  "name": "Notebook: Escaping from Sakon's Hideout"
+                }
+              ],
+              "map_locations": [
+                  {
+                    "map": "Ikana Area",
+                    "x": 850,
+                    "y": 510,
+                    "size": 15
+                   }
+                ]
+            }
      ]
   }
 ]

@@ -2,7 +2,7 @@
     [
         {
           "name": "Snowhead",
-          "access_rules": ["$access_mountain"],
+          "access_rules": ["$access_mountain,$spikes"],
           "item_count": 1,
           "sections": [
             {
@@ -11,6 +11,24 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Snowhead Small Snowball 1-4",
+              "access_rules": [""],
+              "item_count": 4,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Snowhead Large Snowball 1-6",
+              "access_rules": ["$play_lullaby"],
+              "item_count": 6,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
             }
           ]
         },
@@ -19,7 +37,7 @@
         "item_count": 1,
         "children": [
           {
-            "name": "Path to Snowhead",
+            "name": "Snowhead",
             "sections": [
               {
                   "ref": "Snowhead/Snowhead Great Fairy",
@@ -34,10 +52,44 @@
                   "size": 20
                  }
               ]
+          },
+          {
+            "name": "Snowhead",
+            "sections": [
+              {
+                  "ref": "Snowhead/Snowhead Small Snowball 1-4",
+                  "name": "Small Snowball 1-4 (Owl)"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 570,
+                  "y": 310,
+                  "size": 13
+                 }
+              ]
+          },
+          {
+            "name": "Snowhead",
+            "sections": [
+              {
+                  "ref": "Snowhead/Snowhead Large Snowball 1-6",
+                  "name": "Large Snowball 1-6 (around sht)"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 400,
+                  "y": 220,
+                  "size": 13
+                 }
+              ]
           }
        ]
     },
-    {  ////Path to Snowhead
+    {  //Snowhead
       "item_count": 1,
       "children": [
         {
@@ -54,6 +106,40 @@
               "x": 40,
               "y": 195,
               "size": 20
+             }
+          ]
+        },
+        {
+          "name": "Snowhead",
+          "sections": [
+            {
+              "ref": "Snowhead/Snowhead Small Snowball 1-4",
+              "name": "Small Snowball 1-4 (Owl)"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 260,
+              "y": 370,
+              "size": 10
+             }
+          ]
+        },
+        {
+          "name": "Snowhead",
+          "sections": [
+            {
+              "ref": "Snowhead/Snowhead Large Snowball 1-6",
+              "name": "Large Snowball 1-6 (around sht)"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Mountain Area",
+              "x": 90,
+              "y": 250,
+              "size": 10
              }
           ]
         }

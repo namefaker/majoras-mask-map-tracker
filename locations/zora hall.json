@@ -48,6 +48,20 @@
         "visibility_rules": ["on_shopsanity"],
         "chest_unopened_img": "images/other/chest_brown_closed.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "Zora Hall Good Picture From Lulu",
+        "access_rules": ["zora,pb", "[],pb"],
+        "visibility_rules": [""],
+        "chest_unopened_img": "images/other/chest_brown_closed.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
+      },
+      {
+        "name": "Zora Hall Bad Picture From Lulu",
+        "access_rules": ["zora,pb", "[],pb"],
+        "visibility_rules": [""],
+        "chest_unopened_img": "images/other/chest_brown_closed.png",
+        "chest_opened_img": "images/other/chest_brown_open.png"
       }
     ]
   },
@@ -80,6 +94,14 @@
           {
             "ref": "Zora Hall/Zora Shop 3 Purchases",
             "name": "Zora Shop 3 Purchases"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Good Picture From Lulu",
+            "name": "Good Picture From Lulu"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Bad Picture From Lulu",
+            "name": "Bad Picture From Lulu"
           }
         ],
         "map_locations": [
@@ -122,6 +144,14 @@
           {
             "ref": "Zora Hall/Zora Shop 3 Purchases",
             "name": "Zora Shop 3 Purchases"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Good Picture From Lulu",
+            "name": "Good Picture From Lulu"
+          },
+          {
+            "ref": "Zora Hall/Zora Hall Bad Picture From Lulu",
+            "name": "Bad Picture From Lulu"
           }
         ],
         "map_locations": [

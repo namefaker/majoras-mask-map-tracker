@@ -179,7 +179,7 @@
             },
             {
               "name": "Swamp Near Frog Item Blue Rupee 1",
-              "access_rules": [""],
+              "access_rules": ["deku","zora"],
               "item_count": 1,
               "clear_as_group": true,
               "visibility_rules": ["on_br_overworld","on_br_all"],
@@ -188,7 +188,7 @@
             },
             {
               "name": "Swamp Near Frog Item 2 Blue Rupee 1",
-              "access_rules": [""],
+              "access_rules": ["deku","zora"],
               "item_count": 1,
               "clear_as_group": true,
               "visibility_rules": ["on_br_overworld","on_br_all"],
@@ -257,6 +257,58 @@
               "visibility_rules": ["on_gras"],
               "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
+            },
+            {
+              "name": "Swamp Near Frog Hive",
+              "access_rules": ["$projectile","chu"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hive"],
+              "chest_unopened_img": "images/other/hive.png",
+              "chest_opened_img": "images/other/hive_check.png"
+            },
+            {
+              "name": "Southern Swamp Gossip Hint",
+              "access_rules": [""],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Southern Swamp Gossip Fairy",
+              "access_rules": ["$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Swamp Spider House Gossip Hint",
+              "access_rules": ["$access_ssh"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_hints"],
+              "chest_unopened_img": "images/other/gossiphint.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Swamp Spider House Gossip Fairy",
+              "access_rules": ["$access_ssh,$gossip_fairy"],
+              "item_count": 1,
+              "clear_as_group": true,
+              "visibility_rules": ["on_gossipfairys"],
+              "chest_unopened_img": "images/other/gossipfairy.png",
+              "chest_opened_img": "images/other/gossip_check.png"
+            },
+            {
+              "name": "Southern Swamp Frog",
+              "access_rules": ["dongero"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -363,6 +415,14 @@
               {
                 "ref": "Southern Swamp/Swamp Skulltula Tree Room Grass 1-2",
                 "name": "Swamp Skulltula Tree Room Grass 1-2"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Gossip Hint",
+                "name": "Swamp Spider House Gossip Hint"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Gossip Fairy",
+                "name": "Swamp Spider House Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -400,6 +460,14 @@
               {
                 "ref": "Southern Swamp/Cleared Potion Shop Pot 1-2",
                 "name": "Cleared Swamp Potion Shop Pot 1-2"
+              },
+              {
+                "ref": "Southern Swamp/Southern Swamp Gossip Hint",
+                "name": "Gossip Hint"
+              },
+              {
+                "ref": "Southern Swamp/Southern Swamp Gossip Fairy",
+                "name": "Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -428,6 +496,27 @@
                 "map": "Termina",
                 "x": 1828,
                 "y": 1123,
+                "size": 15
+               }
+            ]
+          },
+          {
+            "name": "Southern Swamp",
+            "sections": [
+            {
+                "ref": "Southern Swamp/Swamp Near Frog Hive",
+                "name": "Near Frog Hive"
+            },
+            {
+              "ref": "Southern Swamp/Southern Swamp Frog",
+              "name": "Frog"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1803,
+                "y": 1075,
                 "size": 15
                }
             ]
@@ -475,7 +564,7 @@
               "map": "Swamp Area",
               "x": 490,
               "y": 120,
-              "size": 40
+              "size": 20
              }
           ]
         },
@@ -492,7 +581,7 @@
                 "map": "Swamp Area",
                 "x": 360,
                 "y": 595,
-                "size": 40
+                "size": 20
                }
             ]
         },
@@ -554,6 +643,14 @@
               {
                 "ref": "Southern Swamp/Swamp Skulltula Tree Room Grass 1-2",
                 "name": "Swamp Skulltula Tree Room Grass 1-2"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Gossip Hint",
+                "name": "Swamp Spider House Gossip Hint"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House Gossip Fairy",
+                "name": "Swamp Spider House Gossip Fairy"
               }
             ],
             "map_locations": [
@@ -561,7 +658,7 @@
                 "map": "Swamp Area",
                 "x": 405,
                 "y": 550,
-                "size": 40
+                "size": 20
                }
             ]
         },
@@ -598,7 +695,7 @@
                 "map": "Swamp Area",
                 "x": 360,
                 "y": 410,
-                "size": 40
+                "size": 20
                }
             ]
         },
@@ -627,7 +724,7 @@
               "map": "Swamp Area",
               "x": 520,
               "y": 170,
-              "size": 40
+              "size": 20
              }
           ]
         },
@@ -682,6 +779,61 @@
               "map": "Swamp Area",
               "x": 255,
               "y": 415,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Southern Swamp",
+          "sections": [
+            {
+              "ref": "Southern Swamp/Swamp Near Frog Hive",
+              "name": "Near Frog Hive"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 635,
+              "y": 385,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Southern Swamp",
+          "sections": [
+            {
+              "ref": "Southern Swamp/Southern Swamp Gossip Hint",
+              "name": "Gossip Hint"
+            },
+            {
+              "ref": "Southern Swamp/Southern Swamp Gossip Fairy",
+              "name": "Gossip Fairy"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 505,
+              "y": 145,
+              "size": 15
+             }
+          ]
+        },
+        {
+          "name": "Southern Swamp",
+          "sections": [
+            {
+              "ref": "Southern Swamp/Southern Swamp Frog",
+              "name": "Frog"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 725,
+              "y": 465,
               "size": 15
              }
           ]

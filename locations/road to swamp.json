@@ -46,7 +46,26 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
+          },
+          {
+            "name": "Road to Southern Swamp Gossip Hint",
+            "access_rules": [""],
+            "item_count": 1,
+            "clear_as_group": true,
+            "visibility_rules": ["on_hints"],
+            "chest_unopened_img": "images/other/gossiphint.png",
+            "chest_opened_img": "images/other/gossip_check.png"
+          },
+          {
+            "name": "Road to Southern Swamp Gossip Fairy",
+            "access_rules": ["$gossip_fairy"],
+            "item_count": 1,
+            "clear_as_group": true,
+            "visibility_rules": ["on_gossipfairys"],
+            "chest_unopened_img": "images/other/gossipfairy.png",
+            "chest_opened_img": "images/other/gossip_check.png"
           }
+
         ]
       },
           //Termina
@@ -102,6 +121,27 @@
               "size": 20
              }
           ]
+        },
+        {
+          "name": "Road to Swamp",
+          "sections": [
+            {
+                "ref": "Road to Swamp/Road to Southern Swamp Gossip Hint",
+                "name": "Gossip Hint"
+            },
+            {
+              "ref": "Road to Swamp/Road to Southern Swamp Gossip Fairy",
+              "name": "Gossip Fairy"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1600,
+              "y": 970,
+              "size": 20
+             }
+          ]
         }
      ]
   },
@@ -121,7 +161,7 @@
             "map": "Swamp Area",
             "x": 140,
             "y": 210,
-            "size": 40
+            "size": 20
            }
         ]
       },
@@ -138,7 +178,7 @@
             "map": "Swamp Area",
             "x": 150,
             "y": 160,
-            "size": 40
+            "size": 20
            }
         ]
       },
@@ -159,7 +199,7 @@
               "map": "Swamp Area",
               "x": 405,
               "y": 100,
-              "size": 40
+              "size": 20
              }
           ]
       },
@@ -180,8 +220,29 @@
             {
               "map": "Swamp Area",
               "x": 255,
-              "y": 185,
-              "size": 40
+              "y": 215,
+              "size": 20
+             }
+          ]
+      },
+      {
+        "name": "Road to Swamp",
+          "sections": [
+          {
+              "ref": "Road to Swamp/Road to Southern Swamp Gossip Hint",
+              "name": "Gossip Hint"
+          },
+          {
+            "ref": "Road to Swamp/Road to Southern Swamp Gossip Fairy",
+            "name": "Gossip Fairy"
+          }
+          ],
+          "map_locations": [
+            {
+              "map": "Swamp Area",
+              "x": 223,
+              "y": 108,
+              "size": 20
              }
           ]
       }

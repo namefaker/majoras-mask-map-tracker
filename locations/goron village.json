@@ -78,6 +78,24 @@
               "visibility_rules": ["on_potsanity"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Goron Village Large Snowball 1-6",
+              "access_rules": ["$explosion_goron","$shoot_fa"],
+              "item_count": 6,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
+            },
+            {
+              "name": "Goron Village Small Snowball 1-10",
+              "access_rules": [""],
+              "item_count": 10,
+              "clear_as_group": true,
+              "visibility_rules": ["on_snowball"],
+              "chest_unopened_img": "images/other/MM_Snowball_Model.png",
+              "chest_opened_img": "images/other/snowball_check.png"
             }
           ]
         },
@@ -180,7 +198,29 @@
                   "size": 20
                  }
               ]
-          }
+          },
+          {
+            "name": "Goron Village",
+               "sections": [
+  
+                {
+                    "ref": "Goron Village/Goron Village Large Snowball 1-6",
+                    "name": "Goron Village Large Snowball 1-6"
+                },
+                {
+                  "ref": "Goron Village/Goron Village Small Snowball 1-10",
+                  "name": "Goron Village Small Snowball 1-10"
+                }
+              ],
+              "map_locations": [
+                  {
+                    "map": "Termina",
+                    "x": 1170,
+                    "y": 367,
+                    "size": 20
+                   }
+                ]
+            }
        ]
     },
     {  ////Goron Village
@@ -274,6 +314,27 @@
                 "map": "Mountain Area",
                 "x": 685,
                 "y": 410,
+                "size": 20
+               }
+            ]
+        },
+        {
+          "name": "Goron Village",
+            "sections": [
+            {
+                "ref": "Goron Village/Goron Village Large Snowball 1-6",
+                "name": "Goron Village Large Snowball 1-6"
+            },
+            {
+              "ref": "Goron Village/Goron Village Small Snowball 1-10",
+              "name": "Goron Village Small Snowball 1-10"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Mountain Area",
+                "x": 815,
+                "y": 450,
                 "size": 20
                }
             ]

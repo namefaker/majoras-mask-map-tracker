@@ -33,6 +33,15 @@
           "chest_opened_img": "images/items/hp_grey.png"
         },
         {
+          "name": "Notebook: Depositing the Letter to Kafei",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["ltk"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
           "name": "Final Day Chest",
           "access_rules": ["hs","deku,tear"],
           "visibility_rules": [""],
@@ -159,6 +168,10 @@
             {
                 "ref": "South Clock Town/Postbox",
                 "name": "Postbox"
+            },
+            {
+              "ref": "South Clock Town/Notebook: Depositing the Letter to Kafei",
+              "name": "Notebook: Depositing the Letter to Kafei"
             }
           ],
           "map_locations": [
@@ -180,6 +193,10 @@
             {
               "ref": "South Clock Town/Skull Kid Song",
               "name": "Skull Kid Song"
+            },
+            {
+              "ref": "South Clock Town/Rooftop Pot 1-4",
+              "name": "Rooftop Pot 1-4"
             }
           ],
           "map_locations": [

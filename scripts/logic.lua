@@ -149,7 +149,7 @@ end
 function clear_ssh()
     return has("$any_sword") and has("bottle") and has("hs") and has("$access_ssh")
          or has("$any_sword") and has("bottle") and has("zora") and has("$access_ssh")
-         or has("$any_sword") and has("bottle") and has("$explosion_goron") and has("$flying_bean") and has("$access_ssh")
+         or has("$any_sword") and has("bottle") and has("$explosion_goron") and has("$flying_bean") and has("$access_ssh") and has("$projectile")
 end
 
 function open_wft()
@@ -270,7 +270,7 @@ function access_castle()
 end
 
 function access_castle_upper()
-    return has("$access_castle") and has("deku") and has("lens")
+    return has("$access_castle") and has("deku") and has("lens") and has("$shoot_fa")
 end
 
 function access_igosroom()
@@ -515,3 +515,17 @@ function fairys_st()
     end
     return 0 -- 0 => no access
 end
+
+function gossip_fairy()
+    return has("$play_healing")
+        or has("$play_epona")
+end
+
+function empty_bottle()
+    return has("bottle")
+        or has("bottle2")
+        or has("bottle3")
+        or has("bottle4")
+        or has("bottle5")
+        or has("bottle6")
+    end
