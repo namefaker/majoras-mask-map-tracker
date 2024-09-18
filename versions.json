@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/namefaker/majoras-mask-map-tracker/releases/download/v1.0.0/majoras-mask-map-tracker-v1.0.0.zip",
+            "sha256": "3F9B3CA4BF66DC39E7616E9348178A6314DDB979228F59EDB4E2C562FA702AF8",
+            "changelog": [
+            ]
+        },
+        {
             "package_version": "0.0.14",
             "download_url": "https://github.com/namefaker/majoras-mask-map-tracker/releases/download/v0.0.14/majoras-mask-map-tracker-0.0.14.zip",
             "sha256": "69040A61E5CDEEA4AD65F4242B9FF7304E8FE890EEF68D9B08C68105EFF1D961",
