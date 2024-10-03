@@ -534,5 +534,318 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Woodfall Temple Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/access_woodfall.png",
+                "codes": "wft_entrance",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Entrance",
+                "img": "images/other/access_snowhead.png",
+                "codes": "sht_entrance,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Entrance",
+                "img": "images/other/access_greatbay.png",
+                "codes": "gbt_entrance",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Entrance",
+                "img": "images/other/access_stonetower.png",
+                "codes": "stt_entrance",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Woodfall Temple Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/other/access_woodfall.png",
+                "codes": "wft_entrance2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Entrance",
+                "img": "images/other/access_snowhead.png",
+                "codes": "sht_entrance2,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Entrance",
+                "img": "images/other/access_greatbay.png",
+                "codes": "gbt_entrance2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Entrance",
+                "img": "images/other/access_stonetower.png",
+                "codes": "stt_entrance2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Woodfall Temple Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/other/access_woodfall.png",
+                "codes": "wft_entrance3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Entrance",
+                "img": "images/other/access_snowhead.png",
+                "codes": "sht_entrance3,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Entrance",
+                "img": "images/other/access_greatbay.png",
+                "codes": "gbt_entrance3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Entrance",
+                "img": "images/other/access_stonetower.png",
+                "codes": "stt_entrance3",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Woodfall Temple Entrance",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 3,
+        "stages": [
+            {
+                "img": "images/other/access_woodfall.png",
+                "codes": "wft_entrance4",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Snowhead Temple Entrance",
+                "img": "images/other/access_snowhead.png",
+                "codes": "sht_entrance4,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Great Bay Temple Entrance",
+                "img": "images/other/access_greatbay.png",
+                "codes": "gbt_entrance4",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Stone Tower Temple Entrance",
+                "img": "images/other/access_stonetower.png",
+                "codes": "stt_entrance4",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Entrance Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_entrance.png",
+                "codes": "off_entrance",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Entrance Shuffle",
+                "img": "images/other/on_entrance.png",
+                "codes": "on_entrance",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boss Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_boss_shuffle.png",
+                "codes": "off_boss_shuffle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Boss Shuffle",
+                "img": "images/other/on_boss_shuffle.png",
+                "codes": "on_boss_shuffle",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Odolwa Boss",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/boss_odolwa.png",
+                "codes": "odolwa1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goht Boss",
+                "img": "images/other/boss_goht.png",
+                "codes": "goht1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gyorg Boss",
+                "img": "images/other/boss_gyorg.png",
+                "codes": "gyorg1",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twinmold Boss",
+                "img": "images/other/boss_twinmold.png",
+                "codes": "twinmold1",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Odolwa Boss",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/other/boss_odolwa.png",
+                "codes": "odolwa2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goht Boss",
+                "img": "images/other/boss_goht.png",
+                "codes": "goht2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gyorg Boss",
+                "img": "images/other/boss_gyorg.png",
+                "codes": "gyorg2",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twinmold Boss",
+                "img": "images/other/boss_twinmold.png",
+                "codes": "twinmold2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Odolwa Boss",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/other/boss_odolwa.png",
+                "codes": "odolwa3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goht Boss",
+                "img": "images/other/boss_goht.png",
+                "codes": "goht3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gyorg Boss",
+                "img": "images/other/boss_gyorg.png",
+                "codes": "gyorg3",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twinmold Boss",
+                "img": "images/other/boss_twinmold.png",
+                "codes": "twinmold3",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Odolwa Boss",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 3,
+        "stages": [
+            {
+                "img": "images/other/boss_odolwa.png",
+                "codes": "odolwa4",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Goht Boss",
+                "img": "images/other/boss_goht.png",
+                "codes": "goht4,",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Gyorg Boss",
+                "img": "images/other/boss_gyorg.png",
+                "codes": "gyorg4",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Twinmold Boss",
+                "img": "images/other/boss_twinmold.png",
+                "codes": "twinmold4",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Remain Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_remain_shuffle.png",
+                "codes": "off_remain_shuffle",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Remain Shuffle",
+                "img": "images/other/on_remain_shuffle.png",
+                "codes": "on_remain_shuffle",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

@@ -255,13 +255,6 @@
               "chest_opened_img": "images/other/snowball_check.png"
             },
             {
-              "name": "Mountain Village Frog",
-              "access_rules": ["$access_spring,dongero"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_brown_closed.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
-            {
               "name": "Mountain Village Frog Choir",
               "access_rules": ["$access_spring,$all_frogs"],
               "visibility_rules": [""],
@@ -361,10 +354,6 @@
               {
                 "ref": "Mountain Village/Mountain Village Spring Snowball 1-4",
                 "name": "Spring Snowball 1-4 (Owl)"
-              },
-              {
-                "ref": "Mountain Village/Mountain Frog",
-                "name": "Frog"
               },
               {
                 "ref": "Mountain Village/Mountain Village Frog Choir",
@@ -543,6 +532,10 @@
                   "name": "Hungry Goron"
               },
               {
+                "ref": "Mountain Village/Mountain Village Frog Choir",
+                "name": "Mountain Village Frog Choir"
+              },
+              {
                 "ref": "Mountain Village/Mountain Village Day 2 Snowball 2",
                 "name": "Day 2 Snowball 2"
               }
@@ -700,14 +693,6 @@
             {
               "ref": "Mountain Village/Mountain Village Spring Frog Gossip Fairy",
               "name": "Spring Frog Gossip Fairy"
-            },
-            {
-              "ref": "Mountain Village/Mountain Frog",
-              "name": "Frog"
-            },
-            {
-              "ref": "Mountain Village/Mountain Village Frog Choir",
-              "name": "Mountain Village Frog Choir"
             },
             {
               "ref": "Mountain Village/Mountain Village Day 1 Snowball",

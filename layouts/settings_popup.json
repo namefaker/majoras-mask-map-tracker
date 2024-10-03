@@ -15,7 +15,8 @@
                             ["off_gr_shuffle","off_br_shuffle","off_rr_shuffle","off_heart"],
                             ["off_hitspots","off_butterfly","off_gras","off_stone"],
                             ["off_crate","off_hive","off_barrel","off_snowball"],
-                            ["off_hints","off_gossipfairys","off_notebook"]
+                            ["off_hints","off_gossipfairys","off_notebook","off_entrance"],
+                            ["off_boss_shuffle"]
                         ]
                     }
                 ]

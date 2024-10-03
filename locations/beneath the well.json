@@ -42,6 +42,15 @@
               "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
               "chest_unopened_img": "images/other/pot.png",
               "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Well Fairy Fountain",
+              "visibility_rules": ["on_gossipfairys"],
+              "item_count": 8,
+              "clear_as_group": true,
+              "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -71,6 +80,10 @@
               {
                 "ref": "Beneath the Well/Well Left Path Pot 1-5",
                 "name": "Left Path Pot 1-5"
+              },
+              {
+                "ref": "Beneath the Well/Well Fairy Fountain",
+                "name": "Well Fairy Fountain 1-8"
               }
             ],
             "map_locations": [
@@ -158,7 +171,24 @@
                   "size": 20
                 }
        ]
-      }
+      },
+      {
+        "name": "Beneath the Well", 
+        "sections": [
+          {
+            "ref": "Beneath the Well/Well Fairy Fountain",
+            "name": "Well Fairy Fountain 1-8"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Ikana Area",
+              "x": 1102,
+              "y": 639,
+              "size": 20
+            }
+   ]
+    }
     ]
    }
 ]

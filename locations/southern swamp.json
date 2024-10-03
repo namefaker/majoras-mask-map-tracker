@@ -125,10 +125,19 @@
                 "chest_opened_img": "images/items/hp_grey.png"
             },
             {
-              "name": "Witch Shop 3 Purchases",
+              "name": "Witch Shop 2 Purchases",
               "item_count": 3,
               "clear_as_group": true,
               "access_rules": [""],
+              "visibility_rules": ["on_shopsanity"],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Witch Shop 1 Purchase (Mask of Scents)",
+              "item_count": 1,
+              "clear_as_group": true,
+              "access_rules": ["scents,bottle"],
               "visibility_rules": ["on_shopsanity"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -446,8 +455,12 @@
                 "name": "Mystery Woods Grotto"
               },
               {
-                "ref": "Southern Swamp/Witch Shop 3 Purchases",
-                "name": "Witch Shop 3 Purchases"
+                "ref": "Southern Swamp/Witch Shop 2 Purchases",
+                "name": "Witch Shop 2 Purchases"
+              },
+              {
+                "ref": "Southern Swamp/Witch Shop 1 Purchase (Mask of Scents)",
+                "name": "Witch Shop 1 Purchase (Mask of Scents)"
               },
               {
                 "ref": "Southern Swamp/Potion Shop Pot 1-2",
@@ -703,8 +716,12 @@
           "name": "Southern Swamp",
           "sections": [
             {
-                "ref": "Southern Swamp/Witch Shop 3 Purchases",
-                "name": "Witch Shop 3 Purchases"
+              "ref": "Southern Swamp/Witch Shop 2 Purchases",
+              "name": "Witch Shop 2 Purchases"
+            },
+            {
+              "ref": "Southern Swamp/Witch Shop 1 Purchase (Mask of Scents)",
+              "name": "Witch Shop 1 Purchase (Mask of Scents)"
             },
             {
               "ref": "Southern Swamp/Potion Shop Pot 1-2",

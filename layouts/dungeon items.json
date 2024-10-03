@@ -20,32 +20,32 @@
                                 "WFTbk",
                                 "WFTfairy",
                                 "odolwa",    
-                                "",
-                                ""      
+                                "wft_entrance",
+                                "odolwa1"      
                             ],
                             [
                                 "SHTsk0",
                                 "SHTbk",
                                 "SHTfairy",
                                 "goht",
-                                "",
-                                ""
+                                "sht_entrance2",
+                                "goht2"
                             ],
                             [
                                 "GBTsk0",
                                 "GBTbk",
                                 "GBTfairy",
                                 "gyorg",
-                                "",
-                                ""
+                                "gbt_entrance3",
+                                "gyorg3"
                             ],
                             [
                                 "STTsk0",
                                 "STTbk",
                                 "STTfairy",
                                 "twinmold",
-                                "",
-                                ""
+                                "stt_entrance4",
+                                "twinmold4"
                             ]
                         ]
                     }

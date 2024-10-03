@@ -528,4 +528,170 @@ function empty_bottle()
         or has("bottle4")
         or has("bottle5")
         or has("bottle6")
-    end
+end
+
+function access_wft()
+    return has("$kill_octo") and has("deku") and has("$play_sonata")
+end
+
+function access_sht()
+    return has("$access_mountain") and has("$spikes") and has("$play_lullaby")
+end
+
+function torch()
+    return has("sticks") or has ("$shoot_fa")
+end
+
+function projectile_direct()
+    return has("hs") or has("zora")
+end
+
+function push_sht()
+    return has("zora") or has("goron")
+end
+
+function climb_sht()
+    return has("$use_scarecrow") 
+        or has("$explosion") 
+        or has("$shoot_fa")
+end
+
+function hurt_odolwa()
+    return has("fd")
+        or has("$any_sword")
+        or has("$shoot_fa")
+        or has("goron")
+        or has("zora")
+end
+
+function odolwa_shuffle()
+    return has("on_boss_shuffle") and has("wft_entrance")  and has("odolwa1") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance") and has("odolwa1") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance") and has("odolwa1") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance") and has("odolwa1") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance2") and has("odolwa2") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance2") and has("odolwa2") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance2") and has("odolwa2") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance2") and has("odolwa2") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance3") and has("odolwa3") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance3") and has("odolwa3") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance3") and has("odolwa3") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance3") and has("odolwa3") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance4") and has("odolwa4") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance4") and has("odolwa4") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance4") and has("odolwa4") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance4") and has("odolwa4") and has("$shoot_ia") and has("hs")
+end
+
+function goht_shuffle()
+    return has("on_boss_shuffle") and has("wft_entrance")  and has("goht1") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance") and has("goht1") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance") and has("goht1") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance") and has("goht1") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance2") and has("goht2") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance2") and has("goht2") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance2") and has("goht2") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance2") and has("goht2") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance3") and has("goht3") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance3") and has("goht3") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance3") and has("goht3") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance3") and has("goht3") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance4") and has("goht4") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance4") and has("goht4") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance4") and has("goht4") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance4") and has("goht4") and has("$shoot_ia") and has("hs")
+end
+
+function gyorg_shuffle()
+    return has("on_boss_shuffle") and has("wft_entrance")  and has("gyorg1") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance") and has("gyorg1") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance") and has("gyorg1") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance") and has("gyorg1") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance2") and has("gyorg2") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance2") and has("gyorg2") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance2") and has("gyorg2") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance2") and has("gyorg2") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance3") and has("gyorg3") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance3") and has("gyorg3") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance3") and has("gyorg3") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance3") and has("gyorg3") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance4") and has("gyorg4") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance4") and has("gyorg4") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance4") and has("gyorg4") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance4") and has("gyorg4") and has("$shoot_ia") and has("hs")
+end
+
+function twinmold_shuffle()
+    return has("on_boss_shuffle") and has("wft_entrance")  and has("twinmold1") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance") and has("twinmold1") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance") and has("twinmold1") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance") and has("twinmold1") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance2") and has("twinmold2") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance2") and has("twinmold2") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance2") and has("twinmold2") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance2") and has("twinmold2") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance3") and has("twinmold3") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance3") and has("twinmold3") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance3") and has("twinmold3") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance3") and has("twinmold3") and has("$shoot_ia") and has("hs")
+
+    or has("on_boss_shuffle") and has("wft_entrance4") and has("twinmold4") and has("bow") and has("deku")
+    or has("on_boss_shuffle") and has("sht_entrance4") and has("twinmold4") and has("$spikes") and has("$shoot_fa")
+    or has("on_boss_shuffle") and has("gbt_entrance4") and has("twinmold4") and has("zora") and has("hs") and has("$shoot_ia")
+    or has("on_boss_shuffle") and has("stt_entrance4") and has("twinmold4") and has("$shoot_ia") and has("hs")
+end
+
+
+function wft_bosskey()
+    return has("off_bk")
+        or has("on_bk") and has("WFTbk")
+end
+
+function sht_bosskey()
+    return has("off_bk")
+        or has("on_bk") and has("SHTbk")
+end
+
+function gbt_bosskey()
+    return has("off_bk")
+        or has("on_bk") and has("GBTbk")
+end
+
+function stt_bosskey()
+    return has("off_bk")
+        or has("on_bk") and has("STTbk")
+end
+
+function odolwa_kill()
+    return has("$any_sword")
+        or has("zora")
+        or has("goron")
+        or has("fd")
+        or has("$shoot_fa")
+end
+
+function goht_kill()
+    return has("$shoot_fa")
+end
+
+function gyorg_kill()
+    return has("zora")
+        or has("fd")
+end
+
+function twinmold_kill()
+    return has("fd")
+        or has("giant")
+        or has("bow")
+end

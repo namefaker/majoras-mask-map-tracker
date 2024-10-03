@@ -7,7 +7,7 @@
           "sections": [
             {
               "name": "Baby Goron",
-              "access_rules": ["goron,ocarina"],
+              "access_rules": ["goron,$play_lullaby"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/songs/lullaby.png",
               "chest_opened_img": "images/songs/lullabycheck.png"

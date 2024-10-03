@@ -422,7 +422,7 @@
             },
             {
               "name": "Termina Field West Gossip Grotto Butterfly Fairy",
-              "access_rules": ["sticks,bombs"],
+              "access_rules": ["sticks,$explosion_goron"],
               "item_count": 1,
               "clear_as_group": true,
               "visibility_rules": ["on_butterfly"],
