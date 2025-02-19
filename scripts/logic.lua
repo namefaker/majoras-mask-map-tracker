@@ -20,6 +20,10 @@ function has(item, amount)
     end
 end
 
+function fd_on()
+    return has("fd") and has("on_fdeverywhere")
+end
+
 function is_active(item)
     return Tracker:FindObjectForCode(item).Active
 end
@@ -97,7 +101,7 @@ function access_observatory()
 end
 
 function access_inn()
-    return has("roomkey") or has("deku")
+    return has("roomkey") or has("deku") or has("$fd_on")
 end
 
 function bubbles()
@@ -117,7 +121,7 @@ function any_wallet()
 end
 
 function any_sword()
-    return has("sword") or has("gfs")
+    return has("sword") or has("rsword") or has("gsword") or has("gfs")
 end
 
 function water_bean()
@@ -125,7 +129,7 @@ function water_bean()
 end
 
 function kill_octo()
-    return has("bow") or has("hs") or has("zora") or has("pb") or has("bottle")
+    return has("bow") or has("hs") or has("zora") or has("pb") or has("bottle") or has("$fd_on")
 end
 
 function access_beans()
@@ -138,7 +142,9 @@ function access_dekupalace()
 end
 
 function access_ssh()
-    return has("$kill_octo") and has("deku") or has("zora")
+    return has("$kill_octo") and has("deku") or 
+            has("$kill_octo") and has("zora") or
+            has("$fd_on")
 end
 
 function flying_bean()
@@ -228,8 +234,7 @@ function use_scarecrow()
 end
 
 function access_spring()
-    return has("$shoot_fa") and has("$open_sht") and has("$explosion") and has("goht")
-        or has("$shoot_fa") and has("$open_sht") and has("$use_scarecrow") and has("goht")
+    return has("$shoot_fa") and has("$open_sht")
 end
 
 function finish_gbt()
@@ -267,6 +272,7 @@ end
 function access_castle()
     return (has("$access_ikana_upper") and has("mirror"))
         or (has("$access_ikana_upper") and has("la"))
+        or has("$access_ikana_upper") and has("$fd_on")
 end
 
 function access_castle_upper()
@@ -286,6 +292,7 @@ end
 function access_stt()
     return has("$access_ikana_upper") and has("elegy") and has("zora")
         or has("$access_ikana_upper") and has("elegy") and has("goron")
+        or has("$access_ikana_upper") and has("$fd_on")
 end
 
 function access_istt()
@@ -515,6 +522,17 @@ function fairys_st()
     end
     return 0 -- 0 => no access
 end
+function all_frogs()
+    local count = Tracker:ProviderCountForCode('frogs')
+    local val = (count >= 4)
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called fairys_st: count: %s, val: %s", count, val))
+    end
+    if val then
+        return 1 -- 1 => access is in logic
+    end
+    return 0 -- 0 => no access
+end
 
 function gossip_fairy()
     return has("$play_healing")
@@ -695,3 +713,4 @@ function twinmold_kill()
         or has("giant")
         or has("bow")
 end
+

@@ -20,7 +20,7 @@
     },
     {
         "name": "Bombchus",
-        "visibility_rules": ["S5_on"],
+        "visibility_rules": [],
         "type": "toggle",
         "img": "images/items/bombchu.png",
         "codes": "chu"

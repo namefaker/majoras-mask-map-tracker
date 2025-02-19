@@ -1,0 +1,194 @@
+    //Termina
+    [
+        {
+          "name": "Beneath the Well",
+          "access_rules": ["$access_ikana_upper"],
+          "item_count": 1,
+          "sections": [
+            {
+              "name": "Mirror Shield Chest",
+              "visibility_rules": [""],
+              "access_rules": ["$shoot_la,fa","$shoot_la,$get_bigpoe,gibdo,sticks",
+              "$access_beans,gibdo,sticks,$get_bigpoe","$access_beans,gibdo,fa,$get_bigpoe"],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Well Left Path Chest",
+                "visibility_rules": [""],
+                "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+                "name": "Well Right Path Chest",
+                "visibility_rules": [""],
+                "access_rules": ["$shoot_la,gido,bottle","$access_beans,gibdo,bottle,"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Cow Beneath the Well",
+              "access_rules": ["gibdo,$get_hsw","[],$get_bluegoo_ool,gibdo"],
+              "visibility_rules": ["on_cowsanity"],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Well Left Path Pot 1-5",
+              "visibility_rules": ["on_potsanity","on_potsanityhalf"],
+              "item_count": 5,
+              "clear_as_group": true,
+              "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
+              "chest_unopened_img": "images/other/pot.png",
+              "chest_opened_img": "images/other/pot_broken.png"
+            },
+            {
+              "name": "Well Fairy Fountain",
+              "visibility_rules": ["on_butterfly"],
+              "item_count": 8,
+              "clear_as_group": true,
+              "access_rules": ["gibdo,$get_bluegoo","[],$get_bluegoo_ool,gibdo"],
+                "chest_unopened_img": "images/other/chest_brown_closed.png",
+                "chest_opened_img": "images/other/chest_brown_open.png"
+            }
+          ]
+        },
+            //Termina
+    {   
+      "item_count": 1,
+      "children": [
+          {
+            "name": "Beneath the Well",
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Mirror Shield Chest",
+                  "name": "Mirror Shield Chest"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Chest",
+                "name": "Left Path Chest"
+              },
+              {
+                "ref": "Beneath the Well/Well Right Path Chest",
+                "name": "Right Path Chest"
+              },
+              {
+                "ref": "Beneath the Well/Cow Beneath the Well",
+                "name": "Cow"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Pot 1-5",
+                "name": "Left Path Pot 1-5"
+              },
+              {
+                "ref": "Beneath the Well/Well Fairy Fountain",
+                "name": "Well Fairy Fountain 1-8"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Termina",
+                  "x": 1825,
+                  "y": 420,
+                  "size": 20
+                 }
+              ]
+          }
+       ]
+    },
+    {  ////Beneath the Well
+      "item_count": 1,
+      "children": [
+        {
+          "name": "Beneath the Well",          
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Mirror Shield Chest",
+                  "name": "Mirror Shield Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 895,
+                  "y": 675,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Beneath the Well", 
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Well Left Path Chest",
+                  "name": "Well Left Path Chest"
+              },
+              {
+                "ref": "Beneath the Well/Well Left Path Pot 1-5",
+                "name": "Left Path Pot 1-5"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 955,
+                  "y": 575,
+                  "size": 20
+                 }
+              ]
+          },
+          {
+            "name": "Beneath the Well", 
+            "sections": [
+              {
+                  "ref": "Beneath the Well/Well Right Path Chest",
+                  "name": "Well Right Path Chest"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 925,
+                  "y": 585,
+                  "size": 20
+                 }
+            ]
+          },
+          {
+            "name": "Beneath the Well", 
+            "sections": [
+              {
+                "ref": "Beneath the Well/Cow Beneath the Well",
+                "name": "Cow"
+              }
+            ],
+            "map_locations": [
+                {
+                  "map": "Ikana Area",
+                  "x": 695,
+                  "y": 610,
+                  "size": 20
+                }
+       ]
+      },
+      {
+        "name": "Beneath the Well", 
+        "sections": [
+          {
+            "ref": "Beneath the Well/Well Fairy Fountain",
+            "name": "Well Fairy Fountain 1-8"
+          }
+        ],
+        "map_locations": [
+            {
+              "map": "Ikana Area",
+              "x": 1102,
+              "y": 639,
+              "size": 20
+            }
+   ]
+    }
+    ]
+   }
+]

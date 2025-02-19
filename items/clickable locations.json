@@ -126,6 +126,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -358,6 +364,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -598,6 +610,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -830,6 +848,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -1070,6 +1094,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -1302,6 +1332,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -1542,6 +1578,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -1774,6 +1816,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -2014,6 +2062,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -2246,6 +2300,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -2486,6 +2546,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -2718,6 +2784,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -2958,6 +3030,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -3190,6 +3268,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -3430,6 +3514,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -3662,6 +3752,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -3902,6 +3998,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -4138,6 +4240,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Romani Ranch",
                 "img": "images/other/rr.png",
                 "codes": "areas",
@@ -4370,6 +4478,12 @@
             {   
                 "name": "Path to Snowhead",
                 "img": "images/other/pts.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Clock Town Roof",
+                "img": "images/other/Roof.png",
                 "codes": "areas",
                 "inherit_codes": false
             },

@@ -40,19 +40,19 @@
         "name": "Great Bay Area",
         "location_size": 10,
         "location_border_thickness": 4,
-        "img": "images/maps/Great Bay Area.png"
+        "img": "images/maps/great bay area.png"
     },
     {
         "name": "Pirate Fortress",
         "location_size": 10,
         "location_border_thickness": 4,
-        "img": "images/maps/Pirate Fortress.png"
+        "img": "images/maps/pirate fortress.png"
     },
     {
         "name": "Ikana Area",
         "location_size": 10,
         "location_border_thickness": 4,
-        "img": "images/maps/Ikana Area.png"
+        "img": "images/maps/ikana area.png"
     },
     {
         "name": "Woodfall Temple",

@@ -21,7 +21,7 @@
             },
             {
                 "name": "Near Swamp Spider House Grotto",
-                "access_rules": ["$kill_octo, $access_ssh"],
+                "access_rules": ["$kill_octo, $access_ssh","$fd_on"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
@@ -74,9 +74,9 @@
               "chest_opened_img": "images/other/skull_grey.png"
             },
             {
-              "name": "Swamp Spider House 4 Soft-Soil",
+              "name": "Swamp Spider House 2 Soft-Soil",
               "access_rules": ["$access_ssh,bottle"],
-              "item_count": 4,
+              "item_count": 2,
               "visibility_rules": ["on_soilsanity"],
               "chest_unopened_img": "images/other/softsoil.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -138,18 +138,18 @@
               "item_count": 1,
               "clear_as_group": true,
               "access_rules": ["scents,bottle"],
-              "visibility_rules": ["on_shopsanity"],
+              "visibility_rules": ["on_mundane"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
-            {
+            /*{
               "name": "Swamp Scrub Purchases",
               "clear_as_group": true,
               "access_rules": ["deku"],
               "visibility_rules": ["on_shopsanity"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
-            },
+            },*/
             {
               "name": "Potion Shop Pot 1-2",
               "access_rules": [""],
@@ -240,7 +240,7 @@
               "chest_unopened_img": "images/other/green_rupee.png",
               "chest_opened_img": "images/other/rupee_check.png"
             },
-            {
+            /*{
               "name": "Southern Swamp Owl Grass 1-2",
               "item_count": 2,
               "clear_as_group": true,
@@ -257,7 +257,7 @@
               "visibility_rules": ["on_gras"],
               "chest_unopened_img": "images/other/gras.png",
               "chest_opened_img": "images/other/gras_check.png"
-            },
+            },*/
             {
               "name": "Swamp Near Frog Hive",
               "access_rules": ["$projectile","chu"],
@@ -411,6 +411,10 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House Blue Gem Hitspot 1-12",
                 "name": "Swamp Spider House Blue Gem Hitspot 1-12"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Skulltula Tree Room Grass 1-2",
+                "name": "Swamp Skulltula Tree Room Grass 1-2"
               },
               {
                 "ref": "Southern Swamp/Swamp Spider House Gossip Hint",
@@ -639,6 +643,10 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House Blue Gem Hitspot 1-12",
                 "name": "Swamp Spider House Blue Gem Hitspot 1-12"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Skulltula Tree Room Grass 1-2",
+                "name": "Swamp Skulltula Tree Room Grass 1-2"
               },
               {
                 "ref": "Southern Swamp/Swamp Spider House Gossip Hint",

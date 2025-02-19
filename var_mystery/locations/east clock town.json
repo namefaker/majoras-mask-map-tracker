@@ -1,0 +1,658 @@
+    //Termina
+[
+    {
+      "name": "East Clock Town",
+      "access_rules": [""],
+      "clear_as_group": false,
+      "item_count": 1,
+      "sections": [
+        {
+          "name": "Bombers' Hideout Chest",
+          "access_rules": ["$explosion,$projectile", "$explosion, deku", "[], $explosion"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Chest",
+          "access_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "visibility_rules": [""],
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Gorman (Sound Check)",
+          "access_rules": ["$all_transform, romani"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Honey and Darling Any Day",
+          "access_rules": ["bombs", "bow", "$bubbles"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+       /* {
+          "name": "Honey and Darling All 3 Days",
+          "access_rules": ["bombs,bow","bombs,deku"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },*/
+        {
+          "name": "Madame Aroma in Bar",
+          "access_rules": ["kafei, ltm"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Madame Aroma in Office",
+          "access_rules": [""],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Mayor",
+          "access_rules": ["couples"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/items/hp.png",
+          "chest_opened_img": "images/items/hp_grey.png"
+        },
+        {
+          "name": "Postman's Freedom Reward",
+          "access_rules": ["ltm","{}"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Town Archery #1",
+          "access_rules": ["bow"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+       /* {
+          "name": "Town Archery #2",
+          "access_rules": ["bow"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Treasure Chest Game Link",
+          "access_rules": [""],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Treasure Chest Game Deku",
+          "access_rules": ["deku"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },*/
+        {
+          "name": "Treasure Chest Game Goron",
+          "access_rules": ["goron"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/items/hp.png",
+          "chest_opened_img": "images/items/hp_grey.png"
+        },
+       /* {
+          "name": "Treasure Chest Game Zora",
+          "access_rules": ["zora"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },*/
+        {
+          "name": "Milk Bar 2 Purchases",
+          "item_count": 2,
+          "clear_as_group": true,
+          "access_rules": ["romani"],
+          "visibility_rules": ["on_shopsanity","on_shopsanityhalf"],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Observatory Balloon Pot 1-2",
+          "access_rules": ["$access_obersavtory","[]"],
+          "item_count": 2,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "Observatory Scarecrow Pot 1-3",
+          "access_rules": ["$access_obersavtory","[]"],
+          "item_count": 3,
+          "clear_as_group": true,
+          "visibility_rules": ["on_potsanity"],
+          "chest_unopened_img": "images/other/pot.png",
+          "chest_opened_img": "images/other/pot_broken.png"
+        },
+        {
+          "name": "East Clock Town Basket Hitspot 1-3",
+          "access_rules": ["$hitspot_trigger","sticks"],
+          "item_count": 3,
+          "clear_as_group": true,
+          "visibility_rules": ["on_hitspots"],
+          "chest_unopened_img": "images/other/green_rupee.png",
+          "chest_opened_img": "images/other/rupee_check.png"
+        },
+        {
+          "name": "East Clock Town Target Hitspot 1-6",
+          "access_rules": [""],
+          "item_count": 6,
+          "clear_as_group": true,
+          "visibility_rules": ["on_hitspots"],
+          "chest_unopened_img": "images/other/green_rupee.png",
+          "chest_opened_img": "images/other/rupee_check.png"
+        },
+        {
+          "name": "East Clock Town Crate",
+          "access_rules": [""],
+          "item_count": 1,
+          "clear_as_group": true,
+          "visibility_rules": ["on_crate"],
+          "chest_unopened_img": "images/other/crate.png",
+          "chest_opened_img": "images/other/crate_broken.png"
+        },
+        {
+          "name": "Notebook Meeting: Mayor Dotour",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["notebook"],
+          "visibility_rules": ["on_notebook","on_notebookhalf"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Mayor",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["couples"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook Meeting: Madame Aroma",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["notebook"],
+          "visibility_rules": ["on_notebook","on_notebookhalf"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Madame Aroma in Office",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["Kafei,ltm"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Madame Aroma in Office",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": [""],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Madame Aroma in Bar",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["kafei,ltm"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook Meeting: Toto",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["notebook"],
+          "visibility_rules": ["on_notebook","on_notebookhalf"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook Meeting: Gorman",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["notebook"],
+          "visibility_rules": ["on_notebook","on_notebookhalf"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Sound Check",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["$all_transform,romani"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        },
+        {
+          "name": "Notebook: Postman's Freedom Reward",
+          "item_count": 1,
+          "clear_as_group": true,
+          "access_rules": ["ltm"],
+          "visibility_rules": ["on_notebook"],
+          "chest_unopened_img": "images/other/notebook.png",
+          "chest_opened_img": "images/other/notebook_check.png"
+        }
+      ]
+    },
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "East Clock Town",
+          "sections": [
+          {
+            "ref": "East Clock Town/Bombers' Hideout Chest",
+            "name": "Bombers' Hideout Chest"
+          },
+          {
+            "ref": "East Clock Town/Chest",
+            "name": "Chest"
+          },
+          {
+            "ref": "East Clock Town/Notebook Meeting: Toto",
+            "name": "Notebook Meeting: Toto"
+          },
+          {
+            "ref": "East Clock Town/Notebook Meeting: Gorman",
+            "name": "Notebook Meeting: Gorman"
+          },
+          {
+            "ref": "East Clock Town/Gorman (Sound Check)",
+            "name": "Gorman (Sound Check)"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Sound Check",
+            "name": "Notebook: Sound Check"
+          },
+          {
+            "ref": "East Clock Town/Madame Aroma in Bar",
+            "name": "Madame Aroma in Bar"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Madame Aroma in Bar",
+            "name": "Notebook: Madame Aroma in Bar"
+          },
+          {
+            "ref": "East Clock Town/Milk Bar 2 Purchases",
+            "name": "Milk Bar 2 Purchases"
+          },
+          {
+            "ref": "East Clock Town/Honey and Darling Any Day",
+            "name": "Honey and Darling Any Day"
+          },
+          {
+            "ref": "East Clock Town/Honey and Darling All 3 Days",
+            "name": "Honey and Darling All 3 Days"
+          },
+          {
+            "ref": "East Clock Town/Madame Aroma in Office",
+            "name": "Madame Aroma in Office"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Madame Aroma in Office",
+            "name": "Notebook: Madame Aroma in Office"
+          },
+          {
+            "ref": "East Clock Town/Notebook Meeting: Madame Aroma",
+            "name": "Notebook Meeting: Madame Aroma"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Madame Aroma in Office",
+            "name": "Notebook: Madame Aroma in Office"
+          },
+          {
+            "ref": "East Clock Town/Mayor",
+            "name": "Mayor"
+          },
+          {
+            "ref": "East Clock Town/Notebook Meeting: Mayor Dotour",
+            "name": "Notebook Meeting: Mayor Dotour"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Mayor",
+            "name": "Notebook: Mayor"
+          },
+          {
+            "ref": "East Clock Town/Postman's Freedom Reward",
+            "name": "Postman's Freedom Reward"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Postman's Freedom Reward",
+            "name": "Notebook: Postman's Freedom Reward"
+          },
+          {
+            "ref": "East Clock Town/Observatory Balloon Pot 1-2",
+            "name": "Observatory Balloon Pot 1-2"
+          },
+          {
+            "ref": "East Clock Town/Observatory Scarecrow Pot 1-3",
+            "name": "Observatory Scarecrow Pot 1-3"
+          },
+          {
+            "ref": "East Clock Town/Town Archery #1",
+            "name": "Town Archery #1"
+          },
+          {
+            "ref": "East Clock Town/Town Archery #2",
+            "name": "Town Archery #2"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Link",
+            "name": "Treasure Chest Game Link"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Deku",
+            "name": "Treasure Chest Game Deku"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Goron",
+            "name": "Treasure Chest Game Goron"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Zora",
+            "name": "Treasure Chest Game Zora"
+          },
+          {
+            "ref": "East Clock Town/East Clock Town Basket Hitspot 1-3",
+            "name": "Basket Hitspot 1-3"
+          },
+          {
+            "ref": "East Clock Town/East Clock Town Target Hitspot 1-6",
+            "name": "Target Hitspot 1-6"
+          },
+          {
+            "ref": "East Clock Town/East Clock Town Crate",
+            "name": "East Clock Town Crate"
+          }
+          ],
+          "map_locations": [
+            {
+              "map": "Termina",
+              "x": 1360,
+              "y": 760,
+              "size": 20
+            }
+          ]
+        }
+     ]
+  },
+    // East Clock Town 
+    {
+      "item_count": 1,
+      "children": [
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Bombers' Hideout Chest",
+                "name": "Bombers' Hideout Chest"
+            },
+            {
+              "ref": "East Clock Town/Observatory Balloon Pot 1-2",
+              "name": "Observatory Balloon Pot 1-2"
+            },
+            {
+              "ref": "East Clock Town/Observatory Scarecrow Pot 1-3",
+              "name": "Observatory Scarecrow Pot 1-3"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 500,
+              "y": 20,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Chest",
+                "name": "Chest"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 530,
+              "y": 280,
+              "size": 20
+             }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+              "ref": "East Clock Town/Notebook Meeting: Toto",
+              "name": "Notebook Meeting: Toto"
+            },
+            {
+              "ref": "East Clock Town/Notebook Meeting: Gorman",
+              "name": "Notebook Meeting: Gorman"
+            },
+            {
+                "ref": "East Clock Town/Gorman (Sound Check)",
+                "name": "Gorman (Sound Check)"
+            },
+            {
+              "ref": "East Clock Town/Notebook: Sound Check",
+              "name": "Notebook: Sound Check"
+            },
+            {
+              "ref": "East Clock Town/Madame Aroma in Bar",
+              "name": "Madame Aroma in Bar"
+            },
+            {
+              "ref": "East Clock Town/Notebook: Madame Aroma in Bar",
+              "name": "Notebook: Madame Aroma in Bar"
+            },
+            {
+              "ref": "East Clock Town/Milk Bar 2 Purchases",
+              "name": "Milk Bar 2 Purchases"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 460,
+              "y": 150,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Honey and Darling Any Day",
+                "name": "Honey and Darling Any Day"
+            },
+            {
+              "ref": "East Clock Town/Honey and Darling All 3 Days",
+              "name": "Honey and Darling All 3 Days"
+            },
+            {
+              "ref": "East Clock Town/East Clock Town Basket Hitspot 1-3",
+              "name": "Basket Hitspot 1-3"
+            },
+            {
+              "ref": "East Clock Town/East Clock Town Target Hitspot 1-6",
+              "name": "Target Hitspot 1-6"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 535,
+              "y": 175,
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Madame Aroma in Office",
+                "name": "Madame Aroma in Office"
+            },
+            {
+              "ref": "East Clock Town/Notebook: Madame Aroma in Office",
+              "name": "Notebook: Madame Aroma in Office"
+            },
+            {
+              "ref": "East Clock Town/Notebook Meeting: Madame Aroma",
+              "name": "Notebook Meeting: Madame Aroma"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 350,
+              "y": 50,
+              "size": 20
+           }
+         ]
+        },
+        {
+          "name": "East Clock Town",
+          "sections": [
+            {
+                "ref": "East Clock Town/Mayor",
+                "name": "Mayor"
+            },
+            {
+              "ref": "East Clock Town/Notebook Meeting: Mayor Dotour",
+              "name": "Notebook Meeting: Mayor Dotour"
+            },
+            {
+              "ref": "East Clock Town/Notebook: Mayor",
+              "name": "Notebook: Mayor"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "Clock Town",
+              "x": 310,
+              "y": 70,
+              "size": 20
+          }
+      ]
+      },
+      {
+        "name": "East Clock Town",
+        "sections": [
+          {
+              "ref": "East Clock Town/Postman's Freedom Reward",
+              "name": "Postman's Freedom Reward"
+          },
+          {
+            "ref": "East Clock Town/Notebook: Postman's Freedom Reward",
+            "name": "Notebook: Postman's Freedom Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 485,
+            "y": 160,
+            "size": 20
+          }
+        ]
+       },
+       {
+        "name": "East Clock Town",
+        "sections": [
+          {
+              "ref": "East Clock Town/Town Archery #1",
+              "name": "Town Archery #1"
+          },
+          {
+            "ref": "East Clock Town/Town Archery #2",
+            "name": "Town Archery #2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 565,
+            "y": 215,
+            "size": 20
+          }
+        ]
+       },
+       {
+        "name": "East Clock Town",
+        "sections": [
+          {
+            "ref": "East Clock Town/Treasure Chest Game Link",
+            "name": "Treasure Chest Game Link"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Deku",
+            "name": "Treasure Chest Game Deku"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Goron",
+            "name": "Treasure Chest Game Goron"
+          },
+          {
+            "ref": "East Clock Town/Treasure Chest Game Zora",
+            "name": "Treasure Chest Game Zora"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 485,
+            "y": 255,
+            "size": 20
+          }
+        ]
+       },
+       {
+        "name": "East Clock Town",
+        "sections": [
+          {
+            "ref": "East Clock Town/East Clock Town Crate",
+            "name": "East Clock Town Crate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 508,
+            "y": 185,
+            "size": 15
+          }
+        ]
+       }
+     ]
+  }
+]

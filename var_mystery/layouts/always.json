@@ -1,0 +1,55 @@
+{
+    "shared_always_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "butler",
+                                "items13",
+                                "boatarchery",
+                                "items14",    
+                                "goronrace",
+                                "items15"    
+                            ],
+                            [
+                                "fisherman",
+                                "items16",
+                                "seahorses",
+                                "items17",
+                                "dampe",
+                                "items18"
+                            ],
+                            [
+                                "ssh",
+                                "items19",
+                                "osh",
+                                "items20",
+                                "gossipssong",
+                                "items21"
+                            ],
+                            [
+                                "alienscremia",
+                                "items22",
+                                "items23",
+                                "",
+                                "beaverrace",
+                                "items24"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

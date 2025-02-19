@@ -1,0 +1,55 @@
+ {  
+   "shared_masks_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "postman",
+                                "anm",
+                                "blast",
+                                "stone",    
+                                "fairymask",
+                                "deku"     
+                            ],
+                            [
+                                "keaton",
+                                "bremen",
+                                "bunny",
+                                "dongero",
+                                "scents",
+                                "goron"
+                            ],
+                            [
+                                "romani",
+                                "circus",
+                                "kafei",
+                                "couples",
+                                "truth",
+                                "zora"
+                            ],
+                            [
+                                "kamaro",
+                                "gibdo",
+                                "garo",
+                                "captains",
+                                "giant",
+                                "fd"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

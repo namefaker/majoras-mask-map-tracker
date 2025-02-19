@@ -1,0 +1,26 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "content": [
+            {
+                "type": "array",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "item_size": "100,100",
+                        "rows": [
+                            ["off_sk", "off_bk","off_strayfairys","off_skullsanity","off_entrance","off_boss_shuffle"],
+                            ["off_cowsanity", "off_soilsanity","off_shopsanity","off_potsanity"],
+                            ["off_gr_shuffle","off_br_shuffle","off_rr_shuffle"],
+                            ["off_hitspots","off_butterfly","off_gras"],
+                            ["off_crate","off_barrel","off_snowball"],
+                            ["off_hints","off_gossipfairys"],
+                            ["off_fdeverywhere","off_notebook","off_mundane"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

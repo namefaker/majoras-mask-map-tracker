@@ -1,0 +1,183 @@
+{
+    "shared_woth_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas12"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items1"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items2"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items3"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas13"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items5"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items6"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items7"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items8"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas14"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items9"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items10"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items11"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items12"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

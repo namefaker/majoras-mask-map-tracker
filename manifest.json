@@ -2,7 +2,7 @@
 {
     "name": "Majoras Mask Maptracker",
     "game_name": "<The Legend of Zelda: Majoras Mask>",
-    "package_version": "1.1.0",
+    "package_version": "1.2.0",
     "package_uid": "template_pack",
     "author": "namefaker",
     "variants": {
@@ -19,8 +19,10 @@
         },
         "var_scrubs":{
             "display_name": "Preset: Scrubs S2"
-        }
-        
+        },
+        "var_mystery":{
+            "display_name": "Preset: Mystery S2"
+        }   
     },
     "versions_url": "https://raw.githubusercontent.com/namefaker/majoras-mask-map-tracker/main/versions.json"
 }

@@ -1,0 +1,56 @@
+
+{
+    "shared_dungeons_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "WFTsk0",
+                                "WFTbk",
+                                "WFTfairy",
+                                "odolwa",    
+                                "wft_entrance",
+                                "odolwa1"      
+                            ],
+                            [
+                                "SHTsk0",
+                                "SHTbk",
+                                "SHTfairy",
+                                "goht",
+                                "sht_entrance2",
+                                "goht2"
+                            ],
+                            [
+                                "GBTsk0",
+                                "GBTbk",
+                                "GBTfairy",
+                                "gyorg",
+                                "gbt_entrance3",
+                                "gyorg3"
+                            ],
+                            [
+                                "STTsk0",
+                                "STTbk",
+                                "STTfairy",
+                                "twinmold",
+                                "stt_entrance4",
+                                "twinmold4"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
