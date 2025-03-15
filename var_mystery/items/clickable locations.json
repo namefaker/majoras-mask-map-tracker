@@ -96,6 +96,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -340,6 +346,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -592,6 +604,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -836,6 +854,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -1088,6 +1112,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -1332,6 +1362,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -1584,6 +1620,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -1828,6 +1870,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -2080,6 +2128,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -2324,6 +2378,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -2576,6 +2636,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -2820,6 +2886,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -3072,6 +3144,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -3316,6 +3394,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -3568,6 +3652,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -3812,6 +3902,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
@@ -4064,6 +4160,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -4312,6 +4414,12 @@
                 "inherit_codes": false
             },
             {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
                 "name": "Pirates' Fortress Exterior",
                 "img": "images/other/pfe.png",
                 "codes": "areas",
@@ -4556,6 +4664,12 @@
             {   
                 "name": "North Clock Town",
                 "img": "images/other/nct.png",
+                "codes": "areas",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Ocean Spider House",
+                "img": "images/other/oshouse.png",
                 "codes": "areas",
                 "inherit_codes": false
             },
