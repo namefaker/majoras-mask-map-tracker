@@ -1,5 +1,5 @@
-/*{
-    "shared_temporary_grid": {
+{
+    "shared_scoop_grid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -15,18 +15,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "tear"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas"
+                                "bottle_fish"
                             ]
                         ]
                     },
@@ -36,18 +25,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "ldeed"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas2"
+                                "scoop1"
                             ]
                         ]
                     },
@@ -57,18 +35,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "sdeed"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas3"
+                                ""
                             ]
                         ]
                     },
@@ -78,18 +45,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "mdeed"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas4"
+                                "bottle_shroom"
                             ]
                         ]
                     },
@@ -99,18 +55,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "odeed"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas5"
+                                "scoop2"
                             ]
                         ]
                     },
@@ -120,18 +65,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "roomkey"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas6"
+                                ""
                             ]
                         ]
                     },
@@ -141,18 +75,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "ltk"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas7"
+                                "bottle_fairy"
                             ]
                         ]
                     },
@@ -162,18 +85,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "ltm"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas8"
+                                "scoop3"
                             ]
                         ]
                     },
@@ -183,18 +95,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "golddust"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas9"
+                                ""
                             ]
                         ]
                     },
@@ -204,18 +105,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "chateau"
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": "50,20",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "areas10"
+                                "bottle_spoe"
                             ]
                         ]
                     },
@@ -225,18 +115,157 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "beans"
+                                "scoop4"
                             ]
                         ]
                     },
                     {
                         "type": "itemgrid",
-                        "item_size": "50,20",
                         "item_margin": "0,0",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "areas11"
+                                ""
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "bottle_bpoe"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "scoop5"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                ""
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "bottle_water"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "scoop6"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                ""
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "bottle_hsw"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "scoop7"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                ""
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "bottle_egg"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "scoop8"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                ""
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "bottle_princess"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "scoop9"
                             ]
                         ]
                     }
@@ -244,4 +273,4 @@
             }
         ]
     }
-}*/
+}

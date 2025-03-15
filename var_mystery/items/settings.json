@@ -181,7 +181,7 @@
         ]
     },
     {
-        "name": "Stray Fairys",
+        "name": "Stray Fairies",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -426,7 +426,7 @@
         ]
     },
     {
-        "name": "Gossip Stone Fairys Shuffle",
+        "name": "Gossip Stone Fairies Shuffle",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -853,7 +853,7 @@
         ]
     },
     {
-        "name": "FD Everywhere",
+        "name": "FD Anywhere",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -886,6 +886,25 @@
                 "name": "FD Everywhere",
                 "img": "images/other/on_mundane.png",
                 "codes": "on_mundane",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Scoopsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/other/off_scoopsanity.png",
+                "codes": "off_scoopsanity",
+                "inherit_codes": false
+            },
+            {   
+                "name": "Scoopsanity",
+                "img": "images/other/on_scoopsanity.png",
+                "codes": "on_scoopsanity",
                 "inherit_codes": false
             }
         ]

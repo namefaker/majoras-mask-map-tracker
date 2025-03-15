@@ -88,6 +88,7 @@ Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/dungeon items.json")
 Tracker:AddLayouts("layouts/settings_popup.json")
+Tracker:AddLayouts("layouts/scoopsanity.json")
 
 
 -- AutoTracking for Poptracker

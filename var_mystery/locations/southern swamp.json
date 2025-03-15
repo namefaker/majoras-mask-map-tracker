@@ -90,6 +90,14 @@
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
+              "name": "Swamp Spider House 1 Soft-Soil in Gold Room",
+              "access_rules": ["$access_ssh,bottle"],
+              "item_count": 1,
+              "visibility_rules": ["on_soilsanity"],
+              "chest_unopened_img": "images/other/softsoil.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
                 "name": "Boat Archery",
                 "access_rules": ["odolwa,$kill_odolwa"],
                 "visibility_rules": [""],
@@ -137,7 +145,7 @@
               "name": "Witch Shop 1 Purchase (Mask of Scents)",
               "item_count": 1,
               "clear_as_group": true,
-              "access_rules": ["scents,bottle"],
+              "access_rules": ["scents,bottle,off_scoopsanity","$scoop_shroom"],
               "visibility_rules": ["on_mundane"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -269,7 +277,7 @@
             },
             {
               "name": "Southern Swamp Gossip Hint",
-              "access_rules": [""],
+              "access_rules": ["$access_ssh"],
               "item_count": 1,
               "clear_as_group": true,
               "visibility_rules": ["on_hints"],
@@ -391,6 +399,10 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House 1 Bomb or Goron locked Soft-Soil",
                 "name": "Swamp Spider House 1 Bomb or Goron Locked Soft-Soil"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 1 Soft-Soil in Gold Room",
+                "name": "Swamp Spider House 1 Soft-Soil in Gold Room"
               },
               {
                 "ref": "Southern Swamp/Swamp Skulltula Pot Room Pot 1-2",
@@ -623,6 +635,10 @@
               {
                 "ref": "Southern Swamp/Swamp Spider House 1 Bomb or Goron locked Soft-Soil",
                 "name": "Swamp Spider House 1 Bomb or Goron Locked Soft-Soil"
+              },
+              {
+                "ref": "Southern Swamp/Swamp Spider House 1 Soft-Soil in Gold Room",
+                "name": "Swamp Spider House 1 Soft-Soil in Gold Room"
               },
               {
                 "ref": "Southern Swamp/Swamp Skulltula Pot Room Pot 1-2",

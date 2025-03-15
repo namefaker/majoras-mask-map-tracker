@@ -20,6 +20,14 @@ function has(item, amount)
     end
 end
 
+function scoop_water()
+    return has("on_scoopsanity") and (has("water1") or has("water2") or has("water3") or has("water4") or has("water5") or has("water6") or has("water7") or has("water8") or has("water9"))
+end
+
+function scoop_hsw()
+    return has("on_scoopsanity") and (has("hsw1") or has("hsw2") or has("hsw3") or has("hsw4") or has("hsw5") or has("hsw6") or has("hsw7") or has("hsw8") or has("hsw9"))
+end
+
 function fd_on()
     return has("fd") and has("on_fdeverywhere")
 end
@@ -125,7 +133,7 @@ function any_sword()
 end
 
 function water_bean()
-    return has("bottle") or has("$play_storms")
+    return has("bottle") or has("$play_storms") or has("$scoop_water") or has("$scoop_hsw")
 end
 
 function kill_octo()
@@ -209,6 +217,7 @@ end
 
 function access_ikana_upper()
     return has("$access_ikana") and has("$shoot_ia")
+            or has("$access_ikana") and has("$fd_on")
 end
 
 function get_bluegoo()
@@ -223,6 +232,7 @@ end
 function get_hsw()
     return has("$access_mountain") and has("goron") and has("$use_lens") and has("bottle")
         or has("$access_well_front") and has("$get_bluegoo")
+        or has("$scoop_hsw")
 end
 
 function open_sht()
@@ -554,6 +564,7 @@ end
 
 function access_sht()
     return has("$access_mountain") and has("$spikes") and has("$play_lullaby")
+    or has("$access_mountain") and has("$fd_on") and has("$play_lullaby") and has("goron")
 end
 
 function torch()
@@ -714,3 +725,26 @@ function twinmold_kill()
         or has("bow")
 end
 
+function scoop_fish()
+    return has("on_scoopsanity") and (has("fish1") or has("fish2") or has("fish3") or has("fish4") or has("fish5") or has("fish6") or has("fish7") or has("fish8") or has("fish9"))
+end
+
+function scoop_shroom()
+    return has("on_scoopsanity") and (has("shroom1") or has("shroom2") or has("shroom3") or has("shroom4") or has("shroom5") or has("shroom6") or has("shroom7") or has("shroom8") or has("shroom9"))
+end
+
+function scoop_spoe()
+    return has("on_scoopsanity") and (has("spoe1") or has("spoe2") or has("spoe3") or has("spoe4") or has("spoe5") or has("spoe6") or has("spoe7") or has("spoe8") or has("spoe9"))
+end
+
+function scoop_bpoe()
+    return has("on_scoopsanity") and (has("bpoe1") or has("bpoe2") or has("bpoe3") or has("bpoe4") or has("bpoe5") or has("bpoe6") or has("bpoe7") or has("bpoe8") or has("bpoe9"))
+end
+
+function scoop_egg()
+    return has("on_scoopsanity") and (has("egg1") or has("egg2") or has("egg3") or has("egg4") or has("egg5") or has("egg6") or has("egg7") or has("egg8") or has("egg9"))
+end
+
+function scoop_princess()
+    return has("on_scoopsanity") and (has("princess1") or has("princess2") or has("princess3") or has("princess4") or has("princess5") or has("princess6") or has("princess7") or has("princess8") or has("princess9"))
+end

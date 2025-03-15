@@ -16,7 +16,7 @@
             },
             {
               "name": "Curiosity Shop Blue Rupee (Mushroom|Half Milk)",
-              "access_rules": ["bottle"],
+              "access_rules": ["bottle,off_scoopsanity","$scoop_shroom,bottle"],
               "visibility_rules": ["on_mundane"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
@@ -30,14 +30,14 @@
             },
             {
               "name": "Curiosity Shop Purple Rupee (Small Poe)",
-              "access_rules": ["bottle"],
+              "access_rules": ["bottle,off_scoopsanity","$scoop_spoe"],
               "visibility_rules": ["on_mundane"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
               "name": "Curiosity Shop Gold Rupee (Big Poe|Gold Dust|Chateau)",
-              "access_rules": ["bottle"],
+              "access_rules": ["golddust","$get_bigpoe,bottle","$scoop_bpoe","chateau"],
               "visibility_rules": ["on_mundane"],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"

@@ -35,7 +35,7 @@
           },
           {
               "name": "Imprisoned Monkey",
-              "access_rules": ["ocarina"],
+              "access_rules": ["ocarina,deku"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/songs/sonata.png",
               "chest_opened_img": "images/songs/sonatacheck.png"
@@ -65,7 +65,7 @@
           },
           {
             "name": "Butler Race Dual Pot",
-            "access_rules": ["$access_dekupalace"],
+            "access_rules": ["$kill_odolwa,odolwa","$scoop_princess"],
             "item_count": 1,
             "clear_as_group": true,
             "visibility_rules": ["on_potsanity"],
@@ -128,7 +128,7 @@
           },
           {
             "name": "Butler Race Pillar Item Green Rupees 1-6",
-            "access_rules": ["$kill_odolwa,odolwa"],
+            "access_rules": ["$kill_odolwa,odolwa","$scoop_princess"],
             "item_count": 6,
             "clear_as_group": true,
             "visibility_rules": ["on_gr_overworld","on_gr_all"],
@@ -137,7 +137,7 @@
           },
           {
             "name": "Butler Race Pillar Item Red Rupees 1-2",
-            "access_rules": ["$kill_odolwa,odolwa"],
+            "access_rules": ["$kill_odolwa,odolwa","$scoop_princess"],
             "item_count": 2,
             "clear_as_group": true,
             "visibility_rules": ["on_rr_overworld","on_rr_all"],
@@ -146,7 +146,7 @@
           },
           {
             "name": "Butler Race River Item Green Rupee 1-6",
-            "access_rules": ["$kill_odolwa,odolwa"],
+            "access_rules": ["$kill_odolwa,odolwa","$scoop_princess"],
             "item_count": 6,
             "clear_as_group": true,
             "visibility_rules": ["on_gr_overworld","on_gr_all"],
@@ -155,7 +155,7 @@
           },
           {
             "name": "Butler Race Right Path Item Green Rupee 1-6",
-            "access_rules": ["$kill_odolwa,odolwa"],
+            "access_rules": ["$kill_odolwa,odolwa","$scoop_princess"],
             "item_count": 6,
             "clear_as_group": true,
             "visibility_rules": ["on_gr_overworld","on_gr_all"],
@@ -164,7 +164,7 @@
           },
           {
             "name": "Butler Race Final Room Item 1-10",
-            "access_rules": ["$kill_odolwa,odolwa"],
+            "access_rules": ["$kill_odolwa,odolwa","$scoop_princess"],
             "item_count": 10,
             "clear_as_group": true,
             "visibility_rules": ["on_gr_overworld","on_gr_all"],
@@ -396,8 +396,8 @@
             "name": "Butler Race Dual Pot"
           },
           {
-            "ref": "Deku Palace/Deku Palace Item Green Rupee 1-6",
-            "name": "Item Green Rupee 1-6"
+            "ref": "Deku Palace/Butler Race Pillar Item Green Rupees 1-6",
+            "name": "Butler Race Pillar Item Green Rupees 1-6"
           },
           {
             "ref": "Deku Palace/Butler Race Pillar Item Red Rupees 1-2",

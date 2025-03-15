@@ -16,7 +16,7 @@
                             ["off_hitspots","off_butterfly","off_gras"],
                             ["off_crate","off_barrel","off_snowball"],
                             ["off_hints","off_gossipfairys"],
-                            ["off_fdeverywhere","off_notebook","off_mundane"]
+                            ["off_fdeverywhere","off_notebook","off_mundane","off_scoopsanity"]
                         ]
                     }
                 ]
