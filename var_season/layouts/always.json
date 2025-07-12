@@ -15,7 +15,22 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "alwayscounter"  
+                                "butler","items13","boatarchery","items14","goronrace","items15"
+                            ],
+                            [
+                                "fisherman","items16","gossipssong","items17","dampe","items18"
+                            ],
+                            [
+                                "seahorses","items19","beaverrace","items20","ssh","items21"
+                            ],
+                            [
+                                "osh","items22","","alienscremia","items23","items24"
+                            ],
+                            [
+                                "anjukafei","items25","gfwft","items26","gfsht","items27"
+                            ],
+                            [
+                                "gfgb","items28","gfst","items29"
                             ]
                         ]
                     }

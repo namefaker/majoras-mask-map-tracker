@@ -368,6 +368,12 @@
             }
         ]
     },
+        {
+        "name": "Spin Attack",
+        "type": "toggle",
+        "img": "images/items/spin.png",
+        "codes": "spin"
+    },
     {
         "name": "Room Key",
         "type": "progressive_toggle",

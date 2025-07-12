@@ -46,14 +46,14 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
-            },
-            {
+            }
+           /* {
               "name": "Mountain Village Frog Choir",
               "access_rules": ["$access_spring,$all_frogs"],
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
-            }
+            }*/
           ]
         },
             //Termina

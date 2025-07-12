@@ -119,6 +119,41 @@
         "codes": "ms_chest"
     },
     {
+        "name": "Anju & Kafei",
+        "initial_active_state": true,
+        "type": "toggle",
+        "img": "images/other/anju_kafei.png",
+        "codes": "anjukafei"
+    },
+    {
+        "name": "Great Fairy Woodfall",
+        "initial_active_state": true,
+        "type": "toggle",
+        "img": "images/other/fairy_wf.png",
+        "codes": "gfwft"
+    },
+    {
+        "name": "Great Fairy Snowhead",
+        "initial_active_state": true,
+        "type": "toggle",
+        "img": "images/other/fairy_sh.png",
+        "codes": "gfsht"
+    },
+    {
+        "name": "Great Fairy Zora Cape",
+        "initial_active_state": true,
+        "type": "toggle",
+        "img": "images/other/fairy_gb.png",
+        "codes": "gfgb"
+    },
+    {
+        "name": "Great Fairy Ikana Canyon",
+        "initial_active_state": true,
+        "type": "toggle",
+        "img": "images/other/fairy_st.png",
+        "codes": "gfst"
+    },
+    {
         "name": "Sometimes Hint 1",
         "type": "progressive",
         "allow_disabled": false,
