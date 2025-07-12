@@ -53,6 +53,13 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Anju and Kafei",
+              "access_rules": ["kafei,$access_inn,ltk,pendant,$access_ikana"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ],
           "map_locations": [
@@ -98,6 +105,10 @@
                 {
                     "ref": "Stock Pot Inn/Toilet Hand",
                     "name": "Toilet Hand"
+                },
+                {
+                  "ref": "Stock Pot Inn/Anju and Kafei",
+                  "name": "Anju and Kafei"
                 }
               ],
               "map_locations": [

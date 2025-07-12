@@ -24,6 +24,13 @@
           "visibility_rules": [""],
           "chest_unopened_img": "images/other/chest_brown_closed.png",
           "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Clock Town Frog",
+          "access_rules": ["dongero"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         }
       ],
       "map_locations": [
@@ -151,7 +158,24 @@
               "size": 20
           }
         ]
-       }
+       },
+       {
+        "name": "Laundry Pool",
+        "sections": [
+          {
+            "ref": "Laundry Pool/Clock Town Frog",
+            "name": "Frog"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Clock Town",
+            "x": 310,
+            "y": 510,
+            "size": 20
+           }
+        ]
+      }
      ]
   }
 ]

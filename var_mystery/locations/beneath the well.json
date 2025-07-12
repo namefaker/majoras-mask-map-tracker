@@ -23,7 +23,7 @@
             {
                 "name": "Well Right Path Chest",
                 "visibility_rules": [""],
-                "access_rules": ["$shoot_la,gido,bottle","$access_beans,gibdo,bottle,"],
+                "access_rules": ["$shoot_la,gido,bottle","$access_beans,gibdo,bottle"],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },

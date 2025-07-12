@@ -136,6 +136,15 @@ function water_bean()
     return has("bottle") or has("$play_storms") or has("$scoop_water") or has("$scoop_hsw")
 end
 
+function water_bean_mystery()
+    return (
+        (has("bottle") and has("off_scoopsanity")) or
+        (has("$play_storms") and has("off_scoopsanity")) or
+        has("$scoop_water") or
+        has("$scoop_hsw")
+    )
+end
+
 function kill_octo()
     return has("bow") or has("hs") or has("zora") or has("pb") or has("bottle") or has("$fd_on")
 end
@@ -158,6 +167,11 @@ end
 function flying_bean()
     return has("$water_bean") and has("beans")
             or has("$access_beans") and has("$water_bean")
+end
+
+function flying_bean_mystery()
+    return has("$water_bean_mystery") and has("beans")
+        or has("$water_bean_mystery") and has("$access_beans")
 end
 
 function clear_ssh()
@@ -205,6 +219,7 @@ end
 function access_mountain()
     return has("bow") and has("$explosion_goron")
         or has("$shoot_fa")
+        or has("$scoop_hsw") and has("$explosion_goron")
 end
 
 function ikana_mask()

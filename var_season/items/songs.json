@@ -73,7 +73,6 @@
         "name": "Eponas Song",
         "type": "progressive_toggle",
         "initial_stage_idx": 0,
-        "initial_active_state": true,
         "stages": [
             {
                 "img": "images/songs/epona.png",

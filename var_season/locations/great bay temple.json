@@ -47,35 +47,7 @@
                 "chest_unopened_img": "images/items/hc.png",
                 "chest_opened_img": "images/items/hc_grey.png"
             },
-      /*      //fairys
-            {
-              "name": "GBT Bio Babas",
-              "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
-            {
-              "name": "GBT Entrance Torches",
-              "access_rules": ["sticks","bow"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
-            {
-              "name": "GBT Green Valve",
-              "access_rules": [""],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
-            {
-              "name": "GBT Seesaw Room",
-              "access_rules": ["$shoot_fa,$shoot_ia"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
+           //fairys
             {
               "name": "GBT Waterwheel Room Lower",
               "access_rules": ["$shoot_ia"],
@@ -89,7 +61,28 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
-            }*/
+            },
+            {
+              "name": "Great Bay Dexihands Jar",
+              "access_rules": ["zora"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Underwater Barrel",
+              "access_rules": ["$shoot_ia,hs,zora"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/fairy_gb.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Great Bay Temple Frog",
+              "access_rules": ["$shoot_ia,$shoot_fa,dongero"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            }
           ]
         },
             //Termina
@@ -137,28 +130,24 @@
             "name": "Great Bay Temple",
             "sections": [
               {
-                  "ref": "Great Bay Temple/GBT Bio Babas",
-                  "name": "Bio Babas"
-              },
-              {
-                "ref": "Great Bay Temple/GBT Entrance Torches",
-                "name": "Entrance Torches"
-              },
-              {
-                "ref": "Great Bay Temple/GBT Green Valve",
-                "name": "Green Valve"
-              },
-              {
-              "ref": "Great Bay Temple/GBT Seesaw Room",
-              "name": "Seesaw Room"
-              },
-              {
                 "ref": "Great Bay Temple/GBT Waterwheel Room Lower",
                 "name": "Waterwheel Room Lower"
               },
               {
                 "ref": "Great Bay Temple/GBT Waterwheel Room Upper",
                 "name": "Waterwheel Room Upper"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Dexihands Jar",
+                "name": "Dexihands Jar"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Underwater Barrel",
+                "name": "Underwater Barrel"
+              },
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Frog",
+                "name": "Frog"
               }
             ],
             "map_locations": [
@@ -281,74 +270,6 @@
           "name": "Great Bay Temple",
             "sections": [
               {
-                  "ref": "Great Bay Temple/GBT Entrance Torches",
-                  "name": "Entrance Torches"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Great Bay Temple",
-                "x": 460,
-                "y": 880,
-                "size": 35
-               }
-            ]
-        },
-        {
-          "name": "Great Bay Temple",
-            "sections": [
-              {
-                  "ref": "Great Bay Temple/GBT Green Valve",
-                  "name": "Green Valve"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Great Bay Temple",
-                "x": 1080,
-                "y": 270,
-                "size": 35
-               }
-            ]
-        },
-        {
-          "name": "Great Bay Temple",
-            "sections": [
-              {
-                  "ref": "Great Bay Temple/GBT Bio Babas",
-                  "name": "Bio Babas"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Great Bay Temple",
-                "x": 1000,
-                "y": 980,
-                "size": 35
-               }
-            ]
-        },
-        {
-          "name": "Great Bay Temple",
-            "sections": [
-              {
-                  "ref": "Great Bay Temple/GBT Seesaw Room",
-                  "name": "Seesaw Room"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Great Bay Temple",
-                "x": 1100,
-                "y": 930,
-                "size": 35
-               }
-            ]
-        },
-        {
-          "name": "Great Bay Temple",
-            "sections": [
-              {
                   "ref": "Great Bay Temple/GBT Waterwheel Room Upper",
                   "name": "Waterwheel Room Upper"
               }
@@ -374,6 +295,57 @@
               {
                 "map": "Great Bay Temple",
                 "x": 1500,
+                "y": 930,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                "ref": "Great Bay Temple/Great Bay Temple Frog",
+                "name": "Frog"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1420,
+                "y": 520,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Dexihands Jar",
+                  "name": "Dexihands Jar"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1270,
+                "y": 730,
+                "size": 35
+               }
+            ]
+        },
+        {
+          "name": "Great Bay Temple",
+            "sections": [
+              {
+                  "ref": "Great Bay Temple/Great Bay Underwater Barrel",
+                  "name": "Underwater Barrel"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Great Bay Temple",
+                "x": 1180,
                 "y": 930,
                 "size": 35
                }

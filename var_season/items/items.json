@@ -95,7 +95,7 @@
         "name": "Pendant",
         "type": "toggle",
         "img": "images/items/Pendent.png",
-        "codes": "pendent"
+        "codes": "pendant"
     },
     {
         "name": "Powder Keg",
@@ -451,5 +451,65 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Woodfall Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_wf.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 4,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "WFTfairy"
+    },
+    {
+        "name": "Snowhead Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_sh.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "SHTfairy"
+    },
+    {
+        "name": "Great Bay Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_gb.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 4,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "GBTfairy"
+    },
+    {
+        "name": "Stone Tower Temple Stray Fairys",
+        "type": "consumable",
+        "img": "images/items/fairy_st.png",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 6,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "STTfairy"
+    },
+    {
+        "name": "Frogs",
+        "type": "consumable",
+        "img": "images/items/frogs.png",
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "frogs"
     }
 ]

@@ -39,8 +39,8 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
-            }
-   /*         //fairys
+            },
+            //fairys
             {
               "name": "STT Statue Eye",
               "access_rules": [""],
@@ -48,27 +48,6 @@
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
-            {
-              "name": "STT Basement Ledge",
-              "access_rules": ["$shoot_la,zora","mirror,$explosion_goron"],
-              "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-          },
-          {
-            "name": "STT Bridge Crystal",
-            "access_rules": ["la,zora,$explosion","$explosion_goron,zora"],
-            "visibility_rules": [""],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-          },
-          {
-            "name": "STT Sun Switch",
-            "access_rules": ["$shoot_la","mirror,goron,zora"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
-            "chest_opened_img": "images/other/chest_brown_open.png"
-          },
           {
             "name": "STT Sun Block",
             "access_rules": ["$shoot_la","mirror,goron,zora"],
@@ -82,35 +61,7 @@
             "visibility_rules": [""],
             "chest_unopened_img": "images/other/chest_fairy_open.png",
             "chest_opened_img": "images/other/chest_brown_open.png"
-          },
-          {
-            "name": "STT Lava Room Firering",
-            "access_rules": ["$shoot_la,Goron", "$explosion,goron,zora"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
-            "chest_opened_img": "images/other/chest_brown_open.png"
-          },
-          {
-            "name": "STT Eyegore",
-            "access_rules": ["$shoot_la", "$explosion, $all_transform"],
-            "visibility_rules": [""],
-            "chest_unopened_img": "images/other/chest_fairy_open.png",
-            "chest_opened_img": "images/other/chest_brown_open.png"
-        },
-        {
-          "name": "STT Underwater",
-          "access_rules": ["$shoot_la", "$explosion, $all_transform"],
-          "visibility_rules": [""],
-          "chest_unopened_img": "images/other/chest_fairy_open.png",
-          "chest_opened_img": "images/other/chest_brown_open.png"
-        },
-        {
-          "name": "STT Thin Bridge",
-          "access_rules": ["$shoot_la", "$explosion, $all_transform"],
-          "visibility_rules": [""],
-          "chest_unopened_img": "images/other/chest_fairy_open.png",
-          "chest_opened_img": "images/other/chest_brown_open.png"
-        }*/
+          }
           ]
         },
             //Termina
@@ -478,7 +429,7 @@
           "visibility_rules": [""],
           "chest_unopened_img": "images/items/hc.png",
           "chest_opened_img": "images/items/hc_grey.png"
-      },/*
+      },
       //fairys
       {
         "name": "ISTT Entrance Sun Switch",
@@ -500,7 +451,7 @@
         "visibility_rules": [""],
         "chest_unopened_img": "images/other/chest_fairy_open.png",
         "chest_opened_img": "images/other/chest_brown_open.png"
-      }*/
+      }
     ]
   },
   {

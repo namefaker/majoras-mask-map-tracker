@@ -177,6 +177,122 @@
                         ]
                     }
                 ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas18"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items25"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items26"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items27"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items28"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": ",0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "50,20",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "areas19"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items29"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items30"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items31"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "items32"
+                            ]
+                        ]
+                    }
+                ]
             }
         ]
     }

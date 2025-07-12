@@ -62,7 +62,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Foolish Areas & Sometimes Hints",
+                            "header": "Foolish Areas",
                             "dock": "top",
                             "margin": "0,0,0,0",
                             "content": {

@@ -39,6 +39,13 @@
               "visibility_rules": [""],
               "chest_unopened_img": "images/items/hp.png",
               "chest_opened_img": "images/items/hp_grey.png"
+          },
+          {
+            "name": "Goron Elder",
+            "access_rules": ["goron,$shoot_fa,ocarina,","$get_hsw,goron,ocarina"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/songs/lullaby.png",
+            "chest_opened_img": "images/songs/lullabycheck.png"
           }
         ]
       },
@@ -81,6 +88,10 @@
             {
               "ref": "Twin Island/Twin Island Underwater Ramp Chest",
               "name": "Underwater Ramp Chest"
+            },
+            {
+              "ref": "Twin Island/Goron Elder",
+              "name": "Goron Elder"
             }
           ],
           "map_locations": [
@@ -154,6 +165,10 @@
             {
                 "ref": "Twin Island/Twin Island Cave Chest",
                 "name": "Cave Chest"
+            },
+            {
+              "ref": "Twin Island/Goron Elder",
+              "name": "Goron Elder"
             }
           ],
           "map_locations": [

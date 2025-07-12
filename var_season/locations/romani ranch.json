@@ -26,13 +26,13 @@
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
             },
-            {
+         /*   {
                 "name": "Romani's Game",
                 "access_rules": ["$day1_ranch"],
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/songs/epona.png",
                 "chest_opened_img": "images/songs/eponacheck.png"
-            },
+            },*/
             {
                 "name": "Aliens Defense",
                 "access_rules": ["$day1_ranch, bow"],
@@ -46,6 +46,27 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/other/chest_brown_closed.png",
                 "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Cow #1",
+              "access_rules": ["$use_keg,$play_epona"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Cow #2",
+              "access_rules": ["$use_keg,$play_epona"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
+            },
+            {
+              "name": "Ranch Cow #3",
+              "access_rules": ["$use_keg,$play_epona"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/cows.png",
+              "chest_opened_img": "images/other/chest_brown_open.png"
             }
           ]
         },
@@ -128,7 +149,32 @@
                 "size": 20
                }
             ]
-          }
+          },
+          {
+            "name": "Romani Ranch",
+            "sections": [
+              {
+                  "ref": "Romani Ranch/Ranch Cow #1",
+                  "name": "Cow #1"
+              },
+              {
+                  "ref": "Romani Ranch/Ranch Cow #2",
+                  "name": "Cow #2"
+              },
+              {
+                "ref": "Romani Ranch/Ranch Cow #3",
+                "name": "Cow #3"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Termina",
+                "x": 1150,
+                "y": 1110,
+                "size": 20
+               }
+            ]
+          },
        ]
     },
     {  ////ranch
@@ -210,6 +256,43 @@
                 "map": "Milk and Ranch",
                 "x": 270,
                 "y": 800,
+                "size": 40
+               }
+            ]
+        },
+        {
+          "name": "Romani Ranch",
+            "sections": [
+            {
+                "ref": "Romani Ranch/Ranch Cow #1",
+                "name": "Cow #1"
+            },
+            {
+                "ref": "Romani Ranch/Ranch Cow #2",
+                "name": "Cow #2"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Cow #3",
+              "name": "Cow #3"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Barn Hay Item Blue Rupee 1-2",
+              "name": "Barn Hay Item Blue Rupee 1-2"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Barn Gossip Hint",
+              "name": "Barn Gossip Hint"
+            },
+            {
+              "ref": "Romani Ranch/Ranch Barn Gossip Fairy",
+              "name": "Barn Gossip Fairy"
+            }
+            ],
+            "map_locations": [
+              {
+                "map": "Milk and Ranch",
+                "x": 170,
+                "y": 730,
                 "size": 40
                }
             ]

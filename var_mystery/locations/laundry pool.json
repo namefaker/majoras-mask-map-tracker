@@ -47,7 +47,7 @@
           "name": "Notebook Meeting: Kafei",
           "item_count": 1,
           "clear_as_group": true,
-          "access_rules": ["notebook"],
+          "access_rules": ["notebook,ltk"],
           "visibility_rules": ["on_notebook","on_notebookhalf"],
           "chest_unopened_img": "images/other/notebook.png",
           "chest_opened_img": "images/other/notebook_check.png"
@@ -56,7 +56,7 @@
           "name": "Notebook: Kafei",
           "item_count": 1,
           "clear_as_group": true,
-          "access_rules": ["ltk"],
+          "access_rules": ["notebook,ltk"],
           "visibility_rules": ["on_notebook"],
           "chest_unopened_img": "images/other/notebook.png",
           "chest_opened_img": "images/other/notebook_check.png"

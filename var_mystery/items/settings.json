@@ -508,25 +508,6 @@
         ]
     },
     {
-        "name": "Bottle Scoop Shuffle",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/other/off_scoop.png",
-                "codes": "off_scoop",
-                "inherit_codes": false
-            },
-            {   
-                "name": "Bottle Scoop Shuffle",
-                "img": "images/other/on_scoop.png",
-                "codes": "on_scoop",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "name": "Woodfall Temple Entrance",
         "type": "progressive",
         "allow_disabled": false,

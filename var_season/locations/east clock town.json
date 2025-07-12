@@ -75,6 +75,20 @@
           "visibility_rules": [""],
           "chest_unopened_img": "images/items/hp.png",
           "chest_opened_img": "images/items/hp_grey.png"
+        },
+        {
+          "name": "Milk Bar Milk Purchase",
+          "access_rules": ["romani"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
+        },
+        {
+          "name": "Milk Bar Chateau Purchase",
+          "access_rules": ["romani,$any_wallet"],
+          "visibility_rules": [""],
+          "chest_unopened_img": "images/other/chest_brown_closed.png",
+          "chest_opened_img": "images/other/chest_brown_open.png"
         }
       ],
       "map_locations": [
@@ -134,6 +148,14 @@
             {
               "ref": "East Clock Town/Madame Aroma in Bar",
               "name": "ECT Madame Aroma in Bar"
+          },
+          {
+            "ref": "East Clock Town/Milk Bar Milk Purchase",
+            "name": "Milk Purchase"
+          },
+          {
+            "ref": "East Clock Town/Milk Bar Chateau Purchase",
+            "name": "Chateau Purchase"
           }
           ],
           "map_locations": [

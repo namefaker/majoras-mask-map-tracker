@@ -76,28 +76,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": ",0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "0,0",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "sometimes1",
-                                "items25",
-                                "",
-                                "",    
-                                "sometimes2",
-                                "items26"    
-                            ]
-                        ]
-                    }
-                ]
             }
         ]
     }

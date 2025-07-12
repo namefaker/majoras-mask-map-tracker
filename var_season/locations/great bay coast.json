@@ -67,6 +67,13 @@
                 "visibility_rules": [""],
                 "chest_unopened_img": "images/items/hp.png",
                 "chest_opened_img": "images/items/hp_grey.png"
+            },
+            {
+              "name": "Baby Zoras",
+              "access_rules": ["bottle,zora,hs,bow","bottle,zora,hs,$bubbles","[],bottle"],
+              "visibility_rules": [""],
+                "chest_unopened_img": "images/songs/bossa nova.png",
+                "chest_opened_img": "images/songs/bossa novacheck.png"
             }
           ]
         },

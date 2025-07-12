@@ -647,6 +647,18 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Frogs",
+        "type": "consumable",
+        "img": "images/items/frogs.png",
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 10,
+        "codes": "frogs"
     }
 
 

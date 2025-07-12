@@ -111,7 +111,15 @@
             "visibility_rules": ["on_snowball"],
             "chest_unopened_img": "images/other/MM_Snowball_Model.png",
             "chest_opened_img": "images/other/snowball_check.png"
+          },
+          {
+            "name": "Goron Elder",
+            "access_rules": ["goron,$shoot_fa,ocarina,","$get_hsw,goron,ocarina"],
+            "visibility_rules": [""],
+            "chest_unopened_img": "images/songs/lullaby.png",
+            "chest_opened_img": "images/songs/lullabycheck.png"
           }
+
         ]
       },
           //Termina
@@ -157,6 +165,10 @@
             {
               "ref": "Twin Island/Twin Island Underwater Ramp Chest",
               "name": "Underwater Ramp Chest"
+            },
+            {
+              "ref": "Twin Island/Goron Elder",
+              "name": "Goron Elder"
             }
           ],
           "map_locations": [
@@ -331,6 +343,10 @@
             {
                 "ref": "Twin Island/Twin Island Cave Chest",
                 "name": "Cave Chest"
+            },
+            {
+              "ref": "Twin Island/Goron Elder",
+              "name": "Goron Elder"
             },
             {
               "ref": "Twin Island/Twin Islands Spring Item Blue Rupees 1-4",

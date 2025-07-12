@@ -47,28 +47,44 @@
               "chest_unopened_img": "images/other/chest_golden_closed.png",
               "chest_opened_img": "images/other/chest_golden_open.png"
             },
-/*            //fairys
-            {
-              "name": "Woodfall Entrance Platform",
-              "access_rules": [""],
-              "visibility_rules": ["blitz_on"],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
-              "chest_opened_img": "images/other/chest_brown_open.png"
-            },
+            //fairys
             {
               "name": "Woodfall Main Room Switch",
-              "access_rules": [""],
-              "visibility_rules": ["blitz_on"],
+              "access_rules": ["deku,bow","deku,WFTsk1,on_sk,$torch","deku,off_sk,$torch"],
+              "visibility_rules": [""],
               "chest_unopened_img": "images/other/chest_fairy_open.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
             },
             {
-              "name": "Woodfall Dark Room",
-              "access_rules": ["sticks","$shoot_fa"],
-              "visibility_rules": ["blitz_on"],
-              "chest_unopened_img": "images/other/chest_fairy_open.png",
+              "name": "Woodfall Platform Room Hive",
+              "access_rules": ["bow","$bubbles","$projectile_direct,fairymask"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Jar Fairy",
+              "access_rules": [""],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            {
+              "name": "Woodfall Poison Water Bubble",
+              "access_rules": ["$projectile,fairymask,on_sk,WFTsk1","$projectile,fairymask,off_sk","$torch,off_sk","$torch,on_sk,WFTsk1",
+            "bow,deku,$projectile,fairymask","bow,deku,$torch"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/fairy_wf.png",
+              "chest_opened_img": "images/other/fairy_grey.png"
+            },
+            //other stuff
+            {
+              "name": "Woodfall Temple Frog",
+              "access_rules": ["bow,deku,dongero"],
+              "visibility_rules": [""],
+              "chest_unopened_img": "images/other/chest_brown_closed.png",
               "chest_opened_img": "images/other/chest_brown_open.png"
-            }*/
+            }
           ]
         },
             //Termina
@@ -116,16 +132,24 @@
               "name": "Woodfall Temple",
               "sections": [
                 {
-                  "ref": "Woodfall Temple/Woodfall Entrance Platform",
-                  "name": "Entrance Platform"
-                },
-                {
                   "ref": "Woodfall Temple/Woodfall Main Room Switch",
                   "name": "Main Room Switch"
                 },
                 {
-                  "ref": "Woodfall Temple/Woodfall Dark Room",
-                  "name": "Dark Room"
+                  "ref": "Woodfall Temple/Woodfall Jar Fairy",
+                  "name": "Jar Fairy"
+                },  
+                {
+                  "ref": "Woodfall Temple/Woodfall Platform Room Hive",
+                  "name": "Platform Room Hive"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Poison Water Bubble",
+                  "name": "Poison Water Bubble"
+                },
+                {
+                  "ref": "Woodfall Temple/Woodfall Temple Frog",
+                  "name": "Frog"
                 }
               ],
               "map_locations": [
@@ -216,6 +240,10 @@
               {
                   "ref": "Woodfall Temple/Woodfall Boss Key Chest",
                   "name": "Boss Key Chest"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Temple Frog",
+                "name": "Frog"
               }
             ],
             "map_locations": [
@@ -294,7 +322,62 @@
                 "size": 40
                }
             ]
-        }
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Jar Fairy",
+                  "name": "Jar Fairy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 525,
+                "y": 750,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Bridge Room Hive",
+                  "name": "Bridge Room Hive"
+              },
+              {
+                "ref": "Woodfall Temple/Woodfall Poison Water Bubble",
+                "name": "Poison Water Bubble"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 335,
+                "y": 565,
+                "size": 25
+               }
+            ]
+        },
+        {
+          "name": "Woodfall Temple",
+            "sections": [
+              {
+                  "ref": "Woodfall Temple/Woodfall Platform Room Hive",
+                  "name": "Platform Room Hive"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Woodfall Temple",
+                "x": 805,
+                "y": 695,
+                "size": 25
+               }
+            ]
+          }
      ]
   }
 ]

@@ -304,5 +304,55 @@
                 "inherit_codes": false
             }
         ]
+    },
+     {
+        "name": "Always Hint Count",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/other/gossip-stone.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            },
+            {
+                "name": "One",
+                "img": "images/other/one.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Two",
+                "img": "images/other/two.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Three",
+                "img": "images/other/three.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Four",
+                "img": "images/other/four.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Five",
+                "img": "images/other/five.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Six",
+                "img": "images/other/six.png",
+                "codes": "alwayscounter",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
